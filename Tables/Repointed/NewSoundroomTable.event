@@ -39,4 +39,5 @@ SoundRoomEntry(AshToAshBurstID,AshToAshBurstName)
 SoundRoomEntry(FirstWardID,FirstWardName)
 SoundRoomEntry(FirstUnisonID,FirstUnisonName)
 SoundRoomEntry(HiddenHighlandID,HiddenHighlandName)
+SoundRoomEntry(DrunkAsILikeID,DrunkAsILikeName)
 SoundRoomTerminator

@@ -118,9 +118,13 @@
 - Baka94: Extended ash ~ Hourai victim
 - yoimutu: Bloom nobly, ink-black cherry blossom ~ Border of life
 - psy_commando: PMD EoS - Hidden Highland
+- TheDubSpeedArt: Drunk As I Like
 
 ## Other
 - Alusq: Custom instrument samples, advanced music suite
+
+# Writing Editing
+- Saani /X@junjoushoujo
 
 # Other
 

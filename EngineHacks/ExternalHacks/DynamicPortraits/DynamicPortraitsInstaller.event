@@ -84,7 +84,14 @@ SHORT 0x0013
 SHORT 0x0053
 SHORT GarryHelmetlessFlag
 BYTE  0x00
-BYTE  0x00 
+BYTE  0x00
+
+// Dave's Mauritch Moment
+SHORT DaveMugID
+SHORT MauritchMugID
+SHORT DaveFlag
+BYTE  0x00
+BYTE  0x00
 
 // Ferryn
 SHORT 0x002E

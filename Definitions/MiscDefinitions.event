@@ -33,3 +33,4 @@
 #define HefinaDeathFlag 0xCC
 #define VidarDeathFlag 0xCD
 #define MauritchDeathFlag 0xCF
+#define DaveFlag 0xD0

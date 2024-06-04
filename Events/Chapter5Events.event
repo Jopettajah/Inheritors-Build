@@ -18,7 +18,10 @@ TurnBasedEvents:
 
 ALIGN 32
 CharacterBasedEvents:
-
+	CharacterEvent(MauritchDeathFlag,DaveRecruitment,Curtis,Dave)
+	CharacterEvent(8,DaveRecruitmentLauren,Lauren,Dave)
+	CharacterEventBothWays(9,DaveMauritchEvent,Mauritch,Dave)
+	CharacterEvent(10,DaveAltRecruitment,Curtis,Dave)
 	END_MAIN
 
 MiscBasedEvents:
@@ -58,6 +61,7 @@ Units1:
 
 EnemyUnits:
 	UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [6,1] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT Dave Myrmidon Caitlind_boss Level(6,Enemy,False) [3,9] 0x0 0x0 0x0 [SteelSword, Vulnerary] AttackInRangeAI
 	UNIT
 
 Traps1:
@@ -74,9 +78,65 @@ BeginningScene:
 	LOAD1 0x0 Units1
 	ENUN
 	
+	// Dave Recruitment things
+	ENUT 10
+	ENUT DaveFlag
+	
 	GotoPrepScreen
 	ENDA
 
+DaveRecruitment:
+	
+	MUSS DrunkAsILikeID
+	CUSA Dave
+	RECLASS Dave Mercenary
+	ENUN
+	ENUT 8
+	ENUF DaveFlag
+	MURE 3
+	NoFade
+	ENDA
+	
+DaveRecruitmentLauren:
+	
+	CUSA Dave
+	RECLASS Dave Mercenary
+	ENUN
+	ENUT MauritchDeathFlag
+	ENUF DaveFlag
+	NoFade
+	ENDA
+
+DaveMauritchEvent:
+
+	MUSS DrunkAsILikeID
+	CHECK_ALLEGIANCE Dave
+	BEQ 1 sC s0
+	ENUT 8
+	ENUT MauritchDeathFlag
+	ENUF 10
+	CUSN Dave
+	RECLASS Dave Mercenary
+	ENUN
+	SETVAL 1 0x20040306
+	CHAI Dave
+	ENUF DaveFlag
+	GOTO 2
+	LABEL 1
+	
+	LABEL 2
+	MURE 3
+	NoFade
+	ENDA
+
+DaveAltRecruitment:
+
+	MUSS DanceBraceID
+	CUSA Dave
+	NoFade
+	MURE 3
+	ENDA
+	
 EndingScene:
 	MNC2 Chapter6
 	NoFade

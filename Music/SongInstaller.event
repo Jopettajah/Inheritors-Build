@@ -117,3 +117,6 @@ SongTable(FirstUnisonID,TheFirstUnison00,MapMusicGroup)
 
 SongTable(HiddenHighlandID,HiddenHighland,MapMusicGroup)
 #include "event/HiddenHighland.event"
+
+SongTable(DrunkAsILikeID,DrunkAsIlikeTheDUBSpeedArt0,MapMusicGroup)
+#include "event/DrunkAsIlikeTheDUBSpeedArt0.event"

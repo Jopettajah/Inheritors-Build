@@ -20,6 +20,7 @@ SetVSPlayableMusic(Emmanuel)
 MapOverrideBossMusic(Bone)
 SetCustomBossMusic(Bazba,OffToWarRemixID)
 SetVSPlayableMusic(Caitlind_boss)
+SetVSPlayableMusic(Dave)
 
 BossMusicListTerminator
 
