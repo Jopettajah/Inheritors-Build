@@ -65,7 +65,7 @@
 
 # Item Icons
 - Erekshigal: Skygazer, Youtou, Dawn Edge, Bravery's Gift
-- LordGlenn: Mine Staff
+- LordGlenn: Mine Staff, Shining Bow
 - Zane: Elstone
 - Celice: Mooncleaver
 - Seal: Gheist

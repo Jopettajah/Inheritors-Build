@@ -485,7 +485,9 @@ EndingScene:
 	
 	DumpItems(Janessa)
 	REMU Janessa //REVEAL later
-	MNC2 Chapter5
+	_0xA640 0 0 3
+	WM_SETDESTINATION 0 4 0
+	MNCH Chapter5
 	//GOTO_TITLE
 	NoFade
 	ENDA

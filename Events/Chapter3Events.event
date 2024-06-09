@@ -335,14 +335,14 @@ EndingScene:
 	
 	//Libby dead
 	LABEL 6
-	MUSC SorrowID
+	MUSC SadStoryID
 	Text(Ch3EndTextC)
 	REMOVEUNIT Emmanuel
 	GOTO 8
 	
 	//Emmanuel dead
 	LABEL 7
-	MUSC SorrowID
+	MUSC SadStoryID
 	Text(Ch3EndTextB)
 	
 	LABEL 8

@@ -37,7 +37,7 @@ POIN Debug2MenuDefs
 
 ALIGN 4
 Debug2MenuDefs:
-	BYTE 6 8 18 0           // Geomerty, order: X, Y, Width, Height (Height doesn't matter)
+	BYTE 6 1 18 0           // Geomerty, order: X, Y, Width, Height (Height doesn't matter)
 	WORD 1                  // style (change it if u want)
 	POIN Debug2MenuCommands //pCommandDefinition // Command Definitions
 	WORD 0 0 0 0 0 0        // No routines to handle B press/R press/construction/etc
@@ -49,6 +49,7 @@ Debug2MenuCommands:
 	EventMenuCommand(0x161)
 	EventMenuCommand(0x162)
 	EventMenuCommand(0x163)
+	EventMenuCommand(0x164)
 EventMenuCommandEnd
 
 

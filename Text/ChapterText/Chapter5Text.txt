@@ -1,0 +1,73 @@
+
+## DaveLordA
+[MidRight][LoadDave]
+[MidLeft][LoadCurtis]
+a[A]
+[MidRight][ClearFace]
+[Event]
+[MidRight][LoadDave]
+a[A]
+[X]
+
+## DaveLordB
+[MidRight][LoadDave]
+[MidLeft][LoadCurtis]
+[X]
+
+## DaveLaurenA
+[MidRight][LoadDave]
+[MidLeft][LoadLauren]
+a[A]
+[OpenRight][MidLeft][MoveRight]
+[Event]
+[Right][MoveMidLeft]
+[MidRight][ClearFace]
+[MidRight][LoadDave]
+a[A]
+[X]
+
+## DaveLaurenB
+[MidRight][LoadDave]
+[MidLeft][LoadLauren]
+[Event]
+[MidRight][ClearFace]
+[MidRight][LoadDave]
+[X]
+
+## DaveMauritchA
+[MidRight][LoadDave]
+[MidLeft][LoadMauritch]
+[Beat][A]
+[MidRight]
+[Beat][A]
+[MidLeft]
+[Beat][A]
+[MidRight]
+Uh[Beat][N]
+Nice hair?[A][CloseSpeechSlow]
+[Event]
+[MidRight][ClearFace]
+[MidRight][LoadDave]
+See, I usually mine[N]
+like this and-[A][CloseSpeechSlow]
+[MidLeft][ClearFace]
+[MidRight]
+Not much for conversation, huh?[AN]
+Better not get to that[N]
+guy's bad side.[A]
+[X]
+
+## DaveMauritchB
+[MidRight][LoadDave]
+[MidLeft][LoadMauritch]
+[X]
+
+## PegaAmbushText
+[MidLeft][LoadCaitlind]
+The trap has been sprung![N]
+Come on out girls![A][X]
+
+## Ch5OutlawEscapeText
+[MidLeft][LoadFace][0x4C][0x1]
+This is so not worth my life.[.4][N]
+Time to skedaddle with the loot![A][X]

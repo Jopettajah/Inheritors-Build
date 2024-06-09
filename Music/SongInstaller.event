@@ -100,8 +100,8 @@ SongTable(BloomNoblyID,bloomnobly_yoimutu,BattleMusicGroup)
 SongTable(WindSummonID,TOWN_NIGHT00,MapMusicGroup)
 #include "event/TOWN_NIGHT00.event"
 
-SongTable(SorrowID,SorrowKiN,MapMusicGroup)
-#include "event/Sorrow.event"
+SongTable(SadStoryID,SadStory,MapMusicGroup)
+#include "event/SadStory.event"
 
 SongTable(AshToAshID,SEQ_BGM_053_0000,MapMusicGroup)
 #include "event/SEQ_BGM_053_0000.event"

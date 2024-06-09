@@ -69,3 +69,6 @@ KimikoMyrm:
 MarcoFighter:
 	#incbin "./_palettes/MarcoFighter.lzpal" 
 
+CaitlindBossPeg:
+	#incbin "./_palettes/CaitlindBossPeg.lzpal" 
+

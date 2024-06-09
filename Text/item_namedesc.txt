@@ -68,6 +68,12 @@ an adjacent ally for rest of the turn.[X]
 Grants "Brave"[N]
 to an ally.[X]
 
+## ShiningBowName
+Shining Bow[X]
+
+## ShiningBowDesc
+Deals magical damage.[X]
+
 ## CouponName
 Coupon[X]
 

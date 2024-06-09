@@ -236,7 +236,7 @@ EndingScene:
 	Text(Ch2EndingTextMiraAlive)
 	GOTO 2
 	LABEL 1
-	MUSC SorrowID
+	MUSC SadStoryID
 	Text(Ch2EndingTextMiraDead)
 	LABEL 2
 	
@@ -252,7 +252,7 @@ EndingScene:
 	LABEL 3
 	CHECK_ALIVE Lauren
 	BEQ 4 s0 sC
-	MUSC SorrowID
+	MUSC SadStoryID
 	Text(LaurenSoloEndText)
 	GOTO 5
 	

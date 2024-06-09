@@ -82,8 +82,8 @@ N's Castle (BW1)[X]
 ## NCastle2Name
 N's Castle (BW2)[X]
 
-## SorrowName
-Sorrow[X]
+## SadStoryName
+Sad Story[X]
 
 ## DanceNBraceName
 Dance & Brace[X]

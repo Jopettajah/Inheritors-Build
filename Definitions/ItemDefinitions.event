@@ -233,6 +233,7 @@
 #define Gheist 0xC4
 #define Repositioner 0xC7
 #define BraverysGift 0xCA
+#define ShiningBow 0xCB
 
 //Aliases
 #define AxeReaver Axereaver

@@ -2,6 +2,7 @@
 #define LIBBY_AI2 0xA
 #define EMMANUEL_AI2 0x0D
 #define SEIZER_AI2 0xF
+#define CH5OUTLAW_AI2 0x10
 
 #define AttackingSeizerAI [0x00, 0x0F, 0x04]
 #define SeizerAI [0x06, 0x0C, 0x04]
@@ -12,6 +13,7 @@
 
 setAI2(EMMANUEL_AI2, EmmanuelAi) // Use whatever macro you use to inject AIs
 setAI2(SEIZER_AI2, SeizerMove)
+setAI2(CH5OUTLAW_AI2, Ch5Outlaw)
 
 ALIGN 4
 EmmanuelAi:
@@ -27,5 +29,12 @@ SeizerMove:
   AiMoveTowardsPoint(11, 0)
   AiMoveTowardsPoint(12, 0)
   AiMoveTowardsPoint(13, 0)
+  AiRestart
+  }
+  
+ALIGN 4
+Ch5Outlaw:
+  {
+  AiMoveTowardsPoint(7,8)
   AiRestart
   }
