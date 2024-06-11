@@ -168,6 +168,15 @@ very epic[A][X]
 I heard bows have advantage over[N]
 other weapons at range.[A][X]
 
+## Ch1HouseText2
+[MidLeft][LoadFace][CurrentPortrait]
+[MidRight][LoadVillagerOldWoman]
+I might not have items to give,[.4][N]
+but I do have a piece of good advice.[AN]
+Remember the weapon triangle?[AN]
+The more skilled you are with a weapon,[.4][N]
+the more advantage you can leverage![A][X]
+
 ## ThomGenBattleQuote
 [MidLeft][LoadBossOne]
 What!?[.4] There wasn't supposed[N]

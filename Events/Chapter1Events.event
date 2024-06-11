@@ -45,6 +45,7 @@ LocationBasedEvents:
 	Village(10,BottomVillage,10,9)
 	//Village(12,TopVillage2,7,3)
 	House(11,HouseEvent,4,14)
+	House(12,HouseEventTwo,7,3)
 	END_MAIN
 
 Dunno1:
@@ -310,6 +311,10 @@ BottomVillage:
 	
 HouseEvent:
 	HouseEvent(Ch1HouseText,0x00)
+	ENDA
+	
+HouseEventTwo:
+	HouseEvent(Ch1HouseText2,0x00)
 	ENDA
 	
 EndingScene:

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" width="20" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="1">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="20" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="1">
  <tileset firstgid="1" source="FlasubanImprovedVillageV2.tsx"/>
  <layer id="1" name="Main" width="20" height="23">
   <properties>
@@ -17,7 +17,7 @@
 452,194,162,194,194,257,162,194,194,194,257,194,257,193,321,323,257,257,7,79,
 484,452,194,739,645,644,644,645,645,644,644,644,644,644,775,388,257,104,79,79,
 516,484,194,679,5,6,91,92,27,95,96,6,6,3,6,193,257,72,111,79,
-258,516,162,711,332,423,123,122,90,127,128,426,397,193,193,162,194,106,79,79,
+258,516,162,711,332,423,123,124,90,127,128,426,397,193,193,162,194,106,79,79,
 46,258,257,710,421,455,458,455,455,455,458,455,459,193,433,193,194,107,39,79,
 8,257,258,711,485,362,455,458,455,458,455,362,395,162,498,193,162,194,194,72,
 45,46,258,742,493,364,487,455,455,455,458,365,193,193,562,193,225,193,162,43,

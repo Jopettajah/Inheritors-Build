@@ -44,6 +44,7 @@ MiscBasedEvents:
 
 LocationBasedEvents:
 	Village(11,VillageEvent,2,17)
+	House(12,HouseEvent,25,13)
 	END_MAIN
 
 Dunno1:
@@ -224,6 +225,10 @@ AIChange:
 VillageEvent:
 
 	VillageEventItem(Ch2VillageText,Village,Mend)
+	ENDA
+	
+HouseEvent:
+	HouseEvent(Ch2HouseText,0x00)
 	ENDA
 
 EndingScene:

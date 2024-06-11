@@ -258,3 +258,12 @@ My axe won't disappoint![AN]
 [Left]
 Sure. Welcome aboard.[A]
 [X]
+
+## Ch2HouseText
+[MidLeft][LoadFace][CurrentPortrait]
+[MidRight][LoadVillagerYoungMan]
+Hey, have you fought enemy commanders who[N]
+have multiple weapons yet?[AN]
+They can apparently switch to their sidearm if[N]
+you attack from out of their current reach![A]
+[X]

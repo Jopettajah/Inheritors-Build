@@ -1,0 +1,28 @@
+
+ALIGN 4
+StatScreenGfx:
+#incbin "StatScreen.png.dmp"
+
+ALIGN 4
+StatScreenPal:
+#incbin "StatScreen.png.pal.dmp"
+
+ALIGN 4
+StatScreenTsa:
+#incbin "StatScreen.png.tsa.dmp"
+
+PUSH 
+
+//ORG $88590
+//WORD 0 
+
+ORG $88638
+POIN StatScreenGfx 
+
+ORG $88640
+POIN StatScreenPal 
+
+ORG $88644
+POIN StatScreenTsa 
+
+POP

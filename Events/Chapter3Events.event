@@ -203,7 +203,11 @@ FloorTextBranches:
 	CAMERA Curtis
 	SET_CURSOR [14,2]
 	
+	CHECK_EXISTS Lauren
+	BEQ 2 s0 sC
 	CHECK_DEPLOYED Lauren
+	BEQ 2 s0 sC
+	CHECK_EXISTS Mauritch
 	BEQ 2 s0 sC
 	CHECK_DEPLOYED Mauritch
 	BEQ 2 s0 sC
@@ -229,6 +233,9 @@ FloorTextBranches:
 	ENDA
 	
 DVIntroTextEvent:
+
+	CHECK_EXISTS  Mirabelle
+	BEQ 5 s0 sC
 	CHECK_DEPLOYED Mirabelle
 	BEQ 5 s0 sC
 	

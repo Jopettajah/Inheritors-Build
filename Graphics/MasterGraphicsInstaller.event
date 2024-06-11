@@ -7,3 +7,4 @@
 #include "ClassCard/ClassCardInstaller.event"
 #include "ItemIcon/ItemIconInstaller.event"
 #include "Palette/Palette Setup.event"
+#include "System/SystemGfxInstaller.event"

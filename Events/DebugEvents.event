@@ -145,6 +145,7 @@ GoCh1:
 GoCh2:
 	LOAD1 0x1 Ch2DebugUnits
 	ENUN
+	ENUF 0xB0
 	WM_SETDESTINATION 0 1 0
 	MNCH Chapter2
 	NoFade
@@ -223,7 +224,7 @@ Ch3DebugUnits:
 	UNIT Lucian LanceCavalier Curtis Level(3,Ally,True) [4,0] 0x00 0x00 0x00 0x01 [IronLance,Javelin] NoAI
 	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, Elixir] NoAI	
 	UNIT Diane Outlaw_F Curtis Level(3,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow] NoAI
-	UNIT Mirabelle Claw Curtis Level(3,Ally,True) [7,0] 0x00 0x00 0x00 0x01 [DragonClaw] HalfRangeAI
+	//UNIT Mirabelle Claw Curtis Level(3,Ally,True) [7,0] 0x00 0x00 0x00 0x01 [DragonClaw] HalfRangeAI
 	UNIT Katja Fighter_F Curtis Level(3,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe, HandAxe] HalfRangeAI
 	UNIT Mauritch Myrmidon Curtis Level(3,Ally,True) [9,0] 0x00 0x00 0x00 0x01 [KillingEdge] AttackInRangeAI
 	UNIT Lauren Troubadour Curtis Level(3,Ally,True) [10,0] 0x00 0x00 0x00 0x01 [Heal, Mend, Vulnerary] HealUnits
