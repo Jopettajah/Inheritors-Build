@@ -267,3 +267,6 @@ have multiple weapons yet?[AN]
 They can apparently switch to their sidearm if[N]
 you attack from out of their current reach![A]
 [X]
+
+## DefeatWerner
+Defeat Werner[X]

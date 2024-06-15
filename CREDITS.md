@@ -75,7 +75,7 @@
 
 - Scraiza: NarrowFont, Dynamic Portraits, Droppable/Stealable Item Display
 - Huichelaar: Minimug Palette Fix, Gendered text
-- circles: drumfix, contemporary talk/support, danger zone, dragon veins, casual mode, Trap/Rescue/Convoy event AMSC's, Event Writer, hp bars, anim L-toggle, menu semi-transparency, Improved Sound Mixer port, prologue supply, movement arrow hack, chapter names as text, negative crit, MSS
+- circles: drumfix, contemporary talk/support, danger zone, dragon veins, casual mode, Trap/Rescue/Convoy event AMSC's, Event Writer, hp bars, anim L-toggle, menu semi-transparency, Improved Sound Mixer port, prologue supply, movement arrow hack, chapter names as text, negative crit, MSS, allegiance statscreen palettes
 - Alusq: NIMAP 2 (with keysplits)
 - Tequila: New CHAI, walking sounds fix, text engine rework, staff locks, Convoy partition & item combining, str/mag split, effectiveness rework, battle stats with anims off, lvl up wrank display, hp bars, MSS
 - HyperGammaSpaces: Summon rework, Dynamic equip, gaiden magic

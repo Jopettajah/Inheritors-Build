@@ -76,7 +76,7 @@ POP
   
   //#include "ExternalHacks/ItemSpecialEffect/Installer.event"
   
-  //#include "C_Code.lyn.event"
+  #include "C_Code.lyn.event"
   
   #include "ExternalHacks/256 colors Title background Installer/titlebackgroundinstaller.event"
   
@@ -210,7 +210,7 @@ POP
   #include "Necessary/SuspendDebuffs/Debuffs.event"
 
   //Stat Screens palette by allegiance
-  //#include "ExternalHacks/StatScreenAllegiance/StatScreenAllegiance.event"
+  #include "ExternalHacks/StatScreenAllegiance/StatScreenAllegiance.event"
 
   //Menu Semitransparency
   #include "QualityOfLife/SemitransparencyChanges.event"

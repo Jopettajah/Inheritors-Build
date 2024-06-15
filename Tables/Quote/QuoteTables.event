@@ -28,6 +28,10 @@ BattleQuoteGeneric(Breguet,1,0,Ch2BossEvent,12)
 BattleQuoteGeneric(Emmanuel,2,EmmanuelBattleQuote,0,1)
 BattleQuoteGeneric(Bone,2,0,Ch3BossEvent,1)
 BattleQuoteGeneric(Bazba,3,LagrangeBattleQuote,0,1)
+BattleQuoteSpecific(Caitlind_boss,Alysa,4,CaitlindAlysaBattleQuote,0,11)
+BattleQuoteSpecific(Caitlind_boss,Mauritch,4,CaitlindMauritchBattleQuote,0,12)
+BattleQuoteSpecific(Caitlind_boss,Dave,4,CaitlindDaveBattleQuote,0,13)
+BattleQuoteGeneric(Caitlind_boss,4,CaitlindBattleQuote,0,1)
 BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 // Terminator
 
 //EventID 2 for bosses, 0x65 for lords
@@ -38,6 +42,7 @@ DeathQuoteEvent(Oneill,Chapter1,2,ThomDeathQuote)
 DeathQuoteEvent(Breguet,Chapter2,2,WernerDeathQuote)
 DeathQuoteEvent(Bone,Chapter3,2,SledgeDeathQuote)
 DeathQuoteEvent(Bazba,Chapter4,2,LagrangeDeathQuote)
+DeathQuoteEvent(Caitlind_boss,Chapter5,2,CaitlindBossDeathQuote)
 
 //Playables:
 DeathQuoteEvent(Curtis,AllChapters,0x65,CurtisDeathQuote)

@@ -54,5 +54,11 @@ POP
   ALIGN 4
   #include "WM_Chapter4.event"
 }
+{
+  ALIGN 4
+  #include "WM_Chapter5.event"
+}
+
+
 ALIGN 4
 // #include "EpilogueEvents.event"

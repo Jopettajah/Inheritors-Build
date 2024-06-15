@@ -1,3 +1,12 @@
+## Ch5WMText
+[A]
+[Event]
+[A][X]
+
+## Ch5OpeningText
+[A]
+[Event]
+[A][X]
 
 ## DaveLordA
 [MidRight][LoadDave]
@@ -64,10 +73,60 @@ guy's bad side.[A]
 
 ## PegaAmbushText
 [MidLeft][LoadCaitlind]
-The trap has been sprung![N]
+The trap has been sprung![.4][N]
 Come on out girls![A][X]
 
 ## Ch5OutlawEscapeText
 [MidLeft][LoadFace][0x4C][0x1]
 This is so not worth my life.[.4][N]
 Time to skedaddle with the loot![A][X]
+
+## CaitlindBattleQuote
+[MidLeft][LoadCaitlind]
+Ready throw away your life?[A][X]
+
+## CaitlindAlysaBattleQuote
+[MidRight][LoadAlysa]
+This is wrong![.4] Have you lost[N]
+your pegasus knight's honor?![A][CloseSpeechSlow][ClearFace]
+[MidLeft][LoadCaitlind]
+You know nothing.[.4][N]
+I'm just making ends meet.[A][CloseSpeechSlow][ClearFace]
+[MidRight][LoadAlysa]
+I[Beat] I'll set you back[N]
+on the right path![A][CloseSpeechSlow][ClearFace]
+[MidLeft][LoadCaitlind]
+Come and try me pipsqueak.[A][X]
+
+## CaitlindMauritchBattleQuote
+[MidLeft][LoadCaitlind]
+Turned your coat, have you?
+[A][CloseSpeechSlow][ClearFace]
+[MidRight][LoadMauritch]
+I don't even know who you are.
+[A][CloseSpeechSlow][ClearFace]
+[MidLeft][LoadCaitlind]
+Whatever.[.4] I'll just cut[N]
+you down all the same![A][X]
+
+## CaitlindDaveBattleQuote
+[MidLeft][LoadCaitlind]
+Have I seen you before?
+[A][CloseSpeechSlow][ClearFace]
+[MidRight][LoadDave]
+Nah,[.4] must have been a different guy.[A][X]
+
+## CaitlindBossDeathQuote
+//Same as unit death quote, change later?
+[MidLeft][LoadCaitlind]
+This is[Beat] what[Beat][N]
+[CloseEyes]I deserved[Beat][A][X]
+
+## DefeatCaitlind
+Defeat Caitlind[X]
+
+## CaitlindRecruitText
+[X]
+
+## Ch5EndingText
+[X]

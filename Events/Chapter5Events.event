@@ -28,6 +28,7 @@ CharacterBasedEvents:
 MiscBasedEvents:
 	CauseGameOverIfLordDies
 	AREA 0 BridgeCheck [12,8] [17,13]
+	DefeatBoss(EndingScene)
 	END_MAIN
 
 LocationBasedEvents:
@@ -63,13 +64,14 @@ Units1:
 
 EnemyUnits:
 	UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [6,1] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	//UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [11,18] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI //Debug
 	UNIT Dave Myrmidon Caitlind_boss Level(6,Enemy,False) [3,9] 0x0 0x0 0x0 [SteelSword, Vulnerary] AttackInRangeAI
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [5,2] 0x0 0x0 0x0 [IronLance] AttackInRangeAI
 	UNIT Brigand_Enemy Outlaw_F Caitlind_boss Level(6,Enemy,True) [2,8] DropItem 0x0 0x0 0x0 [ShiningBow] AttackInRangeAI
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [10,15] 0x0 0x0 0x0 [IronLance] AttackInRangeAI
 	UNIT Brigand_Enemy Mercenary_F Caitlind_boss Level(6,Enemy,True) [1,17] 0x0 0x0 0x0 0x0 [IronSword] TwoActionAI
 	UNIT Brigand_Enemy Fighter_F Caitlind_boss Level(6,Enemy,True) [2,18] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
-	UNIT Brigand_Enemy Mercenary_F Caitlind_boss Level(6,Enemy,True) [14,9] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+	UNIT Brigand_Enemy Mercenary_F Caitlind_boss Level(6,Enemy,True) [14,9] 0x0 0x0 0x0 0x0 [ArmorSlayer] AttackInRangeAI
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [5,13] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
 	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [6,14] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 	UNIT
@@ -79,7 +81,23 @@ TrapPegas:
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [13,2] 0x0 0x0 0x1 REDA13R1 [IronLance] DelayedChargeAI
 	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [14,1] 0x0 0x0 0x1 REDA14R2 [IronAxe] DefaultAI
 	UNIT
-
+	
+CaitlindReal:
+	UNIT Caitlind AxePeg Curtis Level(7,Ally,False) [0,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+	UNIT
+	
+CutsceneUnitsBlue:
+	UNIT Vidar Eye Curtis Level(1,Ally,False) [14,19] 0x00 0x00 0x01 REDA14R18 [0x0] NoAI
+	UNIT Bobbe AxeArmor Curtis Level(1,Ally,False) [15,19] 0x0 0x0 0x1 REDA15R19 [0x0] NoAI
+	UNIT Nishay BowArmor Curtis Level(1,Ally,False) [13,19] 0x0 0x0 0x1 REDA13R19 [0x0] NoAI
+	UNIT 
+	
+CutsceneUnitsRed:
+	UNIT Caitlind AxePeg Caitlind_boss Level(7,Enemy,False) [15,9] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+	UNIT Ellie PegasusKnight Caitlind_boss Level(7,Enemy,False) [14,8] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+	UNIT Ferryn AxePeg Caitlind_boss Level(7,Enemy,False) [16,8] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+	UNIT
+	
 Traps1:
 	ENDTRAP
 	ALIGN 4
@@ -89,16 +107,43 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
-	LOAD1 0x1 EnemyUnits
-	ENUN
-	LOAD1 0x0 Units1
-	ENUN
+
 	
 	// Dave Recruitment things
 	ENUT 10
 	ENUT DaveFlag
 	//ENUT MauritchDeathFlag // Debug
 	
+	LOAD1 0x2 CutsceneUnitsBlue
+	ENUN
+	LOAD1 0x2 CutsceneUnitsRed
+	ENUN
+
+	TEXTSTART
+	TEXTSHOW Ch5OpeningText
+	TEXTEND
+	
+	MOVE 0 Caitlind [15,15]
+	MOVE 0 Ellie [14,14]
+	MOVE 0 Ferryn [16,14]
+	ENUN
+	
+	TEXTCONT
+	TEXTEND
+	REMA
+	
+	//Alysa thing
+	CHECK_ALIVE Alysa
+	BEQ 7 sC s0
+	
+	LABEL 7
+	FADI 6
+	STAL 6
+	REMOVEALL_RED
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	LOAD1 0x0 Units1
+	ENUN	
 	GotoPrepScreen
 	ENDA
 
@@ -248,6 +293,22 @@ Turn3Escapee:
 	ENDA
 	
 EndingScene:
-	MNC2 Chapter6
+
+	CHECK_EVENTID 11
+	BEQ 6 s0 sC
+	CHECK_ALIVE Alysa
+	BEQ 6 s0 sC
+	
+	//Caitlind recruit
+	Text(CaitlindRecruitText)
+	LOAD1 0x1 CaitlindReal
+	
+	//Generic end events
+	LABEL 6
+	Text(Ch5EndingText)
+	
+	_0xA640 0 0 4
+	WM_SETDESTINATION 0 5 0
+	MNCH Chapter6
 	NoFade
 	ENDA

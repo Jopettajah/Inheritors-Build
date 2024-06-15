@@ -439,8 +439,8 @@ Inheritor of the dragon's gut.[X]
 Caitlind[X]
 
 ## CaitlindDesc
-Pegasus Knight who took[N]
-up banditry.[X]
+Pegasus Knight who had[N]
+to take up banditry.[X]
 
 ## CaitlindDeathQuote
 [MidRight][LoadCaitlind]

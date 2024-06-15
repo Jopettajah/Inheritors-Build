@@ -231,3 +231,6 @@ Understood.[.] I have a lot to learn.[A]
 [MidRight]
 You'll get there. No great[n]
 leader was made in a day.[A][X]
+
+## DefeatThom
+Defeat Thom[X]
