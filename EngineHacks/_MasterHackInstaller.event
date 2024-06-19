@@ -76,7 +76,9 @@ POP
   
   //#include "ExternalHacks/ItemSpecialEffect/Installer.event"
   
-  #include "C_Code.lyn.event"
+  //#include "C_Code.lyn.event"
+  
+  #include "ExternalHacks/StatscreenLabelPalOverride/C_Code.lyn.event"
   
   #include "ExternalHacks/256 colors Title background Installer/titlebackgroundinstaller.event"
   

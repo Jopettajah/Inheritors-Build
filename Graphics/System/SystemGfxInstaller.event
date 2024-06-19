@@ -1,1 +1,3 @@
 #include "StatScreen.event"
+#include "MenuUI.event"
+#include "MMBNumbers.event"

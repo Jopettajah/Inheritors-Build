@@ -8,7 +8,7 @@ MMBDrawDVText:
 	.global	MMBDrawDVText
 	.type	MMBDrawDVText, %function
 
-	.set MMBTextColor,			EALiterals + 0
+	.set MMBDVColor,			EALiterals + 0
 	.set MMBDVTextXCoordinate,	EALiterals + 4
 	.set MMBDVTextYCoordinate,	EALiterals + 8
 	
@@ -54,7 +54,7 @@ MMBDrawDVText:
 
 	mov		r0, r4
 	mov		r1, #0x00
-	ldr		r2, MMBTextColor
+	ldr		r2, MMBDVColor
 
 	ldr		r3, =TextSetParameters
 	mov		lr, r3
@@ -90,7 +90,7 @@ MMBDrawDVText:
 .ltorg
 
 EALiterals:
-	@ MMBTextColor
+	@ MMBDVColor
 	@ MMBDVTextXCoordinate
 	@ MMBDVTextYCoordinate
 

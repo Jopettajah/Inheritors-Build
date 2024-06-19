@@ -1,11 +1,14 @@
 .thumb
-
+.equ gpStatScreenUnit, 0x2003C08
 //fetches the appropriate palette based on unit allegiance and returns to 80885a4
 
-ldr r2,=0x202bcc4
-ldrh r0,[r2] @xcoord
-ldrh r1,[r2,#2] @ycoord
-bl GetUnitFromCoords
+@ldr r2,=0x202bcc4
+@ldrh r0,[r2] @xcoord
+@ldrh r1,[r2,#2] @ycoord
+@bl GetUnitFromCoords
+ldr r0,=gpStatScreenUnit
+ldr r0, [r0]
+ldrb r0, [r0, #0xb]
 cmp r0,#0
 bne CheckAlleg
 ldr r0,=0x202be44

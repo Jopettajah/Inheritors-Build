@@ -1,0 +1,10 @@
+PUSH
+
+ORG 0x8d0b4
+POIN NewNumbers
+
+POP
+
+ALIGN 4
+NewNumbers:
+#incext Png2Dmp "mmbnumbers.png" --lz77

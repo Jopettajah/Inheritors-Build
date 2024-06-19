@@ -227,7 +227,7 @@ DVMMBBuilder: @copied from 8c5d0
     blh      NameVRAMClearer     @@ 0808C60E F777FBDB @@ /
     mov     r0, r4              @@ 0808C612 1C20     @@ \
     mov     r1, r5              @@ 0808C614 1C29     @@ Stores centering distance and text color
-    mov     r2, #0x05           @@ 0808C616 2205     @@ to the 0x6C struct info it used
+    mov     r2, #0x00           @@ 0808C616 2205     @@ to the 0x6C struct info it used
     strb    r1, [r0, #0x02]
     strb    r2, [r0, #0x03]
     mov     r0, r4              @@ 0808C61C 1C20     @@ \

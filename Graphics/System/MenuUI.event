@@ -1,0 +1,35 @@
+ALIGN 4
+MenuUITiles:
+#incbin "MenuUI.png.dmp"
+
+ALIGN 4
+MenuUIPal:
+#incbin "MenuUI.png.pal.dmp"
+
+ALIGN 4
+MenuUIPalRed:
+#incbin "MenuUIRed.png.pal.dmp"
+
+ALIGN 4
+MenuUIPalGrn:
+#incbin "menu-ui-grn.png.pal.dmp"
+
+ALIGN 4
+MultiMenuUIPal:
+#incbin "MenuUI.png.pal.dmp"
+#incbin "MenuUI.png.pal.dmp"
+#incbin "MenuUI.png.pal.dmp"
+#incbin "MenuUI.png.pal.dmp"
+
+PUSH
+
+ORG $5B6470
+POIN MenuUITiles
+
+ORG $8C2EC // Vanilla Minimug box (Ally) (Only used for dragon veins)
+POIN MenuUIPal
+
+ORG $95e38 // Prep Screen
+POIN MultiMenuUIPal
+
+POP

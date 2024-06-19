@@ -2,6 +2,7 @@
 .thumb
 
 .include "../CommonDefinitions.inc"
+.include "../Internal/Definitions.s"
 
 MMBDrawTilemap:
 
@@ -15,7 +16,7 @@ MMBDrawTilemap:
 	@ r0: pointer to proc state
 	@ r1: pointer to unit in RAM
 
-	push	{r4, lr}
+	push	{r4, r5, lr}
 
 	mov		r4, r1
 
@@ -36,12 +37,35 @@ MMBDrawTilemap:
 	ldsb	r0, [r1, r0]
 	mov		r1, #0xC0
 	and		r0, r1
+	cmp		r0, #0
+	beq		BlueCase
+	cmp		r0,#0x80
+	beq		RedCase
 	ldr		r1, MMBTilemapPaletteIndex
-	ldr		r2, =GetPaletteByAllegiance
-	mov		lr, r2
+	mov 	r5, r1
+	ldr 	r4, =MenuUIPalGrn
+	b CopyToBuffer
+	
+	BlueCase:
+	ldr		r1, MMBTilemapPaletteIndex
+	mov 	r5, r1
+	ldr 	r4, =MenuUIPal
+	b CopyToBuffer
+	
+	RedCase:
+	ldr		r1, MMBTilemapPaletteIndex
+	mov 	r5, r1
+	ldr 	r4, =MenuUIPalRed
+	
+	CopyToBuffer:
+	lsl 	r1, r5, #0x5
+	mov 	r0, r4
+	mov 	r2, #0x20
+	ldr		r4, =CopyToPaletteBuffer
+	mov		lr, r4
 	bllr
 
-	pop		{r4}
+	pop		{r4, r5}
 	pop		{r0}
 	bx		r0
 
