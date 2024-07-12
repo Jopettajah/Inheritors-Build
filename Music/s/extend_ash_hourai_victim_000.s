@@ -17,7 +17,7 @@ extend_ash_hourai_victim_000_0:
         .byte   TEMPO , 156/2
 extend_ash_hourai_victim_000_0_LOOP:
         .byte           VOICE , 53
-        .byte           VOL   , 52
+        .byte           VOL   , 59
         .byte           BENDR , 12
         .byte   W96
 @ 001   ----------------------------------------
@@ -666,7 +666,7 @@ extend_ash_hourai_victim_000_1:
 @ 000   ----------------------------------------
 extend_ash_hourai_victim_000_1_LOOP:
         .byte           VOICE , 0
-        .byte           VOL   , 23
+        .byte           VOL   , 26
         .byte           BENDR , 12
         .byte           N24   , Gn2 , v079
         .byte           N24   , As2 , v100
@@ -1548,7 +1548,7 @@ extend_ash_hourai_victim_000_2:
 @ 000   ----------------------------------------
 extend_ash_hourai_victim_000_2_LOOP:
         .byte           VOICE , 5
-        .byte           VOL   , 27
+        .byte           VOL   , 30
         .byte           BENDR , 12
         .byte   W96
 @ 001   ----------------------------------------
@@ -2263,7 +2263,7 @@ extend_ash_hourai_victim_000_3:
 @ 000   ----------------------------------------
 extend_ash_hourai_victim_000_3_LOOP:
         .byte           VOICE , 6
-        .byte           VOL   , 20
+        .byte           VOL   , 22
         .byte           BENDR , 12
         .byte   W96
 @ 001   ----------------------------------------
@@ -2838,7 +2838,7 @@ extend_ash_hourai_victim_000_4:
 @ 000   ----------------------------------------
 extend_ash_hourai_victim_000_4_LOOP:
         .byte           VOICE , 4
-        .byte           VOL   , 24
+        .byte           VOL   , 27
         .byte           BENDR , 12
         .byte   W96
 @ 001   ----------------------------------------
@@ -3034,53 +3034,85 @@ extend_ash_hourai_victim_000_4_67:
         .byte   PATT
          .word  extend_ash_hourai_victim_000_2_75
 @ 084   ----------------------------------------
-        .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_84
+extend_ash_hourai_victim_000_4_84:
+        .byte           N48   , En3 , v075
+        .byte   W48
+        .byte                   Bn3
+        .byte   W48
+        .byte   PEND
 @ 085   ----------------------------------------
-        .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_85
+extend_ash_hourai_victim_000_4_85:
+        .byte           N48   , An3 , v075
+        .byte   W48
+        .byte                   Dn4
+        .byte   W48
+        .byte   PEND
 @ 086   ----------------------------------------
-        .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_86
+extend_ash_hourai_victim_000_4_86:
+        .byte           N36   , Bn3 , v075
+        .byte   W36
+        .byte                   Ds4
+        .byte   W36
+        .byte           N24   , Fs4
+        .byte   W24
+        .byte   PEND
 @ 087   ----------------------------------------
-        .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_87
+extend_ash_hourai_victim_000_4_87:
+        .byte           N36   , Fs4 , v075
+        .byte   W36
+        .byte           N12   , En4
+        .byte   W12
+        .byte           N48   , Bn3
+        .byte   W48
+        .byte   PEND
 @ 088   ----------------------------------------
         .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_84
+         .word  extend_ash_hourai_victim_000_4_84
 @ 089   ----------------------------------------
         .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_85
+         .word  extend_ash_hourai_victim_000_4_85
 @ 090   ----------------------------------------
-        .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_90
+extend_ash_hourai_victim_000_4_90:
+        .byte           N36   , Ds4 , v075
+        .byte   W36
+        .byte                   Fs4
+        .byte   W36
+        .byte           N24   , An4
+        .byte   W24
+        .byte   PEND
 @ 091   ----------------------------------------
-        .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_91
+extend_ash_hourai_victim_000_4_91:
+        .byte           N36   , An4 , v075
+        .byte   W36
+        .byte           N12   , Bn4
+        .byte   W12
+        .byte           N48   , Gn4
+        .byte   W48
+        .byte   PEND
 @ 092   ----------------------------------------
         .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_84
+         .word  extend_ash_hourai_victim_000_4_84
 @ 093   ----------------------------------------
         .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_85
+         .word  extend_ash_hourai_victim_000_4_85
 @ 094   ----------------------------------------
         .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_86
+         .word  extend_ash_hourai_victim_000_4_86
 @ 095   ----------------------------------------
         .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_87
+         .word  extend_ash_hourai_victim_000_4_87
 @ 096   ----------------------------------------
         .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_84
+         .word  extend_ash_hourai_victim_000_4_84
 @ 097   ----------------------------------------
         .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_85
+         .word  extend_ash_hourai_victim_000_4_85
 @ 098   ----------------------------------------
         .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_90
+         .word  extend_ash_hourai_victim_000_4_90
 @ 099   ----------------------------------------
         .byte   PATT
-         .word  extend_ash_hourai_victim_000_2_91
+         .word  extend_ash_hourai_victim_000_4_91
 @ 100   ----------------------------------------
         .byte   W96
 @ 101   ----------------------------------------
@@ -3333,7 +3365,7 @@ extend_ash_hourai_victim_000_5:
 extend_ash_hourai_victim_000_5_LOOP:
         .byte           VOICE , 36
         .byte           BENDR , 12
-        .byte           VOL   , 27
+        .byte           VOL   , 30
         .byte   W96
 @ 001   ----------------------------------------
         .byte   W96
@@ -4080,10 +4112,10 @@ extend_ash_hourai_victim_000_6:
 @ 000   ----------------------------------------
 extend_ash_hourai_victim_000_6_LOOP:
         .byte           VOICE , 96
-        .byte           VOL   , 16
+        .byte           VOL   , 18
         .byte           BENDR , 12
-        .byte           TIE   , Gn2 , v075
-        .byte           TIE   , Dn2
+        .byte           TIE   , Gn3 , v075
+        .byte           TIE   , Dn3
         .byte   W96
 @ 001   ----------------------------------------
         .byte   W96
@@ -4093,10 +4125,10 @@ extend_ash_hourai_victim_000_6_LOOP:
         .byte   W96
 @ 004   ----------------------------------------
 extend_ash_hourai_victim_000_6_4:
-        .byte           EOT   , Gn2
-        .byte                   Dn2
-        .byte           TIE   , Gn2 , v075
-        .byte           TIE   , Dn2
+        .byte           EOT   , Gn3
+        .byte                   Dn3
+        .byte           TIE   , Gn3 , v075
+        .byte           TIE   , Dn3
         .byte   W96
         .byte   PEND
 @ 005   ----------------------------------------
@@ -4116,37 +4148,37 @@ extend_ash_hourai_victim_000_6_4:
         .byte   W96
 @ 012   ----------------------------------------
 extend_ash_hourai_victim_000_6_12:
-        .byte           EOT   , Gn2
-        .byte                   Dn2
-        .byte           N96   , Dn2 , v075
-        .byte           N96   , Gn2
+        .byte           EOT   , Gn3
+        .byte                   Dn3
+        .byte           N96   , Dn3 , v075
+        .byte           N96   , Gn3
         .byte   W96
         .byte   PEND
 @ 013   ----------------------------------------
 extend_ash_hourai_victim_000_6_13:
-        .byte           N96   , Ds2 , v075
-        .byte           N96   , As1
+        .byte           N96   , Ds3 , v075
+        .byte           N96   , As2
         .byte   W96
         .byte   PEND
 @ 014   ----------------------------------------
 extend_ash_hourai_victim_000_6_14:
-        .byte           N96   , Fn2 , v075
-        .byte           N96   , Cn2
+        .byte           N96   , Fn3 , v075
+        .byte           N96   , Cn3
         .byte   W96
         .byte   PEND
 @ 015   ----------------------------------------
 extend_ash_hourai_victim_000_6_15:
-        .byte           N48   , Cn2 , v075
-        .byte           N48   , Fs2
+        .byte           N48   , Cn3 , v075
+        .byte           N48   , Fs3
         .byte   W48
-        .byte                   Dn2
-        .byte           N48   , Fs2
+        .byte                   Dn3
+        .byte           N48   , Fs3
         .byte   W48
         .byte   PEND
 @ 016   ----------------------------------------
 extend_ash_hourai_victim_000_6_16:
-        .byte           N96   , Dn2 , v075
-        .byte           N96   , Gn2
+        .byte           N96   , Dn3 , v075
+        .byte           N96   , Gn3
         .byte   W96
         .byte   PEND
 @ 017   ----------------------------------------
@@ -4184,8 +4216,8 @@ extend_ash_hourai_victim_000_6_16:
          .word  extend_ash_hourai_victim_000_6_15
 @ 028   ----------------------------------------
 extend_ash_hourai_victim_000_6_28:
-        .byte           TIE   , Gn2 , v075
-        .byte           TIE   , Dn2
+        .byte           TIE   , Gn3 , v075
+        .byte           TIE   , Dn3
         .byte   W96
         .byte   PEND
 @ 029   ----------------------------------------
@@ -4298,47 +4330,47 @@ extend_ash_hourai_victim_000_6_28:
          .word  extend_ash_hourai_victim_000_6_14
 @ 067   ----------------------------------------
 extend_ash_hourai_victim_000_6_67:
-        .byte           N48   , Cn2 , v075
-        .byte           N48   , Fs2
+        .byte           N48   , Cn3 , v075
+        .byte           N48   , Fs3
         .byte   W48
-        .byte                   Dn2 , v100
-        .byte           N48   , Fs2
+        .byte                   Dn3 , v100
+        .byte           N48   , Fs3
         .byte   W48
         .byte   PEND
 @ 068   ----------------------------------------
 extend_ash_hourai_victim_000_6_68:
-        .byte           N96   , As2 , v079
-        .byte           N96   , Gn2
+        .byte           N96   , As3 , v079
+        .byte           N96   , Gn3
         .byte   W96
         .byte   PEND
 @ 069   ----------------------------------------
 extend_ash_hourai_victim_000_6_69:
-        .byte           N96   , Cn3 , v079
-        .byte           N96   , An2
+        .byte           N96   , Cn4 , v079
+        .byte           N96   , An3
         .byte   W96
         .byte   PEND
 @ 070   ----------------------------------------
 extend_ash_hourai_victim_000_6_70:
-        .byte           N96   , An2 , v079
-        .byte           N96   , Fs2
+        .byte           N96   , An3 , v079
+        .byte           N96   , Fs3
         .byte   W96
         .byte   PEND
 @ 071   ----------------------------------------
 extend_ash_hourai_victim_000_6_71:
-        .byte           N96   , Dn3 , v079
-        .byte           N96   , As2
+        .byte           N96   , Dn4 , v079
+        .byte           N96   , As3
         .byte   W96
         .byte   PEND
 @ 072   ----------------------------------------
 extend_ash_hourai_victim_000_6_72:
-        .byte           N96   , Gn2 , v079
-        .byte           N96   , Ds2
+        .byte           N96   , Gn3 , v079
+        .byte           N96   , Ds3
         .byte   W96
         .byte   PEND
 @ 073   ----------------------------------------
 extend_ash_hourai_victim_000_6_73:
-        .byte           N96   , An2 , v079
-        .byte           N96   , Fn2
+        .byte           N96   , An3 , v079
+        .byte           N96   , Fn3
         .byte   W96
         .byte   PEND
 @ 074   ----------------------------------------
@@ -4346,44 +4378,44 @@ extend_ash_hourai_victim_000_6_73:
          .word  extend_ash_hourai_victim_000_6_70
 @ 075   ----------------------------------------
 extend_ash_hourai_victim_000_6_75:
-        .byte           N96   , Dn3 , v079
-        .byte           N96   , Gn2
+        .byte           N96   , Dn4 , v079
+        .byte           N96   , Gn3
         .byte   W96
         .byte   PEND
 @ 076   ----------------------------------------
 extend_ash_hourai_victim_000_6_76:
-        .byte           N96   , As2 , v100
-        .byte           N96   , Gn2
+        .byte           N96   , As3 , v100
+        .byte           N96   , Gn3
         .byte   W96
         .byte   PEND
 @ 077   ----------------------------------------
 extend_ash_hourai_victim_000_6_77:
-        .byte           N96   , Cn3 , v100
-        .byte           N96   , An2
+        .byte           N96   , Cn4 , v100
+        .byte           N96   , An3
         .byte   W96
         .byte   PEND
 @ 078   ----------------------------------------
 extend_ash_hourai_victim_000_6_78:
-        .byte           N96   , An2 , v100
-        .byte           N96   , Fs2
+        .byte           N96   , An3 , v100
+        .byte           N96   , Fs3
         .byte   W96
         .byte   PEND
 @ 079   ----------------------------------------
 extend_ash_hourai_victim_000_6_79:
-        .byte           N96   , Dn3 , v100
-        .byte           N96   , As2
+        .byte           N96   , Dn4 , v100
+        .byte           N96   , As3
         .byte   W96
         .byte   PEND
 @ 080   ----------------------------------------
 extend_ash_hourai_victim_000_6_80:
-        .byte           N96   , Gn2 , v100
-        .byte           N96   , Ds2
+        .byte           N96   , Gn3 , v100
+        .byte           N96   , Ds3
         .byte   W96
         .byte   PEND
 @ 081   ----------------------------------------
 extend_ash_hourai_victim_000_6_81:
-        .byte           N96   , An2 , v100
-        .byte           N96   , Fn2
+        .byte           N96   , An3 , v100
+        .byte           N96   , Fn3
         .byte   W96
         .byte   PEND
 @ 082   ----------------------------------------
@@ -4391,54 +4423,54 @@ extend_ash_hourai_victim_000_6_81:
          .word  extend_ash_hourai_victim_000_6_78
 @ 083   ----------------------------------------
 extend_ash_hourai_victim_000_6_83:
-        .byte           N96   , Dn3 , v100
-        .byte           N96   , Gn2
+        .byte           N96   , Dn4 , v100
+        .byte           N96   , Gn3
         .byte   W96
         .byte   PEND
 @ 084   ----------------------------------------
-        .byte                   En2
-        .byte           N96   , Gn2
+        .byte                   En3
+        .byte           N96   , Gn3
         .byte   W96
 @ 085   ----------------------------------------
-        .byte                   Fs2
-        .byte           N96   , An2
+        .byte                   Fs3
+        .byte           N96   , An3
         .byte   W96
 @ 086   ----------------------------------------
-        .byte                   Ds2
-        .byte           N96   , Fs2
+        .byte                   Ds3
+        .byte           N96   , Fs3
         .byte   W96
 @ 087   ----------------------------------------
-        .byte                   Gn2
-        .byte           N96   , Bn2
+        .byte                   Gn3
+        .byte           N96   , Bn3
         .byte   W96
 @ 088   ----------------------------------------
 extend_ash_hourai_victim_000_6_88:
-        .byte           N96   , En2 , v100
-        .byte           N96   , Cn2
+        .byte           N96   , En3 , v100
+        .byte           N96   , Cn3
         .byte   W96
         .byte   PEND
 @ 089   ----------------------------------------
 extend_ash_hourai_victim_000_6_89:
-        .byte           N96   , Fs2 , v100
-        .byte           N96   , Dn2
+        .byte           N96   , Fs3 , v100
+        .byte           N96   , Dn3
         .byte   W96
         .byte   PEND
 @ 090   ----------------------------------------
 extend_ash_hourai_victim_000_6_90:
-        .byte           N96   , Fs2 , v100
-        .byte           N96   , Ds2
+        .byte           N96   , Fs3 , v100
+        .byte           N96   , Ds3
         .byte   W96
         .byte   PEND
 @ 091   ----------------------------------------
 extend_ash_hourai_victim_000_6_91:
-        .byte           N96   , Bn2 , v100
-        .byte           N96   , En2
+        .byte           N96   , Bn3 , v100
+        .byte           N96   , En3
         .byte   W96
         .byte   PEND
 @ 092   ----------------------------------------
 extend_ash_hourai_victim_000_6_92:
-        .byte           N96   , Gn2 , v100
-        .byte           N96   , En2
+        .byte           N96   , Gn3 , v100
+        .byte           N96   , En3
         .byte   W96
         .byte   PEND
 @ 093   ----------------------------------------
@@ -4449,8 +4481,8 @@ extend_ash_hourai_victim_000_6_92:
          .word  extend_ash_hourai_victim_000_6_90
 @ 095   ----------------------------------------
 extend_ash_hourai_victim_000_6_95:
-        .byte           N96   , Bn2 , v100
-        .byte           N96   , Gn2
+        .byte           N96   , Bn3 , v100
+        .byte           N96   , Gn3
         .byte   W96
         .byte   PEND
 @ 096   ----------------------------------------
@@ -4748,8 +4780,8 @@ extend_ash_hourai_victim_000_6_95:
         .byte   PATT
          .word  extend_ash_hourai_victim_000_6_90
 @ 199   ----------------------------------------
-        .byte           N96   , Bn2 , v100
-        .byte           N96   , En2
+        .byte           N96   , Bn3 , v100
+        .byte           N96   , En3
         .byte   W92
         .byte   W01
         .byte   GOTO
@@ -4766,7 +4798,7 @@ extend_ash_hourai_victim_000_7:
 extend_ash_hourai_victim_000_7_LOOP:
         .byte           VOICE , 122
         .byte           BENDR , 12
-        .byte           VOL   , 25
+        .byte           VOL   , 28
         .byte           N06   , Cn1 , v100
         .byte           N06   , Fs1
         .byte   W24
@@ -6610,7 +6642,7 @@ extend_ash_hourai_victim_000_8:
 @ 000   ----------------------------------------
 extend_ash_hourai_victim_000_8_LOOP:
         .byte           VOICE , 56
-        .byte           VOL   , 42
+        .byte           VOL   , 48
         .byte           BENDR , 12
         .byte   W96
 @ 001   ----------------------------------------

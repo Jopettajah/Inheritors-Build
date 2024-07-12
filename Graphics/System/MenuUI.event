@@ -29,6 +29,9 @@ POIN MenuUITiles
 ORG $8C2EC // Vanilla Minimug box (Ally) (Only used for dragon veins)
 POIN MenuUIPal
 
+ORG $8C7EE // Burst window text color
+SHORT 0x2200 //mov r2 0x0
+
 ORG 0x36D2C //Blue part of battle forecast
 POIN MenuUIPal
 ORG 0x36D34 //Red part of battle forecast
@@ -61,10 +64,27 @@ ORG $A1C8B4
 ORG $5A09A8
 #incbin "BattleForecast.dmp"
 
+ORG $5A0AEC
+#incbin "BattleForecastDetail.dmp"
+
+ORG $A173EC
+#incbin "RescueLeft.dmp"
+
+
 ORG $DA2F4 //Unit menu tilemap ($10 & TileID, 10 is palette stuff)
 SHORT $1001 $1003 $1003 $1004 //Top row
 SHORT $1007 $1009 $1009 $1008 //Second row
 SHORT $1007 $1009 $1009 $1008 //Mid rows
 SHORT $101A $101C $101C $101D //Bottom row
+
+ORG $D7F92 //Trade right
+SHORT $1003 $1002 $1003 $1004  //Top row
+SHORT $1009 $1009 $1035 $1008
+SHORT $1009 $1035 $1036 $100A
+
+ORG $DA314 + 8 //Trade bottom
+SHORT $1007 $1016 $1017 $1008
+SHORT $1006 $1009 $1009 $100A
+SHORT $101A $101B $101C $101D
 
 POP

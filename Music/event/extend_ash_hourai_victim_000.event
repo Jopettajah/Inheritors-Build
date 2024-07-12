@@ -18,7 +18,7 @@ extend_ash_hourai_victim_000_0:
         BYTE   TEMPO   156/2
 extend_ash_hourai_victim_000_0_LOOP:
         BYTE           VOICE   53
-        BYTE           VOL     52
+        BYTE           VOL     59
         BYTE           BENDR   12
         BYTE   W96
 // 001   ----------------------------------------
@@ -667,7 +667,7 @@ extend_ash_hourai_victim_000_1:
 // 000   ----------------------------------------
 extend_ash_hourai_victim_000_1_LOOP:
         BYTE           VOICE   0
-        BYTE           VOL     23
+        BYTE           VOL     26
         BYTE           BENDR   12
         BYTE           N24     Gn2   v079
         BYTE           N24     As2   v100
@@ -1549,7 +1549,7 @@ extend_ash_hourai_victim_000_2:
 // 000   ----------------------------------------
 extend_ash_hourai_victim_000_2_LOOP:
         BYTE           VOICE   5
-        BYTE           VOL     27
+        BYTE           VOL     30
         BYTE           BENDR   12
         BYTE   W96
 // 001   ----------------------------------------
@@ -2264,7 +2264,7 @@ extend_ash_hourai_victim_000_3:
 // 000   ----------------------------------------
 extend_ash_hourai_victim_000_3_LOOP:
         BYTE           VOICE   6
-        BYTE           VOL     20
+        BYTE           VOL     22
         BYTE           BENDR   12
         BYTE   W96
 // 001   ----------------------------------------
@@ -2839,7 +2839,7 @@ extend_ash_hourai_victim_000_4:
 // 000   ----------------------------------------
 extend_ash_hourai_victim_000_4_LOOP:
         BYTE           VOICE   4
-        BYTE           VOL     24
+        BYTE           VOL     27
         BYTE           BENDR   12
         BYTE   W96
 // 001   ----------------------------------------
@@ -3035,53 +3035,85 @@ extend_ash_hourai_victim_000_4_67:
         BYTE   PATT
          POIN2  extend_ash_hourai_victim_000_2_75
 // 084   ----------------------------------------
-        BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_84
+extend_ash_hourai_victim_000_4_84:
+        BYTE           N48     En3   v075
+        BYTE   W48
+        BYTE                   Bn3
+        BYTE   W48
+        BYTE   PEND
 // 085   ----------------------------------------
-        BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_85
+extend_ash_hourai_victim_000_4_85:
+        BYTE           N48     An3   v075
+        BYTE   W48
+        BYTE                   Dn4
+        BYTE   W48
+        BYTE   PEND
 // 086   ----------------------------------------
-        BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_86
+extend_ash_hourai_victim_000_4_86:
+        BYTE           N36     Bn3   v075
+        BYTE   W36
+        BYTE                   Ds4
+        BYTE   W36
+        BYTE           N24     Fs4
+        BYTE   W24
+        BYTE   PEND
 // 087   ----------------------------------------
-        BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_87
+extend_ash_hourai_victim_000_4_87:
+        BYTE           N36     Fs4   v075
+        BYTE   W36
+        BYTE           N12     En4
+        BYTE   W12
+        BYTE           N48     Bn3
+        BYTE   W48
+        BYTE   PEND
 // 088   ----------------------------------------
         BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_84
+         POIN2  extend_ash_hourai_victim_000_4_84
 // 089   ----------------------------------------
         BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_85
+         POIN2  extend_ash_hourai_victim_000_4_85
 // 090   ----------------------------------------
-        BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_90
+extend_ash_hourai_victim_000_4_90:
+        BYTE           N36     Ds4   v075
+        BYTE   W36
+        BYTE                   Fs4
+        BYTE   W36
+        BYTE           N24     An4
+        BYTE   W24
+        BYTE   PEND
 // 091   ----------------------------------------
-        BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_91
+extend_ash_hourai_victim_000_4_91:
+        BYTE           N36     An4   v075
+        BYTE   W36
+        BYTE           N12     Bn4
+        BYTE   W12
+        BYTE           N48     Gn4
+        BYTE   W48
+        BYTE   PEND
 // 092   ----------------------------------------
         BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_84
+         POIN2  extend_ash_hourai_victim_000_4_84
 // 093   ----------------------------------------
         BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_85
+         POIN2  extend_ash_hourai_victim_000_4_85
 // 094   ----------------------------------------
         BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_86
+         POIN2  extend_ash_hourai_victim_000_4_86
 // 095   ----------------------------------------
         BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_87
+         POIN2  extend_ash_hourai_victim_000_4_87
 // 096   ----------------------------------------
         BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_84
+         POIN2  extend_ash_hourai_victim_000_4_84
 // 097   ----------------------------------------
         BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_85
+         POIN2  extend_ash_hourai_victim_000_4_85
 // 098   ----------------------------------------
         BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_90
+         POIN2  extend_ash_hourai_victim_000_4_90
 // 099   ----------------------------------------
         BYTE   PATT
-         POIN2  extend_ash_hourai_victim_000_2_91
+         POIN2  extend_ash_hourai_victim_000_4_91
 // 100   ----------------------------------------
         BYTE   W96
 // 101   ----------------------------------------
@@ -3334,7 +3366,7 @@ extend_ash_hourai_victim_000_5:
 extend_ash_hourai_victim_000_5_LOOP:
         BYTE           VOICE   36
         BYTE           BENDR   12
-        BYTE           VOL     27
+        BYTE           VOL     30
         BYTE   W96
 // 001   ----------------------------------------
         BYTE   W96
@@ -4081,10 +4113,10 @@ extend_ash_hourai_victim_000_6:
 // 000   ----------------------------------------
 extend_ash_hourai_victim_000_6_LOOP:
         BYTE           VOICE   96
-        BYTE           VOL     16
+        BYTE           VOL     18
         BYTE           BENDR   12
-        BYTE           TIE     Gn2   v075
-        BYTE           TIE     Dn2
+        BYTE           TIE     Gn3   v075
+        BYTE           TIE     Dn3
         BYTE   W96
 // 001   ----------------------------------------
         BYTE   W96
@@ -4094,10 +4126,10 @@ extend_ash_hourai_victim_000_6_LOOP:
         BYTE   W96
 // 004   ----------------------------------------
 extend_ash_hourai_victim_000_6_4:
-        BYTE           EOT     Gn2
-        BYTE                   Dn2
-        BYTE           TIE     Gn2   v075
-        BYTE           TIE     Dn2
+        BYTE           EOT     Gn3
+        BYTE                   Dn3
+        BYTE           TIE     Gn3   v075
+        BYTE           TIE     Dn3
         BYTE   W96
         BYTE   PEND
 // 005   ----------------------------------------
@@ -4117,37 +4149,37 @@ extend_ash_hourai_victim_000_6_4:
         BYTE   W96
 // 012   ----------------------------------------
 extend_ash_hourai_victim_000_6_12:
-        BYTE           EOT     Gn2
-        BYTE                   Dn2
-        BYTE           N96     Dn2   v075
-        BYTE           N96     Gn2
+        BYTE           EOT     Gn3
+        BYTE                   Dn3
+        BYTE           N96     Dn3   v075
+        BYTE           N96     Gn3
         BYTE   W96
         BYTE   PEND
 // 013   ----------------------------------------
 extend_ash_hourai_victim_000_6_13:
-        BYTE           N96     Ds2   v075
-        BYTE           N96     As1
+        BYTE           N96     Ds3   v075
+        BYTE           N96     As2
         BYTE   W96
         BYTE   PEND
 // 014   ----------------------------------------
 extend_ash_hourai_victim_000_6_14:
-        BYTE           N96     Fn2   v075
-        BYTE           N96     Cn2
+        BYTE           N96     Fn3   v075
+        BYTE           N96     Cn3
         BYTE   W96
         BYTE   PEND
 // 015   ----------------------------------------
 extend_ash_hourai_victim_000_6_15:
-        BYTE           N48     Cn2   v075
-        BYTE           N48     Fs2
+        BYTE           N48     Cn3   v075
+        BYTE           N48     Fs3
         BYTE   W48
-        BYTE                   Dn2
-        BYTE           N48     Fs2
+        BYTE                   Dn3
+        BYTE           N48     Fs3
         BYTE   W48
         BYTE   PEND
 // 016   ----------------------------------------
 extend_ash_hourai_victim_000_6_16:
-        BYTE           N96     Dn2   v075
-        BYTE           N96     Gn2
+        BYTE           N96     Dn3   v075
+        BYTE           N96     Gn3
         BYTE   W96
         BYTE   PEND
 // 017   ----------------------------------------
@@ -4185,8 +4217,8 @@ extend_ash_hourai_victim_000_6_16:
          POIN2  extend_ash_hourai_victim_000_6_15
 // 028   ----------------------------------------
 extend_ash_hourai_victim_000_6_28:
-        BYTE           TIE     Gn2   v075
-        BYTE           TIE     Dn2
+        BYTE           TIE     Gn3   v075
+        BYTE           TIE     Dn3
         BYTE   W96
         BYTE   PEND
 // 029   ----------------------------------------
@@ -4299,47 +4331,47 @@ extend_ash_hourai_victim_000_6_28:
          POIN2  extend_ash_hourai_victim_000_6_14
 // 067   ----------------------------------------
 extend_ash_hourai_victim_000_6_67:
-        BYTE           N48     Cn2   v075
-        BYTE           N48     Fs2
+        BYTE           N48     Cn3   v075
+        BYTE           N48     Fs3
         BYTE   W48
-        BYTE                   Dn2   v100
-        BYTE           N48     Fs2
+        BYTE                   Dn3   v100
+        BYTE           N48     Fs3
         BYTE   W48
         BYTE   PEND
 // 068   ----------------------------------------
 extend_ash_hourai_victim_000_6_68:
-        BYTE           N96     As2   v079
-        BYTE           N96     Gn2
+        BYTE           N96     As3   v079
+        BYTE           N96     Gn3
         BYTE   W96
         BYTE   PEND
 // 069   ----------------------------------------
 extend_ash_hourai_victim_000_6_69:
-        BYTE           N96     Cn3   v079
-        BYTE           N96     An2
+        BYTE           N96     Cn4   v079
+        BYTE           N96     An3
         BYTE   W96
         BYTE   PEND
 // 070   ----------------------------------------
 extend_ash_hourai_victim_000_6_70:
-        BYTE           N96     An2   v079
-        BYTE           N96     Fs2
+        BYTE           N96     An3   v079
+        BYTE           N96     Fs3
         BYTE   W96
         BYTE   PEND
 // 071   ----------------------------------------
 extend_ash_hourai_victim_000_6_71:
-        BYTE           N96     Dn3   v079
-        BYTE           N96     As2
+        BYTE           N96     Dn4   v079
+        BYTE           N96     As3
         BYTE   W96
         BYTE   PEND
 // 072   ----------------------------------------
 extend_ash_hourai_victim_000_6_72:
-        BYTE           N96     Gn2   v079
-        BYTE           N96     Ds2
+        BYTE           N96     Gn3   v079
+        BYTE           N96     Ds3
         BYTE   W96
         BYTE   PEND
 // 073   ----------------------------------------
 extend_ash_hourai_victim_000_6_73:
-        BYTE           N96     An2   v079
-        BYTE           N96     Fn2
+        BYTE           N96     An3   v079
+        BYTE           N96     Fn3
         BYTE   W96
         BYTE   PEND
 // 074   ----------------------------------------
@@ -4347,44 +4379,44 @@ extend_ash_hourai_victim_000_6_73:
          POIN2  extend_ash_hourai_victim_000_6_70
 // 075   ----------------------------------------
 extend_ash_hourai_victim_000_6_75:
-        BYTE           N96     Dn3   v079
-        BYTE           N96     Gn2
+        BYTE           N96     Dn4   v079
+        BYTE           N96     Gn3
         BYTE   W96
         BYTE   PEND
 // 076   ----------------------------------------
 extend_ash_hourai_victim_000_6_76:
-        BYTE           N96     As2   v100
-        BYTE           N96     Gn2
+        BYTE           N96     As3   v100
+        BYTE           N96     Gn3
         BYTE   W96
         BYTE   PEND
 // 077   ----------------------------------------
 extend_ash_hourai_victim_000_6_77:
-        BYTE           N96     Cn3   v100
-        BYTE           N96     An2
+        BYTE           N96     Cn4   v100
+        BYTE           N96     An3
         BYTE   W96
         BYTE   PEND
 // 078   ----------------------------------------
 extend_ash_hourai_victim_000_6_78:
-        BYTE           N96     An2   v100
-        BYTE           N96     Fs2
+        BYTE           N96     An3   v100
+        BYTE           N96     Fs3
         BYTE   W96
         BYTE   PEND
 // 079   ----------------------------------------
 extend_ash_hourai_victim_000_6_79:
-        BYTE           N96     Dn3   v100
-        BYTE           N96     As2
+        BYTE           N96     Dn4   v100
+        BYTE           N96     As3
         BYTE   W96
         BYTE   PEND
 // 080   ----------------------------------------
 extend_ash_hourai_victim_000_6_80:
-        BYTE           N96     Gn2   v100
-        BYTE           N96     Ds2
+        BYTE           N96     Gn3   v100
+        BYTE           N96     Ds3
         BYTE   W96
         BYTE   PEND
 // 081   ----------------------------------------
 extend_ash_hourai_victim_000_6_81:
-        BYTE           N96     An2   v100
-        BYTE           N96     Fn2
+        BYTE           N96     An3   v100
+        BYTE           N96     Fn3
         BYTE   W96
         BYTE   PEND
 // 082   ----------------------------------------
@@ -4392,54 +4424,54 @@ extend_ash_hourai_victim_000_6_81:
          POIN2  extend_ash_hourai_victim_000_6_78
 // 083   ----------------------------------------
 extend_ash_hourai_victim_000_6_83:
-        BYTE           N96     Dn3   v100
-        BYTE           N96     Gn2
+        BYTE           N96     Dn4   v100
+        BYTE           N96     Gn3
         BYTE   W96
         BYTE   PEND
 // 084   ----------------------------------------
-        BYTE                   En2
-        BYTE           N96     Gn2
+        BYTE                   En3
+        BYTE           N96     Gn3
         BYTE   W96
 // 085   ----------------------------------------
-        BYTE                   Fs2
-        BYTE           N96     An2
+        BYTE                   Fs3
+        BYTE           N96     An3
         BYTE   W96
 // 086   ----------------------------------------
-        BYTE                   Ds2
-        BYTE           N96     Fs2
+        BYTE                   Ds3
+        BYTE           N96     Fs3
         BYTE   W96
 // 087   ----------------------------------------
-        BYTE                   Gn2
-        BYTE           N96     Bn2
+        BYTE                   Gn3
+        BYTE           N96     Bn3
         BYTE   W96
 // 088   ----------------------------------------
 extend_ash_hourai_victim_000_6_88:
-        BYTE           N96     En2   v100
-        BYTE           N96     Cn2
+        BYTE           N96     En3   v100
+        BYTE           N96     Cn3
         BYTE   W96
         BYTE   PEND
 // 089   ----------------------------------------
 extend_ash_hourai_victim_000_6_89:
-        BYTE           N96     Fs2   v100
-        BYTE           N96     Dn2
+        BYTE           N96     Fs3   v100
+        BYTE           N96     Dn3
         BYTE   W96
         BYTE   PEND
 // 090   ----------------------------------------
 extend_ash_hourai_victim_000_6_90:
-        BYTE           N96     Fs2   v100
-        BYTE           N96     Ds2
+        BYTE           N96     Fs3   v100
+        BYTE           N96     Ds3
         BYTE   W96
         BYTE   PEND
 // 091   ----------------------------------------
 extend_ash_hourai_victim_000_6_91:
-        BYTE           N96     Bn2   v100
-        BYTE           N96     En2
+        BYTE           N96     Bn3   v100
+        BYTE           N96     En3
         BYTE   W96
         BYTE   PEND
 // 092   ----------------------------------------
 extend_ash_hourai_victim_000_6_92:
-        BYTE           N96     Gn2   v100
-        BYTE           N96     En2
+        BYTE           N96     Gn3   v100
+        BYTE           N96     En3
         BYTE   W96
         BYTE   PEND
 // 093   ----------------------------------------
@@ -4450,8 +4482,8 @@ extend_ash_hourai_victim_000_6_92:
          POIN2  extend_ash_hourai_victim_000_6_90
 // 095   ----------------------------------------
 extend_ash_hourai_victim_000_6_95:
-        BYTE           N96     Bn2   v100
-        BYTE           N96     Gn2
+        BYTE           N96     Bn3   v100
+        BYTE           N96     Gn3
         BYTE   W96
         BYTE   PEND
 // 096   ----------------------------------------
@@ -4749,8 +4781,8 @@ extend_ash_hourai_victim_000_6_95:
         BYTE   PATT
          POIN2  extend_ash_hourai_victim_000_6_90
 // 199   ----------------------------------------
-        BYTE           N96     Bn2   v100
-        BYTE           N96     En2
+        BYTE           N96     Bn3   v100
+        BYTE           N96     En3
         BYTE   W92
         BYTE   W01
         BYTE   GoTo
@@ -4767,7 +4799,7 @@ extend_ash_hourai_victim_000_7:
 extend_ash_hourai_victim_000_7_LOOP:
         BYTE           VOICE   122
         BYTE           BENDR   12
-        BYTE           VOL     25
+        BYTE           VOL     28
         BYTE           N06     Cn1   v100
         BYTE           N06     Fs1
         BYTE   W24
@@ -6611,7 +6643,7 @@ extend_ash_hourai_victim_000_8:
 // 000   ----------------------------------------
 extend_ash_hourai_victim_000_8_LOOP:
         BYTE           VOICE   56
-        BYTE           VOL     42
+        BYTE           VOL     48
         BYTE           BENDR   12
         BYTE   W96
 // 001   ----------------------------------------

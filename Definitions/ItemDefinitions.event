@@ -234,6 +234,7 @@
 #define Repositioner 0xC7
 #define BraverysGift 0xCA
 #define ShiningBow 0xCB
+#define Shinespark 0xCC
 
 //Aliases
 #define AxeReaver Axereaver

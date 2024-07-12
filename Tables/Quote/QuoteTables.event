@@ -32,6 +32,7 @@ BattleQuoteSpecific(Caitlind_boss,Alysa,4,CaitlindAlysaBattleQuote,0,11)
 BattleQuoteSpecific(Caitlind_boss,Mauritch,4,CaitlindMauritchBattleQuote,0,12)
 BattleQuoteSpecific(Caitlind_boss,Dave,4,CaitlindDaveBattleQuote,0,13)
 BattleQuoteGeneric(Caitlind_boss,4,CaitlindBattleQuote,0,1)
+BattleQuoteGeneric(Dave,Chapter5,DaveBattleQuote,0,15)
 BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 // Terminator
 
 //EventID 2 for bosses, 0x65 for lords

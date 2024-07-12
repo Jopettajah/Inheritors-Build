@@ -13,8 +13,10 @@ PointerList:
 	POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+	TurnEventPlayer(0,DaveOpening,1)
 	TurnEventPlayer(0,Turn2Escapee,2)
 	TurnEventPlayer(0,Turn3Escapee,3)
+	TurnEventPlayer(14,PegAIChange,0,255)
 	END_MAIN
 
 ALIGN 32
@@ -65,8 +67,9 @@ Units1:
 EnemyUnits:
 	UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [6,1] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 	//UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [11,18] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI //Debug
-	UNIT Dave Myrmidon Caitlind_boss Level(6,Enemy,False) [3,9] 0x0 0x0 0x0 [SteelSword, Vulnerary] AttackInRangeAI
-	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [5,2] 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+	UNIT Dave Myrmidon Caitlind_boss Level(7,Enemy,False) [6,3] 0x0 0x0 0x0 [SteelSword, Vulnerary] AttackInRangeAI
+	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [5,2] 0x0 0x0 0x0 [IronLance] MoveWithLeaderAI
+	UNIT Brigand_Enemy Outlaw_F Caitlind_boss Level(6,Enemy,True) [7,2] 0x0 0x0 0x0 0x0 [IronBow] MoveWithLeaderAI
 	UNIT Brigand_Enemy Outlaw_F Caitlind_boss Level(6,Enemy,True) [2,8] DropItem 0x0 0x0 0x0 [ShiningBow] AttackInRangeAI
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [10,15] 0x0 0x0 0x0 [IronLance] AttackInRangeAI
 	UNIT Brigand_Enemy Mercenary_F Caitlind_boss Level(6,Enemy,True) [1,17] 0x0 0x0 0x0 0x0 [IronSword] TwoActionAI
@@ -74,12 +77,17 @@ EnemyUnits:
 	UNIT Brigand_Enemy Mercenary_F Caitlind_boss Level(6,Enemy,True) [14,9] 0x0 0x0 0x0 0x0 [ArmorSlayer] AttackInRangeAI
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [5,13] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
 	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [6,14] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [9,3] 0x0 0x0 0x0 0x0 [IronAxe] DefaultAI
+	UNIT Brigand_Enemy Fighter_F Caitlind_boss Level(6,Enemy,True) [7,0] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
+	UNIT Brigand_Enemy Myrmidon_F Caitlind_boss Level(6,Enemy,True) [3,1] 0x0 0x0 0x0 0x0 [SteelSword] MoveWithLeaderAI
+	UNIT Brigand_Enemy Monk_F Caitlind_boss Level(6,Enemy,True) [1,4] 0x0 0x0 0x0 0x0 [Shinespark] TwoActionAI
+	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [1,10] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
 	UNIT
 	
 TrapPegas:
-	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [12,1] 0x0 0x0 0x1 REDA12R2 [IronLance] DefaultAI
-	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [13,2] 0x0 0x0 0x1 REDA13R1 [IronLance] DelayedChargeAI
-	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [14,1] 0x0 0x0 0x1 REDA14R2 [IronAxe] DefaultAI
+	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [12,1] 0x0 0x0 0x1 REDA12R2 [IronLance] DelayedChargeAI
+	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [13,2] 0x0 0x0 0x1 REDA13R1 [IronLance] AttackInRangeAI
+	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [14,1] 0x0 0x0 0x1 REDA14R2 [IronAxe] DelayedChargeAI
 	UNIT
 	
 CaitlindReal:
@@ -112,7 +120,10 @@ BeginningScene:
 	// Dave Recruitment things
 	ENUT 10
 	ENUT DaveFlag
-	//ENUT MauritchDeathFlag // Debug
+	ENUT MauritchDeathFlag // Debug
+	
+	//Third ambush peg delay flag
+	ENUT 14
 	
 	LOAD1 0x2 CutsceneUnitsBlue
 	ENUN
@@ -147,6 +158,46 @@ BeginningScene:
 	GotoPrepScreen
 	ENDA
 
+DaveOpening:
+	
+	MUSS DrunkAsILikeID
+	CAMERA Caitlind_boss
+	CURSOR_FLASHING Caitlind_boss
+	STAL 40
+	REMOVE_CURSORS
+	CURSOR_FLASHING Dave
+	STAL 40
+	REMOVE_CURSORS
+	
+	TEXTSTART
+	TEXTSHOW Ch5DaveIntro
+	TEXTEND
+
+	//MOVE 0 Dave [3,9]
+	MOVE 0 Dave [11,18]
+	ENUN
+	CAMERA Dave	
+	CURSOR_FLASHING Dave
+	STAL 40
+	REMOVE_CURSORS
+	CURSOR_FLASHING [2,8]
+	STAL 40
+	REMOVE_CURSORS
+
+	TEXTCONT
+	TEXTEND
+	REMA
+	
+	MUSCFAST HouraiVictimID
+	CAMERA Curtis
+	CURSOR_FLASHING [15,14]
+	STAL 50
+	REMOVE_CURSORS
+	Text(Ch5BridgeText)
+
+	NoFade
+	ENDA
+	
 DaveRecruitment:
 	
 	MUSS DrunkAsILikeID
@@ -203,6 +254,7 @@ DaveRecruitmentLauren:
 	CUSA Dave
 	ENUN
 	ENUT MauritchDeathFlag
+	MURE 3
 	NoFade
 	ENDA
 
@@ -268,11 +320,18 @@ BridgeCheck:
 	Text(PegaAmbushText)
 	LOAD1 0x0 TrapPegas
 	ENUN
+	ENUF 14
 	
 	LABEL 5
 	NoFade
 	ENDA
 
+PegAIChange:
+	SVAL 1 0x00041200
+	CHAI [13,1]
+	NoFade
+	ENDA
+	
 Turn2Escapee:
 
 	CAMERA [2, 8]

@@ -1,3 +1,6 @@
+## RapierDesc
+Effectice against cavalry & armors.[X]
+
 ## RustedNailName
 Rusted Nail[X]
 
@@ -73,6 +76,13 @@ Shining Bow[X]
 
 ## ShiningBowDesc
 Deals magical damage.[X]
+
+## ShinesparkName
+Shinespark[X]
+
+## ShinesparkDesc
+Short range compensated by[N]
+a high critical hit ratio.[X]
 
 ## CouponName
 Coupon[X]
