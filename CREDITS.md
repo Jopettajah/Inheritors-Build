@@ -64,7 +64,7 @@
 - L95: FMercenary, FMyrm
 
 # Item Icons
-- Erekshigal: Skygazer, Youtou, Dawn Edge, Bravery's Gift
+- Erekshigal: Skygazer, Youtou, Dawn Edge, Bravery's Gift, Shinespark
 - LordGlenn: Mine Staff, Shining Bow
 - Zane: Elstone
 - Celice: Mooncleaver

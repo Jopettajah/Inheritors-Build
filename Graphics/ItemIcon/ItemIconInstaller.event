@@ -23,6 +23,7 @@ POP
 #define RepostionerIconID 229
 #define BraveryIconID 230
 #define ShiningBowIconID 231
+#define ShineSparkIconID 232
 
 PUSH 
 ItemIconEntry(SkygazerIconID)
@@ -54,5 +55,8 @@ ItemIconEntry(BraveryIconID)
 
 ItemIconEntry(ShiningBowIconID)
 #incbin "dmp/LordGlennBow11.dmp"
+
+ItemIconEntry(ShineSparkIconID)
+#incbin "dmp/EreshkigalLight4.dmp"
  
 POP 

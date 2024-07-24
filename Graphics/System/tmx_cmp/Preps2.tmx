@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="13" height="4" tilewidth="8" tileheight="8" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="../MenuUI.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="13" height="4">
+  <data encoding="csv">
+17,18,19,20,21,3,4,3,4,3,4,3,5,
+49,31,32,15,64,15,15,15,15,15,15,15,11,
+7,15,15,15,15,15,15,15,15,15,15,71,9,
+27,28,29,28,29,28,29,28,29,28,29,28,30
+</data>
+ </layer>
+</map>

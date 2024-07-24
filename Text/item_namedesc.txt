@@ -1,5 +1,5 @@
 ## RapierDesc
-Effectice against cavalry & armors.[X]
+Effective against cavalry & armors.[X]
 
 ## RustedNailName
 Rusted Nail[X]
