@@ -92,6 +92,10 @@
 	setPalette(0x17,MarcoFighter)
 	setCBSP(0x17,Marco,0x1,Fighter)
 
+// DaveMyrm
+	setPalette(0x18,DaveMyrm)
+	setCBSP(0x18,Dave,0x1,Myrmidon)
+
 // CaitlindBossPeg
 	setPalette(0x19,CaitlindBossPeg)
 	setCBSP(0x19,Caitlind_boss,0x1,AxePeg)

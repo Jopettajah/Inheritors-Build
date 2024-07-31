@@ -1,0 +1,41 @@
+#define PaletteIdentifier(index,letter1,letter2,letter3,pointer) "BYTE letter1 letter2 letter3 0;  WORD 0 0; POIN pointer "
+
+//This file assumes you have installed palette data in another file. It is just a dictionary linking a palette index to a pointer where the actual color information is installed.
+
+//The letters are optional identifiers, you can leave them blank if you don't care.
+
+//If you have less than 0xFF entries, uncomment the PUSH and POP.
+
+/*
+PUSH
+ORG $EF8008
+*/
+PaletteIdentifier($00,$72,$75,$6b,GarryArmor) //unused
+PaletteIdentifier($01,$72,$75,$6b,GarryArmor)
+PaletteIdentifier($02,$72,$75,$6b,HollieArmor)
+PaletteIdentifier($03,$72,$75,$6b,JacobCav)
+PaletteIdentifier($04,$72,$75,$6b,LucianCav)
+PaletteIdentifier($05,$72,$75,$6b,EmmanuelMage)
+PaletteIdentifier($06,$72,$75,$6b,AlysaRecruit)
+PaletteIdentifier($07,$72,$75,$6b,MauritchMyrm)
+PaletteIdentifier($08,$72,$75,$6b,LibbyCleric)
+PaletteIdentifier($09,$72,$75,$6b,SledgeBrig)
+PaletteIdentifier($0A,$72,$75,$6b,LaurenTroub)
+PaletteIdentifier($0B,$72,$75,$6b,PieterSoldier)
+PaletteIdentifier($0C,$72,$75,$6b,ThomKnight)
+PaletteIdentifier($0D,$72,$75,$6b,WernerCav)
+PaletteIdentifier($0E,$72,$75,$6b,LagrangePal)
+PaletteIdentifier($0F,$72,$75,$6b,AnisMonk)
+PaletteIdentifier($10,$72,$75,$6b,CaitlindPeg)
+PaletteIdentifier($11,$72,$75,$6b,AlysaPeg)
+PaletteIdentifier($12,$72,$75,$6b,IngaHero)
+PaletteIdentifier($13,$72,$75,$6b,DaveMerc)
+PaletteIdentifier($14,$72,$75,$6b,DaveHero)
+PaletteIdentifier($15,$72,$75,$6b,GarryArmor) //dancer later
+PaletteIdentifier($16,$72,$75,$6b,KimikoMyrm)
+PaletteIdentifier($17,$72,$75,$6b,MarcoFighter)
+PaletteIdentifier($18,$72,$75,$6b,DaveMyrm)
+PaletteIdentifier($19,$72,$75,$6b,CaitlindBossPeg)
+/*
+POP
+*/

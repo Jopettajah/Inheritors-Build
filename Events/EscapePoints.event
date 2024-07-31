@@ -11,7 +11,7 @@ EscapePoint(13,0,MoveUp)
 EscapePointEnd
 
 Chapter5Escapepoint:
-EscapePoint(17,1,MoveRight)
+EscapePoint(16,0,MoveUp)
 EscapePointEnd
 
 EscapePointPointerTable(Chapter3,Chapter3Escapepoint)

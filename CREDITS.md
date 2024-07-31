@@ -21,6 +21,7 @@
 - Maiser6; FCav, FMyrm
 - BatimaTheBat: Troubadour
 - Ty the Bub: Bald Fighter
+- UltraFenix: PegasusKnight
 
 # Map Tilesets
 
@@ -39,7 +40,7 @@
 - Agro: Knights, FMercenary
 - Alusq: FFighter. Soldier
 - Rexacuse: Soldier
-- Peerles: Soldier
+- Peerless: Soldier
 - Teraspark: FMonk
 - ArcherBias: Adventurers
 - TheBlindArcher: Halberdier
@@ -78,7 +79,7 @@
 - circles: drumfix, contemporary talk/support, danger zone, dragon veins, casual mode, Trap/Rescue/Convoy event AMSC's, Event Writer, hp bars, anim L-toggle, menu semi-transparency, Improved Sound Mixer port, prologue supply, movement arrow hack, chapter names as text, negative crit, MSS, allegiance statscreen palettes
 - Alusq: NIMAP 2 (with keysplits)
 - Tequila: New CHAI, walking sounds fix, text engine rework, staff locks, Convoy partition & item combining, str/mag split, effectiveness rework, battle stats with anims off, lvl up wrank display, hp bars, MSS
-- HyperGammaSpaces: Summon rework, Dynamic equip, gaiden magic
+- HyperGammaSpaces: Summon rework, Dynamic equip, gaiden magic, palette rework
 - Aera: Thracia-style trading, remove link arena
 - Zane: MMB
 - Teraspark: IER, fancy staves

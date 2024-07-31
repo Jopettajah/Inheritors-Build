@@ -7,4 +7,5 @@
 #include "ClassCard/ClassCardInstaller.event"
 #include "ItemIcon/ItemIconInstaller.event"
 #include "Palette/Palette Setup.event"
+#include "Palette/Battle Palette Rework/BattlePaletteReworkFE8.event"
 #include "System/SystemGfxInstaller.event"

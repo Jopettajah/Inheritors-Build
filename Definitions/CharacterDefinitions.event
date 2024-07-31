@@ -53,10 +53,10 @@
 #define Valter_Ch15_ 0x43
 #define Valter_Ch15 0x43
 #define Selena_Ch10B_and_13B 0x44
-#define Valter_Prologue 0x45
-#define Breguet 0x46
-#define Bone 0x47
-#define Bazba 0x48*/
+#define Valter_Prologue 0x45*/
+#define Werner 0x46
+#define Sledge 0x47
+#define Lagrange 0x48
 #define Caitlind_boss 0x49
 /*#define Saar 0x4A
 #define Novala 0x4B
@@ -77,8 +77,8 @@
 #define Cyclops_boss 0x5C
 #define Wight_boss 0x5D
 #define Deathgoyle_boss 0x5E
-#define Bandit 0x66
-#define ONeill 0x68*/
+#define Bandit 0x66*/
+#define Thom 0x68
 #define Oneill ONeill
 /*#define Glen 0x69
 #define Zonta 0x6A

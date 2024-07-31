@@ -220,10 +220,12 @@ The price of Farum.[X]
 Dave[X]
 
 ## DaveDesc
-placeholder[X]
+Mercenary hiring himself to anyone[N]
+willing to pay his (affordable) rates.[X]
 
 ## DaveDeathQuote
 [MidRight][LoadDave]
+Is this really[CloseEyes][Beat] The end of Dave?
 [A][X]
 
 ## AnisName

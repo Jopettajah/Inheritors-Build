@@ -1,5 +1,13 @@
 EventPointerTable(Chapter5Events, PointerList)
 
+setText(0x164, NewChName)
+
+ALIGN 4
+NewChName:
+String("Ch5: Heavy Wings")
+BYTE 0
+
+ALIGN 4
 PointerList:
 	POIN TurnBasedEvents
 	POIN CharacterBasedEvents
@@ -77,8 +85,9 @@ EnemyUnits:
 	UNIT Brigand_Enemy Mercenary_F Caitlind_boss Level(6,Enemy,True) [14,9] 0x0 0x0 0x0 0x0 [ArmorSlayer] AttackInRangeAI
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [5,13] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
 	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [6,14] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [9,3] 0x0 0x0 0x0 0x0 [IronAxe] DefaultAI
-	UNIT Brigand_Enemy Fighter_F Caitlind_boss Level(6,Enemy,True) [7,0] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
+	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [19,7] 0x0 0x0 0x0 0x0 [IronAxe] DelayedChargeAI
+	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [22,15] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
+	UNIT Brigand_Enemy Fighter_F Caitlind_boss Level(6,Enemy,True) [16,3] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 	UNIT Brigand_Enemy Myrmidon_F Caitlind_boss Level(6,Enemy,True) [3,1] 0x0 0x0 0x0 0x0 [SteelSword] MoveWithLeaderAI
 	UNIT Brigand_Enemy Monk_F Caitlind_boss Level(6,Enemy,True) [1,4] 0x0 0x0 0x0 0x0 [Shinespark] TwoActionAI
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [1,10] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
@@ -106,6 +115,10 @@ CutsceneUnitsRed:
 	UNIT Ferryn AxePeg Caitlind_boss Level(7,Enemy,False) [16,8] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 	UNIT
 	
+CutsceneAlysa:
+	UNIT Henrik Recruit_1 Curtis Level(1,Ally,False) [14,19] 0x00 0x00 0x01 REDA15R18 [0x0] NoAI
+	UNIT
+	
 Traps1:
 	ENDTRAP
 	ALIGN 4
@@ -120,7 +133,7 @@ BeginningScene:
 	// Dave Recruitment things
 	ENUT 10
 	ENUT DaveFlag
-	ENUT MauritchDeathFlag // Debug
+	//ENUT MauritchDeathFlag // Debug
 	
 	//Third ambush peg delay flag
 	ENUT 14
@@ -130,6 +143,8 @@ BeginningScene:
 	LOAD1 0x2 CutsceneUnitsRed
 	ENUN
 
+	STAL 50
+	
 	TEXTSTART
 	TEXTSHOW Ch5OpeningText
 	TEXTEND
@@ -139,15 +154,42 @@ BeginningScene:
 	MOVE 0 Ferryn [16,14]
 	ENUN
 	
+	STAL 30
+	
 	TEXTCONT
 	TEXTEND
 	REMA
 	
+	STAL 50
+	
+
+	MOVE 0 Ellie [14,8]
+	MOVE 0 Ferryn [16,8]
+	MOVE 0 Caitlind [15,12]
+	ENUN
+	
 	//Alysa thing
 	CHECK_ALIVE Alysa
 	BEQ 7 sC s0
+	TEXTSTART
+	TEXTSHOW AlysaIntroText
+	TEXTEND
+	
+	LOAD1 0x2 CutsceneAlysa
+	ENUN
+	
+	TEXTCONT
+	TEXTEND
+	MOVE 0 Caitlind [15,9]
+	ENUN
+	TEXTCONT
+	TEXTEND
+	REMA
 	
 	LABEL 7
+	MOVE 0 Caitlind [15,9]
+	ENUN
+	
 	FADI 6
 	STAL 6
 	REMOVEALL_RED
@@ -173,8 +215,8 @@ DaveOpening:
 	TEXTSHOW Ch5DaveIntro
 	TEXTEND
 
-	//MOVE 0 Dave [3,9]
-	MOVE 0 Dave [11,18]
+	MOVE 0 Dave [3,9]
+	//MOVE 0 Dave [11,18]
 	ENUN
 	CAMERA Dave	
 	CURSOR_FLASHING Dave
@@ -214,6 +256,7 @@ DaveRecruitment:
 	CUSA Dave
 	ENUN
 	ENUT 8
+	ENUT 15
 	MURE 3
 	NoFade
 	ENDA
@@ -254,6 +297,7 @@ DaveRecruitmentLauren:
 	CUSA Dave
 	ENUN
 	ENUT MauritchDeathFlag
+	ENUT 15
 	MURE 3
 	NoFade
 	ENDA
@@ -285,6 +329,7 @@ DaveMauritchEvent:
 	Text(DaveMauritchB)
 	
 	LABEL 2
+	ENUT 15
 	MURE 3
 	NoFade
 	ENDA
@@ -294,7 +339,8 @@ DaveAltRecruitment:
 	MUSS DanceBraceID
 	Text(DaveLordB)
 	CUSA Dave
-	MURE 3	
+	MURE 3
+	ENUT 15
 	NoFade
 	ENDA
 	

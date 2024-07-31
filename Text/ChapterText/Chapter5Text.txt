@@ -1,11 +1,57 @@
 ## Ch5WMText
-[A]
+Audina lore dump[A]
 [Event]
-[A][X]
+[X]
 
 ## Ch5OpeningText
+[FarLeft][LoadHollieHelmet]
+[Left][LoadCurtis]
+[MidRight][LoadGarryHelmet]
+[Left]
 [A]
+[MidRight]
+The town where we're supposed to meet[N]
+her is half-a-day's march away.[A][N]
+We'll make it before the nightfall.[A]
+[Left]
+
+[MidRight]
+
+[FarLeft]
+Uh oh.[.4] Trouble incoming.[A]
 [Event]
+[FarLeft][ClearFace]
+[Left][ClearFace]
+[MidRight][MoveFarRight]
+[Right][LoadCurtis]
+[MidLeft][LoadCaitlind]
+Well well, what do we gave here?[.4][N]
+Some noble and entourage of [his]?[A][N]//hers
+Surrender your possessions,[.] or you[N]
+wont make it out this cliff-side alive.[A]
+[Right]
+
+[A][X]
+
+## AlysaIntroText
+[MidLeft][LoadCaitlind]//TODO: load mug flipped
+[FarRight][LoadCurtis]
+[FarFarRight][LoadAlysa]
+Wait a moment![A][N]
+[Event]
+[MoveRight]
+A pegasus knight shouldn't be[N]
+doing this sort of thing![A]
+[MidLeft]//TODO: mug flip
+Pah,[.] what would starry-eyed[N]
+fresh recruit like you know?[A][N]
+[Right]
+But-[A]
+[MidLeft]
+Save your sermons for someone else.[A][ClearFace]
+[Event]
+[Right]
+[Beat]//...
 [A][X]
 
 ## Ch5BridgeText
@@ -85,7 +131,7 @@ to change sides at a drop of a hat?[A]
 [MidRight]
 I'm a mercenary.[.4] I work for the highest bidder.[.4][N]
 And they are broke. Resorted to banditry.[A][N]
-I was probably never getting paid.[.4][N]
+I was probably never getting paid by them.[.4][N]
 Not a high bar to clear.[A]
 [MidLeft]
 Consider yourself hired then.[A]
@@ -141,13 +187,13 @@ Roger.[A]
 ## DaveMauritchA
 [MidRight][LoadDave]
 [MidLeft][LoadMauritch]
-[Beat][A]
+[Beat][A]//...
 [MidRight]
-[Beat][A]
+[Beat][A]//...
 [MidLeft]
-[Beat][A]
+[Beat][A]//...
 [MidRight]
-Uh[Beat][N]
+Uh[Beat][N]//Uh...
 Nice hair?[A][CloseSpeechSlow]
 [Event]
 [MidRight][ClearFace]
