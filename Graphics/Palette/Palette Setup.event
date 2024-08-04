@@ -99,3 +99,75 @@
 // CaitlindBossPeg
 	setPalette(0x19,CaitlindBossPeg)
 	setCBSP(0x19,Caitlind_boss,0x1,AxePeg)
+
+// BrigFFighter
+	setPalette(0x1A,BrigFFighter)
+	setCBSP(0x1A,Brigand_Enemy,0x1,Fighter_F)
+
+// BrigFMerc
+	setPalette(0x1B,BrigFMerc)
+	setCBSP(0x1B,Brigand_Enemy,0x1,Mercenary_F)
+
+// BrigFMonk
+	setPalette(0x1C,BrigFMonk)
+	setCBSP(0x1C,Brigand_Enemy,0x1,Monk_F)
+
+// BrigPega
+	setPalette(0x1D,BrigPega)
+	setCBSP(0x1D,Brigand_Enemy,0x1,PegasusKnight)
+
+// FarumArmor
+	setPalette(0x1E,FarumArmor)
+	setCBSP(0x1E,Farum,0x1,Knight)
+
+// FarumCav
+	setPalette(0x1F,FarumCav)
+	setCBSP(0x1F,Farum,0x1,SwordCavalier)
+
+// FarumFMerc
+	setPalette(0x20,FarumFMerc)
+	setCBSP(0x20,Farum,0x1,Mercenary_F)
+
+// FarumMerc
+	setPalette(0x21,FarumMerc)
+	setCBSP(0x21,Farum,0x1,Mercenary)
+
+// FarumSoldier
+	setPalette(0x22,FarumSoldier)
+	setCBSP(0x22,Farum,0x1,Soldier)
+
+// BrigBrigand
+	setPalette(0x23,BrigBrigand)
+	setCBSP(0x23,Brigand_Enemy,0x1,Brigand)
+
+// BrigMyrm
+	setPalette(0x24,BrigMyrm)
+	setCBSP(0x24,Brigand_Enemy,0x1,Myrmidon)
+
+// BrigMerc
+	setPalette(0x25,BrigMerc)
+	setCBSP(0x25,Brigand_Enemy,0x1,Mercenary)
+
+// FarumEngi
+	setPalette(0x26,FarumEngi)
+	setCBSP(0x26,Farum,0x1,EngiClass)
+
+// FarumFighter
+	setPalette(0x27,FarumFighter)
+	setCBSP(0x27,Farum,0x1,Fighter)
+
+// FarumMyrm
+	setPalette(0x28,FarumMyrm)
+	setCBSP(0x28,Farum,0x1,Myrmidon)
+
+// FarumMage
+	setPalette(0x29,FarumMage)
+	setCBSP(0x29,Farum,0x1,Mage)
+
+// FarumPega
+	setPalette(0x2A,FarumPega)
+	setCBSP(0x2A,Farum,0x1,PegasusKnight)
+
+// FarumPriest
+	setPalette(0x2B,FarumPriest)
+	setCBSP(0x2B,Farum,0x1,Priest)

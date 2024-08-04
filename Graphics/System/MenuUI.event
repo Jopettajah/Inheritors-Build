@@ -72,6 +72,10 @@ ORG $36D2C //Blue part of battle forecast
 POIN MenuUIPal
 ORG $36D34 //Red part of battle forecast
 POIN MenuUIPalRed
+ORG $36D3C //Green part of battle forecast
+POIN MenuUIPalGrn
+ORG $36D48	//(Normally) Gray part of battle forecast
+POIN MenuUIPalGrn
 
 ORG $95e38 // Prep Screen
 POIN MultiMenuUIPal

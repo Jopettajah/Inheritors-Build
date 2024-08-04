@@ -62,41 +62,41 @@ Tutorial:
 	END_MAIN
 
 Units1:
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [15,18] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [14,17] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [16,17] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [13,18] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [17,18] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [14,19] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [16,19] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [15,16] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [14,18] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [13,17] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [15,17] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [12,18] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [16,18] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [13,19] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [15,19] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [14,16] 0x00 0x00 0x00 0x01 [0x0] NoAI
 	UNIT
 
 EnemyUnits:
-	UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [6,1] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [5,1] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 	//UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [11,18] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI //Debug
-	UNIT Dave Myrmidon Caitlind_boss Level(7,Enemy,False) [6,3] 0x0 0x0 0x0 [SteelSword, Vulnerary] AttackInRangeAI
-	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [5,2] 0x0 0x0 0x0 [IronLance] MoveWithLeaderAI
-	UNIT Brigand_Enemy Outlaw_F Caitlind_boss Level(6,Enemy,True) [7,2] 0x0 0x0 0x0 0x0 [IronBow] MoveWithLeaderAI
+	UNIT Dave Myrmidon Caitlind_boss Level(7,Enemy,False) [5,3] 0x0 0x0 0x0 [SteelSword, Vulnerary] AttackInRangeAI
+	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [4,2] 0x0 0x0 0x0 [IronLance] MoveWithLeaderAI
+	UNIT Brigand_Enemy Outlaw_F Caitlind_boss Level(6,Enemy,True) [6,2] 0x0 0x0 0x0 0x0 [IronBow] MoveWithLeaderAI
 	UNIT Brigand_Enemy Outlaw_F Caitlind_boss Level(6,Enemy,True) [2,8] DropItem 0x0 0x0 0x0 [ShiningBow] AttackInRangeAI
-	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [10,15] 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+	//UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [10,15] 0x0 0x0 0x0 [IronLance] AttackInRangeAI
 	UNIT Brigand_Enemy Mercenary_F Caitlind_boss Level(6,Enemy,True) [1,17] 0x0 0x0 0x0 0x0 [IronSword] TwoActionAI
 	UNIT Brigand_Enemy Fighter_F Caitlind_boss Level(6,Enemy,True) [2,18] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
 	UNIT Brigand_Enemy Mercenary_F Caitlind_boss Level(6,Enemy,True) [14,9] 0x0 0x0 0x0 0x0 [ArmorSlayer] AttackInRangeAI
-	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [5,13] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
-	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [6,14] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [5,13] 0x0 0x0 0x0 0x0 [IronLance]  DelayedChargeAI //AttackInRangeAI
+	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [6,14] 0x0 0x0 0x0 0x0 [IronAxe] DefaultAI //AttackInRangeAI
 	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [19,7] 0x0 0x0 0x0 0x0 [IronAxe] DelayedChargeAI
-	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [22,15] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
-	UNIT Brigand_Enemy Fighter_F Caitlind_boss Level(6,Enemy,True) [16,3] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-	UNIT Brigand_Enemy Myrmidon_F Caitlind_boss Level(6,Enemy,True) [3,1] 0x0 0x0 0x0 0x0 [SteelSword] MoveWithLeaderAI
+	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [21,15] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
+	UNIT Brigand_Enemy Fighter_F Caitlind_boss Level(6,Enemy,True) [15,3] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT Brigand_Enemy Myrmidon_F Caitlind_boss Level(6,Enemy,True) [3,3] 0x0 0x0 0x0 0x0 [SteelSword] TwoActionAI //MoveWithLeaderAI
 	UNIT Brigand_Enemy Monk_F Caitlind_boss Level(6,Enemy,True) [1,4] 0x0 0x0 0x0 0x0 [Shinespark] TwoActionAI
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [1,10] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
 	UNIT
 	
 TrapPegas:
-	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [12,1] 0x0 0x0 0x1 REDA12R2 [IronLance] DelayedChargeAI
-	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [13,2] 0x0 0x0 0x1 REDA13R1 [IronLance] AttackInRangeAI
-	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [14,1] 0x0 0x0 0x1 REDA14R2 [IronAxe] DelayedChargeAI
+	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [11,1] 0x0 0x0 0x1 REDA11R2 [IronLance] DelayedChargeAI
+	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [12,2] 0x0 0x0 0x1 REDA12R1 [IronLance] AttackInRangeAI
+	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [13,1] 0x0 0x0 0x1 REDA13R2 [IronAxe] DelayedChargeAI
 	UNIT
 	
 CaitlindReal:
@@ -149,9 +149,13 @@ BeginningScene:
 	TEXTSHOW Ch5OpeningText
 	TEXTEND
 	
-	MOVE 0 Caitlind [15,15]
-	MOVE 0 Ellie [14,14]
-	MOVE 0 Ferryn [16,14]
+	MUSC TroubleID
+	TEXTCONT
+	TEXTEND
+	
+	MOVE 0 Caitlind [14,15]
+	MOVE 0 Ellie [13,14]
+	MOVE 0 Ferryn [15,14]
 	ENUN
 	
 	STAL 30
@@ -163,9 +167,9 @@ BeginningScene:
 	STAL 50
 	
 
-	MOVE 0 Ellie [14,8]
-	MOVE 0 Ferryn [16,8]
-	MOVE 0 Caitlind [15,12]
+	MOVE 0 Ellie [13,8]
+	MOVE 0 Ferryn [15,8]
+	MOVE 0 Caitlind [14,12]
 	ENUN
 	
 	//Alysa thing
@@ -180,14 +184,14 @@ BeginningScene:
 	
 	TEXTCONT
 	TEXTEND
-	MOVE 0 Caitlind [15,9]
+	MOVE 0 Caitlind [14,9]
 	ENUN
 	TEXTCONT
 	TEXTEND
 	REMA
 	
 	LABEL 7
-	MOVE 0 Caitlind [15,9]
+	MOVE 0 Caitlind [14,9]
 	ENUN
 	
 	FADI 6
@@ -232,7 +236,7 @@ DaveOpening:
 	
 	MUSCFAST HouraiVictimID
 	CAMERA Curtis
-	CURSOR_FLASHING [15,14]
+	CURSOR_FLASHING [14,14]
 	STAL 50
 	REMOVE_CURSORS
 	Text(Ch5BridgeText)
@@ -362,7 +366,7 @@ BridgeCheck:
 	ENUT 4
 	STAL 30
 	
-	CAMERA [10,2]
+	CAMERA [8,2]
 	Text(PegaAmbushText)
 	LOAD1 0x0 TrapPegas
 	ENUN

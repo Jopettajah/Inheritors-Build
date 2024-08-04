@@ -9,6 +9,7 @@ CavalierPaletteList:
 PaletteAssociationEntry(Jacob, $03)
 PaletteAssociationEntry(Lucian, $04)
 PaletteAssociationEntry(Werner, $0D)
+PaletteAssociationEntry(Farum, $1F)
 WORD 0 0
 ALIGN 4
 
@@ -35,11 +36,8 @@ ArmorPaletteList:
 PaletteAssociationEntry(Garry, $01)
 PaletteAssociationEntry(Thom, $0C)
 PaletteAssociationEntry(Ferryn, $54)
-WORD 0 0
-ALIGN 4
-
-BowArmorPaletteList:
 PaletteAssociationEntry(Hollie, $02)
+PaletteAssociationEntry(Farum, $1E)
 WORD 0 0
 ALIGN 4
 
@@ -53,6 +51,8 @@ ALIGN 4
 
 MercPaletteList:
 PaletteAssociationEntry(Dave, $13)
+PaletteAssociationEntry(Farum, $21)
+PaletteAssociationEntry(Brigand_Enemy, $25)
 WORD 0 0
 ALIGN 4
 
@@ -69,12 +69,10 @@ ALIGN 4
 
 MyrmPaletteList:
 PaletteAssociationEntry(Mauritch, $07)
-PaletteAssociationEntry(Dave, $18)
-WORD 0 0
-ALIGN 4
-
-MyrmFPaletteList:
 PaletteAssociationEntry(Kimiko, $16)
+PaletteAssociationEntry(Dave, $18)
+PaletteAssociationEntry(Brigand_Enemy, $24)
+PaletteAssociationEntry(Farum, $28)
 WORD 0 0
 ALIGN 4
 
@@ -101,10 +99,6 @@ PaletteAssociationEntry(Winton, $54)
 WORD 0 0
 ALIGN 4
 
-AdventurerFPaletteList:
-WORD 0 0
-ALIGN 4
-
 RangerPaletteList:
 PaletteAssociationEntry(Gerik, $21)
 PaletteAssociationEntry(Neimi, $22)
@@ -121,6 +115,7 @@ ALIGN 4
 
 MagePaletteList:
 PaletteAssociationEntry(Emmanuel, $05)
+PaletteAssociationEntry(Farum, $29)
 WORD 0 0
 ALIGN 4
 
@@ -178,11 +173,13 @@ ALIGN 4
 
 AxeFighterPaletteList:
 PaletteAssociationEntry(Marco, $17)
+PaletteAssociationEntry(Farum, $27)
 WORD 0 0
 ALIGN 4
 
 AxeFighterFPaletteList:
 //PaletteAssociationEntry(Katja, $54)
+PaletteAssociationEntry(Brigand_Enemy, $1A)
 WORD 0 0
 ALIGN 4
 
@@ -200,11 +197,11 @@ ALIGN 4
 BrigandPaletteList:
 PaletteAssociationEntry(Sledge, $09)
 PaletteAssociationEntry(Bobbe, $54)
+PaletteAssociationEntry(Brigand_Enemy, $23)
 WORD 0 0
 ALIGN 4
 
 PiratePaletteList:
-PaletteAssociationEntry(Ross, $11)
 WORD 0 0
 ALIGN 4
 
@@ -227,9 +224,12 @@ ALIGN 4
 
 MonkFPaletteList:
 PaletteAssociationEntry(Anis, $0F)
+PaletteAssociationEntry(Brigand_Enemy, $1C)
+WORD 0 0
+ALIGN 4
 
 PriestPaletteList:
-PaletteAssociationEntry(Moulder, $45)
+PaletteAssociationEntry(Farum, $2B)
 WORD 0 0
 ALIGN 4
 
@@ -241,6 +241,8 @@ PegKnightPaletteList:
 PaletteAssociationEntry(Alysa, $11)
 PaletteAssociationEntry(Caitlind, $10)
 PaletteAssociationEntry(Caitlind_boss, $19)
+PaletteAssociationEntry(Brigand_Enemy, $1D)
+PaletteAssociationEntry(Farum, $2A)
 WORD 0 0
 ALIGN 4
 
@@ -273,13 +275,13 @@ ALIGN 4
 
 SoldierPaletteList:
 PaletteAssociationEntry(Pieter, $0B)
+PaletteAssociationEntry(Farum, $22)
 WORD 0 0
 ALIGN 4
 
 RecruitPaletteList:
 PaletteAssociationEntry(Alysa, $06)
-
-BYTE $FF $FF $FF $FF $FF $FF $FF $FF
+WORD 0 0
 ALIGN 4
 
 GreatLancerPaletteList:
@@ -295,15 +297,21 @@ WORD 0 0
 ALIGN 4
 
 EngineerPaletteList:
+PaletteAssociationEntry(Farum, $26)
 WORD 0 0
 ALIGN 4
 
 MercFPaletteList:
+PaletteAssociationEntry(Brigand_Enemy, $1B)
+PaletteAssociationEntry(Farum, $20)
 WORD 0 0
 ALIGN 4
 
 HalberdierPaletteList:
 WORD 0 0
+ALIGN 4
+
+BYTE $FF $FF $FF $FF $FF $FF $FF $FF
 ALIGN 4
 
 /*
@@ -325,7 +333,7 @@ MapClassIdToPalettes:
 	SetClassPaletteTable(Paladin,PaladinPaletteList)
 	SetClassPaletteTable(Paladin_F,PaladinFPaletteList)
 	SetClassPaletteTable(LanceKnight,ArmorPaletteList)
-	SetClassPaletteTable(BowKnight,BowArmorPaletteList)
+	SetClassPaletteTable(BowKnight,ArmorPaletteList)
 	SetClassPaletteTable(General,GeneralPaletteList)
 	SetClassPaletteTable(General_F,GeneralPaletteList)
 	SetClassPaletteTable(ForrestKnight, ForrestKnightPaletteList) 
@@ -335,7 +343,7 @@ MapClassIdToPalettes:
 	SetClassPaletteTable(Hero, HeroPaletteList)
 	SetClassPaletteTable(Hero_F, HeroFPaletteList)
 	SetClassPaletteTable(Myrmidon, MyrmPaletteList)
-	SetClassPaletteTable(Myrmidon_F, MyrmFPaletteList)
+	SetClassPaletteTable(Myrmidon_F, MyrmPaletteList)
 	SetClassPaletteTable(Swordmaster, SwordmasterPaletteList)
 	SetClassPaletteTable(Swordmaster_F, SwordmasterPaletteList)
 	SetClassPaletteTable(Assasin, NO_PALETTE)		//unused
@@ -343,7 +351,7 @@ MapClassIdToPalettes:
 	SetClassPaletteTable(Outlaw, OutlawPaletteList)	
 	SetClassPaletteTable(OutlawF, OutlawFPaletteList)
 	SetClassPaletteTable(Adventurer, AdventurerPaletteList)
-	SetClassPaletteTable(Adventurer_F, AdventurerFPaletteList) 
+	SetClassPaletteTable(Adventurer_F, AdventurerPaletteList) 
 	SetClassPaletteTable(Ranger, RangerPaletteList)
 	SetClassPaletteTable(Ranger_F, RangerPaletteList)
 	SetClassPaletteTable(Wing,NO_PALETTE)

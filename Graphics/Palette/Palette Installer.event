@@ -75,3 +75,57 @@ DaveMyrm:
 CaitlindBossPeg:
 	#incbin "./_palettes/CaitlindBossPeg.lzpal" 
 
+BrigFFighter:
+	#incbin "./_palettes/BrigFFighter.lzpal" 
+
+BrigFMerc:
+	#incbin "./_palettes/BrigFMerc.lzpal" 
+
+BrigFMonk:
+	#incbin "./_palettes/BrigFMonk.lzpal" 
+
+BrigPega:
+	#incbin "./_palettes/BrigPega.lzpal" 
+
+FarumArmor:
+	#incbin "./_palettes/FarumArmor.lzpal" 
+
+FarumCav:
+	#incbin "./_palettes/FarumCav.lzpal" 
+
+FarumFMerc:
+	#incbin "./_palettes/FarumFMerc.lzpal" 
+
+FarumMerc:
+	#incbin "./_palettes/FarumMerc.lzpal" 
+
+FarumSoldier:
+	#incbin "./_palettes/FarumSoldier.lzpal" 
+
+BrigBrigand:
+	#incbin "./_palettes/BrigBrigand.lzpal" 
+
+BrigMyrm:
+	#incbin "./_palettes/BrigMyrm.lzpal" 
+
+BrigMerc:
+	#incbin "./_palettes/BrigMerc.lzpal" 
+
+FarumEngi:
+	#incbin "./_palettes/FarumEngi.lzpal" 
+
+FarumFighter:
+	#incbin "./_palettes/FarumFighter.lzpal" 
+
+FarumMyrm:
+	#incbin "./_palettes/FarumMyrm.lzpal" 
+
+FarumMage:
+	#incbin "./_palettes/FarumMage.lzpal" 
+
+FarumPega:
+	#incbin "./_palettes/FarumPega.lzpal" 
+
+FarumPriest:
+	#incbin "./_palettes/FarumPriest.lzpal" 
+
