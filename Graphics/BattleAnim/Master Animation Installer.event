@@ -110,3 +110,7 @@
 #include "BaldFighterTytheBub/Handaxe Installer.event"
 #include "BaldFighterTytheBub/Unarmed Installer.event"
 }
+
+{
+#include "GeneralBowTBA/Bow Installer.event"
+}

@@ -73,7 +73,7 @@ Units1:
 	UNIT Inga Hero_F 0x0 Level(1,Ally,False) [2,0] 0x0 0x0 0x0 0x0 [Mooncleaver] NoAI
 	UNIT Alysa Recruit_1 0x0 Level(10,Ally,True) [0,3] 0x0 0x0 0x0 [Skygazer] NoAI
 	UNIT Winton Outlaw 0x0 Level(10,Ally,True) [3,3] 0x0 0x0 0x0 [ShiningBow] NoAI
-	UNIT Lauren Troubadour 0x0 Level(3,Ally,True) [3,3] 0x0 0x0 0x0 0x1 [Heal, Mend, Vulnerary] NoAI
+	UNIT Lauren Troubadour 0x0 Level(3,Ally,True) [3,3] 0x0 0x0 0x0 0x1 [Heal, Mend, Vulnerary, Berserk] NoAI
 	UNIT Ellie Druid_F 0x0 Level(1,Ally,False) [0,6] 0x0 0x0 0x0 0x0 [Flux] NoAI
 	UNIT
 
@@ -83,6 +83,7 @@ EnemyUnits:
 	UNIT Farum Sage ONeill Level(1,Enemy,True) [12,3] 0x0 0x0 0x0 0x0 [Lightning] NeverMoveAI
 	UNIT Farum Soldier ONeill Level(3,Enemy,True) [5,2] 0x0 0x0 0x0 [AxeReaver,Javelin] NeverMoveAI
 	UNIT Farum Mercenary ONeill Level(10,Enemy,True) [5,1] 0x0 0x0 0x0 [IronSword] NeverMoveAI
+	UNIT Farum Troubadour ONeill Level(10,Enemy,True) [10,2] 0x0 0x0 0x0 [Berserk] DefaultAI
 	UNIT
 
 Traps1:

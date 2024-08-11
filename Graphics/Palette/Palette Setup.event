@@ -171,3 +171,7 @@
 // FarumPriest
 	setPalette(0x2B,FarumPriest)
 	setCBSP(0x2B,Farum,0x1,Priest)
+
+// FarumGeneral
+	setPalette(0x2C,FarumGeneral)
+	setCBSP(0x2C,Farum,0x1,General)

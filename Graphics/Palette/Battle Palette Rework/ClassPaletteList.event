@@ -38,6 +38,7 @@ PaletteAssociationEntry(Thom, $0C)
 PaletteAssociationEntry(Ferryn, $54)
 PaletteAssociationEntry(Hollie, $02)
 PaletteAssociationEntry(Farum, $1E)
+PaletteAssociationEntry(Goon, $1E)
 WORD 0 0
 ALIGN 4
 
@@ -46,6 +47,7 @@ PaletteAssociationEntry(Garry, $24)
 PaletteAssociationEntry(Hollie, $25)
 PaletteAssociationEntry(Avery, $26)
 PaletteAssociationEntry(Ferryn, $27)
+PaletteAssociationEntry(FarumWeak, $2C)
 WORD 0 0
 ALIGN 4
 

@@ -108,6 +108,8 @@
 #define BaldFighterHandaxe 0xb4
 #define BaldFighterUnarmed 0xb5
 
+#define GeneralBow 0xb6
+
 //////////
  
 ALIGN 4
@@ -241,6 +243,16 @@ BaldFighterAnims:
 AxeAnim(BaldFighterAxe)
 HandAxeAnim(BaldFighterHandaxe)
 UnarmedAnim(BaldFighterUnarmed)
+WORD 0x0
+
+ALIGN 4
+GeneralAnims:
+SwordAnim(0x44)
+SpearAnim(0x45)
+AxeAnim(0x46)
+HandAxeAnim(0x47)
+BowAnim(GeneralBow)
+UnarmedAnim(0x48)
 WORD 0x0
 
 ALIGN 4

@@ -78,6 +78,8 @@ POP
   
   //#include "C_Code.lyn.event"
   
+  #include "ExternalHacks/BerserkRework/C_Code.lyn.event"
+  
   #include "ExternalHacks/StatscreenLabelPalOverride/C_Code.lyn.event"
   
   #include "ExternalHacks/256 colors Title background Installer/titlebackgroundinstaller.event"

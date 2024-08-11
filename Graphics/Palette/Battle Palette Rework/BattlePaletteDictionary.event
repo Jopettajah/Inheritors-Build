@@ -54,6 +54,7 @@ PaletteIdentifier($28,$72,$75,$6b,FarumMyrm)
 PaletteIdentifier($29,$72,$75,$6b,FarumMage)
 PaletteIdentifier($2A,$72,$75,$6b,FarumPega)
 PaletteIdentifier($2B,$72,$75,$6b,FarumPriest)
+PaletteIdentifier($2C,$72,$75,$6b,FarumGeneral)
 /*
 POP
 */

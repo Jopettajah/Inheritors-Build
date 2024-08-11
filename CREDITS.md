@@ -5,7 +5,7 @@
 
 - Flasuban: Improved FalcoKnight, FHero, PegasusKnight. FPaladin
 - SALVAGED: Cavaliers, Paladins
-- TheBlindArcher: Knight Extra Weapons
+- TheBlindArcher: Knight Extra Weapons, General Bow
 - Nuramon: FHero, Hero
 - BlackMage: FFighter
 - Norikins: Elstone

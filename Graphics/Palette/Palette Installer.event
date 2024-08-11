@@ -129,3 +129,6 @@ FarumPega:
 FarumPriest:
 	#incbin "./_palettes/FarumPriest.lzpal" 
 
+FarumGeneral:
+	#incbin "./_palettes/FarumGeneral.lzpal" 
+
