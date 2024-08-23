@@ -1,0 +1,97 @@
+EventPointerTable(Chapter6Events, PointerList)
+
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN Dunno1 Dunno2 Dunno3 Tutorial
+	POIN Traps1 Traps2
+	POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN $0 $0 $0
+	POIN $0 $0 $0
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+
+	END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+
+	END_MAIN
+
+MiscBasedEvents:
+	CauseGameOverIfLordDies
+	END_MAIN
+
+LocationBasedEvents:
+
+	END_MAIN
+
+Dunno1:
+
+	END_MAIN
+
+Dunno2:
+
+	END_MAIN
+
+Dunno3:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+Units1:
+
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [18,1] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob Eye Curtis Level(1,Ally,False) [17,0] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob Eye Curtis Level(1,Ally,False) [18,0] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob Eye Curtis Level(1,Ally,False) [19,0] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob Eye Curtis Level(1,Ally,False) [7,4] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob Eye Curtis Level(1,Ally,False) [6,3] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob Eye Curtis Level(1,Ally,False) [6,4] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob Eye Curtis Level(1,Ally,False) [6,5] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT
+
+EnemyUnits:
+	
+	UNIT JeanneMarie Troubadour JeanneMarie Level(12,Enemy,False) [15,23] 0x0 0x0 0x0 0x0 [Berserk] AttackInRangeAI
+	//Bodyguard
+	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [4,9] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
+	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [5,10] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
+	UNIT Farum AxeKnight JeanneMarie Level(8,Enemy,True) [13,16] 0x0 0x0 0x0 0x0 [HandAxe] NeverMoveAI
+	UNIT Farum AxeKnight JeanneMarie Level(8,Enemy,True) [14,16] 0x0 0x0 0x0 0x0 [HandAxe] NeverMoveAI
+	UNIT Farum PegasusKnight JeanneMarie Level(8,Enemy,True) [7,14] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI
+	UNIT Farum AxePeg JeanneMarie Level(8,Enemy,True) [8,15] 0x0 0x0 0x0 0x0 [SteelAxe] DefaultAI
+	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [19,7] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+	UNIT Farum Soldier JeanneMarie Level(8,Enemy,True) [9,8] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
+	UNIT Farum SwordCavalier JeanneMarie Level(8,Enemy,True) [15,0] 0x0 0x0 0x0 0x0 [SlimSword] DefaultAI
+	UNIT Farum Shaman JeanneMarie Level(8,Enemy,True) [11,4] 0x0 0x0 0x0 0x0 [Flux] DefaultAI
+	UNIT Farum Mercenary JeanneMarie Level(8,Enemy,True) [17,13] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+	UNIT Farum Fighter JeanneMarie Level(8,Enemy,True) [16,14] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+	UNIT Farum SwordCavalier JeanneMarie Level(8,Enemy,True) [19,14] 0x0 0x0 0x0 0x0 [IronSword] TwoActionAI
+	UNIT Farum LanceCavalier JeanneMarie Level(8,Enemy,True) [11,13] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+	UNIT
+
+Traps1:
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	GotoPrepScreen
+	ENDA
+
+EndingScene:
+	MNC2 Chapter7
+	NoFade
+	ENDA

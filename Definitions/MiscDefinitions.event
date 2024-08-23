@@ -4,6 +4,7 @@
 
 //Item effect table indexes
 #define ElstoneIndex 0x39
+#define ShinesparkAnimIndex 0x3A
 
 //Macros
 #define Coords(xcoord,ycoord) "(ycoord<<16)|xcoord"

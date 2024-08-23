@@ -183,6 +183,7 @@ WORD 0x0
 ALIGN 4
 FMonkAnims:
 LightAnim(FMonkMagic)
+UnarmedAnim(FMonkMagic)
 WORD 0x0
 
 ALIGN 4

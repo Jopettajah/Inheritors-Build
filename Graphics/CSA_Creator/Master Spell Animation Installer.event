@@ -27,5 +27,10 @@ ALIGN 4
 #endif
 
 //animations go here
-
+{
 #include "NorikinsElstone/Spell.event"
+}
+{
+#undef Spell_index
+#include "DivineSigilSHYUTERz/Spell.event"
+}

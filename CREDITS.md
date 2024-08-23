@@ -22,6 +22,7 @@
 - BatimaTheBat: Troubadour
 - Ty the Bub: Bald Fighter
 - UltraFenix: PegasusKnight
+- SHYUTERz: Shinespark
 
 # Map Tilesets
 

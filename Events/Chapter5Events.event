@@ -73,8 +73,8 @@ Units1:
 	UNIT
 
 EnemyUnits:
-	//UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [5,1] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-	UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [11,18] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI //Debug
+	UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [5,1] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	//UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [11,18] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI //Debug
 	UNIT Dave Myrmidon Caitlind_boss Level(7,Enemy,False) [5,3] 0x0 0x0 0x0 [SteelSword, Vulnerary] AttackInRangeAI
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [4,2] 0x0 0x0 0x0 [IronLance] MoveWithLeaderAI
 	UNIT Brigand_Enemy Outlaw_F Caitlind_boss Level(6,Enemy,True) [6,2] 0x0 0x0 0x0 0x0 [IronBow] MoveWithLeaderAI

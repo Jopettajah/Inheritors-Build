@@ -496,6 +496,12 @@ Wolfram[X]
 ## WolframDesc
 placeholder[X]
 
+## JeanneName ^
+Jeanne-Marie[X]
+
+##JeanneDesc
+?[X]
+
 ## LagrangeName
 Lagrange[X]
 

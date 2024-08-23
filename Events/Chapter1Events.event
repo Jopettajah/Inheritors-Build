@@ -204,8 +204,6 @@ BeginningScene:
 	//GiveMoney(4000)
 	EndConvo
 	
-	
-
 	MUSC TroubleID
 	CAMERA [18,1]
 	EVBIT_F 9
