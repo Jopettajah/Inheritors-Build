@@ -3,10 +3,10 @@
 //In the example dictionary provided, the three entries map to Soldier, Knight, and General, so those are the first three in the list.
 PUSH
 ORG $95e0a4
-BYTE AxeKnight BowKnight SwordCavalier LanceCavalier Mage Recruit_1 Myrmidon
-BYTE Cleric Brigand Troubadour Soldier SwordKnight LanceCavalier Paladin_F
-BYTE Monk_F AxePeg PegasusKnight Hero_F Mercenary Hero Dancer
-BYTE Myrmidon_F Fighter Myrmidon AxePeg
+BYTE ForrestKnight AxeKnight BowKnight SwordCavalier LanceCavalier Mage Recruit_1
+BYTE Myrmidon Cleric Brigand Troubadour Soldier SwordKnight LanceCavalier
+BYTE Paladin_F Monk_F AxePeg PegasusKnight Hero_F Mercenary Hero
+BYTE Dancer Myrmidon_F Fighter Myrmidon AxePeg
 //continue with 7 entries per line
 BYTE 0x0 0x0 0x0 0x0 0x0 0x0 0x0
 POP

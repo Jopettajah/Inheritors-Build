@@ -58,6 +58,7 @@
 #define Plains1PaletteID 0x02
 #define DesertBPaletteID 0x8E
 #define FrontierPaletteID 0x90
+#define DesertNightPaletteID 0x92
 
 //Tile Configs
 #define VillageConfigID 0x8A

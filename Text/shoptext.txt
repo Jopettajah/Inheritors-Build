@@ -27,3 +27,7 @@ Medium challenge.[X]
 
 # 0x014B
 Also untested.[X]
+
+# 0x0555
+Charge at enemies with reckless abandon![N]
+Grants: -3 Def/Res, +1 Mov[X]

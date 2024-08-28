@@ -36,6 +36,10 @@ ALIGN 4
 FrontierPalette:
 #incext Png2Dmp "FrontierObjects.png" --palette-only
 
+ALIGN 4
+DeserNightPalette:
+#incext Png2Dmp "42004344_fin.png" --palette-only
+
 EventPointerTable(VillageObjectsID, VillageObjects)
 EventPointerTable(VillageConfigID, VillageConfig)
 EventPointerTable(VillagePaletteID, VillagePallette)
@@ -45,3 +49,4 @@ EventPointerTable(DesertBPaletteID, DesertBPalette)
 EventPointerTable(FrontierObjectsID, FrontierObjects)
 EventPointerTable(FrontierConfigID, FrontierConfig)
 EventPointerTable(FrontierPaletteID, FrontierPalette)
+EventPointerTable(DesertNightPaletteID, DeserNightPalette)

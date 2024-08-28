@@ -132,3 +132,12 @@ FarumPriest:
 FarumGeneral:
 	#incbin "./_palettes/FarumGeneral.lzpal" 
 
+DaveForrest:
+	#incbin "./_palettes/DaveForrest.lzpal" 
+
+JacobForrest:
+	#incbin "./_palettes/JacobForrest.lzpal" 
+
+FarumForrest:
+	#incbin "./_palettes/FarumForrest.lzpal" 
+

@@ -91,6 +91,9 @@ Coupon[X]
 50% off from a single purchase.[N]
 Vanishes afterwards.[X]
 
+## ShineDesc
+Doubles as a torch.[X]
+
 ## PeikonhammasName
 Peikonhammas[X]
 

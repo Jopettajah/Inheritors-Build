@@ -13,7 +13,7 @@ PointerList:
 	POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-
+	TurnEventPlayer(0,FogEvent,0,255)
 	END_MAIN
 
 ALIGN 32
@@ -22,11 +22,18 @@ CharacterBasedEvents:
 	END_MAIN
 
 MiscBasedEvents:
+	DefeatBoss(EndingScene)
 	CauseGameOverIfLordDies
+	VeinEffect(3,Ch6VeinEvent)
 	END_MAIN
 
 LocationBasedEvents:
 
+	House(0,ArenaHouse,16,7)
+	House(0,HintHouse,2,9)
+	Village(11,AnisVillage,15,3)
+	Village(12,MoneyVillage,7,12)
+	Vendor(Ch6Vendor,11,12)
 	END_MAIN
 
 Dunno1:
@@ -59,8 +66,8 @@ Units1:
 
 EnemyUnits:
 	
-	UNIT JeanneMarie Troubadour JeanneMarie Level(12,Enemy,False) [15,23] 0x0 0x0 0x0 0x0 [Berserk] AttackInRangeAI
-	//Bodyguard
+	UNIT JeanneMarie Troubadour JeanneMarie Level(12,Enemy,False) [10,22] 0x0 0x0 0x0 0x0 [Berserk] Ch6BossAI
+	UNIT FarumSlow ForrestKnight JeanneMarie Level(1,Enemy,True) [10,21] 0x0 0x0 0x0 0x0 [IronBlade] Ch6BodyguardAI
 	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [4,9] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
 	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [5,10] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
 	UNIT Farum AxeKnight JeanneMarie Level(8,Enemy,True) [13,16] 0x0 0x0 0x0 0x0 [HandAxe] NeverMoveAI
@@ -69,15 +76,29 @@ EnemyUnits:
 	UNIT Farum AxePeg JeanneMarie Level(8,Enemy,True) [8,15] 0x0 0x0 0x0 0x0 [SteelAxe] DefaultAI
 	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [19,7] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
 	UNIT Farum Soldier JeanneMarie Level(8,Enemy,True) [9,8] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
-	UNIT Farum SwordCavalier JeanneMarie Level(8,Enemy,True) [15,0] 0x0 0x0 0x0 0x0 [SlimSword] DefaultAI
 	UNIT Farum Shaman JeanneMarie Level(8,Enemy,True) [11,4] 0x0 0x0 0x0 0x0 [Flux] DefaultAI
 	UNIT Farum Mercenary JeanneMarie Level(8,Enemy,True) [17,13] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
 	UNIT Farum Fighter JeanneMarie Level(8,Enemy,True) [16,14] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 	UNIT Farum SwordCavalier JeanneMarie Level(8,Enemy,True) [19,14] 0x0 0x0 0x0 0x0 [IronSword] TwoActionAI
 	UNIT Farum LanceCavalier JeanneMarie Level(8,Enemy,True) [11,13] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+	UNIT Farum Shaman JeanneMarie Level(8,Enemy,True) [18,20] 0x0 0x0 0x0 0x0 [Flux] TwoActionAI
+	UNIT Farum LanceCavalier JeanneMarie Level(8,Enemy,True) [13,22] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+	UNIT Farum AxeCavalier JeanneMarie Level(8,Enemy,True) [14,22] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT Farum Shaman JeanneMarie Level(10,Enemy,True) [2,16] 0x0 0x0 0x0 0x0 [Nosferatu] NeverMoveAI
+	UNIT Farum Shaman JeanneMarie Level(10,Enemy,True) [4,16] 0x0 0x0 0x0 0x0 [Nosferatu] NeverMoveAI
+	UNIT Farum BowKnight JeanneMarie Level(8,Enemy,True) [3,20] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+	UNIT Farum Mercenary_F JeanneMarie Level(8,Enemy,True) [2,14] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+	//UNIT Farum Fighter_F JeanneMarie Level(8,Enemy,True) [1,13] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT Farum Soldier JeanneMarie Level(8,Enemy,True) [16,10] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
 	UNIT
 
+AnisGroup:
+
+	UNIT Anis Monk_F Curtis Level(7,Ally,False) [15,3] 0x0 0x0 0x1 REDA15R3 [Lightning, Shine] NoAI
+	UNIT
+	
 Traps1:
+	Vein(3,12,3,Ch6DVBoxText)
 	ENDTRAP
 	ALIGN 4
 
@@ -90,8 +111,55 @@ BeginningScene:
 	ENUN
 	GotoPrepScreen
 	ENDA
-
+	
 EndingScene:
 	MNC2 Chapter7
 	NoFade
 	ENDA
+
+ArenaHouse:
+	HouseEvent(Ch6ArenaHouseText,HouseBG)
+	ENDA
+	
+HintHouse:
+	HouseEvent(Ch6HintHouseText,HouseBG)
+	ENDA
+	
+AnisVillage:
+
+	FADI 16
+	SetBackground(0x0)
+	MUSS DanceBraceID	
+	Text(AnisRecruitText)
+	EndConvo
+	
+	LOAD1 0x0 AnisGroup
+	ENUN
+	MURE 3
+	NoFade
+	ENDA
+
+MoneyVillage:
+	VillageEventMoney(Ch6MoneyVillageText,0x00,1000)
+	ENDA
+
+Ch6VeinEvent:
+	VeinActivation
+	FOGVISION 0
+	NoFade
+	ENDA
+
+FogEvent:
+	FOGVISION 5
+	NoFade
+	ENDA
+	
+ALIGN 4
+Ch6Vendor:
+SHORT Elfire
+SHORT Shine
+SHORT Shinespark
+SHORT Mend
+SHORT Vulnerary
+SHORT 0
+SHORT 0	

@@ -13,6 +13,7 @@
 #define MercFCC 0xB5
 #define HeroFCC 0xB6
 #define MyrmFCC 0xB7
+#define ForrestKnightCC 0xB8
 
 
 ALIGN 4
@@ -118,3 +119,11 @@ ALIGN 4
 MyrmFCCPal:
 #incbin "dmp/MyrmidonFL95.png_pal.dmp"
 setCardEntry(MyrmFCC,MyrmFCCData,MyrmFCCPal)
+
+ALIGN 4
+FKData:
+#incbin "dmp/ForestKnightLeo_LinkDerTheVaporeon.dmp"
+ALIGN 4
+FKPal:
+#incbin "dmp/ForestKnightLeo_LinkDerTheVaporeon.png_pal.dmp"
+setCardEntry(ForrestKnightCC,FKData,FKPal)

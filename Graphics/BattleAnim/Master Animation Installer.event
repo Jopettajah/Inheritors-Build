@@ -114,3 +114,8 @@
 {
 #include "GeneralBowTBA/Bow Installer.event"
 }
+
+{
+#include "ForestKnightLeo_Link/Sword Installer.event"
+#include "ForestKnightLeo_Link/Unarmed Installer.event"
+}

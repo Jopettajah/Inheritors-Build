@@ -1,0 +1,43 @@
+## Ch6WMText
+ [A][X]
+ 
+## Ch6OpeningText
+ [A][X]
+ 
+## Ch6ArenaHouseText
+[MidLeft][LoadFace][CurrentPortrait]
+[MidRight][LoadVillagerYoungMan]
+See that Arena in the south?[.4][N]
+You can gamble for coin there.[A][N]
+Matches are limited,[.4] so think[N]
+carefully whom you enter with.[A][X]
+	
+## Ch6HintHouseText
+[A][X]
+
+## AnisRecruitText
+[MidLeft][LoadFace][CurrentPortrait]
+[MidRight][LoadAnis]
+[A][X]
+
+## Ch6MoneyVillageText
+[MidLeft][LoadFace][CurrentPortrait]
+[MidRight][LoadVillagerShortStache]
+Here's some gold to help drive[N]
+out the foreign invaders.[A][N]
+You should spend it on something[N]
+nice on the shop next door.[A][N]
+Put some gold back in the local[N]
+economy and all that,[.4] you know?[A][X]
+
+## Ch6DVBoxText
+Lights up the map[N]
+for a turn[X]
+
+## EndConvoJacob
+[MidRight][LoadJacob]
+Darkness.[.4] Some bugs.[.4][N]
+My life passing by.[A][X]
+
+## EndConvoLucian
+[X]

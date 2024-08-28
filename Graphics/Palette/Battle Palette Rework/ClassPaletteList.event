@@ -293,8 +293,10 @@ WORD 0 0
 ALIGN 4
 
 ForrestKnightPaletteList:
-PaletteAssociationEntry(Jacob, $01)
-PaletteAssociationEntry(Dave, $01)
+PaletteAssociationEntry(Jacob, $2E)
+PaletteAssociationEntry(Dave, $2D)
+PaletteAssociationEntry(FarumSlow, $2F)
+PaletteAssociationEntry(Farum, $2F)
 WORD 0 0
 ALIGN 4
 

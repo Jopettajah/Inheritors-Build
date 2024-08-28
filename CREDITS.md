@@ -13,7 +13,7 @@
 - serif: FBerserker
 - Skitty: FBerserker
 - Eldritch Abomination: FMonk
-- Leo_link: Paladins
+- Leo_link: Paladins, Forest Knight
 - The_Big_Dededester: Paladins
 - Pikmin1211: MPaladin, FCav
 - Temp: FWarrior
@@ -33,6 +33,7 @@
 - N426: Desert Bastion
 - Peerless: Frontier
 - WAve: Frontier
+- Epicer: Night Desert palette
 
 # Map Sprites
 
@@ -45,6 +46,8 @@
 - Teraspark: FMonk
 - ArcherBias: Adventurers
 - TheBlindArcher: Halberdier
+- Der: Forest Knight
+- Leo_link: Forest Knight
 
 # Mugs
 
@@ -59,11 +62,12 @@
 - Aruka: Ballistician
 - Yggdra: Ballistician
 - SALVAGED: Cavaliers
-- Der: Knights
+- Der: Knights, Forest Knight
 - Epicer: Knights
 - Rasdel: Outlaw
 - Flasuban: Pegasus Knights, FHero
 - L95: FMercenary, FMyrm
+- Leo_link: Forest Knight
 
 # Item Icons
 - Erekshigal: Skygazer, Youtou, Dawn Edge, Bravery's Gift, Shinespark

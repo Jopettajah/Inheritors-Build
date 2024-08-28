@@ -225,8 +225,8 @@ willing to pay his (affordable) rates.[X]
 
 ## DaveDeathQuote
 [MidRight][LoadDave]
-Is this really[CloseEyes][Beat] The end of Dave?
-[A][X]
+Is this really[CloseEyes][Beat][N]
+The end of Dave?[A][X]
 
 ## AnisName
 Anis[X]

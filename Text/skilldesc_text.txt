@@ -190,7 +190,7 @@ Death Blow: +20 Crit[N]
 when initiating battle.[X]
 
 ## SD_DartingBlow
-Darting Blow: +5 Attack Speed[N]
+Darting Blow: +4 Attack Speed[N]
 when initiating battle.[X]
 
 ## SD_WardingBlow
@@ -391,6 +391,10 @@ of equipped bows is increased.[X]
 ## SD_StaffSavant
 Blind Faith: Grants +1 to maximum[N]
 staff range but -20 to avoid.[X]
+
+## SD_StaffSavant2
+Staff Savant: Grants +3[N]
+to maximum staff range.[X]
 
 ## SD_LiveToServe
 Live to Serve: When healing[N]

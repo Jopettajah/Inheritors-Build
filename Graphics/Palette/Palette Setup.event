@@ -175,3 +175,15 @@
 // FarumGeneral
 	setPalette(0x2C,FarumGeneral)
 	setCBSP(0x2C,Farum,0x1,General)
+
+// DaveForrest
+	setPalette(0x2D,DaveForrest)
+	setCBSP(0x2D,Dave,0x1,ForrestKnight)
+
+// JacobForrest
+	setPalette(0x2E,JacobForrest)
+	setCBSP(0x2E,Jacob,0x1,ForrestKnight)
+
+// FarumForrest
+	setPalette(0x2F,FarumForrest)
+	setCBSP(0x2F,Farum,0x1,ForrestKnight)

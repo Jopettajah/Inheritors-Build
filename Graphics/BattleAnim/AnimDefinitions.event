@@ -110,6 +110,9 @@
 
 #define GeneralBow 0xb6
 
+#define ForestKnightSword 0xb7
+#define ForestKnightUnarmed 0xb8
+
 //////////
  
 ALIGN 4
@@ -254,6 +257,12 @@ AxeAnim(0x46)
 HandAxeAnim(0x47)
 BowAnim(GeneralBow)
 UnarmedAnim(0x48)
+WORD 0x0
+
+ALIGN 4
+ForestKnightAnims:
+SwordAnim(ForestKnightSword)
+UnarmedAnim(ForestKnightUnarmed)
 WORD 0x0
 
 ALIGN 4

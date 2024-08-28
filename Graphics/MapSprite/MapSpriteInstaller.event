@@ -211,3 +211,11 @@ LordMWalk:
 ALIGN 4
 LordFWalk:
 #incbin "dmp/LordFWalk.dmp"
+
+ALIGN 4
+ForrestStand:
+#incbin "dmp/DerLeoForestKnightStand.dmp"
+
+ALIGN 4
+ForrestWalk:
+#incbin "dmp/DerLeoForestKnightWalk.dmp"

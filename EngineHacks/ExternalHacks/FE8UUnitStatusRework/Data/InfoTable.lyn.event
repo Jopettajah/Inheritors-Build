@@ -10,7 +10,7 @@ WORD $0 $0 $0 $1 $0 $0 $0 $0 $5560516
 POIN Gfx_UnitStatus_Silence
 WORD $0 $0 $0 $1 $0 $0 $0 $0 $5550517
 POIN Gfx_UnitStatus_Berserk
-WORD $0 $0 $0 $30001 $FD000000 $200FD $0 $0 $558051B
+WORD $0 $0 $0 $20001 $FD000000 $200FD $0 $0 $558051B
 POIN Gfx_UnitStatus_Attack
 WORD $0 $0 $0 $2 $0 $A000000 $0 $0 $559051C
 POIN Gfx_UnitStatus_Defense

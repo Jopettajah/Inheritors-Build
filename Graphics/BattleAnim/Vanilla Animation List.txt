@@ -161,7 +161,7 @@
 0x9F Archer on Ballista (unused)
 0xA0 Zombie
 0xA1 Mummy
-0xA2 Skeleton w/ Sword		//All replaced up to 
+0xA2 Skeleton w/ Sword		//All replaced up to... 
 0xA3 Skeleton w/ Spear 		
 0xA4 Skeleton Disarmed		
 0xA5 Skeleton w/ Bow		
@@ -181,9 +181,9 @@
 0xB3 Tarvos
 0xB4 Tarvos w/ Hand Axe
 0xB5 Tarvos Disarmed
-0xB6 Macdaire w/ Axe		//End for now
+0xB6 Macdaire w/ Axe	
 0xB7 Macdaire w/ Hand Axe
-0xB8 Macdaire w/ Bow
+0xB8 Macdaire w/ Bow		//End for now
 0xB9 Macdaire Disarmed
 0xBA Bigl
 0xBB Arch Bigl
