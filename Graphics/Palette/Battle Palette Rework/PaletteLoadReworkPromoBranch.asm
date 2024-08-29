@@ -31,6 +31,7 @@ sub r1, r1, r2
 lsr r1, #0x4
 lsl r1, r1, #0x10
 lsr r1, r1, #0x10
+sub r1, #1
 str r1, [sp, #0x58]
 
 DoneWithPalette:

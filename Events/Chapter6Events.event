@@ -1,5 +1,13 @@
 EventPointerTable(Chapter6Events, PointerList)
 
+setText(0x165, NewChName)
+
+ALIGN 4
+NewChName:
+String("Ch6: Liberation at Nightfall")
+BYTE 0
+
+ALIGN 4
 PointerList:
 	POIN TurnBasedEvents
 	POIN CharacterBasedEvents
@@ -67,13 +75,13 @@ Units1:
 EnemyUnits:
 	
 	UNIT JeanneMarie Troubadour JeanneMarie Level(12,Enemy,False) [10,22] 0x0 0x0 0x0 0x0 [Berserk] Ch6BossAI
-	UNIT FarumSlow ForrestKnight JeanneMarie Level(1,Enemy,True) [10,21] 0x0 0x0 0x0 0x0 [IronBlade] Ch6BodyguardAI
+	UNIT FarumSlow ForrestKnight JeanneMarie Level(1,Enemy,True) [10,21] DropItem 0x0 0x0 0x0 [IronBlade, HeroCrest] Ch6BodyguardAI
 	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [4,9] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
 	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [5,10] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
 	UNIT Farum AxeKnight JeanneMarie Level(8,Enemy,True) [13,16] 0x0 0x0 0x0 0x0 [HandAxe] NeverMoveAI
 	UNIT Farum AxeKnight JeanneMarie Level(8,Enemy,True) [14,16] 0x0 0x0 0x0 0x0 [HandAxe] NeverMoveAI
-	UNIT Farum PegasusKnight JeanneMarie Level(8,Enemy,True) [7,14] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI
-	UNIT Farum AxePeg JeanneMarie Level(8,Enemy,True) [8,15] 0x0 0x0 0x0 0x0 [SteelAxe] DefaultAI
+	UNIT Farum PegasusKnight JeanneMarie Level(8,Enemy,True) [8,15] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
+	UNIT Farum AxePeg JeanneMarie Level(8,Enemy,True) [7,14] 0x0 0x0 0x0 0x0 [SteelAxe] DefaultAI
 	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [19,7] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
 	UNIT Farum Soldier JeanneMarie Level(8,Enemy,True) [9,8] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
 	UNIT Farum Shaman JeanneMarie Level(8,Enemy,True) [11,4] 0x0 0x0 0x0 0x0 [Flux] DefaultAI
@@ -87,8 +95,8 @@ EnemyUnits:
 	UNIT Farum Shaman JeanneMarie Level(10,Enemy,True) [2,16] 0x0 0x0 0x0 0x0 [Nosferatu] NeverMoveAI
 	UNIT Farum Shaman JeanneMarie Level(10,Enemy,True) [4,16] 0x0 0x0 0x0 0x0 [Nosferatu] NeverMoveAI
 	UNIT Farum BowKnight JeanneMarie Level(8,Enemy,True) [3,20] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
-	UNIT Farum Mercenary_F JeanneMarie Level(8,Enemy,True) [2,14] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
-	//UNIT Farum Fighter_F JeanneMarie Level(8,Enemy,True) [1,13] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT Farum Mercenary_F JeanneMarie Level(8,Enemy,True) [2,14] 0x0 0x0 0x0 0x0 [SteelSword] DelayedChargeAI
+	UNIT Farum Fighter_F JeanneMarie Level(8,Enemy,True) [1,13] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 	UNIT Farum Soldier JeanneMarie Level(8,Enemy,True) [16,10] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
 	UNIT
 

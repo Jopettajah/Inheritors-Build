@@ -12,7 +12,7 @@ Bow Armour Knight,KnightBowWalk|IsPointer,0x81c7e74
 General,0x81c7fcc,0x81c8a80
 General (F),0x81c7fcc,0x81c8a80
 ForrestKNIGHT,ForrestWalk|IsPointer,0x81c7428
-greatLancer,0x81c95b4,0x81ca124
+greatLancer,GreatLancerWalk|IsPointer,0x81c7428
 Mercenary,0x81ca27c,0x81caa20
 Mercenary (F),MercFWalk|IsPointer,0x81cb2e0
 Hero,0x81cb438,0x81cbd94

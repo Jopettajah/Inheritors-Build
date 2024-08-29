@@ -136,8 +136,8 @@
 0x86 Troubadour			//replaced
 0x87 Valkyrie
 0x88 Valkyrie w/ Staff
-0x89 Thief
-0x8A Thief Disarmed
+0x89 Thief				//R
+0x8A Thief Disarmed		//R
 0x8B Assassin
 0x8C Assassin Disarmed
 0x8D Assassin (F)
@@ -161,7 +161,7 @@
 0x9F Archer on Ballista (unused)
 0xA0 Zombie
 0xA1 Mummy
-0xA2 Skeleton w/ Sword		//All replaced up to... 
+0xA2 Skeleton w/ Sword		//All replaced up to Demon King stuff
 0xA3 Skeleton w/ Spear 		
 0xA4 Skeleton Disarmed		
 0xA5 Skeleton w/ Bow		
@@ -183,13 +183,13 @@
 0xB5 Tarvos Disarmed
 0xB6 Macdaire w/ Axe	
 0xB7 Macdaire w/ Hand Axe
-0xB8 Macdaire w/ Bow		//End for now
+0xB8 Macdaire w/ Bow
 0xB9 Macdaire Disarmed
 0xBA Bigl
 0xBB Arch Bigl
 0xBC Gorgon
 0xBD Gargoyle
-0xBE Gargoyle Disarmed
+0xBE Gargoyle Disarmed		
 0xBF Death Gargoyle
 0xC0 Death Gargoyle Disarmed
 0xC1 Zombie Dragon	//DO NOT TOUCH ZONE

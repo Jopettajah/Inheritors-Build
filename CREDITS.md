@@ -6,14 +6,14 @@
 - Flasuban: Improved FalcoKnight, FHero, PegasusKnight. FPaladin
 - SALVAGED: Cavaliers, Paladins
 - TheBlindArcher: Knight Extra Weapons, General Bow
-- Nuramon: FHero, Hero
+- Nuramon: Heroes, Adventurers
 - BlackMage: FFighter
 - Norikins: Elstone
 - eCut: FBerserker
 - serif: FBerserker
 - Skitty: FBerserker
 - Eldritch Abomination: FMonk
-- Leo_link: Paladins, Forest Knight
+- Leo_link: Paladins, Forest Knight, Dark Knight, Duke Knight
 - The_Big_Dededester: Paladins
 - Pikmin1211: MPaladin, FCav
 - Temp: FWarrior
@@ -23,6 +23,8 @@
 - Ty the Bub: Bald Fighter
 - UltraFenix: PegasusKnight
 - SHYUTERz: Shinespark
+- Apolo15: Dark Knight
+- Enjin: Duke Knight
 
 # Map Tilesets
 
@@ -46,8 +48,8 @@
 - Teraspark: FMonk
 - ArcherBias: Adventurers
 - TheBlindArcher: Halberdier
-- Der: Forest Knight
-- Leo_link: Forest Knight
+- Der: Forest Knight, Duke Knight
+- Leo_link: Forest Knight, Duke Knight
 
 # Mugs
 

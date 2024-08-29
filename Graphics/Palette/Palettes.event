@@ -126,15 +126,15 @@
 #char{0x2B} "FarumPriest" set{Farum,0x1,Priest}
 	5553FF7FFF6B1F4B2E193F4F3D2E9225FB3E352AD26AF57FAD7F4872E63CA514
 	
-#char{0x2C} "FarumGeneral" set{Farum,0x1,General}
+#char{0x2C} "FarumGeneral" set{Farum,0x2,General}
 	5553FF7F797BD372CC51AB45ED4DAB4559676E5AAA41967B48728755E63CA514
 	
-#char{0x2D} "DaveForrest" set{Dave,0x1,ForrestKnight}
+#char{0x2D} "DaveForrest" set{Dave,0x2,ForrestKnight}
 	5553E845FF5BFE3EF43167412635C6282A31C8282F21EC242A31C828871CA514
 
-#char{0x2E} "JacobForrest" set{Jacob,0x1,ForrestKnight}
+#char{0x2E} "JacobForrest" set{Jacob,0x2,ForrestKnight}
 	5553316AFF5BFE3EF431F0656B4D0435F34D4D35C828871C9842B0250A19A514
 
-#char{0x2F} "FarumForrest" set{Farum,0x1,ForrestKnight}
+#char{0x2F} "FarumForrest" set{Farum,0x2,ForrestKnight}
 	55530A7BFF5BFE3EF43148728755E63C8F210B15D372ED4D1D4736324E1DA514
 	

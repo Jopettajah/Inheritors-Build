@@ -1,0 +1,38 @@
+ALIGN 4
+HeroCrestClassList:
+BYTE Myrmidon Myrmidon_F Mercenary Mercenary_F Fighter Fighter_F Brigand
+BYTE 0 0
+
+ALIGN 4
+KnightsCrestClassList:
+BYTE Knight AxeKnight SwordKnight SwordCavalier LanceCavalier AxeCavalier AxeCavalier_F Soldier
+BYTE 0 0
+
+ALIGN 4
+ElysianWhipClassList:
+BYTE PegasusKnight AxePeg
+BYTE 0 0
+
+ALIGN 4
+OrionsBoltClassList:
+BYTE Outlaw Outlaw_F BowKnight
+BYTE 0 0
+
+ALIGN 4
+GuidingRingClassList:
+BYTE Mage Mage_F Shaman Shaman_F Monk Monk_F Priest Cleric Troubadour
+BYTE 0 0
+
+ALIGN 4
+BloodContractClassList:
+BYTE Eye Eye_F Claw Horn Wing Tail
+BYTE 0 0
+
+ALIGN 4
+MasterSealClassList:
+BYTE Myrmidon Myrmidon_F Mercenary Mercenary_F Fighter Fighter_F Brigand
+BYTE Knight AxeKnight SwordKnight SwordCavalier LanceCavalier AxeCavalier AxeCavalier_F Soldier
+BYTE Outlaw Outlaw_F BowKnight
+BYTE PegasusKnight AxePeg
+BYTE Mage Mage_F Shaman Shaman_F Monk Monk_F Priest Cleric Troubadour
+BYTE 0 0

@@ -113,6 +113,20 @@
 #define ForestKnightSword 0xb7
 #define ForestKnightUnarmed 0xb8
 
+#define AdventurerBow 0xb9
+#define AdventurerStaff 0xba
+#define AdventurerUnarmed 0xbb
+
+#define AdventurerFBow 0xbc
+#define AdventurerFStaff 0xbd
+#define AdventurerFUnarmed 0xbe
+
+#define GreatLancerLance 0xbf
+#define GreatLancerUnarmed 0xc0
+
+#define DarkKnightSword 0x89
+#define DarkKnightMagic 0x8A
+
 //////////
  
 ALIGN 4
@@ -263,6 +277,33 @@ ALIGN 4
 ForestKnightAnims:
 SwordAnim(ForestKnightSword)
 UnarmedAnim(ForestKnightUnarmed)
+WORD 0x0
+
+ALIGN 4
+AdventurerAnims:
+BowAnim(AdventurerBow)
+StaffAnim(AdventurerStaff)
+UnarmedAnim(AdventurerUnarmed)
+WORD 0x0
+
+ALIGN 4
+AdventurerFAnims:
+BowAnim(AdventurerFBow)
+StaffAnim(AdventurerFStaff)
+UnarmedAnim(AdventurerFUnarmed)
+WORD 0x0
+
+ALIGN 4
+GreatLancerAnims:
+SpearAnim(GreatLancerLance)
+UnarmedAnim(GreatLancerUnarmed)
+WORD 0x0
+
+ALIGN 4
+DarkKnightAnims:
+SwordAnim(DarkKnightSword)
+DarkAnim(DarkKnightMagic)
+UnarmedAnim(DarkKnightMagic)
 WORD 0x0
 
 ALIGN 4

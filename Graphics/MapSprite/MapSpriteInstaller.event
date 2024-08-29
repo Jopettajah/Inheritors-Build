@@ -219,3 +219,11 @@ ForrestStand:
 ALIGN 4
 ForrestWalk:
 #incbin "dmp/DerLeoForestKnightWalk.dmp"
+
+ALIGN 4
+GreatLancerStand:
+#incbin "dmp/DukeKnightLeoDerStand.dmp"
+
+ALIGN 4
+GreatLancerWalk:
+#incbin "dmp/DukeKnightLeoDerWalk.dmp"

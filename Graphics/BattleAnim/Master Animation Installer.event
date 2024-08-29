@@ -73,6 +73,7 @@
 #include "SALVAGEDFPally/Lance Installer.event"
 #include "SALVAGEDFPally/Axe Installer.event"
 #include "SALVAGEDFPally/Handaxe Installer.event"
+#include "SALVAGEDFPally/Unarmed Installer.event"
 }
 
 {
@@ -80,6 +81,7 @@
 #include "SALVAGEDPally/Lance Installer.event"
 #include "SALVAGEDPally/Axe Installer.event"
 #include "SALVAGEDPally/Handaxe Installer.event"
+#include "SALVAGEDPally/Unarmed Installer.event"
 }
 
 {
@@ -118,4 +120,26 @@
 {
 #include "ForestKnightLeo_Link/Sword Installer.event"
 #include "ForestKnightLeo_Link/Unarmed Installer.event"
+}
+
+{
+#include "MarksmanFNuramon/Bow Installer.event"
+#include "MarksmanFNuramon/Staff Installer.event"
+#include "MarksmanFNuramon/Unarmed Installer.event"
+}
+
+{
+#include "MarksmanNuramon/Bow Installer.event"
+#include "MarksmanNuramon/Staff Installer.event"
+#include "MarksmanNuramon/Unarmed Installer.event"
+}
+
+{
+#include "DarkKnightLeo_Link/Sword Installer.event"
+#include "DarkKnightLeo_Link/Magic Installer.event"
+}
+
+{
+#include "DukeKnightLeo_Link/Lance Installer.event"
+#include "DukeKnightLeo_Link/Unarmed Installer.event"
 }

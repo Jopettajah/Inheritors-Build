@@ -26,8 +26,8 @@ Assassin,1,0,22,0
 Assassin (F),1,0,22,0
 Outlaw,1,30,20,0
 Outlaw (F),1,30,20,0
-Adventurer,1,10,24,1
-Adventurer (F),1,10,24,1
+Adventurer,1,30,24,3
+Adventurer (F),1,30,24,3
 Ranger,0,0,22,0
 Ranger (F),0,0,22,0
 Wing,0,0,20,0
@@ -48,8 +48,8 @@ Shaman,2,50,20,0
 Shaman (F),3,45,20,0
 Druid,6,55,29,0
 Druid (F),7,55,29,0
-DarkKnight,5,50,27,0
-DarkKnightF,5,50,27,0
+DarkKnight,5,50,27,3
+DarkKnightF,5,50,27,1
 Rogue,3,25,26,3
 Gorgon Egg,0,0,30,0
 Great Knight,0,0,21,0
