@@ -138,8 +138,8 @@
 0x88 Valkyrie w/ Staff
 0x89 Thief				//R
 0x8A Thief Disarmed		//R
-0x8B Assassin
-0x8C Assassin Disarmed
+0x8B Assassin			//R
+0x8C Assassin Disarmed	//R
 0x8D Assassin (F)
 0x8E Assassin (F) Disarmed
 0x8F Rogue

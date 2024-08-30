@@ -78,6 +78,12 @@ POP
   
   //#include "C_Code.lyn.event"
   
+  #ifdef __DEBUG__
+	#ifndef Playtest
+		#include "ExternalHacks/Debugger/Installer.event"
+	#endif
+  #endif
+  
   #include "ExternalHacks/BerserkRework/C_Code.lyn.event"
   
   #include "ExternalHacks/StatscreenLabelPalOverride/C_Code.lyn.event"

@@ -5,7 +5,7 @@
 
 - Flasuban: Improved FalcoKnight, FHero, PegasusKnight. FPaladin
 - SALVAGED: Cavaliers, Paladins
-- TheBlindArcher: Knight Extra Weapons, General Bow
+- TheBlindArcher: Knight Extra Weapons, General Bow, Halberdier
 - Nuramon: Heroes, Adventurers
 - BlackMage: FFighter
 - Norikins: Elstone
@@ -25,6 +25,7 @@
 - SHYUTERz: Shinespark
 - Apolo15: Dark Knight
 - Enjin: Duke Knight
+
 
 # Map Tilesets
 

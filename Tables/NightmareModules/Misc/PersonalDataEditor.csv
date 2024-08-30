@@ -8,7 +8,7 @@ Sword Cavalier,0x2c2,ForrestKnightClass,TriangleAdeptID,DartingBlowID,PaladinDes
 Lance Cavalier,0x2c2,GreatLancerClass,TriangleAdeptID,ChargeID,PaladinDesc,GreatLancerDesc,0x0000
 Paladin,NoPromoText,0x0000,0x0000,0x0000,NoPromoDesc,0x0000,0x0000
 Paladin (F),NoPromoText,0x0000,0x0000,0x0000,NoPromoDesc,0x0000,0x0000
-Lance Armour Knight,0x2c4,0x0000,LilysPoiseID,0x0000,GeneralDesc,0x0000,0x0000
+Lance Armour Knight,0x2c4,HalberdierClass,LilysPoiseID,LancefaireID,GeneralDesc,HalberdierDesc,0x0000
 Bow Armor Knight,0x2c4,BallistaClass,LilysPoiseID,TowerShieldID,GeneralDesc,BallistaDesc,0x0000
 General,NoPromoText,0x0000,0x0000,0x0000,NoPromoDesc,0x0000,0x0000
 General (F),NoPromoText,0x0000,0x0000,0x0000,NoPromoDesc,0x0000,0x0000

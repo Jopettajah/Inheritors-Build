@@ -14,8 +14,8 @@ WORD 0 0
 ALIGN 4
 
 PaladinPaletteList:
-PaletteAssociationEntry(Jacob, $3A)
-PaletteAssociationEntry(Lucian, $3B)
+PaletteAssociationEntry(Jacob, $33)
+PaletteAssociationEntry(Lucian, $37)
 PaletteAssociationEntry(Hudson, $3C)
 WORD 0 0
 ALIGN 4
@@ -27,7 +27,7 @@ ALIGN 4
 
 PaladinFPaletteList:
 PaletteAssociationEntry(Lagrange, $0E)
-PaletteAssociationEntry(Nella, $54)
+PaletteAssociationEntry(Nella, $44)
 WORD 0 0
 ALIGN 4
 
@@ -35,7 +35,7 @@ ALIGN 4
 ArmorPaletteList:
 PaletteAssociationEntry(Garry, $01)
 PaletteAssociationEntry(Thom, $0C)
-PaletteAssociationEntry(Ferryn, $54)
+PaletteAssociationEntry(Ferryn, $3C)
 PaletteAssociationEntry(Hollie, $02)
 PaletteAssociationEntry(Farum, $1E)
 PaletteAssociationEntry(Goon, $1E)
@@ -43,11 +43,12 @@ WORD 0 0
 ALIGN 4
 
 GeneralPaletteList:
-PaletteAssociationEntry(Garry, $24)
-PaletteAssociationEntry(Hollie, $25)
+PaletteAssociationEntry(Garry, $3F)
+PaletteAssociationEntry(Hollie, $41)
 PaletteAssociationEntry(Avery, $26)
-PaletteAssociationEntry(Ferryn, $27)
+PaletteAssociationEntry(Ferryn, $3D)
 PaletteAssociationEntry(FarumWeak, $2C)
+PaletteAssociationEntry(Farum, $2C)
 WORD 0 0
 ALIGN 4
 
@@ -65,7 +66,7 @@ ALIGN 4
 
 HeroFPaletteList:
 PaletteAssociationEntry(Inga, $12)
-PaletteAssociationEntry(Kimiko, $54)
+PaletteAssociationEntry(Kimiko, $34)
 WORD 0 0
 ALIGN 4
 
@@ -79,8 +80,8 @@ WORD 0 0
 ALIGN 4
 
 SwordmasterPaletteList:
-PaletteAssociationEntry(Mauritch, $59)
-PaletteAssociationEntry(Kimiko, $5C)
+PaletteAssociationEntry(Mauritch, $42)
+PaletteAssociationEntry(Kimiko, $35)
 WORD 0 0
 ALIGN 4
 
@@ -95,17 +96,16 @@ WORD 0 0
 ALIGN 4
 
 AdventurerPaletteList:
-PaletteAssociationEntry(Diane, $52)
+PaletteAssociationEntry(Diane, $31)
 PaletteAssociationEntry(Henrik, $53)
 PaletteAssociationEntry(Winton, $54)
 WORD 0 0
 ALIGN 4
 
 RangerPaletteList:
-PaletteAssociationEntry(Gerik, $21)
-PaletteAssociationEntry(Neimi, $22)
+PaletteAssociationEntry(Diane, $32)
+PaletteAssociationEntry(Winton, $22)
 PaletteAssociationEntry(Beran, $23)
-PaletteAssociationEntry(Hayden, $5A)
 WORD 0 0
 ALIGN 4
 
@@ -123,7 +123,7 @@ ALIGN 4
 
 SagePaletteList:
 PaletteAssociationEntry(Emmanuel, $47)
-PaletteAssociationEntry(Anis, $48)
+PaletteAssociationEntry(Anis, $3A)
 PaletteAssociationEntry(Glaw, $49)
 WORD 0 0
 ALIGN 4
@@ -142,6 +142,7 @@ WORD 0 0
 ALIGN 4
 
 ShamanPaletteList:
+PaletteAssociationEntry(Farum,$3B)
 WORD 0 0
 ALIGN 4
 
@@ -158,14 +159,14 @@ WORD 0 0
 ALIGN 4
 
 DarkKnightPaletteList:
-PaletteAssociationEntry(Mauritch, $50)
+PaletteAssociationEntry(Mauritch, $38)
 PaletteAssociationEntry(Nishay, $51)
 WORD 0 0
 ALIGN 4
 
 GKPaletteList:
-PaletteAssociationEntry(Garry, $28)
-PaletteAssociationEntry(Nella, $29)
+PaletteAssociationEntry(Garry, $40)
+PaletteAssociationEntry(Nella, $45)
 WORD 0 0
 ALIGN 4
 
@@ -176,10 +177,6 @@ ALIGN 4
 AxeFighterPaletteList:
 PaletteAssociationEntry(Marco, $17)
 PaletteAssociationEntry(Farum, $27)
-WORD 0 0
-ALIGN 4
-
-AxeFighterFPaletteList:
 //PaletteAssociationEntry(Katja, $54)
 PaletteAssociationEntry(Brigand_Enemy, $1A)
 WORD 0 0
@@ -287,8 +284,9 @@ WORD 0 0
 ALIGN 4
 
 GreatLancerPaletteList:
-PaletteAssociationEntry(Lucian, $01)
-PaletteAssociationEntry(Pieter, $01)
+PaletteAssociationEntry(Lucian, $36)
+PaletteAssociationEntry(Pieter, $39)
+PaletteAssociationEntry(Tirado, $30)
 WORD 0 0
 ALIGN 4
 
@@ -312,6 +310,8 @@ WORD 0 0
 ALIGN 4
 
 HalberdierPaletteList:
+PaletteAssociationEntry(Pieter,$43)
+PaletteAssociationEntry(Ferryn,$3E)
 WORD 0 0
 ALIGN 4
 
@@ -420,7 +420,7 @@ MapClassIdToPalettes:
 	SetClassPaletteTable(Gut, NO_PALETTE)
 	SetClassPaletteTable(AxeKnight, ArmorPaletteList)
 	SetClassPaletteTable(SwordKnight, ArmorPaletteList)
-	SetClassPaletteTable(Fighter_F, AxeFighterFPaletteList)
+	SetClassPaletteTable(Fighter_F, AxeFighterPaletteList)
 	SetClassPaletteTable(Warrior_F, WarriorFPaletteList)
 	SetClassPaletteTable(Berserker_F, BerserkerFPaletteList)
 	SetClassPaletteTable(Ballistician_F, NO_PALETTE)

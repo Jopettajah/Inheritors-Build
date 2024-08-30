@@ -58,8 +58,8 @@ Tutorial:
 Units1:
 	//UNIT Curtis Gut 0x0 Level(7,Ally,False) [1,0] 0x00 0x00 0x00 0x00 [0xc5] NoAI
 	//UNIT Marco Fighter 0x0 Level(8,Ally,False) [1,0] 0x0 0x0 0x0 0x0 [SteelAxe] NoAI
-	UNIT Hefina Tail 0x0 Level(10,Ally,False) [0,0] 0x0 0x0 0x0 0x0 [Gheist,Elstone,Flux,BloodContract] NoAI
-	UNIT Libby Druid_F 0x0 Level(1,Ally,False) [0,1] 0x0 0x0 0x0 0x0 [Gheist,BraverysGift] NoAI
+	//UNIT Hefina Tail 0x0 Level(10,Ally,False) [0,0] 0x0 0x0 0x0 0x0 [Gheist,Elstone,Flux,BloodContract] NoAI
+	//UNIT Libby Druid_F 0x0 Level(1,Ally,False) [0,1] 0x0 0x0 0x0 0x0 [Gheist,BraverysGift] NoAI
 	//UNIT Sibyl Dancer 0x0 Level(1,Ally,False) [1,1] 0x0 0x0 0x0 0x0 [0x0] NoAI
 	UNIT Dave Mercenary 0x0 Level(10,Ally,False) [2,1] 0x0 0x0 0x0 0x0 [DawnEdge,0xc8, HeroCrest] NoAI
 	UNIT Diane Outlaw_F 0x0 Level(10,Ally,False) [2,6] 0x0 0x0 0x0 0x0 [IronBow, OrionsBolt] NoAI
@@ -70,11 +70,13 @@ Units1:
 	UNIT Jacob SwordCavalier 0x0 Level(10,Ally,False) [2,5] 0x0 0x0 0x0 0x0 [KnightCrest] NoAI
 	//UNIT Hollie Ballistician_F 0x0 Level(2,Ally,True) [1,2] 0x0 0x0 0x0 0x0 [Ballista] NoAI
 	//UNIT Anis Monk_F 0x0 Level(3,Ally,True) [3,0] 0x0 0x0 0x0 0x0 [Lightning, Shinespark] NoAI
-	UNIT Alysa Recruit_1 0x0 Level(10,Ally,True) [0,3] 0x0 0x0 0x0 [Skygazer] NoAI	
-	UNIT Inga Hero_F 0x0 Level(1,Ally,False) [2,0] 0x0 0x0 0x0 0x0 [Mooncleaver] NoAI
+	//UNIT Alysa Recruit_1 0x0 Level(10,Ally,True) [0,3] 0x0 0x0 0x0 [Skygazer] NoAI	
+	//UNIT Inga Hero_F 0x0 Level(1,Ally,False) [2,0] 0x0 0x0 0x0 0x0 [Mooncleaver] NoAI
 	//UNIT Winton Outlaw 0x0 Level(10,Ally,True) [3,3] 0x0 0x0 0x0 [ShiningBow] NoAI
-	UNIT Lauren Troubadour 0x0 Level(3,Ally,True) [3,3] 0x0 0x0 0x0 0x1 [Heal, Mend, Vulnerary, Repositioner] NoAI
-	UNIT Ellie Druid_F 0x0 Level(1,Ally,False) [0,6] 0x0 0x0 0x0 0x0 [Flux, Gheist] NoAI
+	//UNIT Lauren Troubadour 0x0 Level(3,Ally,True) [3,3] 0x0 0x0 0x0 0x1 [Heal, Mend, Vulnerary, Repositioner] NoAI
+	//UNIT Ellie Druid_F 0x0 Level(1,Ally,False) [0,6] 0x0 0x0 0x0 0x0 [Flux, Gheist] NoAI
+	UNIT Lucian LanceCavalier 0x0 Level(10,Ally,False) [1,6] 0x0 0x0 0x0 0x0 [KnightCrest] NoAI
+	UNIT Pieter Soldier 0x0 Level(10,Ally,False) [1,7] 0x0 0x0 0x0 0x0 [KnightCrest] NoAI
 	UNIT
 
 EnemyUnits:
@@ -219,6 +221,8 @@ DebugArmory:
 	SHORT IronBow
 	SHORT SteelBow
 	SHORT Longbow
+	SHORT MasterSeal
+	SHORT BloodContract
 	SHORT 0
 	SHORT 0	
 	

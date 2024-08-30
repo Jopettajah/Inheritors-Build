@@ -127,6 +127,9 @@
 #define DarkKnightSword 0x89
 #define DarkKnightMagic 0x8A
 
+#define HalberdierLance 0x8B
+#define HalberdierUnarmed 0x8C
+
 //////////
  
 ALIGN 4
@@ -304,6 +307,12 @@ DarkKnightAnims:
 SwordAnim(DarkKnightSword)
 DarkAnim(DarkKnightMagic)
 UnarmedAnim(DarkKnightMagic)
+WORD 0x0
+
+ALIGN 4
+HalbAnims:
+SpearAnim(HalberdierLance)
+UnarmedAnim(HalberdierUnarmed)
 WORD 0x0
 
 ALIGN 4

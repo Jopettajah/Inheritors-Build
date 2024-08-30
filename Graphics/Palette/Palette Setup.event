@@ -187,3 +187,91 @@
 // FarumForrest
 	setPalette(0x2F,FarumForrest)
 	setCBSP(0x2F,Farum,0x2,ForrestKnight)
+
+// Boss7Pal
+	setPalette(0x30,Boss7Pal)
+	setCBSP(0x30,Tirado,0x2,GreatLancer)
+
+// DianeAdventurer
+	setPalette(0x31,DianeAdventurer)
+	setCBSP(0x31,Diane,0x2,Adventurer_F)
+
+// DianeBowKnight
+	setPalette(0x32,DianeBowKnight)
+	setCBSP(0x32,Diane,0x2,Ranger_F)
+
+// JacobPaladin
+	setPalette(0x33,JacobPaladin)
+	setCBSP(0x33,Jacob,0x2,Paladin)
+
+// KimikoHero
+	setPalette(0x34,KimikoHero)
+	setCBSP(0x34,Kimiko,0x2,Hero_F)
+
+// KimikoSwordmaster
+	setPalette(0x35,KimikoSwordmaster)
+	setCBSP(0x35,Kimiko,0x2,Swordmaster_F)
+
+// LucianGreatLancer
+	setPalette(0x36,LucianGreatLancer)
+	setCBSP(0x36,Lucian,0x2,GreatLancer)
+
+// LucianPaladin
+	setPalette(0x37,LucianPaladin)
+	setCBSP(0x37,Lucian,0x2,Paladin)
+
+// MauritchDarkKnight
+	setPalette(0x38,MauritchDarkKnight)
+	setCBSP(0x38,Mauritch,0x2,DarkKnight)
+
+// PieterGreatLancer
+	setPalette(0x39,PieterGreatLancer)
+	setCBSP(0x39,Pieter,0x2,GreatLancer)
+
+// AnisSage
+	setPalette(0x3A,AnisSage)
+	setCBSP(0x3A,Anis,0x2,Sage_F)
+
+// FarumShaman
+	setPalette(0x3B,FarumShaman)
+	setCBSP(0x3B,Farum,0x1,Shaman)
+
+// FerrynArmor
+	setPalette(0x3C,FerrynArmor)
+	setCBSP(0x3C,Ferryn,0x1,Knight)
+
+// FerrynGeneral
+	setPalette(0x3D,FerrynGeneral)
+	setCBSP(0x3D,Ferryn,0x2,General_F)
+
+// FerrynHalb
+	setPalette(0x3E,FerrynHalb)
+	setCBSP(0x3E,Ferryn,0x2,Halberdier_F)
+
+// GarryGeneral
+	setPalette(0x3F,GarryGeneral)
+	setCBSP(0x3F,Garry,0x2,General)
+
+// GarryGreatKnight
+	setPalette(0x40,GarryGreatKnight)
+	setCBSP(0x40,Garry,0x2,GreatKnight)
+
+// HollieGeneral
+	setPalette(0x41,HollieGeneral)
+	setCBSP(0x41,Hollie,0x2,General_F)
+
+// MauritchSwordmaster
+	setPalette(0x42,MauritchSwordmaster)
+	setCBSP(0x42,Mauritch,0x2,Swordmaster)
+
+// PieterHalb
+	setPalette(0x43,PieterHalb)
+	setCBSP(0x43,Pieter,0x2,Halberdier)
+
+// NellaPaladin
+	setPalette(0x44,NellaPaladin)
+	setCBSP(0x44,Nella,0x2,Paladin_F)
+
+// NellaGreatKnight
+	setPalette(0x45,NellaGreatKnight)
+	setCBSP(0x45,Nella,0x2,GreatKnight_F)

@@ -141,3 +141,69 @@ JacobForrest:
 FarumForrest:
 	#incbin "./_palettes/FarumForrest.lzpal" 
 
+Boss7Pal:
+	#incbin "./_palettes/Boss7Pal.lzpal" 
+
+DianeAdventurer:
+	#incbin "./_palettes/DianeAdventurer.lzpal" 
+
+DianeBowKnight:
+	#incbin "./_palettes/DianeBowKnight.lzpal" 
+
+JacobPaladin:
+	#incbin "./_palettes/JacobPaladin.lzpal" 
+
+KimikoHero:
+	#incbin "./_palettes/KimikoHero.lzpal" 
+
+KimikoSwordmaster:
+	#incbin "./_palettes/KimikoSwordmaster.lzpal" 
+
+LucianGreatLancer:
+	#incbin "./_palettes/LucianGreatLancer.lzpal" 
+
+LucianPaladin:
+	#incbin "./_palettes/LucianPaladin.lzpal" 
+
+MauritchDarkKnight:
+	#incbin "./_palettes/MauritchDarkKnight.lzpal" 
+
+PieterGreatLancer:
+	#incbin "./_palettes/PieterGreatLancer.lzpal" 
+
+AnisSage:
+	#incbin "./_palettes/AnisSage.lzpal" 
+
+FarumShaman:
+	#incbin "./_palettes/FarumShaman.lzpal" 
+
+FerrynArmor:
+	#incbin "./_palettes/FerrynArmor.lzpal" 
+
+FerrynGeneral:
+	#incbin "./_palettes/FerrynGeneral.lzpal" 
+
+FerrynHalb:
+	#incbin "./_palettes/FerrynHalb.lzpal" 
+
+GarryGeneral:
+	#incbin "./_palettes/GarryGeneral.lzpal" 
+
+GarryGreatKnight:
+	#incbin "./_palettes/GarryGreatKnight.lzpal" 
+
+HollieGeneral:
+	#incbin "./_palettes/HollieGeneral.lzpal" 
+
+MauritchSwordmaster:
+	#incbin "./_palettes/MauritchSwordmaster.lzpal" 
+
+PieterHalb:
+	#incbin "./_palettes/PieterHalb.lzpal" 
+
+NellaPaladin:
+	#incbin "./_palettes/NellaPaladin.lzpal" 
+
+NellaGreatKnight:
+	#incbin "./_palettes/NellaGreatKnight.lzpal" 
+

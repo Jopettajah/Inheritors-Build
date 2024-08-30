@@ -143,3 +143,8 @@
 #include "DukeKnightLeo_Link/Lance Installer.event"
 #include "DukeKnightLeo_Link/Unarmed Installer.event"
 }
+
+{
+#include "HalberdierTBA/Lance Installer.event"
+#include "HalberdierTBA/Unarmed Installer.event"
+}
