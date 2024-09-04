@@ -26,11 +26,11 @@
 	//Clear more vram so the class name isn't overwritten
 	ORG $9BF1E
 	BYTE 0x0A
-	
+	/*
 	//Repoint the TSA
 	ORG $9C660
 	jumpToHack(Prep_Screen_New_TSA)
-	
+	*/
 	//Move stat numbers down and insert new ones as needed
 	ORG $9C2B0
 	callHack_r3(Prep_Screen_Mag_Number)

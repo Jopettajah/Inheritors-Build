@@ -51,3 +51,19 @@
 #define FirstUnisonID 0x62
 #define HiddenHighlandID 0x63
 #define DrunkAsILikeID 0x64
+#define KnightsOathID 0x92
+#define HeavyArmoredCorpsID 0x93
+#define ShiverID 0x94
+#define EarthboundID 0xA8
+#define FlameAndArrowID 0xA9
+#define ShadowsOfIllusionID 0xAD
+#define CrimeOfTheHeartID 0xAE
+/*
+#define 0xC0
+#define 0xc1
+#define 0xc2
+#define 0xc3
+#define 0xc4
+#define 0xc5
+#define 0xc6
+*/

@@ -120,3 +120,24 @@ SongTable(HiddenHighlandID,HiddenHighland,MapMusicGroup)
 
 SongTable(DrunkAsILikeID,DrunkAsIlikeTheDUBSpeedArt0,MapMusicGroup)
 #include "event/DrunkAsIlikeTheDUBSpeedArt0.event"
+
+SongTable(KnightsOathID,knightsoath2,MapMusicGroup)
+#include "event/knightsoath2.event"
+
+SongTable(HeavyArmoredCorpsID,HeavyArmorCorps4,MapMusicGroup)
+#include "event/HeavyArmorCorps4.event"
+
+SongTable(ShiverID,shiver000,BattleMusicGroup)
+#include "event/shiver000.event"
+
+SongTable(EarthboundID,earthbound0,MapMusicGroup)
+#include "event/earthbound0.event"
+
+SongTable(FlameAndArrowID,theflameandthearrow0,MapMusicGroup)
+#include "event/theflameandthearrow0.event"
+
+SongTable(ShadowsOfIllusionID,shadowsOfIllusion,MapMusicGroup)
+#include "event/shadowsOfIllusion.event"
+
+SongTable(CrimeOfTheHeartID,crimeoftheheart0,MapMusicGroup)
+#include "event/crimeoftheheart0.event"

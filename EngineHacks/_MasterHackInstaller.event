@@ -84,6 +84,8 @@ POP
 	#endif
   #endif
   
+  #include "ExternalHacks/Changing preparation BGM/Installer.event"
+  
   #include "ExternalHacks/BerserkRework/C_Code.lyn.event"
   
   #include "ExternalHacks/StatscreenLabelPalOverride/C_Code.lyn.event"

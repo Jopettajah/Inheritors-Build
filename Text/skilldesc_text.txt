@@ -1,3 +1,8 @@
+## SD_EarlyRiser 
+Early Riser: Anis gains +4 Atk/AS[N]
+when no allies or enemies have[N]
+successfully ended their turn.[X]
+
 ## SD_CaringColdShoulder
 Caring Cold Shoulder: Inga deals[N]
 +3 more and takes -3 less damage[N]

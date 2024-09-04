@@ -332,6 +332,8 @@
 
 //Pre-Battle Skills
 
+#define EarlyRiserID 63
+
 //
 #define CaringColdShoulderID 38
 

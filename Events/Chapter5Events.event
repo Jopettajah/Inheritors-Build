@@ -234,7 +234,7 @@ DaveOpening:
 	TEXTEND
 	REMA
 	
-	MUSCFAST HouraiVictimID
+	MUSCFAST LakesNMarshesID
 	CAMERA Curtis
 	CURSOR_FLASHING [14,14]
 	STAL 50

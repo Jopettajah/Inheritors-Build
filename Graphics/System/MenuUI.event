@@ -51,6 +51,9 @@ PrepsItemsTSA:
 PrepsItemsSecondUnitTSA:
 #incbin "dmp/PrepsItemsSecondUnit.tmx.dmp"
 
+PrepsItemsUseTSA:
+#incbin "dmp/PrepsItemsUse.tmx.dmp"
+
 OptionsTSA:
 #incbin "dmp/Options.tmx.dmp"
 
@@ -125,7 +128,7 @@ POIN Preps2TSA
 ORG $9A8E0
 POIN PrepsUnitsTSA
 ORG $9A8A0 // this loads extra ui tiles over the normal ones for some reason
-SHORT 0x46C0 0x46C0 // nop nop
+SHORT $46C0 $46C0 // nop nop
 
 ORG $98D78
 POIN PrepsItemsTSA
@@ -136,6 +139,11 @@ POIN PrepsItemsTSA
 
 ORG $99C4C
 POIN PrepsItemsSecondUnitTSA
+
+ORG $9C804
+POIN PrepsItemsUseTSA
+ORG $9C65C // this loads extra ui tiles over the normal ones for some reason (again?!)
+SHORT $46C0 $46C0 // nop nop
 
 ORG $A14D8
 POIN SupportMenuTSA
@@ -156,6 +164,7 @@ POIN SupplyMugTSA
 
 ORG $B4E04
 POIN ShopMugWindowTSA
+
 
 ORG $DA2F4 //Unit menu tilemap ($10 & TileID, 10 is palette stuff)
 SHORT $1001 $1003 $1003 $1004 //Top row

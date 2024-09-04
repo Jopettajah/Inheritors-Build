@@ -26,7 +26,7 @@ Ice Man[X]
 Vanishing Trooper[X]
 
 ## MiitopiaBattleName
-Miitopia Event Battle[X]
+Event Battle[X]
 
 ## DarkColossusName
 Dark Colossus Destroys All[X]
@@ -105,3 +105,24 @@ Hidden Highland[X]
 
 ## DrunkAsILikeName
 Drunk As I Like![X]
+
+## AfterTheBattleName
+After the Battle[X]
+
+## HeavyArmoredCorpsName
+Heavy Armored Corps[X]
+
+## ShiverName
+Battlefield ~ Shiver[X]
+
+## EarthboundName
+Earthbound[X]
+
+## FlameAndArrowName
+The Flame and the Arrow[X]
+
+## ShadowsOfIllusionName
+Shadows of Illusion[X]
+
+## CrimeOfTheHeartName
+Crime of the Heart[X]
