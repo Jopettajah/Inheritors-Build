@@ -94,6 +94,35 @@ Vanishes afterwards.[X]
 ## ShineDesc
 Doubles as a torch.[X]
 
+## ThunderclapName
+Thunderclap[X]
+
+## ThunderclapDesc
+Imbued with thunder magic.[N]
+Effective on wet targets.[X]
+
+## ThunderDesc
+Effective on wet targets.[X]
+
+## OldEdgeName
+Old Edge[X]
+
+## OldEdgeDesc
+Dave only.[X]
+
+## DesertWindName
+Desert Wind[X]
+
+## DesertWindDesc
+Sibyl only. Grants Galeforce.[X]
+
+## CloudrunnerName
+Cloudrunner[X]
+
+## CloudrunnerDesc
+Sana only. Grants +15 avoid[N]
+against grounded melee enemies.[X]
+
 ## KnightCrestDesc
 For knights, cavaliers and[N]
 soldiers Lv. 10 and up.[X]
@@ -102,7 +131,6 @@ soldiers Lv. 10 and up.[X]
 Use this on a worthy[N]
 knight (not bow),[N]
 cavalier or soldier.[X]
-
 
 ## BloodContractName
 Blood Contract[X]

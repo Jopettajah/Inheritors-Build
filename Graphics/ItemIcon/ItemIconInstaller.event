@@ -24,6 +24,10 @@ POP
 #define BraveryIconID 230
 #define ShiningBowIconID 231
 #define ShineSparkIconID 232
+#define ThunderclapIconID 233
+#define DesertWindIconID 234
+#define OldEdgeIconID 235
+#define CloudrunnerIconID 236
 
 PUSH 
 ItemIconEntry(SkygazerIconID)
@@ -58,5 +62,17 @@ ItemIconEntry(ShiningBowIconID)
 
 ItemIconEntry(ShineSparkIconID)
 #incbin "dmp/EreshkigalLight4.dmp"
- 
+
+ItemIconEntry(ThunderclapIconID)
+#incbin "dmp/CeliceSword32.dmp"
+
+ItemIconEntry(DesertWindIconID)
+#incbin "dmp/CamTech075icon078.dmp"
+
+ItemIconEntry(OldEdgeIconID)
+#incbin "dmp/EreshkigalBlade2.dmp"
+
+ItemIconEntry(CloudrunnerIconID)
+#incbin "dmp/SealSword2.dmp"
+
 POP 

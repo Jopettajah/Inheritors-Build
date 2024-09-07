@@ -73,9 +73,9 @@
 #define Shine 0x40
 #define Divine 0x41
 #define Purge 0x42
-#define Aura 0x43
-#define Luce 0x44
-#define Flux 0x45
+#define Aura 0x43*/
+#define DesertWind 0x44
+/*#define Flux 0x45
 #define Luna 0x46
 #define Nosferatu 0x47
 #define Eclipse 0x48
@@ -232,9 +232,12 @@
 #define DawnEdge 0xC3
 #define Gheist 0xC4
 #define Repositioner 0xC7
+#define Thunderclap 0xc8
+#define OldEdge 0xc9
 #define BraverysGift 0xCA
 #define ShiningBow 0xCB
 #define Shinespark 0xCC
+#define Cloudrunner 0xcd
 
 //Aliases
 #define AxeReaver Axereaver

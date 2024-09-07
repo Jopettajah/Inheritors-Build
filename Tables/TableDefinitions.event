@@ -59,6 +59,8 @@
 #define SkygazerLock 	0x02000000
 #define BallistaLock 	0x03000000
 #define BowLock 		0x04000000
+#define OldEdgeLock		0x05000000
+#define SibylLock		0x06000000
 
 
 // Weapon Effect

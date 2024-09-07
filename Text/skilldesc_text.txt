@@ -1,3 +1,7 @@
+## SD_DivineIntervention
+Divine Intervention: Luck%[N]
+chance to reroll missed attacks.[X]
+
 ## SD_EarlyRiser 
 Early Riser: Anis gains +4 Atk/AS[N]
 when no allies or enemies have[N]

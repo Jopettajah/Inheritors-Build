@@ -9,6 +9,8 @@ extern int GetSupportLevelBySupportIndex(struct Unit*, int num);
 extern void SetBit(u32* address, u8 bitOffset);
 
 extern int CaringColdShoulderID_Link;
+extern int EarlyRiserID_Link;
+extern int UngroundedID_Link;
 
 /*
 void ___(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
@@ -40,6 +42,48 @@ void CaringColdShoulder(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 		if (applyBoosts) {
 			bunitA->battleAttack += 3;
 			bunitA->battleDefense += 3;
+		}
+	}
+	return;
+}
+
+void EarlyRiser(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
+	if (SkillTester(&bunitA->unit, EarlyRiserID_Link)) {
+		
+		bool applyBoosts = TRUE;
+		int phase = GetCurrentPhase();
+
+		for (int i = 1 + phase; i < phase + 0x40; i++) {
+
+			struct Unit* unit = GetUnit(i);
+
+			if (!UNIT_IS_VALID(unit)) {
+				continue;
+			}
+
+			if (unit->state & US_UNAVAILABLE) {
+				continue;
+			}
+
+			if (unit->state & US_UNSELECTABLE) {
+				applyBoosts = FALSE;
+				break;
+			}
+		}
+		if (applyBoosts) {
+			bunitA->battleAttack += 4;
+			bunitA->battleSpeed += 4;
+		}
+	}
+	return;
+}
+
+void Ungrounded(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
+	if (SkillTester(&bunitA->unit, UngroundedID_Link)) {
+		if (!(bunitB->unit.pClassData->attributes & (CA_PEGASUS || CA_WYVERN))) {
+			if (!IsItemCoveringRange(bunitB->weapon, 2)) {
+				bunitA->battleAvoidRate += 15;
+			}
 		}
 	}
 	return;

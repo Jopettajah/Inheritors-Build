@@ -117,7 +117,7 @@
 0x73 Mage Knight
 0x74 Mage Knight w/ Staff
 0x75 Shaman
-0x76 Shaman (F)
+0x76 Shaman (F)				//R
 0x77 Druid
 0x78 Druid w/ Staff
 0x79 Druid (F)
@@ -140,7 +140,7 @@
 0x8A Thief Disarmed		//R
 0x8B Assassin			//R
 0x8C Assassin Disarmed	//R
-0x8D Assassin (F)
+0x8D Assassin (F)		
 0x8E Assassin (F) Disarmed
 0x8F Rogue
 0x90 Rogue Disarmed

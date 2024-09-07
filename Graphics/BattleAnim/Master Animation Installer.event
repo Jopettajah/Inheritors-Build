@@ -148,3 +148,7 @@
 #include "HalberdierTBA/Lance Installer.event"
 #include "HalberdierTBA/Unarmed Installer.event"
 }
+
+{
+#include "ShamanFFurious/Magic Installer.event"
+}

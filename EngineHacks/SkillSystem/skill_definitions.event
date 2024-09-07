@@ -332,6 +332,8 @@
 
 //Pre-Battle Skills
 
+#define UngroundedID 130
+
 #define EarlyRiserID 63
 
 //
@@ -671,6 +673,8 @@
 
 
 //Proc Skills
+
+#define DivineInterventionID 106
 
 // WasteNot
 #define WasteNotID 28

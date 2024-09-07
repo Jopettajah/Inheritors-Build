@@ -130,6 +130,8 @@
 #define HalberdierLance 0x8B
 #define HalberdierUnarmed 0x8C
 
+#define ShamanFMagic 0x76
+
 //////////
  
 ALIGN 4
@@ -313,6 +315,12 @@ ALIGN 4
 HalbAnims:
 SpearAnim(HalberdierLance)
 UnarmedAnim(HalberdierUnarmed)
+WORD 0x0
+
+ALIGN 4
+ShamanFAnims:
+DarkAnim(ShamanFMagic)
+UnarmedAnim(ShamanFMagic)
 WORD 0x0
 
 ALIGN 4

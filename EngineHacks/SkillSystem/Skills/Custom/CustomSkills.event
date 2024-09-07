@@ -3,6 +3,8 @@ CaringColdShoulderID_Link:
 WORD CaringColdShoulderID
 EarlyRiserID_Link:
 WORD EarlyRiserID
+UngroundedID_Link:
+WORD UngroundedID
 
 ALIGN 4
 #include "C_Code.lyn.event"
@@ -90,3 +92,9 @@ WORD WasteNotID
 ALIGN 4
 Bravery:
 #incbin "BraveryEffect.dmp"
+
+ALIGN 4
+DivineIntervention:
+#incbin "DivineInterventionProc.dmp"
+POIN SkillTester
+WORD DivineInterventionID

@@ -25,6 +25,7 @@
 - SHYUTERz: Shinespark
 - Apolo15: Dark Knight
 - Enjin: Duke Knight
+- Furious: FShaman
 
 
 # Map Tilesets
@@ -73,12 +74,13 @@
 - Leo_link: Forest Knight
 
 # Item Icons
-- Erekshigal: Skygazer, Youtou, Dawn Edge, Bravery's Gift, Shinespark
+- Erekshigal: Skygazer, Youtou, Dawn Edge, Bravery's Gift, Shinespark, Old Edge
 - LordGlenn: Mine Staff, Shining Bow
 - Zane: Elstone
-- Celice: Mooncleaver
-- Seal: Gheist
+- Celice: Mooncleaver, Thunderclap
+- Seal: Gheist, Cloudrunner
 - Lisandra Brave: Repositioner
+- CamTech075: Desert Wind
 
 # External & Inline hacks
 

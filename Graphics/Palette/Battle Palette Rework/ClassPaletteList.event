@@ -147,7 +147,7 @@ WORD 0 0
 ALIGN 4
 
 ShamanFPaletteList:
-PaletteAssociationEntry(Nishay, $4D)
+PaletteAssociationEntry(Nishay, $19)
 WORD 0 0
 ALIGN 4
 
@@ -373,7 +373,7 @@ MapClassIdToPalettes:
 	SetClassPaletteTable(Bishop, BishopPaletteList)
 	SetClassPaletteTable(Bishop_F, BishopPaletteList)
 	SetClassPaletteTable(Shaman, ShamanPaletteList)
-	SetClassPaletteTable(Shaman_F, ShamanFPaletteList)
+	SetClassPaletteTable(Shaman_F_Dummy, ShamanFPaletteList)
 	SetClassPaletteTable(Druid, DruidPaletteList)
 	SetClassPaletteTable(Druid_F, DruidPaletteList)
 	SetClassPaletteTable(DarkKnight, DarkKnightPaletteList)
@@ -446,7 +446,8 @@ MapClassIdToPalettes:
 	SetClassPaletteTable(Halberdier_F, HalberdierPaletteList)
 	SetClassPaletteTable(Ballistician, NO_PALETTE)
 	SetClassPaletteTable(Monk_F, MonkFPaletteList)
-	//Rest Boulder + Unused
+	SetClassPaletteTable(Boulder, NO_PALETTE)
+	//Rest Unused
 	
 
     //add the rest of your classes here, continue until class 0x7F

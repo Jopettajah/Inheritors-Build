@@ -27,6 +27,7 @@ BYTE EndLockArray
 SkygazerArray:
 BYTE HardCharLock
 BYTE Alysa
+BYTE Sana
 BYTE EndLockArray
 
 BallistaArray:
@@ -44,6 +45,17 @@ BYTE Ranger Ranger_F
 BYTE BowKnight
 BYTE General General_F
 BYTE Warrior Warrior_F
+BYTE EndLockArray
+
+OldEdgeArray:
+BYTE HardCharLock
+BYTE Dave
+BYTE Jacob
+BYTE EndLockArray
+
+SibylArray:
+BYTE HardCharLock
+BYTE Sibyl
 BYTE EndLockArray
 
 #endif // ADV_WEAPON_LOCKS
