@@ -31,12 +31,14 @@
 #define DefendGlobeID 0x3f
 #define FlapperGirlID 0x44
 #define QuestBattleID 0x46
+#define WindSFX 0x47
 #define CricketsSFX 0x4A
 #define BirdsSFX 0x4C
 #define BW1NCastleID 0x58
 #define BW2NCastleID 0x59
 #define SlapSFX 0x84 //from silence staff?
 #define CrashSFX 0xAB
+#define DoorSFX 0xB1
 #define KaChinkSFX 0xB9
 #define SwushSFX 0xCA
 #define ShortRoarSFX 0xDE

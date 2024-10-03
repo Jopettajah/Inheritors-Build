@@ -162,9 +162,12 @@ POIN SupplyTSA
 ORG $9DC44
 POIN SupplyMugTSA
 
-ORG $B4E04
+ORG $B4E04 //Shop/Armory
 POIN ShopMugWindowTSA
-
+/*
+ORG $B5??? //Arena Fightmonger
+POIN ShopMugWindowTSA
+*/
 
 ORG $DA2F4 //Unit menu tilemap ($10 & TileID, 10 is palette stuff)
 SHORT $1001 $1003 $1003 $1004 //Top row

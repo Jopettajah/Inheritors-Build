@@ -29,6 +29,7 @@ SupportConvoEntry(Marco,Hudson,MarcoHudsonC,MarcoHudsonB,MarcoHudsonA)
 
 SupportConvoEntry(Mirabelle,Pieter,MirabellePieterC,MirabellePieterB,MirabellePieterA)
 SupportConvoEntry(Mirabelle,Conleth,MirabelleConlethC,MirabelleConlethB,MirabelleConlethA)
+SupportConvoEntry(Mirabelle,Fabian,MirabelleFabianC,MirabelleFabianB,MirabelleFabianA)
 
 SupportConvoEntry(Lauren,Mauritch,LaurenMauritchC,LaurenMauritchB,LaurenMauritchA)
 
@@ -52,6 +53,7 @@ SupportConvoEntry(Anis,Ellie,AnisEllieC,AnisEllieB,AnisEllieA)
 SupportConvoEntry(Winton,Caitlind,WintonCaitlindC,WintonCaitlindB,WintonCaitlindA)
 
 SupportConvoEntry(Nella,Hudson,NellaHudsonC,NellaHudsonB,NellaHudsonA)
+SupportConvoEntry(Nella,Leoff,NellaLeoffC,NellaLeoffB,NellaLeoffA)
 
 SupportConvoEntry(Avery,Rochelle,AveryRochelleC,AveryRochelleB,AveryRochelleA)
 
@@ -64,6 +66,7 @@ SupportConvoEntry(Kimiko,Suhaira,KimikoSuhairaC,KimikoSuhairaB,KimikoSuhairaA)
 SupportConvoEntry(Llewella,Glaw,0,0,0)
 
 SupportConvoEntry(Hefina,Ferryn,HefinaFerrynC,HefinaFerrynB,HefinaFerrynA)
+SupportConvoEntry(Hefina,Llewella,HefinaLlewellaC,HefinaLlewellaB,0)
 
 SupportConvoEntry(Radcliff,Fabian,RadcliffFabianC,RadcliffFabianB,RadcliffFabianA)
 

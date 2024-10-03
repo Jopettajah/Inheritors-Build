@@ -108,7 +108,7 @@ Effective on wet targets.[X]
 Old Edge[X]
 
 ## OldEdgeDesc
-Dave only.[X]
+Dave only. Can strike consecutively.[X]
 
 ## DesertWindName
 Desert Wind[X]

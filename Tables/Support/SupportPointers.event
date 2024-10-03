@@ -38,7 +38,7 @@ ALIGN 4
 LucianSupportPointer:
 SupportDataCharacters(Jacob,0,0,0,0) 
 SupportDataInitialValues(15,0,0,0,0)
-SupportDataGrowths(0,0,0,0,0)
+SupportDataGrowths(15,0,0,0,0)
 SupportCountAmount(1)
 
 ALIGN 4
@@ -57,10 +57,10 @@ SupportCountAmount(3)
 
 ALIGN 4
 MirabelleSupportPointer:
-SupportDataCharacters(Pieter,Conleth,0,0,0) 
-SupportDataInitialValues(6,20,0,0,0)
-SupportDataGrowths(15,20,0,0,0)
-SupportCountAmount(2)
+SupportDataCharacters(Pieter,Conleth,Fabian,0,0) 
+SupportDataInitialValues(6,20,1,0,0)
+SupportDataGrowths(15,20,14,0,0)
+SupportCountAmount(3)
 
 ALIGN 4
 LaurenSupportPointer:
@@ -148,10 +148,10 @@ SupportCountAmount(2)
 
 ALIGN 4
 NellaSupportPointer:
-SupportDataCharacters(Hudson,0,0,0,0) 
-SupportDataInitialValues(80,0,0,0,0)
-SupportDataGrowths(30,0,0,0,0)
-SupportCountAmount(1)
+SupportDataCharacters(Hudson,Leoff,0,0,0) 
+SupportDataInitialValues(80,1,0,0,0)
+SupportDataGrowths(30,25,0,0,0)
+SupportCountAmount(2)
 
 ALIGN 4
 AverySupportPointer:
@@ -163,14 +163,14 @@ SupportCountAmount(1)
 ALIGN 4
 IngaSupportPointer:
 SupportDataCharacters(Sana,Mauritch,0,0,0) 
-SupportDataInitialValues(80,1,0,0,0)
+SupportDataInitialValues(CSupportLevel,1,0,0,0)
 SupportDataGrowths(24,20,0,0,0)
 SupportCountAmount(2)
 
 ALIGN 4
 SanaSupportPointer:
 SupportDataCharacters(Inga,Alysa,0,0,0) 
-SupportDataInitialValues(80,80,0,0,0)
+SupportDataInitialValues(CSupportLevel,80,0,0,0)
 SupportDataGrowths(24,20,0,0,0)
 SupportCountAmount(2)
 
@@ -207,21 +207,21 @@ HudsonSupportPointer:
 SupportDataCharacters(Nella,Marco,Jacob,0,0) 
 SupportDataInitialValues(80,1,20,0,0)
 SupportDataGrowths(30,30,20,15,0)
-SupportCountAmount(2)
+SupportCountAmount(3)
 
 ALIGN 4
 LlewellaSupportPointer:
-SupportDataCharacters(Glaw,0,0,0,0) 
-SupportDataInitialValues(ASupportLevel,0,0,0,0)
-SupportDataGrowths(0,0,0,0,0)
-SupportCountAmount(1)
+SupportDataCharacters(Glaw,Hefina,0,0,0) 
+SupportDataInitialValues(ASupportLevel,40,0,0,0)
+SupportDataGrowths(0,20,0,0,0)
+SupportCountAmount(2)
 
 ALIGN 4
 HefinaSupportPointer:
-SupportDataCharacters(Ferryn,0,0,0,0) 
-SupportDataInitialValues(1,0,0,0,0)
-SupportDataGrowths(30,0,0,0,0)
-SupportCountAmount(1)
+SupportDataCharacters(Ferryn,Llewella,0,0,0) 
+SupportDataInitialValues(1,40,0,0,0)
+SupportDataGrowths(30,20,0,0,0)
+SupportCountAmount(2)
 
 ALIGN 4
 GlawSupportPointer:
@@ -267,17 +267,17 @@ SupportCountAmount(3)
 
 ALIGN 4
 FabianSupportPointer:
-SupportDataCharacters(Radcliff,Suhaira,0,0,0) 
-SupportDataInitialValues(1,1,0,0,0)
-SupportDataGrowths(25,20,0,0,0)
-SupportCountAmount(2)
+SupportDataCharacters(Radcliff,Suhaira,Mirabelle,0,0) 
+SupportDataInitialValues(1,1,1,0,0)
+SupportDataGrowths(25,20,14,0,0)
+SupportCountAmount(3)
 
 ALIGN 4
 LeoffSupportPointer:
-SupportDataCharacters(Sibyl,Curtis,0,0,0) 
-SupportDataInitialValues(1,1,0,0,0)
-SupportDataGrowths(25,25,0,0,0)
-SupportCountAmount(2)
+SupportDataCharacters(Sibyl,Curtis,Nella,0,0) 
+SupportDataInitialValues(1,1,1,0,0)
+SupportDataGrowths(25,25,25,0,0)
+SupportCountAmount(3)
 
 ALIGN 4
 CaitlindSupportPointer:

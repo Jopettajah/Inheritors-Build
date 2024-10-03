@@ -13,7 +13,14 @@ Matches are limited,[.4] so think[N]
 carefully whom you enter with.[A][X]
 	
 ## Ch6HintHouseText
-[A][X]
+[MidLeft][LoadFace][CurrentPortrait]
+[MidRight][LoadVillagerYoungWomanA]
+I heard that the enemy commander[N]
+is wielding a berserk staff.[AN]
+It's effect will cause you to[N]
+charge recklessly at enemies.[AN]
+Fortunately afflicted units can still[N]
+differentiate between friend and foe.[A][X]
 
 ## AnisRecruitText
 [MidLeft][LoadFace][CurrentPortrait]
@@ -34,10 +41,45 @@ economy and all that,[.4] you know?[A][X]
 Lights up the map[N]
 for a turn[X]
 
+## Ch6DreamFlashbackText
+[X]
+
+//If Jacob alive
 ## EndConvoJacob
 [MidRight][LoadJacob]
+[MidLeft][LoadCurtis]
+Seen anything on night-watch duty?[A]
+[MidRight]
 Darkness.[.4] Some bugs.[.4][N]
-My life passing by.[A][X]
+My life passing by.[A]
+[MidLeft]
+A simple "No" would have sufficed.[A]
+[MidRight]
+Yeah, yeah[Beat][.4] Why are you[N]
+awake at this hour anyway?[AN]
+I'm personally ready to hit the[N]
+hay as soon as my shift is over.[A]
+[MidLeft]
+I had a nightmare[Beat][.4] It felt like[Beat][N]
+old forgotten memories, but twisted somehow?[AN]
+I honestly have trouble telling between[N]
+visions and real past sometimes[Beat][A]
+[MidRight]
+That's rough.[.4]
+//Jacob says some helpful anecdote here
+Anyway, shouldn't you go get[N]
+some rest for tomorrows endeavors?[A]
+[MidLeft]
+Right.[.4] See you in the morning, Jacob.[.4][N]
+And thank you for lending your ear.[A]
+[MidRight][ToggleSmile]
+Anytime.[.4] Good night, [Tact].[A][ToggleSmile]
+[X]
 
+//If Jacob dead
 ## EndConvoLucian
+[X]
+
+//Neiher Alive
+## Ch6EndConvoSolo
 [X]

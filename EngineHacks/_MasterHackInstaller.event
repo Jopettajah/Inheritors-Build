@@ -78,11 +78,13 @@ POP
   
   //#include "C_Code.lyn.event"
   
+  /*
   #ifdef __DEBUG__
 	#ifndef Playtest
-		#include "ExternalHacks/Debugger/Installer.event"
+		#include "ExternalHacks/Debugger/Installer.event" //Unstable as heck
 	#endif
   #endif
+  */
   
   #include "ExternalHacks/Changing preparation BGM/Installer.event"
   

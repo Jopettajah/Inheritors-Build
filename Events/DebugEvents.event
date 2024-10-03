@@ -86,7 +86,7 @@ EnemyUnits:
 	UNIT Farum Sage ONeill Level(1,Enemy,True) [12,3] 0x0 0x0 0x0 0x0 [Lightning] NeverMoveAI
 	UNIT Farum Soldier ONeill Level(7,Enemy,True) [5,2] 0x0 0x0 0x0 [AxeReaver,Javelin] NeverMoveAI
 	UNIT Farum Mercenary ONeill Level(10,Enemy,True) [5,1] 0x0 0x0 0x0 [IronSword] NeverMoveAI
-	//UNIT JeanneMarie Troubadour ONeill Level(10,Enemy,False) [10,2] 0x0 0x0 0x0 [Berserk] DefaultAI
+	UNIT JeanneMarie Troubadour ONeill Level(10,Enemy,False) [10,2] 0x0 0x0 0x0 [Berserk] DefaultAI
 	UNIT
 
 Traps1:
@@ -137,12 +137,13 @@ ASMC Debug2Menu_ASMC|1
 	LABEL 0
 	
 	LOAD1 0x1 Units1
-	ENUN
+	ENUN	
+	
+	GiveMoney(4000)
 	
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	
-	GiveMoney(4000)
 	ENDA
 	
 GoCh1:

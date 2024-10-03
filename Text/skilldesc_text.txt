@@ -1,11 +1,11 @@
 ## SD_DivineIntervention
-Divine Intervention: Luck%[N]
-chance to reroll missed attacks.[X]
+Divine Favorite: Nishay has (Luck*1.5)%[N]
+chance to reroll her missed attacks.[X]
 
 ## SD_EarlyRiser 
 Early Riser: Anis gains +4 Atk/AS[N]
-when no allies or enemies have[N]
-successfully ended their turn.[X]
+when allies or enemies have yet[N]
+to successfully end their turn.[X]
 
 ## SD_CaringColdShoulder
 Caring Cold Shoulder: Inga deals[N]

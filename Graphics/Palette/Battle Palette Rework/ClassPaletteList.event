@@ -373,7 +373,7 @@ MapClassIdToPalettes:
 	SetClassPaletteTable(Bishop, BishopPaletteList)
 	SetClassPaletteTable(Bishop_F, BishopPaletteList)
 	SetClassPaletteTable(Shaman, ShamanPaletteList)
-	SetClassPaletteTable(Shaman_F_Dummy, ShamanFPaletteList)
+	SetClassPaletteTable(Shaman_F, ShamanFPaletteList)
 	SetClassPaletteTable(Druid, DruidPaletteList)
 	SetClassPaletteTable(Druid_F, DruidPaletteList)
 	SetClassPaletteTable(DarkKnight, DarkKnightPaletteList)

@@ -1,0 +1,34 @@
+
+MeleeArenaEnemies:
+BYTE Mercenary Hero Myrmidon_F Swordmaster Fighter Warrior Brigand Pirate Berserker
+BYTE Knight AxeKnight SwordKnight General SwordCavalier LanceCavalier AxeCavalier Paladin_F ForrestKnight GreatLancer GreatKnight Soldier
+BYTE Mage Sage_F Shaman Druid DarkKnight Monk Bishop Valkyrie MageKnight_F
+BYTE PegasusKnight AxePeg FalcoKnight CerapterKnight
+BYTE 0 0
+
+
+RangedArenaEnemies:
+BYTE Outlaw Adventurer BowKnight Ranger
+BYTE Mage Sage_F Shaman Druid DarkKnight Monk Bishop Valkyrie MageKnight_F
+BYTE 0 0
+
+
+MagicArenaEnemies:
+BYTE Outlaw Adventurer BowKnight Ranger
+BYTE Mercenary Hero Myrmidon_F Swordmaster Fighter Warrior Brigand Pirate Berserker
+BYTE Knight AxeKnight SwordKnight General SwordCavalier LanceCavalier AxeCavalier Paladin_F ForrestKnight GreatLancer GreatKnight Soldier
+BYTE Mage Sage_F Shaman Druid DarkKnight Monk Bishop Valkyrie MageKnight_F
+BYTE PegasusKnight AxePeg FalcoKnight CerapterKnight
+BYTE 0 0
+
+
+PUSH
+ORG $3194C
+POIN MeleeArenaEnemies
+
+ORG $319A8
+POIN MagicArenaEnemies
+
+ORG $31958
+POIN RangedArenaEnemies
+POP

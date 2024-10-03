@@ -75,7 +75,7 @@ Units1:
 EnemyUnits:
 	
 	UNIT JeanneMarie Troubadour JeanneMarie Level(12,Enemy,False) [10,22] 0x0 0x0 0x0 0x0 [Berserk] Ch6BossAI
-	UNIT FarumSlow ForrestKnight JeanneMarie Level(1,Enemy,True) [10,21] DropItem 0x0 0x0 0x0 [IronBlade, HeroCrest] Ch6BodyguardAI
+	UNIT FarumSlow ForrestKnight JeanneMarie Level(1,Enemy,True) [10,21] DropItem 0x0 0x0 0x0 [IronBlade, HeroCrest] AttackInRangeAI //Ch6BodyguardAI
 	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [4,9] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
 	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [5,10] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
 	UNIT Farum AxeKnight JeanneMarie Level(8,Enemy,True) [13,16] 0x0 0x0 0x0 0x0 [HandAxe] NeverMoveAI

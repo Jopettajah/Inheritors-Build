@@ -73,8 +73,8 @@ Units1:
 	UNIT
 
 EnemyUnits:
-	UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [5,1] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-	//UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [11,18] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI //Debug
+	//UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [5,1] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [11,18] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI //Debug
 	UNIT Dave Myrmidon Caitlind_boss Level(7,Enemy,False) [5,3] 0x0 0x0 0x0 [SteelSword, Vulnerary] AttackInRangeAI
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [4,2] 0x0 0x0 0x0 [IronLance] MoveWithLeaderAI
 	UNIT Brigand_Enemy Outlaw_F Caitlind_boss Level(6,Enemy,True) [6,2] 0x0 0x0 0x0 0x0 [IronBow] MoveWithLeaderAI
@@ -110,13 +110,13 @@ CutsceneUnitsBlue:
 	UNIT 
 	
 CutsceneUnitsRed:
-	UNIT Caitlind AxePeg Caitlind_boss Level(7,Enemy,False) [15,9] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-	UNIT Ellie PegasusKnight Caitlind_boss Level(7,Enemy,False) [14,8] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-	UNIT Ferryn AxePeg Caitlind_boss Level(7,Enemy,False) [16,8] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+	UNIT Caitlind AxePeg Caitlind_boss Level(7,Enemy,False) [14,9] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+	UNIT Ellie PegasusKnight Caitlind_boss Level(7,Enemy,False) [13,8] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+	UNIT Ferryn AxePeg Caitlind_boss Level(7,Enemy,False) [15,8] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 	UNIT
 	
 CutsceneAlysa:
-	UNIT Henrik Recruit_1 Curtis Level(1,Ally,False) [14,19] 0x00 0x00 0x01 REDA15R18 [0x0] NoAI
+	UNIT Henrik Recruit_1 Curtis Level(1,Ally,False) [14,19] 0x00 0x00 0x01 REDA14R17 [0x0] NoAI
 	UNIT
 	
 Traps1:
@@ -129,6 +129,7 @@ Traps2:
 
 BeginningScene:
 
+	MUSCFAST WindSFX
 	
 	// Dave Recruitment things
 	ENUT 10
@@ -169,7 +170,7 @@ BeginningScene:
 
 	MOVE 0 Ellie [13,8]
 	MOVE 0 Ferryn [15,8]
-	MOVE 0 Caitlind [14,12]
+	MOVE 0 Caitlind [14,11]
 	ENUN
 	
 	//Alysa thing
@@ -403,18 +404,22 @@ Turn3Escapee:
 	
 EndingScene:
 
+	SetBackground(Fort_Ruins_Outside)
 	CHECK_EVENTID 11
 	BEQ 6 s0 sC
 	CHECK_ALIVE Alysa
 	BEQ 6 s0 sC
 	
 	//Caitlind recruit
+	MUSCFAST KnightsOathID
 	Text(CaitlindRecruitText)
 	LOAD1 0x1 CaitlindReal
 	
 	//Generic end events
 	LABEL 6
+	MUSCFAST Victory
 	Text(Ch5EndingText)
+	EndConvo
 	
 	_0xA640 0 0 4
 	WM_SETDESTINATION 0 5 0

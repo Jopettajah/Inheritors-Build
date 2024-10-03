@@ -42,6 +42,9 @@ beq End
 @if user has sure shot, check for proc rate
 
 ldrb r0, [r4, #0x19] @luck stat as activation rate
+mov r3, #3
+mul r0, r3
+lsr r0, #1
 mov r1, r4 @skill user
 blh d100Result
 cmp r0, #1

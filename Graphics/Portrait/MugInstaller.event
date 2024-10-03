@@ -246,6 +246,15 @@ Kimiko_Mug:
 #incbin "dmp/Kimiko_minimug.dmp"
 setMugEntry(0x1A,Kimiko_Mug,3,5,3,3)
 
+
+ALIGN 4
+Nishay_Mug:
+#incbin "dmp/Nishay_mug.dmp"
+#incbin "dmp/Nishay_frames.dmp"
+#incbin "dmp/Nishay_palette.dmp"
+#incbin "dmp/Nishay_minimug.dmp"
+setMugEntry(NishayMugID,Nishay_Mug,4,5,4,3)
+
 ALIGN 4
 Inga_Mug:
 #incbin "dmp/Inga_mug.dmp"
