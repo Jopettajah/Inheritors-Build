@@ -115,8 +115,13 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
+
+	LOAD1 0x0 Units1
+	ENUN	
 	LOAD1 0x1 EnemyUnits
 	ENUN
+	SetBackground(Outside_Village_Evening)
+	Text(Ch6OpeningText)
 	GotoPrepScreen
 	ENDA
 	

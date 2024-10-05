@@ -1,8 +1,33 @@
 ## Ch6WMText
- [A][X]
+[A][X]
  
 ## Ch6OpeningText
- [A][X]
+[FarLeft][LoadGarryHelmet]
+[Left][LoadCurtis]
+Looks like we've made it at last.[.4][N]
+Now everyone can get some well-earned rest.[A]
+[FarFarRight][LoadVillagerWoman]
+Unfortunately,[.] that won't be the case.[A]
+[Left]
+What?[A]
+[FarFarRight][MoveMidRight]
+The town has been overrun[N]
+by enemy soldiers.[A]
+[FarLeft]
+So the Farumese dastards are[N]
+already withing our borders[Beat][A]
+[Left]
+Yet another challenge arises[Beat][.4][N]
+Garry,[.] tell everyone to prepare for battle.[A]
+[FarLeft]
+Roger.[A]
+[FarLeft][ClearFace]
+[MidRight][ClearFace]
+[Left]
+Looks like the dusk will fall at any minute.[A][N]
+I should make note of the enemy formation[N]
+as I make battle preparations.[A]
+[X]
  
 ## Ch6ArenaHouseText
 [MidLeft][LoadFace][CurrentPortrait]
@@ -25,7 +50,12 @@ differentiate between friend and foe.[A][X]
 ## AnisRecruitText
 [MidLeft][LoadFace][CurrentPortrait]
 [MidRight][LoadAnis]
-[A][X]
+Trouble within the town?[.4][N]
+At this late hour?[A][N]
+Oh,[.] that won't do![A][N]
+Let me light up the way[N]
+with my Shine tome![A]
+[X]
 
 ## Ch6MoneyVillageText
 [MidLeft][LoadFace][CurrentPortrait]
@@ -83,3 +113,6 @@ Anytime.[.4] Good night, [Tact].[A][ToggleSmile]
 //Neiher Alive
 ## Ch6EndConvoSolo
 [X]
+
+## DefeatJeanne
+Defeat Jeanne-Marie[X]
