@@ -500,14 +500,15 @@ placeholder[X]
 Jeanne-Marie[X]
 
 ##JeanneDesc
-?[X]
+Farumese lieutenant who earned her[N]
+position with her adeptness in staves.[X]
 
 ## LagrangeName
 Lagrange[X]
 
 ## LagrangeDesc
-Paladin leading the on the border.[N]
-Loyal to her country.[X]
+Paladin leading the assault on[N]
+the border. Loyal to her country.[X]
 
 ## FarumName
 Farumese[X]

@@ -114,5 +114,14 @@ Anytime.[.4] Good night, [Tact].[A][ToggleSmile]
 ## Ch6EndConvoSolo
 [X]
 
+## JeanneBattleQuote
+[MidLeft][LoadFace][0x36][0x1]
+Fall into despair,[.4][N]
+you Laftian worms![A][X]
+
+## JeanneDeathQuote
+[MidLeft][LoadFace][0x36][0x1]
+No[Beat] I[CloseEyes][Beat] can't[Beat][A][X]
+
 ## DefeatJeanne
 Defeat Jeanne-Marie[X]

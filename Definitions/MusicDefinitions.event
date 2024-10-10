@@ -60,8 +60,9 @@
 #define FlameAndArrowID 0xA9
 #define ShadowsOfIllusionID 0xAD
 #define CrimeOfTheHeartID 0xAE
+#define EachJusticeID 0xC0
+
 /*
-#define 0xC0
 #define 0xc1
 #define 0xc2
 #define 0xc3

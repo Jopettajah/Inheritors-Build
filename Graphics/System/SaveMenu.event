@@ -1,0 +1,65 @@
+ALIGN 4
+NewSaveMenu:
+#incbin "SaveMenu.png.dmp"
+
+ALIGN 4
+MenuBanners:
+#incext Png2Dmp "MenuPlates.png" --lz77
+
+PUSH
+
+ORG $A8EDC
+POIN NewSaveMenu
+ORG $AA43C
+POIN NewSaveMenu
+
+ORG 0xA07AF8
+#incbin "SaveMenu.png.pal.dmp" //TODO Dark
+ORG 0xA07AD8
+#incbin "SaveMenu.png.pal.dmp"
+
+ORG 0xA07B18
+#incbin "SaveMenu.png.pal.dmp"
+ORG 0xA07B38
+#incbin "SaveMenu.png.pal.dmp" //TODO Dark
+
+ORG $A1B638
+#incbin "SaveMenu.png.pal.dmp"
+ORG $A1E0D8
+#incbin "SaveMenu.png.pal.dmp"
+ORG $A27F68
+#incbin "SaveMenu.png.pal.dmp"
+ORG $A27FE8
+#incbin "SaveMenu.png.pal.dmp" //TODO Dark version
+ORG $A2E1B8
+#incbin "SaveMenu.png.pal.dmp"
+ORG $A2E1D8
+#incbin "SaveMenu.png.pal.dmp"
+
+ORG $A29518
+#incbin "SaveMenu.png.pal.dmp"
+
+ORG $A29498
+#incbin "SaveMenu.png.pal.dmp"
+
+ORG $A294D8
+#incbin "SaveMenu.png.pal.dmp"
+
+ORG $A29418
+#incbin "SaveMenu.png.pal.dmp"
+
+ORG $A29538
+#incbin "SaveMenu.png.pal.dmp" //TODO Dark version
+
+ORG $A294B8
+#incbin "SaveMenu.png.pal.dmp" //TODO Dark version
+
+ORG $A294F8
+#incbin "SaveMenu.png.pal.dmp" //TODO Dark version
+
+ORG 0x8E088
+POIN MenuBanners
+ORG 0xAF7D0
+POIN MenuBanners
+
+POP

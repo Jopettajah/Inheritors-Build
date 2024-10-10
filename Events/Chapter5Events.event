@@ -4,7 +4,7 @@ setText(0x164, NewChName)
 
 ALIGN 4
 NewChName:
-String("Ch5: Heavy Wings")
+String("Ch5: Burdened Wings")
 BYTE 0
 
 ALIGN 4
@@ -73,8 +73,8 @@ Units1:
 	UNIT
 
 EnemyUnits:
-	//UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [5,1] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-	UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [11,18] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI //Debug
+	UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [5,1] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	//UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [11,18] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI //Debug
 	UNIT Dave Myrmidon Caitlind_boss Level(7,Enemy,False) [5,3] 0x0 0x0 0x0 [SteelSword, Vulnerary] AttackInRangeAI
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [4,2] 0x0 0x0 0x0 [IronLance] MoveWithLeaderAI
 	UNIT Brigand_Enemy Outlaw_F Caitlind_boss Level(6,Enemy,True) [6,2] 0x0 0x0 0x0 0x0 [IronBow] MoveWithLeaderAI
@@ -88,9 +88,9 @@ EnemyUnits:
 	UNIT Brigand_Enemy AxePeg Caitlind_boss Level(6,Enemy,True) [19,7] 0x0 0x0 0x0 0x0 [IronAxe] DelayedChargeAI
 	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [21,15] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
 	UNIT Brigand_Enemy Fighter_F Caitlind_boss Level(6,Enemy,True) [15,3] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-	UNIT Brigand_Enemy Myrmidon_F Caitlind_boss Level(6,Enemy,True) [3,3] 0x0 0x0 0x0 0x0 [SteelSword] TwoActionAI //MoveWithLeaderAI
+	UNIT Brigand_Enemy Myrmidon_F Caitlind_boss Level(6,Enemy,True) [3,4] 0x0 0x0 0x0 0x0 [SteelSword] TwoActionAI //MoveWithLeaderAI
 	UNIT Brigand_Enemy Monk_F Caitlind_boss Level(6,Enemy,True) [1,4] 0x0 0x0 0x0 0x0 [Shinespark] TwoActionAI
-	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [1,10] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+	UNIT Brigand_Enemy PegasusKnight Caitlind_boss Level(6,Enemy,True) [1,7] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
 	UNIT
 	
 TrapPegas:
@@ -379,7 +379,7 @@ BridgeCheck:
 
 PegAIChange:
 	SVAL 1 0x00041200
-	CHAI [13,1]
+	CHAI [13,2]
 	NoFade
 	ENDA
 	

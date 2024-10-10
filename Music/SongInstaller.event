@@ -141,3 +141,6 @@ SongTable(ShadowsOfIllusionID,shadowsOfIllusion,MapMusicGroup)
 
 SongTable(CrimeOfTheHeartID,crimeoftheheart0,MapMusicGroup)
 #include "event/crimeoftheheart0.event"
+
+SongTable(EachJusticeID,EachJustice,MapMusicGroup)
+#include "event/EachJustice.event"

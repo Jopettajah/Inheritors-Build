@@ -264,24 +264,44 @@ Ch4DebugUnits:
 	UNIT Katja Fighter_F Curtis Level(4,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe, HandAxe] HalfRangeAI
 	UNIT Mauritch Myrmidon Curtis Level(4,Ally,True) [9,0] 0x00 0x00 0x00 0x01 [KillingEdge] AttackInRangeAI
 	UNIT Lauren Troubadour Curtis Level(3,Ally,True) [10,0] 0x00 0x00 0x00 0x01 [Heal, Mend, Repositioner, Vulnerary] HealUnits
-	UNIT Libby Cleric 0x0 Level(3,Ally,True) [11,0] 0x00 0x00 0x00 0x01 [Heal, RescueStaff] NeverMoveAI
+	UNIT Libby Cleric 0x0 Level(3,Ally,True) [11,0] 0x00 0x00 0x00 0x01 [Heal, RescueStaff, BraverysGift] NeverMoveAI
 	UNIT Emmanuel Mage 0x0 Level(4,Ally,True) [12,0] 0x00 0x00 0x00 0x00 [Fire, Elstone] AttackInRangeAI
 	UNIT
 	
 Ch5DebugUnits:
-	UNIT Curtis Eye Curtis Level(4,Ally,True) [0,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary] NoAI //[27,16]
+	UNIT Curtis Eye Curtis Level(5,Ally,True) [0,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary] NoAI //[27,16]
 	UNIT Alysa Recruit_1 Curtis Level(6,Ally,True) [2,0] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
 	UNIT Jacob SwordCavalier Curtis Level(5,Ally,True) [3,0] 0x00 0x00 0x00 0x01 [IronSword, IronBlade] NoAI
 	UNIT Lucian LanceCavalier Curtis Level(5,Ally,True) [4,0] 0x00 0x00 0x00 0x01 [IronLance,Javelin] NoAI
 	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, SilverAxe, Elixir] NoAI	
 	UNIT Diane Outlaw_F Curtis Level(5,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow, Longbow] NoAI
 	UNIT Mirabelle Claw Curtis Level(5,Ally,True) [7,0] 0x00 0x00 0x00 0x01 [0x0] HalfRangeAI
-	UNIT Katja Fighter_F Curtis Level(5,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe, HandAxe] HalfRangeAI
+	UNIT Katja Fighter_F Curtis Level(5,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe, HandAxe, Hammer] HalfRangeAI
 	UNIT Mauritch Myrmidon Curtis Level(5,Ally,True) [9,0] 0x00 0x00 0x00 0x01 [KillingEdge, DawnEdge] AttackInRangeAI
 	UNIT Lauren Troubadour Curtis Level(4,Ally,True) [10,0] 0x00 0x00 0x00 0x01 [Heal, Mend, Repositioner, Vulnerary] HealUnits
-	UNIT Libby Cleric 0x0 Level(4,Ally,True) [11,0] 0x00 0x00 0x00 0x01 [Heal, RescueStaff, MineStaff] NeverMoveAI
+	UNIT Libby Cleric 0x0 Level(4,Ally,True) [11,0] 0x00 0x00 0x00 0x01 [Heal, RescueStaff, MineStaff, BraverysGift] NeverMoveAI
 	UNIT Emmanuel Mage 0x0 Level(5,Ally,True) [12,0] 0x00 0x00 0x00 0x00 [Fire, Elstone] AttackInRangeAI
 	UNIT Garry AxeKnight 0x0 Level(5,Ally,True) [13,0] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] NeverMoveAI
 	UNIT Pieter Soldier Garry Level(5,Ally,True) [14,0] 0x0 0x0 0x0 0x0 [IronLance, Javelin] NeverMoveAI
-	UNIT Hollie BowKnight Garry Level(5,Ally,False) [15,0] 0x0 0x0 0x0 [SteelBow] NeverMoveAI
+	UNIT Hollie BowKnight Garry Level(5,Ally,True) [15,0] 0x0 0x0 0x0 0x0 [SteelBow] NeverMoveAI
+	UNIT
+	
+Ch6DebugUnits:
+	UNIT Curtis Eye Curtis Level(6,Ally,True) [0,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary] NoAI //[27,16]
+	UNIT Alysa Recruit_1 Curtis Level(7,Ally,True) [2,0] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(6,Ally,True) [3,0] 0x00 0x00 0x00 0x01 [IronSword, IronBlade] NoAI
+	UNIT Lucian LanceCavalier Curtis Level(6,Ally,True) [4,0] 0x00 0x00 0x00 0x01 [IronLance,Javelin] NoAI
+	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, SilverAxe, Elixir] NoAI	
+	UNIT Diane Outlaw_F Curtis Level(6,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow, ShiningBow] NoAI
+	UNIT Mirabelle Claw Curtis Level(6,Ally,True) [7,0] 0x00 0x00 0x00 0x01 [0x0] HalfRangeAI
+	UNIT Katja Fighter_F Curtis Level(6,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe, HandAxe, Hammer] HalfRangeAI
+	UNIT Mauritch Myrmidon Curtis Level(6,Ally,True) [9,0] 0x00 0x00 0x00 0x01 [KillingEdge, DawnEdge] AttackInRangeAI
+	UNIT Lauren Troubadour Curtis Level(4,Ally,True) [10,0] 0x00 0x00 0x00 0x01 [Heal, Mend, Repositioner, Vulnerary] HealUnits
+	UNIT Libby Cleric 0x0 Level(4,Ally,True) [11,0] 0x00 0x00 0x00 0x01 [Heal, RescueStaff, MineStaff, BraverysGift] NeverMoveAI
+	UNIT Emmanuel Mage 0x0 Level(6,Ally,True) [12,0] 0x00 0x00 0x00 0x00 [Fire, Elstone] AttackInRangeAI
+	UNIT Garry AxeKnight 0x0 Level(6,Ally,True) [13,0] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] NeverMoveAI
+	UNIT Pieter Soldier Garry Level(6,Ally,True) [14,0] 0x0 0x0 0x0 0x0 [IronLance, Javelin] NeverMoveAI
+	UNIT Hollie BowKnight Garry Level(6,Ally,True) [15,0] 0x0 0x0 0x0 0x0 [SteelBow, Longbow] NeverMoveAI
+	UNIT Dave Mercenary Curtis Level(7,Ally,True) [0,1] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] NoAI
+	UNIT Caitlind AxePeg Curtis Level(7,Ally,True) [0,2] 0x0 0x0 0x0 0x0 [IronAxe] NoAI 
 	UNIT

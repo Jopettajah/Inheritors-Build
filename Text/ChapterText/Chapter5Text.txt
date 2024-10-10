@@ -356,7 +356,7 @@ You're trusting to a fault[Beat][A][ToggleSmile]
 
 ## Ch5EndingText
 [MidRight][LoadCurtis]
-Well, that takes care of that.[A]
+Well,[.] that takes care of that.[A][N]
 Let's keep up the march and hope[N]
 we don't run into any further delays.[A]
 [X]
