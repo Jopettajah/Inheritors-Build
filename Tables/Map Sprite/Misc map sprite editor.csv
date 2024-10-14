@@ -120,7 +120,7 @@ Monk_F,MonkFWalk|IsPointer,0x82039a0
 Rock,RockWalk|IsPointer,0x81f95f4
 Fallen Prince,0x8203fe4,0x82043c8
 Tent,0x8204520,0x8204940
-Pontifex,0x8204a98,0x8205068
+Pontifex,WagonWalk|IsPointer,0x8205068
 Dead Peer,0x82051c0,0x82055a8
 Cyclops,0x81f40f8,0x81f49b8
 Elder Bael,0x81f38ec,0x81f3fa0

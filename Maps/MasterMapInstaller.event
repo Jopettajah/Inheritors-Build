@@ -4,5 +4,5 @@
 #include "Chapter4_V2.event"
 #include "Chapter5.event"
 #include "Chapter6_V2.event"
+#include "Chapter7.event"
 #include "DebugMap.event"
-#include "MountainMapConcept8.event"

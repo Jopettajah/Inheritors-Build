@@ -1,11 +1,14 @@
+## SD_CampGuard
+Camp Guard: -3 Mov.[X]
+
 ## SD_DivineIntervention
 Divine Favorite: Nishay has (Luck*1.5)%[N]
 chance to reroll her missed attacks.[X]
 
 ## SD_EarlyRiser 
 Early Riser: Anis gains +4 Atk/AS[N]
-when allies or enemies have yet[N]
-to successfully end their turn.[X]
+when there are no units on the map[N]
+who have already taken action.[X]
 
 ## SD_CaringColdShoulder
 Caring Cold Shoulder: Inga deals[N]

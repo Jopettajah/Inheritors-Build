@@ -221,3 +221,17 @@ Bad at combat. Equip: Axes[X]
 ## FalcoDesc
 Swift sky warriors who shrug off[NL]
 magic attacks. Equip: Swords, Lances[.][X]
+
+## TentName
+Tent[X]
+
+## TentDesc
+Immobile supply tents.[N]
+Cannot fight.[X]
+
+## WagonName
+Wagon[X]
+
+## WagonDesc
+Mobile supply wagons.[N]
+Cannot fight.[X]

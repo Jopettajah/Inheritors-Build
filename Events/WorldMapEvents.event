@@ -40,6 +40,7 @@ POP
 
 #define SetWMChapterID(index,ChID) "PUSH; ORG $2060B0 + (32 * index) + 0x4; BYTE ChID ChID; POP" 
 SetWMChapterID(Chapter6,Chapter6)
+SetWMChapterID(Chapter7,Chapter7)
 
 {
   #define PrologueWMEventsID 0x1
@@ -69,6 +70,10 @@ SetWMChapterID(Chapter6,Chapter6)
 {
   ALIGN 4
   #include "WM_Chapter6.event"
+}
+{
+  ALIGN 4
+  #include "WM_Chapter7.event"
 }
 
 ALIGN 4

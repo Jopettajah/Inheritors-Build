@@ -227,3 +227,11 @@ GreatLancerStand:
 ALIGN 4
 GreatLancerWalk:
 #incbin "dmp/DukeKnightLeoDerWalk.dmp"
+
+ALIGN 4
+WagonStand:
+#incbin "dmp/WagonStand.dmp"
+
+ALIGN 4
+WagonWalk:
+#incbin "dmp/WagonWalk.dmp"

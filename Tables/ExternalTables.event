@@ -62,6 +62,7 @@ defWeaponDebuffs(4,0,4,0,4,4,0) //0x5: Pebble debuff.
 #include "Repointed/NewClassAnimTable.event"
 #include "Promotion/PromoItemClassLists.event"
 #include "Repointed/ArenaEnemyTables.event"
+#include "Repointed/ForceDeployments.event"
 
 ALIGN 4
 MultipleHelpTextPageList_Items: //TODO: Move this elsewhere if used

@@ -53,3 +53,7 @@ ALIGN 4
 ALIGN 4
 #include Chapter6Events.event
 }
+{
+ALIGN 4
+#include Chapter7Events.event
+}

@@ -330,6 +330,11 @@
 #define GridmasterID 120
 
 
+//Custom 
+
+#define CampGuardID 129
+
+
 //Pre-Battle Skills
 
 #define UngroundedID 130

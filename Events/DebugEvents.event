@@ -115,6 +115,8 @@ ASMC Debug2Menu_ASMC|1
 	BEQ 5 sC s7
 	SVAL s7 6
 	BEQ 6 sC s7
+	SVAL s7 7
+	BEQ 7 sC s7
 	
 	LABEL 1
 	CALL GoCh1
@@ -133,6 +135,9 @@ ASMC Debug2Menu_ASMC|1
 	
 	LABEL 6
 	CALL GoCh6
+	
+	LABEL 7
+	CALL GoCh7
 	
 	LABEL 0
 	
@@ -172,6 +177,7 @@ GoCh3:
 GoCh4:	
 	LOAD1 0x1 Ch4DebugUnits
 	ENUN
+	GiveMoney(4000)
 	_0xA640 0 0 2
 	WM_SETDESTINATION 0 3 0
 	MNCH Chapter4
@@ -181,6 +187,7 @@ GoCh4:
 GoCh5:	
 	LOAD1 0x1 Ch5DebugUnits
 	ENUN
+	GiveMoney(3200)
 	_0xA640 0 0 3
 	WM_SETDESTINATION 0 4 0
 	MNCH Chapter5
@@ -188,15 +195,24 @@ GoCh5:
 	ENDB	
 	
 GoCh6:
-	LOAD1 0x1 Units1
+	LOAD1 0x1 Ch6DebugUnits
 	ENUN
-	GiveMoney(4000)
+	GiveMoney(3200)
 	_0xA640 0 0 4
 	WM_SETDESTINATION 0 5 0
 	MNCH Chapter6
 	NoFade
 	ENDB	
 	
+GoCh7:
+	LOAD1 0x1 Ch7DebugUnits
+	ENUN
+	//GiveMoney()
+	_0xA640 0 0 5
+	WM_SETDESTINATION 0 6 0
+	MNCH Chapter7
+	NoFade
+	ENDB
 	
 EndingScene:
 	MNC2 Chapter1
@@ -274,7 +290,7 @@ Ch5DebugUnits:
 	UNIT Jacob SwordCavalier Curtis Level(5,Ally,True) [3,0] 0x00 0x00 0x00 0x01 [IronSword, IronBlade] NoAI
 	UNIT Lucian LanceCavalier Curtis Level(5,Ally,True) [4,0] 0x00 0x00 0x00 0x01 [IronLance,Javelin] NoAI
 	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, SilverAxe, Elixir] NoAI	
-	UNIT Diane Outlaw_F Curtis Level(5,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow, Longbow] NoAI
+	UNIT Diane Outlaw_F Curtis Level(5,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow, Longbow, Coupon] NoAI
 	UNIT Mirabelle Claw Curtis Level(5,Ally,True) [7,0] 0x00 0x00 0x00 0x01 [0x0] HalfRangeAI
 	UNIT Katja Fighter_F Curtis Level(5,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe, HandAxe, Hammer] HalfRangeAI
 	UNIT Mauritch Myrmidon Curtis Level(5,Ally,True) [9,0] 0x00 0x00 0x00 0x01 [KillingEdge, DawnEdge] AttackInRangeAI
@@ -292,7 +308,7 @@ Ch6DebugUnits:
 	UNIT Jacob SwordCavalier Curtis Level(6,Ally,True) [3,0] 0x00 0x00 0x00 0x01 [IronSword, IronBlade] NoAI
 	UNIT Lucian LanceCavalier Curtis Level(6,Ally,True) [4,0] 0x00 0x00 0x00 0x01 [IronLance,Javelin] NoAI
 	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, SilverAxe, Elixir] NoAI	
-	UNIT Diane Outlaw_F Curtis Level(6,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow, ShiningBow] NoAI
+	UNIT Diane Outlaw_F Curtis Level(6,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow, ShiningBow, Coupon] NoAI
 	UNIT Mirabelle Claw Curtis Level(6,Ally,True) [7,0] 0x00 0x00 0x00 0x01 [0x0] HalfRangeAI
 	UNIT Katja Fighter_F Curtis Level(6,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe, HandAxe, Hammer] HalfRangeAI
 	UNIT Mauritch Myrmidon Curtis Level(6,Ally,True) [9,0] 0x00 0x00 0x00 0x01 [KillingEdge, DawnEdge] AttackInRangeAI
@@ -304,4 +320,25 @@ Ch6DebugUnits:
 	UNIT Hollie BowKnight Garry Level(6,Ally,True) [15,0] 0x0 0x0 0x0 0x0 [SteelBow, Longbow] NeverMoveAI
 	UNIT Dave Mercenary Curtis Level(7,Ally,True) [0,1] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] NoAI
 	UNIT Caitlind AxePeg Curtis Level(7,Ally,True) [0,2] 0x0 0x0 0x0 0x0 [IronAxe] NoAI 
+	UNIT
+	
+Ch7DebugUnits:
+	UNIT Curtis Eye Curtis Level(6,Ally,True) [0,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary] NoAI //[27,16]
+	UNIT Alysa Recruit_1 Curtis Level(7,Ally,True) [2,0] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(6,Ally,True) [3,0] 0x00 0x00 0x00 0x01 [IronSword, IronBlade] NoAI
+	UNIT Lucian LanceCavalier Curtis Level(6,Ally,True) [4,0] 0x00 0x00 0x00 0x01 [IronLance,Javelin] NoAI
+	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, SilverAxe, Elixir] NoAI	
+	UNIT Diane Outlaw_F Curtis Level(6,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow, ShiningBow, Coupon] NoAI
+	UNIT Mirabelle Claw Curtis Level(6,Ally,True) [7,0] 0x00 0x00 0x00 0x01 [0x0] HalfRangeAI
+	UNIT Katja Fighter_F Curtis Level(6,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe, HandAxe, Hammer] HalfRangeAI
+	UNIT Mauritch Myrmidon Curtis Level(6,Ally,True) [9,0] 0x00 0x00 0x00 0x01 [KillingEdge, DawnEdge] AttackInRangeAI
+	UNIT Lauren Troubadour Curtis Level(4,Ally,True) [10,0] 0x00 0x00 0x00 0x01 [Heal, Mend, Repositioner, Vulnerary] HealUnits
+	UNIT Libby Cleric 0x0 Level(4,Ally,True) [11,0] 0x00 0x00 0x00 0x01 [Heal, RescueStaff, MineStaff, BraverysGift] NeverMoveAI
+	UNIT Emmanuel Mage 0x0 Level(6,Ally,True) [12,0] 0x00 0x00 0x00 0x00 [Fire, Elstone] AttackInRangeAI
+	UNIT Garry AxeKnight 0x0 Level(6,Ally,True) [13,0] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] NeverMoveAI
+	UNIT Pieter Soldier Garry Level(6,Ally,True) [14,0] 0x0 0x0 0x0 0x0 [IronLance, Javelin] NeverMoveAI
+	UNIT Hollie BowKnight Garry Level(6,Ally,True) [15,0] 0x0 0x0 0x0 0x0 [SteelBow, Longbow] NeverMoveAI
+	UNIT Dave Mercenary Curtis Level(7,Ally,True) [0,1] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] NoAI
+	UNIT Caitlind AxePeg Curtis Level(7,Ally,True) [0,2] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+	UNIT Anis Monk_F Curtis Level(7,Ally,True) [0,3] 0x0 0x0 0x0 0x0 [Lightning, Shine] NoAI
 	UNIT

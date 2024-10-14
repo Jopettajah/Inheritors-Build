@@ -17,6 +17,16 @@
 //#define General_F 0x0C
 #define ForrestKnight 0x0D
 #define GreatLancer 0x0E
+/*#define Mercenary 0x0F
+#define Mercenary_F 0x10
+#define Hero 0x11
+#define Hero_F 0x12
+#define Myrmidon 0x13
+#define Myrmidon_F 0x14
+#define Swordmaster 0x15
+#define Swordmaster_F 0x16
+#define Assassin 0x17
+#define Assassin_F 0x18*/
 #define Outlaw 0x19
 #define Outlaw_F 0x1A
 #define Adventurer 0x1B
@@ -98,6 +108,7 @@
 #define AxePeg 0x64
 #define AxePegasus AxePeg
 #define LancePegasus PegasusKnight
+#define LancePeg PegasusKnight
 /*#define DracoZombie 0x65
 #define DemonKing 0x66
 #define ArcheronBallista 0x67
@@ -119,8 +130,8 @@
 #define Boulder 0x77
 //#define FallenPrince 0x78
 //#define Tent 0x79
-/*#define Pontifex 0x7A
-#define FallenPeer 0x7B
+#define Wagon 0x7A
+/*#define FallenPeer 0x7B
 #define Cyclops_2 0x7C
 #define ElderBael_2 0x7D
 #define Journeyman_2 0x7E

@@ -161,11 +161,11 @@ Second-in-command of the border[N]
 guard. [X]
 
 ## HollieRetreatQuote
-[MidRight][LoadHollie]
+[MidRight][LoadHollieHelmet]
 Sorry, I must pull back[Beat][A][X]
 
 ## HollieDeathQuote
-[MidRight][LoadHollie]
+[MidRight][LoadHollieHelmet]
 This is the[Beat] end of the road[Beat][CloseEyes][.][.] for me[Beat][A][X]
 
 ## GarryName
@@ -176,12 +176,12 @@ Commander of a border guard unit.[N]
 [X]
 
 ## GarryRetreatQuote
-[MidRight][LoadGarry]
+[MidRight][LoadGarryHelmet]
 Can't[Beat] afford to fall here[Beat][N]
 Must get[Beat][.] back[Beat][A][X]
 
 ## GarryDeathQuote
-[MidRight][LoadGarry]
+[MidRight][LoadGarryHelmet]
 I can[Beat] still stand[ToggleMouthMove]...![ToggleMouthMove][CloseEyes] Gah[Beat][A][X]
 
 ## PieterName
@@ -510,6 +510,20 @@ Lagrange[X]
 Paladin leading the assault on[N]
 the border. Loyal to her country.[X]
 
+## BenjaminName
+Benjamin[X]
+
+## BenjaminDesc
+Bandit know far and wide as[N]
+"One-eyed Benjamin".[X]
+
+## AdaName
+Ada[X]
+
+## AdaDesc
+Farumese commander watching[N]
+over the supply lines.[X]
+
 ## FarumName
 Farumese[X]
 
@@ -522,3 +536,9 @@ Brigand[X]
 ## BrigandDesc
 Lawless good-for-nothing[N]
 cut-throats.[X]
+
+## AudinanName
+Audinan[X]
+
+## AudinanDesc
+Ordinary soldiers of Audina.[X]

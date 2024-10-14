@@ -4,7 +4,7 @@
 #include "_Common.event"
 ALIGN 4
 pMovModifiers: // Movement
-	POIN prAddUnitBaseMov prAddUnitMovBonus (prGetItemMovBonus-1) prItemPassiveMov prRallyMov prSkillCelerity prSkillPoise prArmorMarchCheck MovGetter_UnitStatus
+	POIN prAddUnitBaseMov prAddUnitMovBonus (prGetItemMovBonus-1) prItemPassiveMov prRallyMov prSkillCelerity prSkillPoise prArmorMarchCheck prSkillCamper MovGetter_UnitStatus
 	#ifdef STAIRS_ASM
 	POIN StairsMoveDebuff-1
 	#endif
@@ -41,6 +41,10 @@ prRallyMov:
 	#include "_asm/RallyMov.lyn.event"
 	POIN GetDebuffs|1
 
+prSkillCamper:
+	rIfUnitHasSkill(CampGuardID)
+		rAddConst(-6)
+	
 ALIGN 4
 prAddEquipMov:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemMovBonus)))

@@ -60,9 +60,9 @@
 #define Caitlind_boss 0x49
 #define Wolfram 0x4A
 #define JeanneMarie 0x4B
-/*#define Murray 0x4C
-#define Tirado 0x4D
-#define Binks 0x4E
+#define Benjamin 0x4C
+#define Ada 0x4D
+/*#define Binks 0x4E
 #define Pablo 0x4F
 #define Macdaire 0x50
 #define Maelduin_boss 0x50
@@ -93,6 +93,8 @@
 #define HeroKing 0x95
 #define SceneDrago 0x96
 #define Brigand_Enemy 0x97
+#define BrigandEnemy Brigand_Enemy
+#define Audinan 0x98
 /*#define Fomortiis 0xBE
 #define Fado 0xC5
 #define Hayden 0xC7

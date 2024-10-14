@@ -13,15 +13,16 @@ POIN NewSaveMenu
 ORG $AA43C
 POIN NewSaveMenu
 
+//TODO: diff palettes for difficulties
 ORG 0xA07AF8
-#incbin "SaveMenu.png.pal.dmp" //TODO Dark
+#incbin "SaveMenuDark.png.pal.dmp"
 ORG 0xA07AD8
 #incbin "SaveMenu.png.pal.dmp"
 
 ORG 0xA07B18
 #incbin "SaveMenu.png.pal.dmp"
 ORG 0xA07B38
-#incbin "SaveMenu.png.pal.dmp" //TODO Dark
+#incbin "SaveMenuDark.png.pal.dmp"
 
 ORG $A1B638
 #incbin "SaveMenu.png.pal.dmp"
@@ -30,7 +31,7 @@ ORG $A1E0D8
 ORG $A27F68
 #incbin "SaveMenu.png.pal.dmp"
 ORG $A27FE8
-#incbin "SaveMenu.png.pal.dmp" //TODO Dark version
+#incbin "SaveMenuDark.png.pal.dmp"
 ORG $A2E1B8
 #incbin "SaveMenu.png.pal.dmp"
 ORG $A2E1D8
@@ -49,13 +50,13 @@ ORG $A29418
 #incbin "SaveMenu.png.pal.dmp"
 
 ORG $A29538
-#incbin "SaveMenu.png.pal.dmp" //TODO Dark version
+#incbin "SaveMenuDark.png.pal.dmp"
 
 ORG $A294B8
-#incbin "SaveMenu.png.pal.dmp" //TODO Dark version
+#incbin "SaveMenuDark.png.pal.dmp"
 
 ORG $A294F8
-#incbin "SaveMenu.png.pal.dmp" //TODO Dark version
+#incbin "SaveMenuDark.png.pal.dmp"
 
 ORG 0x8E088
 POIN MenuBanners

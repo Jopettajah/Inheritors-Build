@@ -43,7 +43,8 @@
 	#define ExampleMapSpriteID 0x66
 
 	#define IndicatorTrapID 0x9
-	#define IndicatorMapSpriteID 0x68
+	#define RedIndicatorTrapID 0x6
+	#define IndicatorMapSpriteID 0x6A
 	
 	
 	#include "TrapRework_Internal.event"
@@ -158,6 +159,10 @@
 	SetTrapEventInit(IndicatorTrapID,TrapRework_GenericInitializer)
 	SetTrapMapSprite(IndicatorTrapID,IndicatorMapSpriteID)
 	SetTrapMapSpritePalette(IndicatorTrapID,NPCTrapPaletteWord)
+	
+	SetTrapEventInit(RedIndicatorTrapID,TrapRework_GenericInitializer)
+	SetTrapMapSprite(RedIndicatorTrapID,IndicatorMapSpriteID)
+	SetTrapMapSpritePalette(RedIndicatorTrapID,EnemyTrapPaletteWord)
 	
 #endif // TRAP_REWORK_INSTALLED
 

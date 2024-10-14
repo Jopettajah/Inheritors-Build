@@ -37,8 +37,8 @@ MiscBasedEvents:
 
 LocationBasedEvents:
 
-	House(0,ArenaHouse,16,7)
-	House(0,HintHouse,2,9)
+	House(0,HintHouse,16,7)
+	House(0,ArenaHouse,2,9)
 	Village(11,AnisVillage,15,3)
 	Village(12,MoneyVillage,7,12)
 	Vendor(Ch6Vendor,11,12)
@@ -126,7 +126,33 @@ BeginningScene:
 	ENDA
 	
 EndingScene:
-	MNC2 Chapter7
+
+	/*SetBackground()
+	Text(Ch6DreamFlashbackText)
+	EndConvo*/
+	SetBackground(0x2C)
+	MUSCFAST CricketsSFX
+	
+	CHECK_ALIVE Jacob
+	BEQ 1 s0 sC
+	Text(EndConvoJacob)
+	GOTO 3
+	
+	LABEL 1
+	CHECK_ALIVE Lucian
+	BEQ 2 s0 sC	
+	Text(EndConvoLucian)
+	GOTO 3
+	
+	LABEL 2
+	Text(Ch6EndConvoSolo)
+	
+	LABEL 3
+	EndConvo
+	
+	_0xA640 0 0 5
+	WM_SETDESTINATION 0 6 0
+	MNCH Chapter7
 	NoFade
 	ENDA
 

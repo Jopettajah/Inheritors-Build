@@ -368,6 +368,17 @@ Boss6_Mug:
 setMugEntry(0x36, Boss6_Mug, 3,6,3,4)
 
 ALIGN 4
+//Benjamin_Mug:
+
+ALIGN 4
+Ada_Mug:
+#incbin "dmp/Bosslady2_mug.dmp"
+#incbin "dmp/Bosslady2_frames.dmp"
+#incbin "dmp/Bosslady2_palette.dmp"
+#incbin "dmp/Bosslady2_minimug.dmp"
+setMugEntry(0x38, Ada_Mug, 3,5,3,3)
+
+ALIGN 4
 GenOutlaw_Mug:
 #incbin "dmp/GenOutlawF_mug.dmp"
 #incbin "dmp/GenOutlawF_frames.dmp"

@@ -82,6 +82,9 @@
 - Lisandra Brave: Repositioner
 - CamTech075: Desert Wind
 
+# Scene Backgrounds
+- Doin Thangs: Village Night
+
 # External & Inline hacks
 
 - Scraiza: NarrowFont, Dynamic Portraits, Droppable/Stealable Item Display

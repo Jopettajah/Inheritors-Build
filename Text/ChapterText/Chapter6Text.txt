@@ -32,7 +32,7 @@ as I make battle preparations.[A]
 ## Ch6ArenaHouseText
 [MidLeft][LoadFace][CurrentPortrait]
 [MidRight][LoadVillagerYoungMan]
-See that Arena in the south?[.4][N]
+See that arena in the south-east?[.4][N]
 You can gamble for coin there.[A][N]
 Matches are limited,[.4] so think[N]
 carefully whom you enter with.[A][X]
@@ -91,12 +91,12 @@ I'm personally ready to hit the[N]
 hay as soon as my shift is over.[A]
 [MidLeft]
 I had a nightmare[Beat][.4] It felt like[Beat][N]
-old forgotten memories, but twisted somehow?[AN]
+old forgotten memories,[.] but twisted,[.] somehow?[AN]
 I honestly have trouble telling between[N]
-visions and real past sometimes[Beat][A]
+my visions and real past sometimes[Beat][A]
 [MidRight]
 That's rough.[.4]
-//Jacob says some helpful anecdote here
+//Jacob says some helpful anecdote or something here like "My Ma used to say..."
 Anyway, shouldn't you go get[N]
 some rest for tomorrows endeavors?[A]
 [MidLeft]
@@ -108,6 +108,8 @@ Anytime.[.4] Good night, [Tact].[A][ToggleSmile]
 
 //If Jacob dead
 ## EndConvoLucian
+[MidRight][LoadLucian]
+[MidLeft][LoadCurtis]
 [X]
 
 //Neiher Alive
@@ -116,8 +118,8 @@ Anytime.[.4] Good night, [Tact].[A][ToggleSmile]
 
 ## JeanneBattleQuote
 [MidLeft][LoadFace][0x36][0x1]
-Fall into despair,[.4][N]
-you Laftian worms![A][X]
+Impossible![.4] How did[N]
+you get past my men!?[A][X]
 
 ## JeanneDeathQuote
 [MidLeft][LoadFace][0x36][0x1]
