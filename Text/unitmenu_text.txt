@@ -1,3 +1,58 @@
+## UM_Stance
+ Stance[X]
+ 
+## UM_StanceDesc
+Attack an enemy and[N]
+take a stance after.[X]
+
+## UM_UpperStance
+ Upper Stance[X]
+ 
+## UM_UpperStanceDesc
+Perform an upward slash and[N]
+take Upper Stance afterwards.[N]
+(Upper Stance: +4 Str/Mag)[X]
+
+## UM_ClearStance
+ Clear Stance[X]
+ 
+## UM_ClearStanceDesc
+Perform a charging thrust and[N]
+take Clear Stance afterwards.[N]
+(Clear Stance: +4 Def/Res)[X]
+
+## UM_SwiftStance
+ Swift Stance[X]
+ 
+## UM_SwiftStanceDesc
+Perform a Sheath strike and[N]
+take Swift Stance afterwards.[N]
+(Swift Stance: +4 Spd)[X]
+
+## UM_SwallowStrike
+ Swallow Strike[X]
+ 
+## UM_SwallowStrikeDesc
+Hits twice consecutively.[N]
+Stance is lost. Cannot use[N]
+skills the next turn.[X]
+
+## UM_StoneThrust
+ Stone Thrust[X]
+ 
+## UM_StoneThrustDesc
+Negates enemy Def/Res.[N]
+Stance is lost. Cannot use[N]
+skills the next turn.[X]
+
+## UM_PetalScatter
+ Petal Scatter[X]
+ 
+## UM_PetalScatterDesc
+5 hits at half damage.[N]
+Stance is lost. Cannot use[N]
+skills the next turn.[X]
+
 ## UM_Bait
  Bait[X]
 

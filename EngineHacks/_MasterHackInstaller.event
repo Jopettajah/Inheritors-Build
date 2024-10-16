@@ -111,29 +111,29 @@ POP
   #include "ExternalHacks/FE8U-Staff and Item Lock/FE8-Staff and Item Lock EA.event"
   
   #include "ExternalHacks/SoundroomThing/Installer.event"
-  
+   
   #include "ExternalHacks/HelpText/HelpText.event"
   
   #include "ExternalHacks/FE8_Stealable+Droppable/Display Droppable Item.event"
   
   #include "ExternalHacks/LevelUpsRestoreHP/LevelUpChange.lyn.event"
-  
+
   #include "ExternalHacks/PortraitShift/Portrait Shift Table.event"
-   
+
   #include "ExternalHacks/Asymmetric_WTA/Asymmetric_WTA.event"
-  
+
   #include "ExternalHacks/FE8-Text_Engine_Rework/_FE8-Text_Engine_Rework_EA.event" 
-  
+
   #include "ExternalHacks/PromoteCommand/Installer.event"
-  
+
   #include "ExternalHacks/Individual_animation_ea_2/Installer.event"
-  
+
   #include "ExternalHacks/DynamicPortraits/DynamicPortraitsInstaller.event"
-  
+
   #include "ExternalHacks/WalkingSoundsFix/WalkSounds.event"
-  
+
   #include "ExternalHacks/ASMC/ASMCInstaller.event"
-  
+
   #include "ExternalHacks/FE8UUnitStatusRework/UnitStatus.event"
 
   #include "ExternalHacks/ModularUnitMenuCommandUsability/ModularUnitMenuCommandUsability.event"

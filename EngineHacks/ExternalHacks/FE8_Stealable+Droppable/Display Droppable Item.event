@@ -4,9 +4,9 @@ ERROR "You're not assembling to an FE8 ROM!"
 
 #include EAstdlib.event
 #include "Extensions/Hack Installation.txt"
-	#ifndef Free_Space
-	#define Free_Space 0x0F3D000//D12000
-	ORG Free_Space
+	#ifndef FreeSpace
+	#define FreeSpace 0x0F3D000//D12000
+	ORG FreeSpace
 #endif
 	#ifndef Item_Table
 	#define Item_Table 0x809B10
@@ -18,8 +18,8 @@ PUSH
 	SHORT 0x46C0
 	callHack_r0(FOG)
 
-    	ORG $156ac // Repoint loaded image
-        POIN NewGraphic
+    ORG $156ac // Repoint loaded image
+    POIN NewGraphic
 
 POP
 

@@ -12,4 +12,6 @@ ALIGN 4
 ALIGN 4
 #include "Templates/UnitStatusInstaller.event"
 
+PROTECT UnitStatusInfoTable UnitStatusInfoTable+0x40
+
 #endif // UNIT_STATUS_REWORK

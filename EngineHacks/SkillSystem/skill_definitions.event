@@ -333,7 +333,7 @@
 //Custom 
 
 #define CampGuardID 129
-
+#define StanceMasteryID 24
 
 //Pre-Battle Skills
 

@@ -77,6 +77,7 @@ Units1:
 	//UNIT Ellie Druid_F 0x0 Level(1,Ally,False) [0,6] 0x0 0x0 0x0 0x0 [Flux, Gheist] NoAI
 	//UNIT Lucian LanceCavalier 0x0 Level(10,Ally,False) [1,6] 0x0 0x0 0x0 0x0 [KnightCrest] NoAI
 	//UNIT Pieter Soldier 0x0 Level(10,Ally,False) [1,7] 0x0 0x0 0x0 0x0 [KnightCrest] NoAI
+	UNIT Suhaira Horn 0x0 Level(10,Ally,True) [3,3] 0x0 0x0 0x0 0x0 [IronSword] NoAI
 	UNIT Nishay Shaman_F 0x0 Level(10,Ally,False) [2,6] 0x0 0x0 0x0 0x0 [Flux, Nosferatu] NoAI
 	UNIT
 
@@ -86,7 +87,7 @@ EnemyUnits:
 	UNIT Farum Sage ONeill Level(1,Enemy,True) [12,3] 0x0 0x0 0x0 0x0 [Lightning] NeverMoveAI
 	UNIT Farum Soldier ONeill Level(7,Enemy,True) [5,2] 0x0 0x0 0x0 [AxeReaver,Javelin] NeverMoveAI
 	UNIT Farum Mercenary ONeill Level(10,Enemy,True) [5,1] 0x0 0x0 0x0 [IronSword] NeverMoveAI
-	UNIT JeanneMarie Troubadour ONeill Level(10,Enemy,False) [10,2] 0x0 0x0 0x0 [Berserk] DefaultAI
+	//UNIT JeanneMarie Troubadour ONeill Level(10,Enemy,False) [10,2] 0x0 0x0 0x0 [Berserk] DefaultAI
 	UNIT
 
 Traps1:

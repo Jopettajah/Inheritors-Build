@@ -7,10 +7,12 @@ extern int GetROMUnitSupportCount(struct Unit* unit);
 extern struct Unit* GetUnitSupportingUnit(struct Unit* unit, int num);
 extern int GetSupportLevelBySupportIndex(struct Unit*, int num);
 extern void SetBit(u32* address, u8 bitOffset);
+extern bool CanUnitUseAttack(void);
 
 extern int CaringColdShoulderID_Link;
 extern int EarlyRiserID_Link;
 extern int UngroundedID_Link;
+extern int StanceMasteryID_Link;
 
 /*
 void ___(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
@@ -86,5 +88,28 @@ void Ungrounded(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 			}
 		}
 	}
+	return;
+}
+
+u8 UpperStanceUsability(const struct MenuItemDef* def, int number) {
+	if (SkillTester(gActiveUnit, StanceMasteryID_Link)) {
+		if (CanUnitUseAttack()) {
+			if (gActiveUnit->statusIndex == 0) {
+				return MENU_ENABLED;
+			}
+		}
+	}
+	return MENU_DISABLED;
+}
+
+void UpperStanceEffect() {
+	return;
+}
+
+void ClearStanceEffect() {
+	return;
+}
+
+void SwiftStance() {
 	return;
 }

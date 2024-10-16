@@ -18,7 +18,7 @@
 #define Ch6BossAI [CH6BOSSAI1, CH6BOSSAI2, 0x04]
 //#define Ch6BodyguardAI [0x00, CH6BODYGUARDAI2, 0x04]
 #define Ch7GrnWagonAI [0x06, CH7GRNWAGONAI, 0x4]
-#define Ch7RedWagonAI [0x06, CH7REDWAGONAI, 0x4]
+//#define Ch7RedWagonAI [0x06, CH7REDWAGONAI, 0x4]
 
 InjectAi1(CH6BOSSAI1, Ch6BossAction)
 
@@ -28,7 +28,7 @@ setAI2(CH5OUTLAW_AI2, Ch5Outlaw)
 setAI2(CH6BOSSAI2, Ch6BossMove)
 //setAI2(CH6BODYGUARDAI2, Ch6BodyguardMove)
 setAI2(CH7GRNWAGONAI, Ch7GrnWagonMove)
-setAI2(CH7REDWAGONAI, Ch7RedWagonMove)
+//setAI2(CH7REDWAGONAI, Ch7RedWagonMove)
 
 ALIGN 4
 EmmanuelAi:

@@ -37,6 +37,30 @@ when initiating attacks.[X]
 #0xd52 ExtraArenaText
 You have used arena enough[N]
 for this map. Move along now.[X]
+ 
+## SS_UpperDesc
+Upper Stance: +4 Str/Mag[X]
+
+## SS_Clear
+ Clear[X]
+
+## SS_ClearDesc
+Clear Stance: +4 Def/Res[X]
+
+## SS_Swift
+ Swift[X]
+ 
+## SS_SwiftDesc
+Swift Stance: +4 Spd[X]
+
+## SS_Cooldown
+ Rest[X]
+ 
+## SS_CooldownDesc
+Suhaira cannot use stances.[X]
+
+## SS_Upper
+ Upper[X]
 
 ## HouseText
 //first text ID in the free block

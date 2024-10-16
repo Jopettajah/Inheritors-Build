@@ -30,7 +30,7 @@ Gfx_UnitStatus_ExposeRes:
 InjectUnitStatusInfo(EA_UNIT_NEW_STATUS_EXPOSERES, StatusInfo_ExposeRes)
 SetStatusBlinkyIconFunc(EA_UNIT_NEW_STATUS_EXPOSERES, CostumBlankyIcon_DeBuffStatus)
 
-
+/*
 // Weaken
 ALIGN 4
 Gfx_UnitStatus_Weaken:
@@ -38,7 +38,7 @@ Gfx_UnitStatus_Weaken:
 #include "Weaken/WeakenInfo.lyn.event"
 InjectUnitStatusInfo(EA_UNIT_NEW_STATUS_WEAKEN, StatusInfo_Weaken)
 SetStatusBlinkyIconFunc(EA_UNIT_NEW_STATUS_WEAKEN, CostumBlankyIcon_DeBuffStatus)
-
+*/
 
 // Avoid / Bait
 ALIGN 4
@@ -65,3 +65,29 @@ Gfx_UnitStatus_Brave:
 #include "Brave/BraveInfo.lyn.event"
 InjectUnitStatusInfo(EA_UNIT_NEW_STATUS_BRAVE, StatusInfo_Brave)
 SetStatusBlinkyIconFunc(EA_UNIT_NEW_STATUS_BRAVE, CostumBlankyIcon_BuffStatus)
+
+
+ALIGN 4
+Gfx_UnitStatus_UpperStance:
+#incbin "Brave/Gfx_UnitStatus_Brave.dmp"
+#include "Stances/Stances.lyn.event"
+InjectUnitStatusInfo(EA_UNIT_NEW_STATUS_UPPERSTANCE, StatusInfo_UpperStance)
+SetStatusBlinkyIconFunc(EA_UNIT_NEW_STATUS_UPPERSTANCE, CostumBlankyIcon_BuffStatus)
+
+ALIGN 4
+Gfx_UnitStatus_ClearStance:
+#incbin "Brave/Gfx_UnitStatus_Brave.dmp"
+InjectUnitStatusInfo(EA_UNIT_NEW_STATUS_CLEARSTANCE, StatusInfo_ClearStance)
+SetStatusBlinkyIconFunc(EA_UNIT_NEW_STATUS_CLEARSTANCE, CostumBlankyIcon_BuffStatus)
+
+ALIGN 4
+Gfx_UnitStatus_SwiftStance:
+#incbin "Brave/Gfx_UnitStatus_Brave.dmp"
+InjectUnitStatusInfo(EA_UNIT_NEW_STATUS_SWIFTSTANCE, StatusInfo_SwiftStance)
+SetStatusBlinkyIconFunc(EA_UNIT_NEW_STATUS_SWIFTSTANCE, CostumBlankyIcon_BuffStatus)
+
+ALIGN 4
+Gfx_UnitStatus_Cooldown:
+#incbin "Brave/Gfx_UnitStatus_Brave.dmp"
+InjectUnitStatusInfo(EA_UNIT_NEW_STATUS_COOLDOWN, StatusInfo_Cooldown)
+SetStatusBlinkyIconFunc(EA_UNIT_NEW_STATUS_COOLDOWN, CostumBlankyIcon_DeBuffStatus)

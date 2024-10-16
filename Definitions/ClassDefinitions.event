@@ -7,6 +7,9 @@
 #define Seer 0x04
 #define SwordCavalier 0x05
 #define LanceCavalier 0x06
+#define SwordCav SwordCavalier
+#define LanceCav LanceCavalier
+#define AxeCav AxeCavalier
 //#define Paladin 0x07
 //#define Paladin_F 0x08
 #define LanceKnight 0x09

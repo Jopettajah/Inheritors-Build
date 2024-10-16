@@ -5,6 +5,8 @@ EarlyRiserID_Link:
 WORD EarlyRiserID
 UngroundedID_Link:
 WORD UngroundedID
+StanceMasteryID_Link:
+WORD StanceMasteryID
 
 ALIGN 4
 #include "C_Code.lyn.event"
@@ -98,3 +100,70 @@ DivineIntervention:
 #incbin "DivineInterventionProc.dmp"
 POIN SkillTester
 WORD DivineInterventionID
+
+ALIGN 4
+#include "StancesMenuFuncs.lyn.event"
+
+ALIGN 4
+StancesMenuDef:
+BYTE 1 //x coord
+BYTE 3 //y coord
+BYTE 10 //width
+BYTE 0 //height
+WORD 0 //Unknown
+POIN StancesMenu //menu commands ptr
+WORD 0 //OnInit
+WORD 0 //OnEnd
+WORD 0 //Unknown
+POIN 0x22861 //On B Press
+POIN 0x4f521 //On R Press
+POIN 0x4f459 //On Help Box
+
+ALIGN 4
+StancesMenu:
+MenuCommand(UM_UpperStance, UM_UpperStanceDesc, NormalText, UpperStanceUsability, UpperStanceEffect, $22c31, $22c99)
+MenuCommand(UM_ClearStance, UM_ClearStanceDesc, NormalText, UpperStanceUsability, ClearStanceEffect, $22c31, $22c99)
+MenuCommand(UM_SwiftStance, UM_SwiftStanceDesc, NormalText, UpperStanceUsability, SwiftStanceEffect, $22c31, $22c99)
+MenuCommand(UM_SwallowStrike, UM_SwallowStrikeDesc, NormalText, SwallowStrikeUsability, SwallowStrikeEffect, $22c31, $22c99)
+MenuCommand(UM_StoneThrust, UM_StoneThrustDesc, NormalText, StoneThrustUsability, StoneThrustEffect, $22c31, $22c99)
+MenuCommand(UM_PetalScatter, UM_PetalScatterDesc, NormalText, PetalScatterUsability, PetalScatterEffect, $22c31, $22c99)
+UM_Separator
+
+ALIGN 4
+UpperStanceEffect:
+#incbin "../UnitMenuSkills/CombatArts/CombatArtEffect.dmp"
+WORD 15
+
+ALIGN 4
+ClearStanceEffect:
+#incbin "../UnitMenuSkills/CombatArts/CombatArtEffect.dmp"
+WORD 16
+
+ALIGN 4
+SwiftStanceEffect:
+#incbin "../UnitMenuSkills/CombatArts/CombatArtEffect.dmp"
+WORD 17
+
+ALIGN 4
+SwallowStrikeEffect:
+#incbin "../UnitMenuSkills/CombatArts/CombatArtEffect.dmp"
+WORD 18
+
+ALIGN 4
+StoneThrustEffect:
+#incbin "../UnitMenuSkills/CombatArts/CombatArtEffect.dmp"
+WORD 19
+
+ALIGN 4
+PetalScatterEffect:
+#incbin "../UnitMenuSkills/CombatArts/CombatArtEffect.dmp"
+WORD 20
+
+ALIGN 4
+Proc_Stances:
+#incbin "proc_Stance.dmp"
+WORD StanceMasteryID
+
+ALIGN 4
+PostBStance:
+#incbin "_StancePostBattle.dmp"

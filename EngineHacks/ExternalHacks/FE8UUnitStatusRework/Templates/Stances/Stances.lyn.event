@@ -1,0 +1,16 @@
+ALIGN 4
+PUSH
+ORG CURRENTOFFSET+$0;StatusInfo_UpperStance:
+ORG CURRENTOFFSET+$28;StatusInfo_ClearStance:
+ORG CURRENTOFFSET+$28;StatusInfo_SwiftStance:
+ORG CURRENTOFFSET+$28;StatusInfo_Cooldown:
+POP
+WORD $D530D5A
+POIN Gfx_UnitStatus_UpperStance
+WORD $0 $0 $0 $4030002 $4 $0 $0 $0 $D550D54
+POIN Gfx_UnitStatus_ClearStance
+WORD $0 $0 $0 $30002 $4000000 $4 $0 $0 $D570D56
+POIN Gfx_UnitStatus_SwiftStance
+WORD $0 $0 $0 $30002 $40000 $0 $0 $0 $D590D58
+POIN Gfx_UnitStatus_Cooldown
+WORD $0 $0 $0 $20002 $0 $0 $0 $0
