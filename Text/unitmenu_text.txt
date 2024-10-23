@@ -25,7 +25,7 @@ take Clear Stance afterwards.[N]
  Swift Stance[X]
  
 ## UM_SwiftStanceDesc
-Perform a Sheath strike and[N]
+Perform a sheath strike and[N]
 take Swift Stance afterwards.[N]
 (Swift Stance: +4 Spd)[X]
 
@@ -34,24 +34,21 @@ take Swift Stance afterwards.[N]
  
 ## UM_SwallowStrikeDesc
 Hits twice consecutively.[N]
-Stance is lost. Cannot use[N]
-skills the next turn.[X]
+Usable in Upper Stance.[X]
 
 ## UM_StoneThrust
  Stone Thrust[X]
  
 ## UM_StoneThrustDesc
 Negates enemy Def/Res.[N]
-Stance is lost. Cannot use[N]
-skills the next turn.[X]
+Usable in Clear Stance.[X]
 
 ## UM_PetalScatter
  Petal Scatter[X]
  
 ## UM_PetalScatterDesc
 5 hits at half damage.[N]
-Stance is lost. Cannot use[N]
-skills the next turn.[X]
+Usable in Swift Stance.[X]
 
 ## UM_Bait
  Bait[X]

@@ -43,7 +43,7 @@
 	#define ExampleMapSpriteID 0x66
 
 	#define IndicatorTrapID 0x9
-	#define RedIndicatorTrapID 0x6
+	#define RedIndicatorTrapID 0x14
 	#define IndicatorMapSpriteID 0x6A
 	
 	

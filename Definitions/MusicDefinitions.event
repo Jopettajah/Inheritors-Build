@@ -61,9 +61,9 @@
 #define ShadowsOfIllusionID 0xAD
 #define CrimeOfTheHeartID 0xAE
 #define EachJusticeID 0xC0
+#define UnoTensionID 0xc1
 
 /*
-#define 0xc1
 #define 0xc2
 #define 0xc3
 #define 0xc4

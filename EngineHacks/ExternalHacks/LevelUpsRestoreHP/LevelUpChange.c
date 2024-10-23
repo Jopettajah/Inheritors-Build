@@ -8,7 +8,7 @@ void UpdateUnitFromBattle(struct Unit* unit, struct BattleUnit* bu) {
     unit->curHP = bu->unit.curHP;
     unit->maxHP = bu->unit.maxHP;   
     unit->state = bu->unit.state;
-    unit->_u3A = bu->unit._u3A;
+    //unit->_u3A = bu->unit._u3A;
 
     gUnknown_03003060 = UNIT_ARENA_LEVEL(unit);
 

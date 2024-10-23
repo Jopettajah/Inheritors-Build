@@ -65,12 +65,6 @@ Units1:
 	UNIT Jacob Eye Curtis Level(1,Ally,False) [14,19] 0x0 0x0 0x0 0x1 [0x0] NoAI
 	UNIT Jacob Eye Curtis Level(1,Ally,False) [15,19] 0x0 0x0 0x0 0x1 [0x0] NoAI
 	UNIT
-
-SibylGroup:
-	UNIT Sibyl Dancer Curtis Level(8,Ally,False) [16,18] 0x0 0x0 0x0 0x1 [DesertWind] NoAI
-	UNIT Suhaira Horn Curtis Level(9,Ally,False) [17,18] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
-	UNIT Fabian Wing Curtis Level(9,Ally,False) [17,19] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
-	UNIT
 	
 EnemyUnits:
 	UNIT Benjamin Brigand Benjamin Level(12,Enemy,False) [2,1] 0x0 0x0 0x0 0x0 [Halberd, Handaxe] AttackInRangeAI
@@ -81,6 +75,7 @@ EnemyUnits:
 	UNIT BrigandEnemy Outlaw Benjamin Level(8,Enemy,True) [1,16] 0x0 0x0 0x0 0x0 [IronBow] DefaultAI
 	UNIT BrigandEnemy Brigand Benjamin Level(8,Enemy,True) [0,12] 0x0 0x0 0x0 0x0 [SteelAxe] TwoActionAI
 	UNIT BrigandEnemy Brigand Benjamin Level(8,Enemy,True) [4,5] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
+	UNIT BrigandEnemy Mercenary Benjamin Level(8,Enemy,True) [10,2] 0x0 0x0 0x0 0x0 [KillingEdge] AttackInRangeAI
 	
 	UNIT Ada GreatLancer Ada Level(1,Enemy,False) [27,2] 0x0 0x0 0x0 0x0 [SilverLance] AttackInRangeAI
 	UNIT Farum Tent Ada Level(8,Enemy,True) [29,2] 0x0 0x0 0x0 0x0 [0x0] NoAI

@@ -144,3 +144,6 @@ SongTable(CrimeOfTheHeartID,crimeoftheheart0,MapMusicGroup)
 
 SongTable(EachJusticeID,EachJustice,MapMusicGroup)
 #include "event/EachJustice.event"
+
+SongTable(UnoTensionID,uno_tension_000,MapMusicGroup)
+#include "event/uno_tension_000.event"

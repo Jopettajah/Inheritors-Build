@@ -7,7 +7,7 @@ extern int GetROMUnitSupportCount(struct Unit* unit);
 extern struct Unit* GetUnitSupportingUnit(struct Unit* unit, int num);
 extern int GetSupportLevelBySupportIndex(struct Unit*, int num);
 extern void SetBit(u32* address, u8 bitOffset);
-extern bool CanUnitUseAttack(void);
+extern u8 GetUnitStatusIndex(struct Unit*);
 
 extern int CaringColdShoulderID_Link;
 extern int EarlyRiserID_Link;
@@ -93,23 +93,47 @@ void Ungrounded(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 
 u8 UpperStanceUsability(const struct MenuItemDef* def, int number) {
 	if (SkillTester(gActiveUnit, StanceMasteryID_Link)) {
-		if (CanUnitUseAttack()) {
+		if (AttackCommandUsability(def, number) == MENU_ENABLED) {
 			if (gActiveUnit->statusIndex == 0) {
 				return MENU_ENABLED;
 			}
 		}
 	}
-	return MENU_DISABLED;
+	return MENU_NOTSHOWN;
 }
 
-void UpperStanceEffect() {
-	return;
+u8 SwallowStrikeUsability(const struct MenuItemDef* def, int number) {
+	if (AttackCommandUsability(def, number) == MENU_ENABLED) {
+		if (GetUnitStatusIndex(gActiveUnit) == 0x1A) {
+			return MENU_ENABLED;
+		}
+		if ((GetUnitStatusIndex(gActiveUnit) == 0x18) || (GetUnitStatusIndex(gActiveUnit) == 0x17)) {
+			return MENU_DISABLED;
+		}
+	}
+	return MENU_NOTSHOWN;
 }
 
-void ClearStanceEffect() {
-	return;
+u8 StoneThrustUsability(const struct MenuItemDef* def, int number) {
+	if (AttackCommandUsability(def, number) == MENU_ENABLED) {
+		if (GetUnitStatusIndex(gActiveUnit) == 0x18) {
+			return MENU_ENABLED;
+		}
+		if ((GetUnitStatusIndex(gActiveUnit) == 0x1A) || (GetUnitStatusIndex(gActiveUnit) == 0x17)) {
+			return MENU_DISABLED;
+		}
+	}
+	return MENU_NOTSHOWN;
 }
 
-void SwiftStance() {
-	return;
+u8 PetalScatterUsability(const struct MenuItemDef* def, int number) {
+	if (AttackCommandUsability(def, number) == MENU_ENABLED) {
+		if (GetUnitStatusIndex(gActiveUnit) == 0x17) {
+			return MENU_ENABLED;
+		}
+		if ((GetUnitStatusIndex(gActiveUnit) == 0x1A) || (GetUnitStatusIndex(gActiveUnit) == 0x18)) {
+			return MENU_DISABLED;
+		}
+	}
+	return MENU_NOTSHOWN;
 }

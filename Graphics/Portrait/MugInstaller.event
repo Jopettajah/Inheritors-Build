@@ -239,6 +239,14 @@ Anis_Mug:
 setMugEntry(0x16,Anis_Mug,3,6,3,4)
 
 ALIGN 4
+Suhaira_Mug:
+#incbin "dmp/Suhaira_mug.dmp"
+#incbin "dmp/Suhaira_frames.dmp"
+#incbin "dmp/Suhaira_palette.dmp"
+#incbin "dmp/Suhaira_minimug.dmp"
+setMugEntry(SuhairaMugID,Suhaira_Mug,3,5,3,3)
+
+ALIGN 4
 Kimiko_Mug:
 #incbin "dmp/Kimiko_mug.dmp"
 #incbin "dmp/Kimiko_frames.dmp"

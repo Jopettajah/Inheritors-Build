@@ -1,0 +1,9 @@
+## Ch7WMText
+[X]
+
+## Ch7ObjectiveText
+ Escort wagon[X]
+
+## Ch7ObjectiveStatusText
+Escort the wagon[N]
+up to the north.[X]

@@ -177,10 +177,10 @@ GreenGroup:
 
 Traps1:
 	Vein(10,9,2,Ch4DVBoxText)
-	MapSpriteTrap(IndicatorTrapID,10,0)
-	MapSpriteTrap(IndicatorTrapID,11,0)
-	MapSpriteTrap(IndicatorTrapID,12,0)
-	MapSpriteTrap(IndicatorTrapID,13,0)
+	MapSpriteTrap(RedIndicatorTrapID,10,0)
+	MapSpriteTrap(RedIndicatorTrapID,11,0)
+	MapSpriteTrap(RedIndicatorTrapID,12,0)
+	MapSpriteTrap(RedIndicatorTrapID,13,0)
 	ENDTRAP
 	ALIGN 4
 

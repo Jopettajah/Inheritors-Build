@@ -235,3 +235,11 @@ WagonStand:
 ALIGN 4
 WagonWalk:
 #incbin "dmp/WagonWalk.dmp"
+
+ALIGN 4
+HornStand:
+#incbin "dmp/HornStand.dmp"
+
+ALIGN 4
+HornWalk:
+#incbin "dmp/HornWalk.dmp"

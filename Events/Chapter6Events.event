@@ -126,11 +126,12 @@ BeginningScene:
 	ENDA
 	
 EndingScene:
-
-	/*SetBackground()
+	
+	MUSCFAST BW2NCastleID
+	SetBackground(Town_Past)
 	Text(Ch6DreamFlashbackText)
-	EndConvo*/
-	SetBackground(0x2C)
+	BACKGROUND_FROMCOLOR 1 4
+	SetBackground(0x2c)
 	MUSCFAST CricketsSFX
 	
 	CHECK_ALIVE Jacob
@@ -148,7 +149,7 @@ EndingScene:
 	Text(Ch6EndConvoSolo)
 	
 	LABEL 3
-	EndConvo
+	FADI 16
 	
 	_0xA640 0 0 5
 	WM_SETDESTINATION 0 6 0

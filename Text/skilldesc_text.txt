@@ -2,7 +2,9 @@
 ## SD_StanceMastery
 Stance Mastery: Grants Suhaira[N]
 access to stances & finishers.[N]
-Stances last for 3 turns.[X]
+Stances last for 3 turns.[N]
+Finishers end Stance & disable[N]
+skills until end of next turn.[X]
 
 ## SD_CampGuard
 Camp Guard: -3 Mov.[X]

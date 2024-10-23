@@ -48,4 +48,5 @@ SoundRoomEntry(CrimeOfTheHeartID,CrimeOfTheHeartName)
 SoundRoomEntry(FlameAndArrowID,FlameAndArrowName)
 SoundRoomEntry(ShadowsOfIllusionID,ShadowsOfIllusionName)
 SoundRoomEntry(EachJusticeID,EachJusticeName)
+SoundRoomEntry(UnoTensionID,0x07AF)
 SoundRoomTerminator
