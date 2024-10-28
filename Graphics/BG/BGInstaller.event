@@ -1,6 +1,11 @@
 #define ConvoBackgroundTable $95DD1C
 #define SetConvoBackground(Index, ImagePointer, TSAPointer, PalettePointer) "PUSH; ORG ConvoBackgroundTable + (Index * 0xC); POIN ImagePointer TSAPointer PalettePointer; POP"
 
+#define InnNightBGID 0x0c
+#define VillageNightBGID 0x2C
+#define TentBGID 0x31
+#define ArmyCampBGID 0x32
+
 ALIGN 4
 ArmycampImage:
 #incbin "ArmyCamp9Day.png.dmp"
@@ -37,6 +42,21 @@ ALIGN 4
 VillageNightPalette:
 #incbin "VillageNight.png.pal.dmp"
 
-SetConvoBackground(0x2C, VillageNightImage, VillageNightTSA, VillageNightPalette)
-SetConvoBackground(0x31, TentImage, TentTSA, TentPalette)
-SetConvoBackground(0x32, ArmycampImage, ArmycampTsa, ArmycampPalette)
+ALIGN 4
+InnNightImage:
+#incbin "InnDarkDump.png.dmp"
+
+ALIGN 4
+
+ALIGN 4
+InnNightTSA:
+#incbin "InnDarkDump.png.tsa.dmp"
+
+ALIGN 4
+InnNightPalette:
+#incbin "InnDarkDump.png.pal.dmp"
+
+SetConvoBackground(InnNightBGID, InnNightImage, InnNightTSA, InnNightPalette)
+SetConvoBackground(VillageNightBGID, VillageNightImage, VillageNightTSA, VillageNightPalette)
+SetConvoBackground(TentBGID, TentImage, TentTSA, TentPalette)
+SetConvoBackground(ArmyCampBGID, ArmycampImage, ArmycampTsa, ArmycampPalette)

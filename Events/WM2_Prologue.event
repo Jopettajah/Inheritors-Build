@@ -4,6 +4,7 @@ WorldMapIntroPointerTable(3,EmptyEvent)
 WorldMapIntroPointerTable(4,EmptyEvent)
 WorldMapIntroPointerTable(5,EmptyEvent)
 WorldMapIntroPointerTable(6,EmptyEvent)
+WorldMapIntroPointerTable(7,EmptyEvent)
 
 Intro:
 EVBIT_MODIFY 0x1

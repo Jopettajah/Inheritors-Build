@@ -420,7 +420,8 @@ EndingScene:
 	LABEL 6
 	MUSCFAST Victory
 	Text(Ch5EndingText)
-	EndConvo
+	//EndConvo
+	FADI 16
 	
 	_0xA640 0 0 4
 	WM_SETDESTINATION 0 5 0

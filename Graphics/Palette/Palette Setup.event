@@ -275,3 +275,7 @@
 // NellaGreatKnight
 	setPalette(0x45,NellaGreatKnight)
 	setCBSP(0x45,Nella,0x2,GreatKnight_F)
+
+// JeanneTroub
+	setPalette(0x46,JeanneTroub)
+	setCBSP(0x46,JeanneMarie,0x1,Troubadour)

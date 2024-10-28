@@ -1,4 +1,4 @@
-#ifdef __DEBUG__
+//#ifdef __DEBUG__
 
 {
 #define DebugStartChapter 0x3c
@@ -23,7 +23,7 @@ prFixedDifficulty:
 	
 }
 
-#endif // __DEBUG__
+//#endif // __DEBUG__
 
 {
 ALIGN 4

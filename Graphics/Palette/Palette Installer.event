@@ -207,3 +207,6 @@ NellaPaladin:
 NellaGreatKnight:
 	#incbin "./_palettes/NellaGreatKnight.lzpal" 
 
+JeanneTroub:
+	#incbin "./_palettes/JeanneTroub.lzpal" 
+

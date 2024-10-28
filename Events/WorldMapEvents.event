@@ -21,10 +21,12 @@ SHORT 0xFFFF
 ORG 0x897B2
 BYTE 0x0 0x0 0x0 0x0
 
-
 //Fixes the game considering some chapters postgame.
 ORG 0x897C4
 BYTE 0x0E 0x20 0x20 0x56
+
+ORG $96B4C
+SHORT 0xE003
 
 ORG 0x206948
 BYTE 0
@@ -73,7 +75,7 @@ SetWMChapterID(Chapter7,Chapter7)
 }
 {
   ALIGN 4
-  #include "WM_Chapter7.event"
+  //#include "WM_Chapter7.event"
 }
 
 ALIGN 4

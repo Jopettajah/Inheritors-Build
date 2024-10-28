@@ -86,6 +86,8 @@ POP
   #endif
   */
   
+  #include "ExternalHacks/WMSaveRedirect/C_Code.lyn.event"
+  
   #include "ExternalHacks/Changing preparation BGM/Installer.event"
   
   #include "ExternalHacks/BerserkRework/C_Code.lyn.event"

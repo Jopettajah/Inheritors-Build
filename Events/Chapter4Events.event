@@ -290,24 +290,36 @@ BridgeTalk:
 	ENDA
 	
 Turn3Reinforcements:
-	
+	CHECK_EXISTS Lagrange
+	BEQ 31 s0 sC
+	CHECK_ALIVE Lagrange
+	BEQ 31 s0 sC
 	EVBIT_T 9
 	LOAD1 0x1 Turn3Cavs
 	ENUN
+	
+	LABEL 31
 	NoFade
 	ENDA
 
 Turn5Reinforcements:
-	
+	CHECK_EXISTS Lagrange
+	BEQ 30 s0 sC
+	CHECK_ALIVE Lagrange
+	BEQ 30 s0 sC
 	EVBIT_T 9
 	LOAD1 0x1 KillerSquad
 	ENUN
+	
+	LABEL 30
 	NoFade
 	ENDA
 	
 BridgeEvent:
 
 	CHECK_EXISTS Engineer	
+	BEQ 8 s0 sC
+	CHECK_ALIVE Engineer
 	BEQ 8 s0 sC
 	
 	CAMERA Engineer
@@ -330,19 +342,28 @@ BridgeEvent:
 	ENDA
 
 BridgeCavsSpawn:
+	CHECK_EXISTS Lagrange
+	BEQ 32 s0 sC
+	CHECK_ALIVE Lagrange
+	BEQ 32 s0 sC
+	
 	EVBIT_T 9
 	LOAD1 0x1 BridgeCavs
 	ENUN
+	LABEL 32
 	NoFade
 	ENDA
 
 PegaUnitsSpawn:
+	CHECK_EXISTS Bazba
+	BEQ 21 s0 sC
+	CHECK_ALIVE Bazba
+	BEQ 21 s0 sC
+
 	EVBIT_T 9
 	LOAD1 0x1 SoloPegs
 	ENUN
 	
-	CHECK_EXISTS Bazba
-	BEQ 21 s0 sC
 	CAMERA Bazba
 	CURSOR_FLASHING Bazba
 	STAL 50
@@ -358,13 +379,25 @@ PegaUnitsSpawn:
 	ENDA
 	
 PegaSquadsSpawn:
+	CHECK_EXISTS Lagrange
+	BEQ 33 s0 sC
+	CHECK_ALIVE Lagrange
+	BEQ 33 s0 sC
+	
 	EVBIT_T 9
 	LOAD1 0x1 PegaSquads
 	ENUN
+	
+	LABEL 33
 	NoFade
 	ENDA
 
-Turn8Reinforcements:
+Turn8Reinforcements:	
+	CHECK_EXISTS Lagrange
+	BEQ 20 s0 sC
+	CHECK_ALIVE Lagrange
+	BEQ 20 s0 sC
+	
 	EVBIT_T 9
 	LOAD1 0x1 Turn8Lads
 	ENUN
@@ -445,9 +478,11 @@ SHORT 0
 EndingScene:
 
 	CHECK_EXISTS Bazba
-	BEQ 32 s0 sC
+	BEQ 34 s0 sC
+	CHECK_ALIVE Lagrange
+	BEQ 34 s0 sC
 	Text(LagrangeRetreat)
-	LABEL 32
+	LABEL 34
 	
 	MUSC VictoryB
 	SetBackground(Fort_Ruins_Outside)

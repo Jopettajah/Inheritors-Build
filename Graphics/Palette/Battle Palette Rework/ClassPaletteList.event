@@ -258,6 +258,7 @@ ALIGN 4
 
 TroubadourPaletteList:
 PaletteAssociationEntry(Lauren, $0A)
+PaletteAssociationEntry(JeanneMarie,$46)
 WORD 0 0
 ALIGN 4
 

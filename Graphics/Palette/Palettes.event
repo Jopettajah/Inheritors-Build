@@ -204,7 +204,8 @@
 #char{0x45} "NellaGreatKnight" set{Nella,0x2,GreatKnight_F}
 	5553DE7BFF5B1F4BB229196B52568C41E7301C01B900140071776D6A6941A514
 	
-//#char{0x46} "" set{}
+#char{0x46} "JeanneTroub" set{JeanneMarie,0x1,Troubadour}
+	5553B972FF5BDD3A4E1D4E726A59C7407D0D150D13666D45BF7FB576EF5DA514
 
 //#char{0x47} "" set{}
 

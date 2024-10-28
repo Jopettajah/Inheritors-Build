@@ -75,6 +75,7 @@ Units1:
 EnemyUnits:
 	
 	UNIT JeanneMarie Troubadour JeanneMarie Level(12,Enemy,False) [10,22] 0x0 0x0 0x0 0x0 [Berserk] Ch6BossAI
+	//UNIT JeanneMarie Troubadour JeanneMarie Level(12,Enemy,False) [17,1] 0x0 0x0 0x0 0x0 [Berserk] NoAI
 	UNIT FarumSlow ForrestKnight JeanneMarie Level(1,Enemy,True) [10,21] DropItem 0x0 0x0 0x0 [IronBlade, HeroCrest] AttackInRangeAI //Ch6BodyguardAI
 	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [4,9] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
 	UNIT Farum Knight JeanneMarie Level(8,Enemy,True) [5,10] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
@@ -89,7 +90,7 @@ EnemyUnits:
 	UNIT Farum Fighter JeanneMarie Level(8,Enemy,True) [16,14] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 	UNIT Farum SwordCavalier JeanneMarie Level(8,Enemy,True) [19,14] 0x0 0x0 0x0 0x0 [IronSword] TwoActionAI
 	UNIT Farum LanceCavalier JeanneMarie Level(8,Enemy,True) [11,13] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
-	UNIT Farum Shaman JeanneMarie Level(8,Enemy,True) [18,20] 0x0 0x0 0x0 0x0 [Flux] TwoActionAI
+	//UNIT Farum Shaman JeanneMarie Level(8,Enemy,True) [18,20] 0x0 0x0 0x0 0x0 [Flux] TwoActionAI
 	UNIT Farum LanceCavalier JeanneMarie Level(8,Enemy,True) [13,22] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
 	UNIT Farum AxeCavalier JeanneMarie Level(8,Enemy,True) [14,22] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 	UNIT Farum Shaman JeanneMarie Level(10,Enemy,True) [2,16] 0x0 0x0 0x0 0x0 [Nosferatu] NeverMoveAI
@@ -120,17 +121,39 @@ BeginningScene:
 	ENUN	
 	LOAD1 0x1 EnemyUnits
 	ENUN
+	MUSC LandOfConflictID
 	SetBackground(Outside_Village_Evening)
-	Text(Ch6OpeningText)
+	TEXTSTART
+	TEXTSHOW Ch6OpeningText
+	TEXTEND
+	
+	MUSC TroubleID
+	TEXTCONT
+	TEXTEND
 	GotoPrepScreen
 	ENDA
 	
 EndingScene:
 	
+	Text(Ch6EndTextOne)
+	SetBackground(VillageNightBGID)
+	MUSCFAST Victory	
+	Text(Ch6EndTextTwo)
+	
+	MUSCFAST Silent
+	BACKGROUND_FROMCOLOR 1 4
+	BROWNBOX Ch6SmallBox [1, 1]
+	STAL 90
+	
 	MUSCFAST BW2NCastleID
 	SetBackground(Town_Past)
 	Text(Ch6DreamFlashbackText)
 	BACKGROUND_FROMCOLOR 1 4
+	SetBackground(InnNightBGID)
+	Text(Ch6WakeupText)
+	BACKGROUND_FROMCOLOR 1 4
+	MUSCFAST Silent
+	STAL 60
 	SetBackground(0x2c)
 	MUSCFAST CricketsSFX
 	

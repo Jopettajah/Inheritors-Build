@@ -6,12 +6,19 @@ ALIGN 4
 MenuBanners:
 #incext Png2Dmp "MenuPlates.png" --lz77
 
+ALIGN 4
+SaveSlots:
+#incbin "SaveSlots.png.dmp"
+
 PUSH
 
 ORG $A8EDC
 POIN NewSaveMenu
 ORG $AA43C
 POIN NewSaveMenu
+
+ORG $896a4
+POIN SaveSlots
 
 //TODO: diff palettes for difficulties
 ORG 0xA07AF8

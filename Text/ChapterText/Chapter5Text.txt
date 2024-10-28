@@ -51,7 +51,7 @@ We wont go down that easy.[.4][N]
 Everyone![.4] Prepare for battle![A]
 [MidLeft]
 Hrmph.[.4] Your funeral.[A]
-[A][X]
+[X]
 
 ## AlysaIntroText
 [MidLeft][LoadCaitlind]//TODO: load mug flipped
@@ -73,7 +73,10 @@ Save your sermons for someone else.[A][ClearFace]
 [Right]
 [Beat][A]//...
 [FarRight]
-protag says something comforting to alysa[A]
+//protag says something comforting to alysa
+I don't believe it's impossible[N]
+to get through to her.[AN]
+So chin up,[.] Alysa.[A]
 [Right]
 Right![.4] I'll do my best[N]
 to make Janessa proud![A][X]
