@@ -59,3 +59,6 @@ extern u32 PassiveSkillBit;
 
 extern SkillTestConfig gSkillTestConfig;
 
+struct CombatArtThing {
+	u8 artID;
+};

@@ -93,5 +93,8 @@ DeathQuoteEvent(Caitlind,AllChapters,0,0,CaitlindDeathQuoteEvent)
 DeathQuoteEvent(Ellie,AllChapters,0,0,EllieDeathQuoteEvent)
 DeathQuoteEvent(Ferryn,AllChapters,0,0,FerrynDeathQuoteEvent)
 
+//Other:
+DeathQuoteEvent(Audinan,Chapter7,0x65,WagonDeathQuote)
+
 DeathQuoteEvent(0xFFFF,0,0,0) // Terminator
 

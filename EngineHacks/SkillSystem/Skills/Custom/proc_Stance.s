@@ -5,6 +5,7 @@
   .short 0xf800
 .endm
 
+.equ AdeptID, AstraID+4
 
 @ r0 is attacker, r1 is defender, r2 is current buffer, r3 is battle data
 push {r4-r7,lr}
@@ -58,14 +59,14 @@ b End
 @ Swallow Strike (Adept)
 Swallow:
 @if we proc, set the brave effect flag for the NEXT hit
-ldrb r1, AstraID @first mark Adept active
+ldrb r1, AdeptID @first mark Adept active
 strb r1, [r6,#4]
 
 add     r6, #8 @double width battle buffer   
 @mov     r0, #0x40
 @lsl     r0, #8  
 @str     r0,[r6]                @ 0802B43A 6018  
-ldrb r0, AstraID
+ldrb r0, AdeptID
 strb r0, [r6,#4] @save the skill ID at byte #4
 
 @now add the number of rounds - 
@@ -78,6 +79,7 @@ b End
 
 @Stone Thrust (Luna)
 Stone:
+b End @Stuff moved to pre-battle
 @and recalculate damage with def=0
 ldrh r0, [r7, #6] @final mt
 ldr r2, [r6]
@@ -98,10 +100,10 @@ b End
 @ Petal Scatter (Astra)
 Petal:
 @write the damage, since we're skipping ahead
-mov     r2, #4
-ldrsh   r3, [r7, r2]
-asr     r3, #1 @damage halved
-strh    r3, [r7, #4]
+@mov     r2, #4
+@ldrsh   r3, [r7, r2]
+@asr     r3, #1 @damage halved
+@strh    r3, [r7, #4]
 @if we proc
 str     r0,[r6]                @ 0802B43A 6018 
 ldrb    r0, AstraID
@@ -125,10 +127,10 @@ b End
 .ltorg
 AlreadyAstra:
 @write the damage, since we're skipping ahead
-mov     r2, #4
-ldrsh   r3, [r7, r2]
-asr     r3, #1 @damage halved
-strh    r3, [r7, #4]
+@mov     r2, #4
+@ldrsh   r3, [r7, r2]
+@asr     r3, #1 @damage halved
+@strh    r3, [r7, #4]
 ldrb    r0,[r6,#6] @attacks remaining
 sub     r0, #1
 cmp r0, #0
@@ -147,3 +149,4 @@ pop {r15}
 .align
 .ltorg
 AstraID:
+@AdeptID

@@ -7,3 +7,10 @@
 ## Ch7ObjectiveStatusText
 Escort the wagon[N]
 up to the north.[X]
+
+## Ch7BossRushText
+Look alive,[.] boys![.4][N]
+I smell a quarry comin'![A][X]
+
+## WagonDeathQuote
+[A][X]

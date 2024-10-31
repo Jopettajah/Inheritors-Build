@@ -13,6 +13,7 @@ extern int CaringColdShoulderID_Link;
 extern int EarlyRiserID_Link;
 extern int UngroundedID_Link;
 extern int StanceMasteryID_Link;
+extern struct CombatArtThing* SomeCombatArtBuffer;
 
 /*
 void ___(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
@@ -136,4 +137,27 @@ u8 PetalScatterUsability(const struct MenuItemDef* def, int number) {
 		}
 	}
 	return MENU_NOTSHOWN;
+}
+
+void StoneThrustPreBattle(struct BattleUnit* bunitA, struct BattleUnit* bunitB){
+
+	if ((SkillTester(&bunitA->unit, StanceMasteryID_Link))) {
+		if (SomeCombatArtBuffer->artID == 19) {
+			bunitA->battleAttack += bunitB->battleDefense;
+		}
+	}
+	return;
+
+}
+
+void PetalScatterPreBattle(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
+
+	if ((SkillTester(&bunitA->unit, StanceMasteryID_Link))) {
+		if (SomeCombatArtBuffer->artID == 20) {
+			u8 Dmg = bunitA->battleAttack - bunitB->battleDefense;
+			bunitA->battleAttack = Dmg/2 + bunitB->battleDefense;
+		}
+	}
+	return;
+
 }

@@ -14,4 +14,7 @@ ALIGN 4
 
 PROTECT UnitStatusInfoTable UnitStatusInfoTable+0x40
 
+ALIGN 4
+#include "GetterFixes/C_Code.lyn.event"
+
 #endif // UNIT_STATUS_REWORK

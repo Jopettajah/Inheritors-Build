@@ -1,8 +1,9 @@
-
+ALIGN 4
 Chapter3Escapepoint:
 EscapePoint(0,18,MoveLeft)
 EscapePointEnd
 
+ALIGN 4
 Chapter4Escapepoint:
 EscapePoint(10,0,MoveUp)
 EscapePoint(11,0,MoveUp)
@@ -10,10 +11,18 @@ EscapePoint(12,0,MoveUp)
 EscapePoint(13,0,MoveUp)
 EscapePointEnd
 
+ALIGN 4
 Chapter5Escapepoint:
 EscapePoint(16,0,MoveUp)
+EscapePointEnd
+
+ALIGN 4
+Chapter7Escapepoint:
+EscapePoint(26,0,MoveUp)
+EscapePoint(27,0,MoveUp)
 EscapePointEnd
 
 EscapePointPointerTable(Chapter3,Chapter3Escapepoint)
 EscapePointPointerTable(Chapter4,Chapter4Escapepoint)
 EscapePointPointerTable(Chapter5,Chapter5Escapepoint)
+EscapePointPointerTable(Chapter7,Chapter7Escapepoint)
