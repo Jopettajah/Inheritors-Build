@@ -85,6 +85,9 @@
 # Scene Backgrounds
 - Doin Thangs: Village Night
 
+# Skill Icons
+- Abzel: Eternal Banquet
+
 # External & Inline hacks
 
 - Scraiza: NarrowFont, Dynamic Portraits, Droppable/Stealable Item Display

@@ -9,6 +9,8 @@ StanceMasteryID_Link:
 WORD StanceMasteryID
 SomeCombatArtBuffer:
 WORD 0x0203F101
+EternalBanquetID_Link:
+WORD EternalBanquetID
 
 ALIGN 4
 #include "C_Code.lyn.event"
@@ -102,6 +104,18 @@ DivineIntervention:
 #incbin "DivineInterventionProc.dmp"
 POIN SkillTester
 WORD DivineInterventionID
+
+ALIGN 4
+EternalBanquet:
+#incbin "Banquet.dmp"
+POIN SkillTester
+WORD EternalBanquetID
+
+ALIGN 4
+E_BanquetPostB:
+#incbin "BanquetPostBattle.dmp"
+POIN SkillTester
+WORD EternalBanquetID
 
 ALIGN 4
 #include "StancesMenuFuncs.lyn.event"

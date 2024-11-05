@@ -26,6 +26,7 @@
 #define Kimiko 0x18
 #define Conleth 0x19
 #define Winton 0x1A
+#define Elina 0x1B
 #define Nishay 0x1C
 #define Avery 0x1D
 #define Inga 0x1E
@@ -49,7 +50,7 @@
 #define PhantomSummon 0x3F
 /*#define Lyon_Ch17 0x40
 #define Morva_Ch20 0x41
-#define Orson_Ch5x 0x42
+#define Orson_5x 0x42
 #define Valter_Ch15_ 0x43
 #define Valter_Ch15 0x43
 #define Selena_Ch10B_and_13B 0x44

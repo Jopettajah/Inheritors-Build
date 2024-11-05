@@ -515,7 +515,7 @@ Benjamin[X]
 
 ## BenjaminDesc
 Bandit know far and wide as[N]
-"One-eyed Benjamin".[X]
+"Crazy-eyed Benjamin".[X]
 
 ## AdaName
 Ada[X]
@@ -523,6 +523,13 @@ Ada[X]
 ## AdaDesc
 Farumese commander watching[N]
 over the supply lines.[X]
+
+## ElinaName
+Elina[X]
+
+## ElinaDesc
+Inheritor of the dragon's fang.[N]
+Has an insatiable hunger for cruelty.[X]
 
 ## FarumName
 Farumese[X]

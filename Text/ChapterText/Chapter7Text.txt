@@ -9,6 +9,7 @@ Escort the wagon[N]
 up to the north.[X]
 
 ## Ch7BossRushText
+[MidLeft][LoadFace][0x37][0x1]
 Look alive,[.] boys![.4][N]
 I smell a quarry comin'![A][X]
 

@@ -35,3 +35,4 @@
 #define VidarDeathFlag 0xCD
 #define MauritchDeathFlag 0xCF
 #define DaveFlag 0xD0
+#define ElinaFlag 0xd1

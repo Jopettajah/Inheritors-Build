@@ -376,7 +376,12 @@ Boss6_Mug:
 setMugEntry(0x36, Boss6_Mug, 3,6,3,4)
 
 ALIGN 4
-//Benjamin_Mug:
+Benjamin_Mug:
+#incbin "dmp/Bossman5_mug.dmp"
+#incbin "dmp/Bossman5_frames.dmp"
+#incbin "dmp/Bossman5_palette.dmp"
+#incbin "dmp/Bossman5_minimug.dmp"
+setMugEntry(0x37, Benjamin_Mug, 3,6,3,4)
 
 ALIGN 4
 Ada_Mug:
@@ -393,6 +398,22 @@ GenOutlaw_Mug:
 #incbin "dmp/GenOutlawF_palette.dmp"
 #incbin "dmp/GenOutlawF_minimug.dmp"
 setMugEntry(0x4C,GenOutlaw_Mug,3,5,3,3)
+
+ALIGN 4
+Elina_Mug:
+#incbin "dmp/Elina_mug.dmp"
+#incbin "dmp/Elina_frames.dmp"
+#incbin "dmp/Elina_palette.dmp"
+#incbin "dmp/Elina_minimug.dmp"
+setMugEntry(0x50,Elina_Mug,4,5,4,3)
+
+ALIGN 4
+ElinaTeethty_Mug:
+#incbin "dmp/ElinaToothty_mug.dmp"
+#incbin "dmp/ElinaToothty_frames.dmp"
+#incbin "dmp/ElinaToothty_palette.dmp"
+#incbin "dmp/ElinaToothty_minimug.dmp"
+setMugEntry(0x51,ElinaTeethty_Mug,4,5,4,3)
 
 ALIGN 4
 Pieter_Mug:

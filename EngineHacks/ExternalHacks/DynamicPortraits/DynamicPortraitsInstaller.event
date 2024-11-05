@@ -100,4 +100,11 @@ SHORT 0x00C8
 BYTE 0x00
 BYTE 0x00
 
+// Elina
+SHORT 0x0050
+SHORT 0x0051
+SHORT ElinaFlag
+BYTE 0x00
+BYTE 0x00
+
 WORD 0x0 0x0//Terminator, don't delete this or very bad things will happen

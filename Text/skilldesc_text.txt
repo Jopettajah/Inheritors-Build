@@ -1,3 +1,8 @@
+## SD_EternalBanquet
+^{Eternal Banquet}: Elina gains[N]
++1 atk when she lands a hit.[N]
+(The effect stacks. Indefinitely.)[X]
+
 
 ## SD_StanceMastery
 Stance Mastery: Grants Suhaira[N]
@@ -10,7 +15,7 @@ skills until end of next turn.[X]
 Camp Guard: -3 Mov.[X]
 
 ## SD_DivineIntervention
-Divine Favorite: Nishay has (Luck*1.5)%[N]
+^{Divine Favorite}: Nishay has (Luck*1.5)%[N]
 chance to reroll her missed attacks.[X]
 
 ## SD_EarlyRiser 

@@ -332,6 +332,7 @@
 
 //Custom 
 
+#define EternalBanquetID 29
 #define CampGuardID 129
 #define StanceMasteryID 24
 

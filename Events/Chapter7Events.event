@@ -22,6 +22,8 @@ PointerList:
 TurnBasedEvents:
 	TurnEventPlayer(0,WagonAIChange,2)
 	TurnEventPlayer(0,Wagon2Spawn,5)
+	TurnEventPlayer(0,CavCharge,6)
+	TurnEventPlayer(0,LoadExtraCavs,7)
 	END_MAIN
 
 ALIGN 32
@@ -58,7 +60,7 @@ Tutorial:
 
 Units1:
 	UNIT Curtis Eye Curtis Level(1,Ally,False) [15,18] 0x0 0x0 0x0 0x1 [0x0] NoAI
-	UNIT Sibyl Dancer Curtis Level(8,Ally,False) [16,18] 0x0 0x0 0x0 0x1 [DesertWind] NoAI
+	UNIT Sibyl Dancer Curtis Level(8,Ally,False) [16,18] 0x0 0x0 0x0 0x1 [DesertWind, Elixir] NoAI
 	UNIT Suhaira Horn Curtis Level(9,Ally,False) [17,18] 0x0 0x0 0x0 0x1 [SteelSword, LanceReaver] NoAI
 	UNIT Fabian Wing Curtis Level(9,Ally,False) [17,19] 0x0 0x0 0x0 0x1 [SteelLance, AxeReaver] NoAI
 	UNIT Jacob Eye Curtis Level(1,Ally,False) [14,18] 0x0 0x0 0x0 0x1 [0x0] NoAI
@@ -71,10 +73,10 @@ Units1:
 	UNIT
 	
 EnemyUnits:
-	UNIT Benjamin Brigand Benjamin Level(12,Enemy,False) [2,1] 0x0 0x0 0x0 0x0 [Halberd, Handaxe] TwoActionAI
+	UNIT Benjamin Brigand Benjamin Level(12,Enemy,False) [3,1] 0x0 0x0 0x0 0x0 [Halberd] TwoActionAI
 	UNIT BrigandEnemy Outlaw_F Benjamin Level(8,Enemy,True) [7,6] 0x0 0x0 0x0 0x0 [IronBow, Longbow] NeverMoveAI
 	UNIT BrigandEnemy Outlaw Benjamin Level(8,Enemy,True) [13,6] 0x0 0x0 0x0 0x0 [IronBow, Longbow] NeverMoveAI
-	UNIT BrigandEnemy Brigand Benjamin Level(8,Enemy,True) [3,0] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
+	UNIT BrigandEnemy Brigand Benjamin Level(8,Enemy,True) [4,0] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
 	UNIT BrigandEnemy Mercenary Benjamin Level(8,Enemy,True) [3,15] 0x0 0x0 0x0 0x0 [IronBlade] DefaultAI
 	UNIT BrigandEnemy Outlaw Benjamin Level(8,Enemy,True) [1,16] 0x0 0x0 0x0 0x0 [IronBow] DefaultAI
 	//UNIT BrigandEnemy Brigand Benjamin Level(8,Enemy,True) [0,12] 0x0 0x0 0x0 0x0 [SteelAxe] TwoActionAI
@@ -82,16 +84,21 @@ EnemyUnits:
 	UNIT BrigandEnemy Mercenary Benjamin Level(8,Enemy,True) [10,2] 0x0 0x0 0x0 0x0 [KillingEdge] AttackInRangeAI
 	UNIT BrigandEnemy Brigand Benjamin Level(8,Enemy,True) [16,14] 0x0 0x0 0x0 0x0 [IronAxe] DefaultAI
 	UNIT BrigandEnemy Outlaw_F Benjamin Level(8,Enemy,True) [14,12] 0x0 0x0 0x0 0x0 [IronBow] DefaultAI
+	UNIT BrigandEnemy Mercenary_F Benjamin Level(8,Enemy,True) [5,9] 0x0 0x0 0x0 0x0 [Zanbato] AttackInRangeAI
+	UNIT BrigandEnemy Brigand Benjamin Level(8,Enemy,True) [12,0] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 	
 	UNIT Ada GreatLancer Ada Level(1,Enemy,False) [27,2] 0x0 0x0 0x0 0x0 [SilverLance] AttackInRangeAI
 	UNIT Farum Tent Ada Level(8,Enemy,True) [29,2] 0x0 0x0 0x0 0x0 [0x0] NoAI
 	UNIT Farum Tent Ada Level(8,Enemy,True) [28,3] 0x0 0x0 0x0 0x0 [0x0] NoAI
 	UNIT Farum SwordKnight Ada Level(8,Enemy,True) [25,19] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 	UNIT Farum BowKnight Ada Level(8, Enemy, True) [29,19] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
-	UNIT Farum AxeCav Ada Level(9,Enemy,True) [26,4] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
-	UNIT Farum LanceCav Ada Level(9,Enemy,True) [27,5] 0x0 0x0 0x0 0x0 [IronLance] TwoActionAI
+	UNIT Farum AxeCav Ada Level(9,Enemy,True) [26,4] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI //TwoActionAI
+	UNIT Farum LanceCav Ada Level(9,Enemy,True) [27,5] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI //TwoActionAI
 	UNIT Farum Wagon Lagrange Level(10,Enemy,True) [27,19] DropItem 0x0 0x0 0x0 [KnightCrest] DoNothing
 	UNIT Farum Knight Ada Level(8,Enemy,True) [21,14] 0x0 0x0 0x0 0x0 [ShortSpear] NeverMoveAI
+	UNIT Farum Fighter Ada Level(8,Enemy,True) [29,11] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
+	UNIT Farum Soldier Ada Level(8,Enemy,True) [30,12] 0x0 0x0 0x0 0x0 [IronLance] TwoActionAI
+	UNIT Farum AxeKnight Ada Level(8,Enemy,True) [25,2] 0x0 0x0 0x0 0x0 [SilverAxe] AttackInRangeAI
 	UNIT
 	
 WagonUnit:
@@ -109,6 +116,12 @@ ZoneBrigands:
 	UNIT BrigandEnemy Outlaw Benjamin Level(8,Enemy,True) [3,6] 0x0 0x0 0x1 REDA2R7 [SteelBow] DefaultAI
 	UNIT BrigandEnemy Brigand Benjamin Level(8,Enemy,True) [3,6] 0x0 0x0 0x1 REDA4R7 [SteelAxe] DefaultAI
 	UNIT
+	
+ExtraCavs:
+	UNIT Farum SwordCav Ada Level(8,Enemy,True) [26,19] 0x0 0x0 0x1 REDA26R19 [IronSword] DefaultAI
+	UNIT Farum LanceCav Ada Level(8,Enemy,True) [28,19] 0x0 0x0 0x1 REDA28R19 [IronLance] DefaultAI
+	UNIT
+	
 	
 Traps1:
 	MapSpriteTrap(IndicatorTrapID,6,0)
@@ -182,16 +195,29 @@ BossAiZone:
 	ENUT 9
 	CAMERA Benjamin
 	Text(Ch7BossRushText)	
-	SETVAL 1 0x00400000
+	SETVAL 1 0x00040000
 	CHAI Benjamin
 	CHAI BrigandEnemy
-	SETVAL 1 0x00040303
+	SETVAL 1 0x00000303
 	CHAI [7,6]
 	
 	LABEL 2
 	NoFade
 	ENDA
 	
+CavCharge:
+	SETVAL 1 0x00040000
+	CHAI [26,4]
+	CHAI [27,5]
+	NoFade
+	ENDA
+	
+LoadExtraCavs:
+	EVBIT_T 9
+	LOAD1 0x1 ExtraCavs
+	ENUN
+	NoFade
+	ENDA
 	
 Ch7WinCon:
 	ContinueIfFactionMatch(0x1)
