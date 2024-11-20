@@ -25,3 +25,17 @@ ENUT 0x4
 MUSC EndlessFightingMapID
 Text(SledgeBattleQuote)
 ENDA
+
+ALIGN 4
+BenjaminBossEvent:
+ENUT 0x4
+MUSC EndlessFightingMapID
+Text(BenjaminBattleQuote)
+ENDA
+
+ALIGN 4
+AdaBossEvent:
+ENUT 0x4
+MUSC EndlessFightingMapID
+Text(AdaBattleQuote)
+ENDA

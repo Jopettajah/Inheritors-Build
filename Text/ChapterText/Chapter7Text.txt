@@ -14,4 +14,33 @@ Look alive,[.] boys![.4][N]
 I smell a quarry comin'![A][X]
 
 ## WagonDeathQuote
-[A][X]
+[MidRight][LoadSibyl]
+You let the wagon get destroyed[Beat][N]
+I expected better from you, [Tact][Beat][A]
+[X]
+
+## BenjaminBattleQuote
+[MidLeft][LoadFace][0x37][0x1]
+None of you can put[N]
+stop to our plundering![AN]
+Come at me whelps![A][X]
+
+## BenjaminDeathQuote
+[MidLeft][LoadFace][0x37][0x1]
+No![.4] My gold[Beat][CloseEyes] My[Beat] glory[Beat][A]
+[X]
+
+## AdaBattleQuote
+[MidLeft][LoadFace][0x38][0x1]
+You won't sabotage our supplies![.4][N]
+Begone from my sight![A]
+[X]
+
+## AdaDeathQuote
+[MidLeft][LoadFace][0x38][0x1]
+I[Beat][CloseEyes] I failed?[A]
+[X]
+
+## Ch7DVBoxText
+Inflicts Freeze[N]
+on all enemies.[X]

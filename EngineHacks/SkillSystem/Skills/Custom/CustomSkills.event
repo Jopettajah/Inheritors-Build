@@ -11,6 +11,8 @@ SomeCombatArtBuffer:
 WORD 0x0203F101
 EternalBanquetID_Link:
 WORD EternalBanquetID
+SingleDevotionID_Link:
+WORD SingleDevotionID
 
 ALIGN 4
 #include "C_Code.lyn.event"

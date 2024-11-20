@@ -147,3 +147,6 @@ SongTable(EachJusticeID,EachJustice,MapMusicGroup)
 
 SongTable(UnoTensionID,uno_tension_000,MapMusicGroup)
 #include "event/uno_tension_000.event"
+
+SongTable(ShakingFrontSightID,ShakingFrontSight_000,MapMusicGroup)
+#include "event/ShakingFrontSight_000.event"

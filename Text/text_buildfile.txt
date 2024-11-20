@@ -62,6 +62,13 @@ Suhaira cannot use stances.[X]
 ## SS_Upper
  Upper[X]
 
+## FreezeText
+Freeze[X]
+
+## FreezeDesc
+My legs are frozen![N]
+I cannot move![X]
+ 
 ## HouseText
 //first text ID in the free block
 [MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]

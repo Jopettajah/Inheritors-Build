@@ -86,6 +86,8 @@ POP
   #endif
   */
   
+  #include "ExternalHacks/FastBattleAnimation/Install.event"
+  
   #include "ExternalHacks/WMSaveRedirect/C_Code.lyn.event"
   
   #include "ExternalHacks/Changing preparation BGM/Installer.event"
@@ -148,11 +150,15 @@ POP
   
   #include "ExternalHacks/ContinueBattleBGM/Installer.event"
   
-  #include "ModularMinimugBox/Installers/MMBInstallerDefault.event"
+  #include "ExternalHacks/ModularMinimugBox/Installers/MMBInstallerDefault.event"
 
   #include "ExternalHacks/ItemUsePerChap.event"
+  
+  #include "ExternalHacks/NewCHAI/NewCHAI.event"
+  
+  #include "ExternalHacks/MMPFix/MinimugPalette.event"
 
-  #include "AiPerformExtension/AiInstaller.event"
+  #include "ExternalHacks/AiPerformExtension/AiInstaller.event"
 
   //#include "ExternalHacks/SkillDescGetter/SkillDescGetter.event"
   

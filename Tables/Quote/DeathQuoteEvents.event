@@ -233,3 +233,30 @@ Text(FerrynDeathQuote)
 DumpItems(Ferryn)
 ENDA
 
+ALIGN 4
+BenjaminDeathQuoteEvent:
+Text(BenjaminDeathQuote)
+CHECK_EVENTID 0x10 //Ada battle quote flag
+BNE 1 sC s0
+ENUF 0x4
+
+LABEL 1
+CHECK_EVENTID 0x11 //Ada death quote
+BEQ 2 sC s0
+ENUF 0x4
+LABEL 2
+ENDA
+
+ALIGN 4
+AdaDeathQuoteEvent:
+Text(AdaDeathQuote)
+CHECK_EVENTID 0x1 //Benjamin bq
+BNE 3 sC s0
+ENUF 0x4
+
+LABEL 3
+CHECK_EVENTID 0x2 //Benjamin dq
+BEQ 4 sC s0
+ENUF 0x4
+LABEL 4
+ENDA

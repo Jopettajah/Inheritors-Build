@@ -37,6 +37,7 @@ MiscBasedEvents:
 	AREA 0 BossAiZone [6,0] [12,10]
 	AREA 0 Ch7WinCon [6,0] [7,0]
 	CauseGameOverIfLordDies
+	VeinEffect(4,Ch7VeinEvent)
 	END_MAIN
 
 LocationBasedEvents:
@@ -88,8 +89,8 @@ EnemyUnits:
 	UNIT BrigandEnemy Brigand Benjamin Level(8,Enemy,True) [12,0] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 	
 	UNIT Ada GreatLancer Ada Level(1,Enemy,False) [27,2] 0x0 0x0 0x0 0x0 [SilverLance] AttackInRangeAI
-	UNIT Farum Tent Ada Level(8,Enemy,True) [29,2] 0x0 0x0 0x0 0x0 [0x0] NoAI
-	UNIT Farum Tent Ada Level(8,Enemy,True) [28,3] 0x0 0x0 0x0 0x0 [0x0] NoAI
+	UNIT Farum Tent Ada Level(8,Enemy,True) [29,2] DropItem 0x0 0x0 0x0 [GoddessIcon] NoAI
+	UNIT Farum Tent Ada Level(8,Enemy,True) [28,3] DropItem 0x0 0x0 0x0 [IronSword] NoAI
 	UNIT Farum SwordKnight Ada Level(8,Enemy,True) [25,19] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 	UNIT Farum BowKnight Ada Level(8, Enemy, True) [29,19] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
 	UNIT Farum AxeCav Ada Level(9,Enemy,True) [26,4] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI //TwoActionAI
@@ -128,6 +129,7 @@ Traps1:
 	MapSpriteTrap(IndicatorTrapID,7,0)
 	MapSpriteTrap(RedIndicatorTrapID,26,0)
 	MapSpriteTrap(RedIndicatorTrapID,27,0)
+	Vein(20,5,4,Ch7DVBoxText)
 	ENDTRAP
 	ALIGN 4
 
@@ -216,6 +218,13 @@ LoadExtraCavs:
 	EVBIT_T 9
 	LOAD1 0x1 ExtraCavs
 	ENUN
+	NoFade
+	ENDA
+
+Ch7VeinEvent:
+	VeinActivation
+	SVAL 1 0xE
+	ASMC ASMC_StatusAll|1
 	NoFade
 	ENDA
 	

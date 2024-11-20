@@ -1,8 +1,13 @@
+## SD_SingleDevotion
+Single Devotion: When Kimiko's[N]
+inventory has only one usable[N]
+weapon, she gains Atk/Crit[N]
+equal to half it's Mt/Crit.[X]
+
 ## SD_EternalBanquet
 ^{Eternal Banquet}: Elina gains[N]
 +1 atk when she lands a hit.[N]
-(The effect stacks. Indefinitely.)[X]
-
+(The effect stacks.[.4] Indefinitely.)[X]
 
 ## SD_StanceMastery
 Stance Mastery: Grants Suhaira[N]

@@ -8,12 +8,16 @@ extern struct Unit* GetUnitSupportingUnit(struct Unit* unit, int num);
 extern int GetSupportLevelBySupportIndex(struct Unit*, int num);
 extern void SetBit(u32* address, u8 bitOffset);
 extern u8 GetUnitStatusIndex(struct Unit*);
+extern int GetItemCrit(int item);
+extern int GetItemMight(int item);
 
 extern int CaringColdShoulderID_Link;
 extern int EarlyRiserID_Link;
 extern int UngroundedID_Link;
 extern int StanceMasteryID_Link;
 extern struct CombatArtThing* SomeCombatArtBuffer;
+extern int EternalBanquetID_Link;
+extern int SingleDevotionID_Link;
 
 /*
 void ___(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
@@ -152,7 +156,7 @@ void StoneThrustPreBattle(struct BattleUnit* bunitA, struct BattleUnit* bunitB){
 
 void PetalScatterPreBattle(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 
-	if ((SkillTester(&bunitA->unit, StanceMasteryID_Link))) {
+	if (SkillTester(&bunitA->unit, StanceMasteryID_Link)) {
 		if (SomeCombatArtBuffer->artID == 20) {
 			u8 Dmg = bunitA->battleAttack - bunitB->battleDefense;
 			bunitA->battleAttack = Dmg/2 + bunitB->battleDefense;
@@ -160,4 +164,46 @@ void PetalScatterPreBattle(struct BattleUnit* bunitA, struct BattleUnit* bunitB)
 	}
 	return;
 
+}
+
+void EternalBanquetPreBattle(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
+
+	if (SkillTester(&bunitA->unit, EternalBanquetID_Link)) {
+
+		bunitA->battleAttack += BWL_GetEntry(bunitA->unit.pCharacterData->number)->pad[4];
+	}
+	return;
+}
+
+//TODO: move this elsewhere
+void ASMC_StatusAll() {
+	for (int i = 1 + 0x80; i < 0x80 + 0x40; i++) {
+
+		struct Unit* unit = GetUnit(i);
+		SetUnitStatus(unit, gEventSlots[EVT_SLOT_1]);
+	}
+}
+
+void SingleDevotion(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
+	if (SkillTester(&bunitA->unit, SingleDevotionID_Link)) {
+		int i;
+		int weapon = 0x0;
+		// Loop through inventory and get weapon
+		for (i = 0; i < UNIT_ITEM_COUNT; ++i) {
+			int item = GetItemIndex(bunitA->unit.items[i]);
+			if (GetItemAttributes(item) & IA_WEAPON) {
+				if (CanUnitUseWeapon(&bunitA->unit, item)) {
+					if (weapon != 0x0) {
+						return;
+					}
+					weapon = item;
+				}
+			}
+		}
+		if (weapon != 0x0) {
+			bunitA->battleAttack += GetItemMight(weapon) / 2;
+			bunitA->battleCritRate += GetItemCrit(weapon) / 2;
+		}
+	}
+	return;
 }
