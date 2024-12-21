@@ -84,6 +84,10 @@
 	setPalette(0x14,DaveHero)
 	setCBSP(0x14,Dave,0x2,Hero)
 
+// SibylDancer
+	setPalette(0x15,SibylDancer)
+	setCBSP(0x15,Sibyl,0x1,Dancer)
+
 // KimikoMyrm
 	setPalette(0x16,KimikoMyrm)
 	setCBSP(0x16,Kimiko,0x1,Myrmidon_F)
@@ -279,3 +283,11 @@
 // JeanneTroub
 	setPalette(0x46,JeanneTroub)
 	setCBSP(0x46,JeanneMarie,0x1,Troubadour)
+
+// NishayShaman
+	setPalette(0x47,NishayShaman)
+	setCBSP(0x47,Nishay,0x1,Shaman_F)
+
+// BenjaminBrigand
+	setPalette(0x48,BenjaminBrigand)
+	setCBSP(0x48,Benjamin,0x1,Brigand)

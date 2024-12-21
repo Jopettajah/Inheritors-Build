@@ -18,7 +18,7 @@ EachJustice_0:
         BYTE   TEMPO   180/2
 EachJustice_0_LOOP:
         BYTE           VOICE   122
-        BYTE           VOL     23
+        BYTE           VOL     33
         BYTE           N02     Cn1   v118
         BYTE           N92     Cs2   v127   gtp3
         BYTE   W24
@@ -1300,7 +1300,7 @@ EachJustice_1:
 // 000   ----------------------------------------
 EachJustice_1_LOOP:
         BYTE           VOICE   122
-        BYTE           VOL     23
+        BYTE           VOL     33
         BYTE   W96
 // 001   ----------------------------------------
         BYTE   W72
@@ -1672,7 +1672,7 @@ EachJustice_2:
 // 000   ----------------------------------------
 EachJustice_2_LOOP:
         BYTE           VOICE   84
-        BYTE           VOL     17
+        BYTE           VOL     24
         BYTE           PAN     c_v+62
         BYTE           TIE     Dn2   v069
         BYTE   W96
@@ -2058,7 +2058,7 @@ EachJustice_3:
 // 000   ----------------------------------------
 EachJustice_3_LOOP:
         BYTE           VOICE   84
-        BYTE           VOL     20
+        BYTE           VOL     29
         BYTE           PAN     c_v-62
         BYTE           N66     An4   v079   gtp1
         BYTE   W72
@@ -2826,7 +2826,7 @@ EachJustice_4:
 // 000   ----------------------------------------
 EachJustice_4_LOOP:
         BYTE           VOICE   83
-        BYTE           VOL     26
+        BYTE           VOL     38
         BYTE           PAN     c_v+2
         BYTE   W96
 // 001   ----------------------------------------
@@ -3274,7 +3274,7 @@ EachJustice_5:
 // 000   ----------------------------------------
 EachJustice_5_LOOP:
         BYTE           VOICE   19
-        BYTE           VOL     14
+        BYTE           VOL     19
         BYTE           PAN     c_v+62
         BYTE           TIE     Dn3   v079
         BYTE           TIE     Fn3
@@ -3718,7 +3718,7 @@ EachJustice_6:
 // 000   ----------------------------------------
 EachJustice_6_LOOP:
         BYTE           VOICE   19
-        BYTE           VOL     10
+        BYTE           VOL     13
         BYTE           PAN     c_v+63
         BYTE   W96
 // 001   ----------------------------------------
@@ -4046,7 +4046,7 @@ EachJustice_7:
 // 000   ----------------------------------------
 EachJustice_7_LOOP:
         BYTE           VOICE   2
-        BYTE           VOL     28
+        BYTE           VOL     42
         BYTE   W96
 // 001   ----------------------------------------
         BYTE   W96
@@ -4269,7 +4269,7 @@ EachJustice_8:
 // 000   ----------------------------------------
 EachJustice_8_LOOP:
         BYTE           VOICE   84
-        BYTE           VOL     25
+        BYTE           VOL     37
         BYTE           N07     Dn4   v091
         BYTE   W08
         BYTE                   An3   v090
@@ -5255,7 +5255,7 @@ EachJustice_9:
 // 000   ----------------------------------------
 EachJustice_9_LOOP:
         BYTE           VOICE   84
-        BYTE           VOL     22
+        BYTE           VOL     32
         BYTE           PAN     c_v+62
         BYTE   W96
 // 001   ----------------------------------------
@@ -5523,7 +5523,7 @@ EachJustice_10:
 // 000   ----------------------------------------
 EachJustice_10_LOOP:
         BYTE           VOICE   114
-        BYTE           VOL     17
+        BYTE           VOL     24
         BYTE           BEND    c_v+2
         BYTE   W09
         BYTE           N08     Dn4   v091
@@ -6376,7 +6376,7 @@ EachJustice_11:
 // 000   ----------------------------------------
 EachJustice_11_LOOP:
         BYTE           VOICE   19
-        BYTE           VOL     17
+        BYTE           VOL     24
         BYTE           PAN     c_v-64
         BYTE           TIE     Fn3   v076
         BYTE           N92     An3   v076   gtp3
@@ -6847,7 +6847,7 @@ EachJustice_12:
 // 000   ----------------------------------------
 EachJustice_12_LOOP:
         BYTE           VOICE   38
-        BYTE           VOL     36
+        BYTE           VOL     54
         BYTE           N78     Dn1   v081   gtp1
         BYTE   W80
         BYTE           N07     An1   v053
@@ -7737,7 +7737,7 @@ EachJustice_13:
 // 000   ----------------------------------------
 EachJustice_13_LOOP:
         BYTE           VOICE   46
-        BYTE           VOL     20
+        BYTE           VOL     29
         BYTE           PAN     c_v-62
         BYTE   W96
 // 001   ----------------------------------------
@@ -8074,7 +8074,7 @@ EachJustice_14:
 // 000   ----------------------------------------
 EachJustice_14_LOOP:
         BYTE           VOICE   114
-        BYTE           VOL     22
+        BYTE           VOL     32
         BYTE   W96
 // 001   ----------------------------------------
         BYTE   W96

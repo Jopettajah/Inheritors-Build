@@ -31,7 +31,7 @@ PaletteIdentifier($11,$72,$75,$6b,AlysaPeg)
 PaletteIdentifier($12,$72,$75,$6b,IngaHero)
 PaletteIdentifier($13,$72,$75,$6b,DaveMerc)
 PaletteIdentifier($14,$72,$75,$6b,DaveHero)
-PaletteIdentifier($15,$72,$75,$6b,GarryArmor) //dancer later
+PaletteIdentifier($15,$72,$75,$6b,SibylDancer)
 PaletteIdentifier($16,$72,$75,$6b,KimikoMyrm)
 PaletteIdentifier($17,$72,$75,$6b,MarcoFighter)
 PaletteIdentifier($18,$72,$75,$6b,DaveMyrm)
@@ -81,6 +81,8 @@ PaletteIdentifier($43,$72,$75,$6b,PieterHalb)
 PaletteIdentifier($44,$72,$75,$6b,NellaPaladin)
 PaletteIdentifier($45,$72,$75,$6b,NellaGreatKnight)
 PaletteIdentifier($46,$72,$75,$6b,JeanneTroub)
+PaletteIdentifier($47,$72,$75,$6b,NishayShaman)
+PaletteIdentifier($48,$72,$75,$6b,BenjaminBrigand)
 //PaletteIdentifier($,$72,$75,$6b,)
 /*
 POP

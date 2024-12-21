@@ -13,6 +13,10 @@ EternalBanquetID_Link:
 WORD EternalBanquetID
 SingleDevotionID_Link:
 WORD SingleDevotionID
+UnburdenedID_Link:
+WORD UnburdenedID
+WingedKinshipID_Link:
+WORD WingedKinshipID
 
 ALIGN 4
 #include "C_Code.lyn.event"

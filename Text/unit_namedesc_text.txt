@@ -237,7 +237,8 @@ loves baking.[X]
 
 ## AnisDeathQuote
 [MidRight][LoadAnis]
-[A][X]
+Looks like I'll never get to[Beat][CloseEyes][.4][N]
+smell fresh bread again[Beat][A][X]
 
 ## SibylName
 Sibyl[X]
@@ -524,12 +525,33 @@ Ada[X]
 Farumese commander watching[N]
 over the supply lines.[X]
 
+## KristanName
+Kristan[X]
+
+## KristanDesc
+Fatalistic & resigned[N]
+general of Farum.[X]
+
+## BertramName
+Bertram[X]
+
+## BertramDesc
+An upstart shaman eager[N]
+to show his worth.[X]
+
+## GoursatName
+Goursat[X]
+
+## GoursatDesc
+An upstart pegasus knight[N]
+with a sadistic streak.[X]
+
 ## ElinaName
 Elina[X]
 
 ## ElinaDesc
 Inheritor of the dragon's fang.[N]
-Has an insatiable hunger for cruelty.[X]
+Has an insatiable appetite for cruelty.[X]
 
 ## FarumName
 Farumese[X]

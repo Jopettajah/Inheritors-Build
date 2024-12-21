@@ -20,9 +20,9 @@ Garry,StalwartID
 Pieter,GuardianPromiseID
 Duane,WasteNotID
 Anis,EarlyRiserID
-Sibyl,0x0
+Sibyl,UnburdenedID
 Suhaira,StanceMasteryID
-Fabian,0x0
+Fabian,WingedKinshipID
 Kimiko,SingleDevotionID
 Conleth,0x0
 Winton,0x0
@@ -77,9 +77,9 @@ Saar (Ch 5),0x0
 Novala (Ch 6),StaffSavant2ID
 Murray (Ch 7),CertainBlowID
 Tirado (Ch 8),CampGuardID
-Binks (Ch 9A),0x0
-Pablo (Ch 10A),0x0
-Maelduin (Ch 12A),0x0
+Binks (Ch 9A),PushStrID
+Pablo (Ch 10A),VanityID
+Maelduin (Ch 12A),WrathID
 Aias (Ch 13A),0x0
 Carlyle (Ch 14A),0x0
 Caellach (Ch 15),0x0

@@ -17,7 +17,7 @@ EachJustice_0:
         .byte   TEMPO , 180/2
 EachJustice_0_LOOP:
         .byte           VOICE , 122
-        .byte           VOL   , 23
+        .byte           VOL   , 33
         .byte           N02   , Cn1 , v118
         .byte           N92   , Cs2 , v127 , gtp3
         .byte   W24
@@ -1299,7 +1299,7 @@ EachJustice_1:
 @ 000   ----------------------------------------
 EachJustice_1_LOOP:
         .byte           VOICE , 122
-        .byte           VOL   , 23
+        .byte           VOL   , 33
         .byte   W96
 @ 001   ----------------------------------------
         .byte   W72
@@ -1671,7 +1671,7 @@ EachJustice_2:
 @ 000   ----------------------------------------
 EachJustice_2_LOOP:
         .byte           VOICE , 84
-        .byte           VOL   , 17
+        .byte           VOL   , 24
         .byte           PAN   , c_v+62
         .byte           TIE   , Dn2 , v069
         .byte   W96
@@ -2057,7 +2057,7 @@ EachJustice_3:
 @ 000   ----------------------------------------
 EachJustice_3_LOOP:
         .byte           VOICE , 84
-        .byte           VOL   , 20
+        .byte           VOL   , 29
         .byte           PAN   , c_v-62
         .byte           N66   , An4 , v079 , gtp1
         .byte   W72
@@ -2825,7 +2825,7 @@ EachJustice_4:
 @ 000   ----------------------------------------
 EachJustice_4_LOOP:
         .byte           VOICE , 83
-        .byte           VOL   , 26
+        .byte           VOL   , 38
         .byte           PAN   , c_v+2
         .byte   W96
 @ 001   ----------------------------------------
@@ -3273,7 +3273,7 @@ EachJustice_5:
 @ 000   ----------------------------------------
 EachJustice_5_LOOP:
         .byte           VOICE , 19
-        .byte           VOL   , 14
+        .byte           VOL   , 19
         .byte           PAN   , c_v+62
         .byte           TIE   , Dn3 , v079
         .byte           TIE   , Fn3
@@ -3717,7 +3717,7 @@ EachJustice_6:
 @ 000   ----------------------------------------
 EachJustice_6_LOOP:
         .byte           VOICE , 19
-        .byte           VOL   , 10
+        .byte           VOL   , 13
         .byte           PAN   , c_v+63
         .byte   W96
 @ 001   ----------------------------------------
@@ -4045,7 +4045,7 @@ EachJustice_7:
 @ 000   ----------------------------------------
 EachJustice_7_LOOP:
         .byte           VOICE , 2
-        .byte           VOL   , 28
+        .byte           VOL   , 42
         .byte   W96
 @ 001   ----------------------------------------
         .byte   W96
@@ -4268,7 +4268,7 @@ EachJustice_8:
 @ 000   ----------------------------------------
 EachJustice_8_LOOP:
         .byte           VOICE , 84
-        .byte           VOL   , 25
+        .byte           VOL   , 37
         .byte           N07   , Dn4 , v091
         .byte   W08
         .byte                   An3 , v090
@@ -5254,7 +5254,7 @@ EachJustice_9:
 @ 000   ----------------------------------------
 EachJustice_9_LOOP:
         .byte           VOICE , 84
-        .byte           VOL   , 22
+        .byte           VOL   , 32
         .byte           PAN   , c_v+62
         .byte   W96
 @ 001   ----------------------------------------
@@ -5522,7 +5522,7 @@ EachJustice_10:
 @ 000   ----------------------------------------
 EachJustice_10_LOOP:
         .byte           VOICE , 114
-        .byte           VOL   , 17
+        .byte           VOL   , 24
         .byte           BEND  , c_v+2
         .byte   W09
         .byte           N08   , Dn4 , v091
@@ -6375,7 +6375,7 @@ EachJustice_11:
 @ 000   ----------------------------------------
 EachJustice_11_LOOP:
         .byte           VOICE , 19
-        .byte           VOL   , 17
+        .byte           VOL   , 24
         .byte           PAN   , c_v-64
         .byte           TIE   , Fn3 , v076
         .byte           N92   , An3 , v076 , gtp3
@@ -6846,7 +6846,7 @@ EachJustice_12:
 @ 000   ----------------------------------------
 EachJustice_12_LOOP:
         .byte           VOICE , 38
-        .byte           VOL   , 36
+        .byte           VOL   , 54
         .byte           N78   , Dn1 , v081 , gtp1
         .byte   W80
         .byte           N07   , An1 , v053
@@ -7736,7 +7736,7 @@ EachJustice_13:
 @ 000   ----------------------------------------
 EachJustice_13_LOOP:
         .byte           VOICE , 46
-        .byte           VOL   , 20
+        .byte           VOL   , 29
         .byte           PAN   , c_v-62
         .byte   W96
 @ 001   ----------------------------------------
@@ -8073,7 +8073,7 @@ EachJustice_14:
 @ 000   ----------------------------------------
 EachJustice_14_LOOP:
         .byte           VOICE , 114
-        .byte           VOL   , 22
+        .byte           VOL   , 32
         .byte   W96
 @ 001   ----------------------------------------
         .byte   W96

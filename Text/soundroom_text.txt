@@ -132,3 +132,15 @@ Tumult ~ Each Their Own Justice[X]
 
 ##ShakingFrontSightName
 Shaking the Front Sight[X]
+
+## UnoTenseName
+Tense[X]
+
+## SandyBarrensName
+Sandy Barrens[X]
+
+## CyclopeanHauntName
+Vengeful God in Dark Ocean Abyss[X]
+
+## DarkPrisonName
+Dark Prison[X]

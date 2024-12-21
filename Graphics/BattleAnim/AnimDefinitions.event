@@ -22,6 +22,7 @@
 #define AnimaAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation"
 #define LightAnim(Animation) "BYTE Light 0x01 ; SHORT Animation"
 #define DarkAnim(Animation) "BYTE Dark 0x01 ; SHORT Animation"
+#define MagicAnim(Animation) "BYTE 0x05 0x01 ; SHORT Animation ; BYTE 0x06 0x01 ; SHORT Animation ; BYTE 0x07 0x01 ; SHORT Animation ; BYTE 0x09 0x01 ; SHORT Animation"
 #define UnarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
 
@@ -131,6 +132,8 @@
 #define HalberdierUnarmed 0x8C
 
 #define ShamanFMagic 0x76
+
+#define DancerMagic 0x8d
 
 //////////
  
@@ -322,6 +325,12 @@ ShamanFAnims:
 DarkAnim(ShamanFMagic)
 UnarmedAnim(ShamanFMagic)
 WORD 0x0
+
+ALIGN 4
+DancerAnims:
+MagicAnim(DancerMagic)
+WORD 0x0
+
 
 ALIGN 4
 EyeAnims:

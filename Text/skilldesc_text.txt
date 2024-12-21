@@ -1,3 +1,8 @@
+## SD_Unburdened
+Unburdened: Sibyl gains[N]
++5 Avo for each of her[N]
+empty inventory slot.[X]
+
 ## SD_SingleDevotion
 Single Devotion: When Kimiko's[N]
 inventory has only one usable[N]

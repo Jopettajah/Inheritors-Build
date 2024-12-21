@@ -150,3 +150,12 @@ SongTable(UnoTensionID,uno_tension_000,MapMusicGroup)
 
 SongTable(ShakingFrontSightID,ShakingFrontSight_000,MapMusicGroup)
 #include "event/ShakingFrontSight_000.event"
+
+SongTable(SandyBarrensID,SandyBarrens,MapMusicGroup)
+#include "event/SandyBarrens.event"
+
+SongTable(CyclopeanHauntID,VengefulGodInDarkOceanAbyss000000,MapMusicGroup)
+#include "event/VengefulGodInDarkOceanAbyss000000.event"
+
+SongTable(DarkPrisonID,DARKPRISON0000,MapMusicGroup)
+#include "event/DARKPRISON0000.event"

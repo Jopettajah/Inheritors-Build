@@ -26,6 +26,7 @@
 - Apolo15: Dark Knight
 - Enjin: Duke Knight
 - Furious: FShaman
+- SaintRubenio: Dancer Magic
 
 
 # Map Tilesets

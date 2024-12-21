@@ -19,11 +19,6 @@
 
 //Aura Skills
 
-//Honorable Duel
-//+1 atck +2 def when nothing adjacent to combatants
-#define HonorDuelID 39
-
-
 //Anathema: -10 Avoid/Dodge to all enemies within 3 tiles.
 //Author Unknown (Initial Commit)
 #define AnathemaID 149
@@ -190,7 +185,7 @@
 
 //Blossom: 2x growth rates, but 1/2 exp gain.
 //By Sme
-#define BlossomID 52
+#define BlossomID 255
 
 //Aptitude: +20% to all growth rates.
 //By Sme
@@ -209,7 +204,7 @@
 
 //Camaraderie: Recover 10% HP each turn if there are allies within 2 tiles.
 //Author Unknown (Initial Commit)
-#define CamaraderieID 89
+#define CamaraderieID 255
 
 //Relief: Recover 20% HP each turn if there are no allies within 2 tiles.
 //Author Unknown (Initial Commit)
@@ -217,7 +212,7 @@
 
 //Bond: All allies within 3 tiles recover 10% HP each turn.
 //Author Unknown (Initial Commit)
-#define BondID 92
+#define BondID 255
 
 //Forager: Recover 20% HP each turn if on a Plain, Forest or Mountain.
 //By Leonarth
@@ -287,7 +282,7 @@
 
 //Despoil: Obtain a Red Gem after attacking and defeating an enemy. (Luck % activation)
 //Author Unknown (Initial Commit)
-#define DespoilID 122
+#define DespoilID 255
 
 //Fury: +2 Atk/Spd/Def/Res. Unit takes 6 damage after combat.
 //By circleseverywhere
@@ -332,10 +327,13 @@
 
 //Custom 
 
+#define UnburdenedID 31
 #define SingleDevotionID 30
 #define EternalBanquetID 29
 #define CampGuardID 129
 #define StanceMasteryID 24
+#define HonorDuelID 39
+#define WingedKinshipID 37
 
 //Pre-Battle Skills
 
@@ -445,7 +443,7 @@
 
 //Pursuit: When under attack, attack speed +2.
 //Author Unknown (Initial Commit)
-#define PursuitID 177
+#define PursuitID 255
 
 //Chivalry: When foe is at full HP, attack and def/res +2.
 //Author Unknown (Initial Commit)
@@ -508,7 +506,7 @@
 
 //Holy Aura: Gain +1 damage, +5% hit, +5% avoid, +5% crit when using light.
 //By Datagne
-#define HolyAuraID 171
+#define HolyAuraID 255
 
 //Insight: Hit +20.
 //By Sme
@@ -640,7 +638,7 @@
 
 //Blue Flame: Attack +2. When adjacent to an ally, Attack +4.
 //By Sme
-#define BlueFlameID 211
+#define BlueFlameID 255
 
 //Double Lion: All weapons are treated as brave.
 //By Sme
@@ -950,7 +948,7 @@
 
 //Push Skills: When HP is full, gain +5 to the given stat.
 //By Sme
-#define PushStrID 255
+#define PushStrID 34
 #define PushMagID 255
 #define PushSklID 255
 #define PushSpdID 255
@@ -1180,7 +1178,7 @@
 
 //Display-Only Skills
 
-#define CunningID 4
+#define CunningID 255
 #define NiceThighsID 115
 #define PersonalityID 116
 

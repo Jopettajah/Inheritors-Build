@@ -271,3 +271,8 @@ FangSkillList:
 BYTE 1 SwordfaireID
 BYTE 00 00
 ALIGN 4
+
+HalberdierSkillList:
+BYTE 1 LancefaireID
+BYTE 00 00
+ALIGN 4

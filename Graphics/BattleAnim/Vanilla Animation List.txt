@@ -16,10 +16,10 @@
 0x0E Hero w/ Axe			//Replaced
 0x0F Hero w/ Hand Axe			//Replaced
 0x10 Hero Disarmed			//Replaced
-0x11 Swordfighter			//Keep?
-0x12 Swordfighter Disarmed		//Keep?
-0x13 Swordfighter (F)			//Keep?
-0x14 Swordfighter (F) Disarmed		//Keep?
+0x11 Swordfighter			//Keep
+0x12 Swordfighter Disarmed		//Keep
+0x13 Swordfighter (F)			//Keep
+0x14 Swordfighter (F) Disarmed		//Keep
 0x15 Swordmaster			//Keep
 0x16 Swordmaster Disarmed		//Keep
 0x17 Swordmaster (F)			//Keep
@@ -140,7 +140,7 @@
 0x8A Thief Disarmed		//R
 0x8B Assassin			//R
 0x8C Assassin Disarmed	//R
-0x8D Assassin (F)		
+0x8D Assassin (F)		//R
 0x8E Assassin (F) Disarmed
 0x8F Rogue
 0x90 Rogue Disarmed

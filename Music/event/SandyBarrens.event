@@ -1,0 +1,3932 @@
+//Event file generated from Sappy .s format.
+        #include "MPlayDef.event"
+
+        #define    SandyBarrens_grp  voicegroup000
+        #define    SandyBarrens_pri  0
+        #define    SandyBarrens_rev  0
+        #define    SandyBarrens_key  0
+
+        // .rodata
+        // SandyBarrens
+        ALIGN 4
+
+//****************** Track 0 (Midi-Chn.0) ******************//
+
+SandyBarrens_0:
+        BYTE   KEYSH   SandyBarrens_key+0
+// 000   ----------------------------------------
+        BYTE   TEMPO   148/2
+SandyBarrens_0_LOOP:
+        BYTE           VOICE   105
+        BYTE           VOL     38
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+SandyBarrens_0_24:
+        BYTE           TIE     Cn2   v065
+        BYTE           TIE     Ds3
+        BYTE           TIE     Gn3
+        BYTE   W96
+        BYTE   PEND
+// 025   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE           EOT     Cn2
+        BYTE   W01
+// 026   ----------------------------------------
+        BYTE           TIE     Bn1
+        BYTE   W96
+// 027   ----------------------------------------
+SandyBarrens_0_27:
+        BYTE   W92
+        BYTE   W03
+        BYTE           EOT     Ds3
+        BYTE                   Gn3
+        BYTE                   Bn1
+        BYTE   W01
+        BYTE   PEND
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_24
+// 029   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE           EOT     Cn2
+        BYTE   W01
+// 030   ----------------------------------------
+        BYTE           TIE     Bn1   v065
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_27
+// 032   ----------------------------------------
+        BYTE           TIE     Gs1   v065
+        BYTE           TIE     Cn3
+        BYTE           TIE     Fn3
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W44
+        BYTE   W03
+        BYTE           EOT     Gs1
+        BYTE   W01
+        BYTE           N44     As1   v065   gtp3
+        BYTE   W44
+        BYTE   W03
+        BYTE           EOT     Fn3
+        BYTE   W01
+// 034   ----------------------------------------
+        BYTE           TIE     Cn2
+        BYTE           TIE     Ds3
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE           EOT     Cn3
+        BYTE                   Cn2
+        BYTE                   Ds3
+        BYTE   W01
+// 036   ----------------------------------------
+        BYTE           TIE     Cn2
+        BYTE           TIE     Cn3
+        BYTE           TIE     Ds3
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE           EOT     Cn2
+        BYTE                   Cn3
+        BYTE   W01
+// 038   ----------------------------------------
+        BYTE           TIE     Bn1
+        BYTE           TIE     Bn2
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE           EOT     Ds3
+        BYTE                   Bn1
+        BYTE                   Bn2
+        BYTE   W01
+// 040   ----------------------------------------
+SandyBarrens_0_40:
+        BYTE           N92     Cn2   v090   gtp3
+        BYTE                   Ds2
+        BYTE   W96
+        BYTE   PEND
+// 041   ----------------------------------------
+SandyBarrens_0_41:
+        BYTE           N92     As1   v090   gtp3
+        BYTE                   Ds2
+        BYTE   W96
+        BYTE   PEND
+// 042   ----------------------------------------
+SandyBarrens_0_42:
+        BYTE           N92     As1   v090   gtp3
+        BYTE                   Dn2
+        BYTE   W96
+        BYTE   PEND
+// 043   ----------------------------------------
+SandyBarrens_0_43:
+        BYTE           N92     Dn2   v090   gtp3
+        BYTE                   Gn2
+        BYTE   W96
+        BYTE   PEND
+// 044   ----------------------------------------
+SandyBarrens_0_44:
+        BYTE           TIE     Cn2   v090
+        BYTE           TIE     Fn2
+        BYTE   W96
+        BYTE   PEND
+// 045   ----------------------------------------
+SandyBarrens_0_45:
+        BYTE   W92
+        BYTE   W03
+        BYTE           EOT     Cn2
+        BYTE                   Fn2
+        BYTE   W01
+        BYTE   PEND
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_41
+// 047   ----------------------------------------
+        BYTE           N44     Cn2   v090   gtp3
+        BYTE           N92     Fn2   v090   gtp3
+        BYTE   W48
+        BYTE           N44     As1   v090   gtp3
+        BYTE   W48
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_40
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_41
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_42
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_43
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_44
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_45
+// 054   ----------------------------------------
+        BYTE           N92     Ds2   v090   gtp3
+        BYTE                   Gs2
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE                   Fn2
+        BYTE           N92     As2   v090   gtp3
+        BYTE   W96
+// 056   ----------------------------------------
+SandyBarrens_0_56:
+        BYTE           TIE     Gn2   v096
+        BYTE           TIE     Cn3
+        BYTE   W96
+        BYTE   PEND
+// 057   ----------------------------------------
+SandyBarrens_0_57:
+        BYTE   W92
+        BYTE   W03
+        BYTE           EOT     Gn2
+        BYTE                   Cn3
+        BYTE   W01
+        BYTE   PEND
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_56
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_57
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_56
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_57
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_56
+// 063   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_0_57
+// 064   ----------------------------------------
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE   W96
+// 066   ----------------------------------------
+        BYTE   W96
+// 067   ----------------------------------------
+        BYTE   W96
+// 068   ----------------------------------------
+        BYTE   W96
+// 069   ----------------------------------------
+        BYTE   W96
+// 070   ----------------------------------------
+        BYTE   W96
+// 071   ----------------------------------------
+        BYTE   W96
+// 072   ----------------------------------------
+        BYTE   GoTo
+         POIN2  SandyBarrens_0_LOOP
+        BYTE   FINE
+
+//****************** Track 1 (Midi-Chn.1) ******************//
+
+SandyBarrens_1:
+        BYTE   KEYSH   SandyBarrens_key+0
+// 000   ----------------------------------------
+SandyBarrens_1_LOOP:
+        BYTE           VOICE   13
+        BYTE           VOL     49
+        BYTE           PAN     c_v+25
+        BYTE   W24
+        BYTE           N11     Cn3   v095
+        BYTE   W24
+        BYTE                   Ds3   v100
+        BYTE   W24
+        BYTE                   Cn3   v085
+        BYTE   W24
+// 001   ----------------------------------------
+SandyBarrens_1_1:
+        BYTE   W24
+        BYTE           N11     Cn3   v095
+        BYTE   W12
+        BYTE                   Gn2   v090
+        BYTE   W12
+        BYTE                   Ds3   v100
+        BYTE   W24
+        BYTE                   Cn3   v085
+        BYTE   W24
+        BYTE   PEND
+// 002   ----------------------------------------
+SandyBarrens_1_2:
+        BYTE   W24
+        BYTE           N11     Bn2   v095
+        BYTE   W24
+        BYTE                   Ds3   v100
+        BYTE   W24
+        BYTE                   Bn2   v085
+        BYTE   W24
+        BYTE   PEND
+// 003   ----------------------------------------
+SandyBarrens_1_3:
+        BYTE   W24
+        BYTE           N11     Bn2   v095
+        BYTE   W12
+        BYTE                   Gn2   v092
+        BYTE   W12
+        BYTE                   Ds3   v100
+        BYTE   W24
+        BYTE                   Bn2   v085
+        BYTE   W24
+        BYTE   PEND
+// 004   ----------------------------------------
+SandyBarrens_1_4:
+        BYTE   W24
+        BYTE           N11     Cn3   v095
+        BYTE   W24
+        BYTE                   Ds3   v100
+        BYTE   W24
+        BYTE                   Cn3   v085
+        BYTE   W24
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_1
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_2
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_3
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_4
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_3
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_4
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_1
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_2
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_3
+// 016   ----------------------------------------
+SandyBarrens_1_16:
+        BYTE   W24
+        BYTE           N11     Ds3   v095
+        BYTE   W24
+        BYTE                   Gn3   v100
+        BYTE   W24
+        BYTE                   Ds3   v085
+        BYTE   W24
+        BYTE   PEND
+// 017   ----------------------------------------
+SandyBarrens_1_17:
+        BYTE   W24
+        BYTE           N11     Ds3   v095
+        BYTE   W12
+        BYTE                   Gs2   v090
+        BYTE   W12
+        BYTE                   Gn3   v100
+        BYTE   W24
+        BYTE                   Ds3   v085
+        BYTE   W24
+        BYTE   PEND
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_16
+// 019   ----------------------------------------
+SandyBarrens_1_19:
+        BYTE   W24
+        BYTE           N11     Ds3   v095
+        BYTE   W12
+        BYTE                   Cn3   v092
+        BYTE   W12
+        BYTE                   Gn3   v100
+        BYTE   W24
+        BYTE                   Ds3   v085
+        BYTE   W24
+        BYTE   PEND
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_4
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_1
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_2
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_3
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_4
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_1
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_2
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_3
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_4
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_1
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_2
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_3
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_16
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_17
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_16
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_19
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_1
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_2
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_1_3
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   W96
+// 062   ----------------------------------------
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE   W96
+// 066   ----------------------------------------
+        BYTE   W96
+// 067   ----------------------------------------
+        BYTE   W96
+// 068   ----------------------------------------
+        BYTE   W96
+// 069   ----------------------------------------
+        BYTE   W96
+// 070   ----------------------------------------
+        BYTE   W96
+// 071   ----------------------------------------
+        BYTE   W96
+// 072   ----------------------------------------
+        BYTE   GoTo
+         POIN2  SandyBarrens_1_LOOP
+        BYTE   FINE
+
+//****************** Track 2 (Midi-Chn.2) ******************//
+
+SandyBarrens_2:
+        BYTE   KEYSH   SandyBarrens_key+0
+// 000   ----------------------------------------
+SandyBarrens_2_LOOP:
+        BYTE           VOICE   79
+        BYTE           VOL     51
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W80
+        BYTE   W02
+        BYTE           N03     Cn4   v100
+        BYTE   W04
+        BYTE                   Dn4
+        BYTE   W04
+        BYTE                   Ds4
+        BYTE   W04
+        BYTE           TIE     Gn4
+        BYTE   W02
+// 008   ----------------------------------------
+SandyBarrens_2_8:
+        BYTE   W40
+        BYTE   W01
+        BYTE           MOD     1
+        BYTE   W13
+        BYTE                   2
+        BYTE   W10
+        BYTE                   3
+        BYTE   W32
+        BYTE   PEND
+// 009   ----------------------------------------
+        BYTE   W72
+        BYTE   W01
+        BYTE           EOT     Gn4
+        BYTE   W09
+        BYTE           N05     Fn4   v100
+        BYTE   W01
+        BYTE           MOD     1
+        BYTE   W04
+        BYTE                   0
+        BYTE   W01
+        BYTE           N05     Ds4
+        BYTE   W06
+        BYTE           TIE     Gn4
+        BYTE   W02
+// 010   ----------------------------------------
+        BYTE   W42
+        BYTE           MOD     1
+        BYTE   W09
+        BYTE                   2
+        BYTE   W09
+        BYTE                   3
+        BYTE   W36
+// 011   ----------------------------------------
+        BYTE   W72
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W09
+        BYTE           N05     Cn4
+        BYTE   W06
+        BYTE                   Dn4
+        BYTE   W04
+        BYTE           MOD     2
+        BYTE   W02
+        BYTE           N88     Ds4   v100   gtp1
+        BYTE           MOD     1
+        BYTE   W02
+// 012   ----------------------------------------
+SandyBarrens_2_12:
+        BYTE           MOD     0
+        BYTE   W52
+        BYTE                   1
+        BYTE   W07
+        BYTE                   2
+        BYTE   W04
+        BYTE                   3
+        BYTE   W24
+        BYTE   W01
+        BYTE           N05     Dn4   v100
+        BYTE   W06
+        BYTE                   Ds4
+        BYTE   W02
+        BYTE   PEND
+// 013   ----------------------------------------
+        BYTE   W04
+        BYTE           N28     Fn4   v100   gtp1
+        BYTE   W30
+        BYTE           N32     Ds4   v100   gtp3
+        BYTE   W36
+        BYTE           N23     Gn3
+        BYTE   W07
+        BYTE           MOD     2
+        BYTE   W06
+        BYTE                   1
+        BYTE   W06
+        BYTE                   0
+        BYTE   W05
+        BYTE           TIE     Dn4
+        BYTE   W02
+// 014   ----------------------------------------
+SandyBarrens_2_14:
+        BYTE   W42
+        BYTE           MOD     1
+        BYTE   W15
+        BYTE                   2
+        BYTE   W11
+        BYTE                   3
+        BYTE   W28
+        BYTE   PEND
+// 015   ----------------------------------------
+        BYTE   W72
+        BYTE   W03
+        BYTE           EOT     Dn4
+        BYTE   W09
+        BYTE           MOD     1
+        BYTE   W01
+        BYTE                   0
+        BYTE   W09
+        BYTE           TIE     Gs3   v100
+        BYTE   W02
+// 016   ----------------------------------------
+        BYTE   W54
+        BYTE           MOD     1
+        BYTE   W13
+        BYTE                   2
+        BYTE   W18
+        BYTE                   3
+        BYTE   W11
+// 017   ----------------------------------------
+        BYTE   W68
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W01
+        BYTE           N23     As3
+        BYTE   W08
+        BYTE           MOD     2
+        BYTE   W01
+        BYTE                   1
+        BYTE   W03
+        BYTE                   0
+        BYTE   W12
+        BYTE           TIE     Cn4
+        BYTE   W02
+// 018   ----------------------------------------
+        BYTE   W40
+        BYTE           MOD     1
+        BYTE   W09
+        BYTE                   2
+        BYTE   W12
+        BYTE                   3
+        BYTE   W32
+        BYTE   W03
+// 019   ----------------------------------------
+        BYTE   W60
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W07
+        BYTE           N11
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE           N05     Ds4
+        BYTE   W01
+        BYTE           MOD     2
+        BYTE   W01
+// 020   ----------------------------------------
+        BYTE                   1
+        BYTE   W03
+        BYTE                   0
+        BYTE   W01
+        BYTE           N05     Dn4
+        BYTE   W06
+        BYTE           TIE     Ds4
+        BYTE   W54
+        BYTE   W01
+        BYTE           MOD     1
+        BYTE   W14
+        BYTE                   2
+        BYTE   W17
+// 021   ----------------------------------------
+        BYTE   W08
+        BYTE                   3
+        BYTE   W88
+// 022   ----------------------------------------
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W13
+        BYTE           N23     Ds4   v046
+        BYTE   W36
+        BYTE                   Ds4   v027
+        BYTE   W40
+        BYTE           MOD     2
+        BYTE   W04
+// 023   ----------------------------------------
+        BYTE   W05
+        BYTE                   1
+        BYTE   W09
+        BYTE                   0
+        BYTE   W68
+        BYTE           N03     Cn4   v100
+        BYTE   W04
+        BYTE                   Dn4
+        BYTE   W04
+        BYTE                   Ds4
+        BYTE   W04
+        BYTE           TIE     Gn4
+        BYTE   W02
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_2_8
+// 025   ----------------------------------------
+        BYTE   W72
+        BYTE   W01
+        BYTE           EOT     Gn4
+        BYTE   W08
+        BYTE           MOD     2
+        BYTE   W01
+        BYTE           N05     Fn4   v100
+        BYTE   W01
+        BYTE           MOD     1
+        BYTE   W04
+        BYTE                   0
+        BYTE   W01
+        BYTE           N05     Ds4
+        BYTE   W06
+        BYTE           TIE     Gn4
+        BYTE   W02
+// 026   ----------------------------------------
+        BYTE   W42
+        BYTE           MOD     1
+        BYTE   W09
+        BYTE                   2
+        BYTE   W08
+        BYTE                   3
+        BYTE   W36
+        BYTE   W01
+// 027   ----------------------------------------
+        BYTE   W72
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W09
+        BYTE           N05     Cn4
+        BYTE   W06
+        BYTE                   Dn4
+        BYTE   W06
+        BYTE           N88     Ds4   v100   gtp1
+        BYTE           MOD     1
+        BYTE   W02
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_2_12
+// 029   ----------------------------------------
+        BYTE   W04
+        BYTE           N28     Fn4   v100   gtp1
+        BYTE   W30
+        BYTE           N32     Ds4   v100   gtp3
+        BYTE   W36
+        BYTE           N23     Gn3
+        BYTE   W03
+        BYTE           MOD     2
+        BYTE   W15
+        BYTE                   1
+        BYTE   W01
+        BYTE                   0
+        BYTE   W05
+        BYTE           TIE     Dn4
+        BYTE   W02
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_2_14
+// 031   ----------------------------------------
+        BYTE   W72
+        BYTE   W03
+        BYTE           EOT     Dn4
+        BYTE   W05
+        BYTE           MOD     2
+        BYTE   W04
+        BYTE                   1
+        BYTE   W01
+        BYTE                   0
+        BYTE   W09
+        BYTE           TIE     Gs3   v100
+        BYTE   W02
+// 032   ----------------------------------------
+        BYTE   W54
+        BYTE           MOD     1
+        BYTE   W13
+        BYTE                   2
+        BYTE   W28
+        BYTE   W01
+// 033   ----------------------------------------
+        BYTE   W68
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W01
+        BYTE           N23     As3
+        BYTE   W09
+        BYTE           MOD     1
+        BYTE   W03
+        BYTE                   0
+        BYTE   W12
+        BYTE           TIE     Cn4
+        BYTE   W02
+// 034   ----------------------------------------
+        BYTE   W40
+        BYTE           MOD     1
+        BYTE   W09
+        BYTE                   2
+        BYTE   W13
+        BYTE                   3
+        BYTE   W32
+        BYTE   W02
+// 035   ----------------------------------------
+        BYTE   W60
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W07
+        BYTE           N11
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE           N05     Ds4
+        BYTE   W02
+// 036   ----------------------------------------
+        BYTE   W01
+        BYTE           MOD     1
+        BYTE   W02
+        BYTE                   0
+        BYTE   W01
+        BYTE           N05     Dn4
+        BYTE   W06
+        BYTE           TIE     Ds4
+        BYTE   W54
+        BYTE   W01
+        BYTE           MOD     1
+        BYTE   W14
+        BYTE                   2
+        BYTE   W17
+// 037   ----------------------------------------
+        BYTE   W08
+        BYTE                   3
+        BYTE   W88
+// 038   ----------------------------------------
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W90
+        BYTE           MOD     2
+        BYTE   W03
+// 039   ----------------------------------------
+        BYTE   W08
+        BYTE                   1
+        BYTE   W10
+        BYTE                   0
+        BYTE   W78
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   W96
+// 062   ----------------------------------------
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE   W90
+        BYTE   W01
+        BYTE           N05     Dn3   v090
+        BYTE   W03
+        BYTE           TIE     Gs2   v080
+        BYTE           N44     Ds3   v090   gtp3
+        BYTE   W02
+// 064   ----------------------------------------
+        BYTE   W32
+        BYTE   W02
+        BYTE           TIE     Gs3
+        BYTE   W32
+        BYTE   W01
+        BYTE           N05     Dn4
+        BYTE   W03
+        BYTE           N88     Ds4   v090   gtp1
+        BYTE   W24
+        BYTE   W02
+// 065   ----------------------------------------
+        BYTE   W68
+        BYTE   W01
+        BYTE           EOT     Gs2
+        BYTE                   Gs3
+        BYTE   W01
+        BYTE           N14     Ds4   v044
+        BYTE   W21
+        BYTE           N05     Bn2   v090
+        BYTE   W03
+        BYTE           N44     Cn3   v090   gtp3
+        BYTE           TIE     Gn3   v080
+        BYTE   W02
+// 066   ----------------------------------------
+        BYTE   W32
+        BYTE   W02
+        BYTE                   Fn3   v090
+        BYTE   W32
+        BYTE   W01
+        BYTE           N05     Bn3
+        BYTE   W03
+        BYTE           N88     Cn4   v090   gtp1
+        BYTE   W24
+        BYTE   W02
+// 067   ----------------------------------------
+        BYTE   W68
+        BYTE   W01
+        BYTE           EOT     Gn3
+        BYTE                   Fn3
+        BYTE   W01
+        BYTE           N14     Cn4   v044
+        BYTE   W21
+        BYTE           N05     An2   v090
+        BYTE   W03
+        BYTE           TIE     Cn2   v080
+        BYTE           N44     As2   v090   gtp3
+        BYTE           TIE     Ds3   v080
+        BYTE   W02
+// 068   ----------------------------------------
+        BYTE   W32
+        BYTE   W02
+        BYTE                   Cn3   v090
+        BYTE   W32
+        BYTE   W01
+        BYTE           N05     An3
+        BYTE   W03
+        BYTE           N88     As3   v090   gtp1
+        BYTE   W24
+        BYTE   W02
+// 069   ----------------------------------------
+        BYTE   W68
+        BYTE   W01
+        BYTE           EOT     Ds3
+        BYTE                   Cn3
+        BYTE   W01
+        BYTE           N14     As3   v042
+        BYTE   W11
+        BYTE           EOT     Cn2
+        BYTE   W13
+        BYTE           N92     Gs1   v070   gtp3
+        BYTE           TIE     Fn2   v063
+        BYTE           TIE     As2
+        BYTE           N92     Ds3   v063   gtp3
+        BYTE   W02
+// 070   ----------------------------------------
+        BYTE   W92
+        BYTE   W02
+        BYTE                   As1   v070
+        BYTE           N92     Dn3   v060   gtp3
+        BYTE   W02
+// 071   ----------------------------------------
+        BYTE   W92
+        BYTE   W01
+        BYTE           EOT     Fn2
+        BYTE                   As2
+        BYTE   W03
+// 072   ----------------------------------------
+        BYTE   GoTo
+         POIN2  SandyBarrens_2_LOOP
+        BYTE   FINE
+
+//****************** Track 3 (Midi-Chn.3) ******************//
+
+SandyBarrens_3:
+        BYTE   KEYSH   SandyBarrens_key+0
+// 000   ----------------------------------------
+SandyBarrens_3_LOOP:
+        BYTE           VOICE   79
+        BYTE           VOL     42
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+SandyBarrens_3_8:
+        BYTE   W06
+        BYTE           N11     Cn4   v060
+        BYTE   W04
+        BYTE                   Dn4
+        BYTE   W04
+        BYTE                   Ds4
+        BYTE   W04
+        BYTE                   Gn4
+        BYTE   W78
+        BYTE   PEND
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+SandyBarrens_3_10:
+        BYTE   W06
+        BYTE           N11     Fn4   v060
+        BYTE   W06
+        BYTE                   Ds4
+        BYTE   W06
+        BYTE                   Gn4
+        BYTE   W78
+        BYTE   PEND
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+SandyBarrens_3_12:
+        BYTE   W06
+        BYTE           N11     Cn4   v060
+        BYTE   W06
+        BYTE                   Dn4
+        BYTE   W06
+        BYTE                   Ds4
+        BYTE   W78
+        BYTE   PEND
+// 013   ----------------------------------------
+SandyBarrens_3_13:
+        BYTE   W12
+        BYTE           N11     Dn4   v060
+        BYTE   W06
+        BYTE                   Ds4
+        BYTE   W06
+        BYTE                   Fn4
+        BYTE   W30
+        BYTE                   Ds4
+        BYTE   W36
+        BYTE                   Gn3
+        BYTE   W06
+        BYTE   PEND
+// 014   ----------------------------------------
+SandyBarrens_3_14:
+        BYTE   W18
+        BYTE           N11     Dn4   v060
+        BYTE   W78
+        BYTE   PEND
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+SandyBarrens_3_16:
+        BYTE   W18
+        BYTE           N11     Gs3   v060
+        BYTE   W78
+        BYTE   PEND
+// 017   ----------------------------------------
+SandyBarrens_3_17:
+        BYTE   W90
+        BYTE           N11     As3   v060
+        BYTE   W06
+        BYTE   PEND
+// 018   ----------------------------------------
+SandyBarrens_3_18:
+        BYTE   W18
+        BYTE           N11     Cn4   v060
+        BYTE   W78
+        BYTE   PEND
+// 019   ----------------------------------------
+SandyBarrens_3_19:
+        BYTE   W90
+        BYTE           N11     Cn4   v060
+        BYTE   W06
+        BYTE   PEND
+// 020   ----------------------------------------
+SandyBarrens_3_20:
+        BYTE   W06
+        BYTE           N11     Dn4   v060
+        BYTE   W12
+        BYTE                   Ds4
+        BYTE   W06
+        BYTE                   Dn4
+        BYTE   W06
+        BYTE                   Ds4
+        BYTE   W66
+        BYTE   PEND
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_3_8
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_3_10
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_3_12
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_3_13
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_3_14
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_3_16
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_3_17
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_3_18
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_3_19
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_3_20
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   W96
+// 062   ----------------------------------------
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE   W15
+        BYTE           N23     Dn3   v051
+        BYTE   W03
+        BYTE                   Gs2   v041
+        BYTE           N23     Ds3   v051
+        BYTE   W36
+        BYTE                   Gs3
+        BYTE   W32
+        BYTE   W01
+        BYTE                   Dn4
+        BYTE   W03
+        BYTE                   Ds4
+        BYTE   W06
+// 065   ----------------------------------------
+        BYTE   W96
+// 066   ----------------------------------------
+        BYTE   W15
+        BYTE                   Bn2
+        BYTE   W03
+        BYTE                   Cn3
+        BYTE           N23     Gn3   v041
+        BYTE   W36
+        BYTE                   Fn3   v051
+        BYTE   W32
+        BYTE   W01
+        BYTE                   Bn3
+        BYTE   W03
+        BYTE                   Cn4
+        BYTE   W06
+// 067   ----------------------------------------
+        BYTE   W96
+// 068   ----------------------------------------
+        BYTE   W15
+        BYTE                   An2
+        BYTE   W03
+        BYTE                   Cn2   v041
+        BYTE           N23     As2   v051
+        BYTE           N23     Ds3   v041
+        BYTE   W36
+        BYTE                   Cn3   v051
+        BYTE   W32
+        BYTE   W01
+        BYTE                   An3
+        BYTE   W03
+        BYTE                   As3
+        BYTE   W06
+// 069   ----------------------------------------
+        BYTE   W96
+// 070   ----------------------------------------
+        BYTE   W18
+        BYTE                   Gs1   v044
+        BYTE           N23     Fn2   v037
+        BYTE           N23     As2
+        BYTE           N23     Ds3
+        BYTE   W78
+// 071   ----------------------------------------
+        BYTE   W18
+        BYTE                   As1   v044
+        BYTE           N23     Dn3   v034
+        BYTE   W78
+// 072   ----------------------------------------
+        BYTE   GoTo
+         POIN2  SandyBarrens_3_LOOP
+        BYTE   FINE
+
+//****************** Track 4 (Midi-Chn.4) ******************//
+
+SandyBarrens_4:
+        BYTE   KEYSH   SandyBarrens_key+0
+// 000   ----------------------------------------
+SandyBarrens_4_LOOP:
+        BYTE           VOICE   21
+        BYTE           PAN     c_v-26
+        BYTE           VOL     54
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+SandyBarrens_4_40:
+        BYTE           N56     Ds2   v106   gtp3
+        BYTE   W72
+        BYTE           N11
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W12
+        BYTE   PEND
+// 041   ----------------------------------------
+        BYTE           N68     Gn2   v106   gtp3
+        BYTE   W96
+// 042   ----------------------------------------
+SandyBarrens_4_42:
+        BYTE           N56     Gn2   v106   gtp3
+        BYTE   W72
+        BYTE           N11
+        BYTE   W12
+        BYTE                   An2
+        BYTE   W12
+        BYTE   PEND
+// 043   ----------------------------------------
+        BYTE           N68     As2   v106   gtp3
+        BYTE   W96
+// 044   ----------------------------------------
+SandyBarrens_4_44:
+        BYTE           N56     As2   v106   gtp3
+        BYTE   W72
+        BYTE           N11
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE   PEND
+// 045   ----------------------------------------
+        BYTE           N23     As2
+        BYTE   W24
+        BYTE                   Gs2
+        BYTE   W24
+        BYTE                   Gn2
+        BYTE   W24
+        BYTE                   Fn2
+        BYTE   W24
+// 046   ----------------------------------------
+        BYTE           N56     Gs2   v106   gtp3
+        BYTE   W72
+        BYTE           N11
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W12
+// 047   ----------------------------------------
+        BYTE           N23     Gs2
+        BYTE   W24
+        BYTE                   Ds2
+        BYTE   W24
+        BYTE                   Ds2
+        BYTE   W24
+        BYTE                   Dn2
+        BYTE   W24
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_4_40
+// 049   ----------------------------------------
+        BYTE           N68     Gn2   v106   gtp3
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_4_42
+// 051   ----------------------------------------
+        BYTE           N68     As2   v106   gtp3
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_4_44
+// 053   ----------------------------------------
+        BYTE           N23     As2   v106
+        BYTE   W24
+        BYTE                   Gs2
+        BYTE   W24
+        BYTE                   Gn2
+        BYTE   W24
+        BYTE                   Gs2
+        BYTE   W24
+// 054   ----------------------------------------
+        BYTE           N56     Cn3   v106   gtp3
+        BYTE   W60
+        BYTE           N11     Ds2
+        BYTE   W12
+        BYTE                   Gs2
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+// 055   ----------------------------------------
+        BYTE           N23     Dn3
+        BYTE   W24
+        BYTE                   As2
+        BYTE   W24
+        BYTE                   Dn3
+        BYTE   W24
+        BYTE                   Fn3
+        BYTE   W24
+// 056   ----------------------------------------
+SandyBarrens_4_56:
+        BYTE           N32     Fn3   v106   gtp3
+        BYTE   W36
+        BYTE                   Ds3
+        BYTE   W36
+        BYTE           N23     Dn3
+        BYTE   W24
+        BYTE   PEND
+// 057   ----------------------------------------
+        BYTE           N80     Cn3   v106   gtp3
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_4_56
+// 059   ----------------------------------------
+        BYTE           N80     Cn3   v106   gtp3
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_4_56
+// 061   ----------------------------------------
+        BYTE           N80     Cn3   v106   gtp3
+        BYTE   W96
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_4_56
+// 063   ----------------------------------------
+        BYTE           N80     Cn3   v106   gtp3
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE           TIE     As2   v060
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 066   ----------------------------------------
+        BYTE           TIE     Gs2
+        BYTE   W96
+// 067   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 068   ----------------------------------------
+        BYTE           TIE     Fn2
+        BYTE   W96
+// 069   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 070   ----------------------------------------
+        BYTE   W96
+// 071   ----------------------------------------
+        BYTE   W96
+// 072   ----------------------------------------
+        BYTE   GoTo
+         POIN2  SandyBarrens_4_LOOP
+        BYTE   FINE
+
+//****************** Track 5 (Midi-Chn.5) ******************//
+
+SandyBarrens_5:
+        BYTE   KEYSH   SandyBarrens_key+0
+// 000   ----------------------------------------
+SandyBarrens_5_LOOP:
+        BYTE           VOICE   21
+        BYTE           VOL     46
+        BYTE           PAN     c_v+21
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W18
+        BYTE           BEND    c_v+4
+        BYTE           N56     Ds2   v060   gtp3
+        BYTE   W72
+        BYTE           N11
+        BYTE   W06
+// 041   ----------------------------------------
+        BYTE   W06
+        BYTE                   Fn2
+        BYTE   W12
+        BYTE           N68     Gn2   v060   gtp3
+        BYTE   W78
+// 042   ----------------------------------------
+        BYTE   W18
+        BYTE           N56     Gn2   v060   gtp3
+        BYTE   W72
+        BYTE           N11
+        BYTE   W06
+// 043   ----------------------------------------
+        BYTE   W06
+        BYTE                   An2
+        BYTE   W12
+        BYTE           N68     As2   v060   gtp3
+        BYTE   W78
+// 044   ----------------------------------------
+        BYTE   W18
+        BYTE           N56     As2   v060   gtp3
+        BYTE   W72
+        BYTE           N11
+        BYTE   W06
+// 045   ----------------------------------------
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE           N23     As2
+        BYTE   W24
+        BYTE                   Gs2
+        BYTE   W24
+        BYTE                   Gn2
+        BYTE   W24
+        BYTE                   Fn2
+        BYTE   W06
+// 046   ----------------------------------------
+        BYTE   W18
+        BYTE           N56     Gs2   v060   gtp3
+        BYTE   W72
+        BYTE           N11
+        BYTE   W06
+// 047   ----------------------------------------
+        BYTE   W06
+        BYTE                   As2
+        BYTE   W12
+        BYTE           N23     Gs2
+        BYTE   W24
+        BYTE                   Ds2
+        BYTE   W24
+        BYTE                   Ds2
+        BYTE   W24
+        BYTE                   Dn2
+        BYTE   W06
+// 048   ----------------------------------------
+        BYTE   W18
+        BYTE                   Ds2
+        BYTE   W72
+        BYTE                   Ds2
+        BYTE   W06
+// 049   ----------------------------------------
+        BYTE   W06
+        BYTE                   Fn2
+        BYTE   W12
+        BYTE                   Gn2
+        BYTE   W78
+// 050   ----------------------------------------
+        BYTE   W18
+        BYTE                   Gn2
+        BYTE   W72
+        BYTE                   Gn2
+        BYTE   W06
+// 051   ----------------------------------------
+        BYTE   W06
+        BYTE                   An2
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W78
+// 052   ----------------------------------------
+        BYTE   W18
+        BYTE                   As2
+        BYTE   W72
+        BYTE                   As2
+        BYTE   W06
+// 053   ----------------------------------------
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W24
+        BYTE                   Gs2
+        BYTE   W24
+        BYTE                   Gn2
+        BYTE   W24
+        BYTE                   Gs2
+        BYTE   W06
+// 054   ----------------------------------------
+        BYTE   W18
+        BYTE                   Cn3
+        BYTE   W60
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE                   Gs2
+        BYTE   W06
+// 055   ----------------------------------------
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W24
+        BYTE                   As2
+        BYTE   W24
+        BYTE                   Dn3
+        BYTE   W24
+        BYTE                   Fn3
+        BYTE   W06
+// 056   ----------------------------------------
+SandyBarrens_5_56:
+        BYTE   W18
+        BYTE           N23     Fn3   v060
+        BYTE   W36
+        BYTE                   Ds3
+        BYTE   W36
+        BYTE                   Dn3
+        BYTE   W06
+        BYTE   PEND
+// 057   ----------------------------------------
+SandyBarrens_5_57:
+        BYTE   W18
+        BYTE           N23     Cn3   v060
+        BYTE   W78
+        BYTE   PEND
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_5_56
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_5_57
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_5_56
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_5_57
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_5_56
+// 063   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_5_57
+// 064   ----------------------------------------
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE   W96
+// 066   ----------------------------------------
+        BYTE   W96
+// 067   ----------------------------------------
+        BYTE   W96
+// 068   ----------------------------------------
+        BYTE   W96
+// 069   ----------------------------------------
+        BYTE   W96
+// 070   ----------------------------------------
+        BYTE   W96
+// 071   ----------------------------------------
+        BYTE   W96
+// 072   ----------------------------------------
+        BYTE           BEND    c_v+0
+        BYTE   GoTo
+         POIN2  SandyBarrens_5_LOOP
+        BYTE   FINE
+
+//****************** Track 6 (Midi-Chn.6) ******************//
+
+SandyBarrens_6:
+        BYTE   KEYSH   SandyBarrens_key+0
+// 000   ----------------------------------------
+SandyBarrens_6_LOOP:
+        BYTE           VOICE   36
+        BYTE           VOL     46
+        BYTE           N68     Cn2   v127   gtp3
+        BYTE   W84
+        BYTE           N11     Gn1
+        BYTE   W12
+// 001   ----------------------------------------
+SandyBarrens_6_1:
+        BYTE           N11     Cn2   v127
+        BYTE   W24
+        BYTE           N44     Cn2   v127   gtp3
+        BYTE   W72
+        BYTE   PEND
+// 002   ----------------------------------------
+SandyBarrens_6_2:
+        BYTE           N68     Bn1   v127   gtp3
+        BYTE   W84
+        BYTE           N11     Gn1
+        BYTE   W12
+        BYTE   PEND
+// 003   ----------------------------------------
+SandyBarrens_6_3:
+        BYTE           N11     Bn1   v127
+        BYTE   W24
+        BYTE           N44     Bn1   v127   gtp3
+        BYTE   W72
+        BYTE   PEND
+// 004   ----------------------------------------
+SandyBarrens_6_4:
+        BYTE           N68     Cn2   v127   gtp3
+        BYTE   W84
+        BYTE           N11     Gn1
+        BYTE   W12
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_1
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_2
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_3
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_4
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_3
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_4
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_1
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_2
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_3
+// 016   ----------------------------------------
+SandyBarrens_6_16:
+        BYTE           N68     Fn1   v127   gtp3
+        BYTE   W84
+        BYTE           N11     Cn2
+        BYTE   W12
+        BYTE   PEND
+// 017   ----------------------------------------
+SandyBarrens_6_17:
+        BYTE           N11     Fn1   v127
+        BYTE   W24
+        BYTE           N44     Fn1   v127   gtp3
+        BYTE   W48
+        BYTE           N17     Gn1
+        BYTE   W24
+        BYTE   PEND
+// 018   ----------------------------------------
+SandyBarrens_6_18:
+        BYTE           N68     Gs1   v127   gtp3
+        BYTE   W84
+        BYTE           N11     Ds1
+        BYTE   W12
+        BYTE   PEND
+// 019   ----------------------------------------
+SandyBarrens_6_19:
+        BYTE           N11     Gs1   v127
+        BYTE   W24
+        BYTE           N44     Gs1   v127   gtp3
+        BYTE   W72
+        BYTE   PEND
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_4
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_1
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_2
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_3
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_4
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_1
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_2
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_3
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_4
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_1
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_2
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_3
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_16
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_17
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_18
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_19
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_1
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_2
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_3
+// 040   ----------------------------------------
+SandyBarrens_6_40:
+        BYTE           N09     Cn2   v127
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Cn2   v116
+        BYTE   W12
+        BYTE                   Cn2   v127
+        BYTE   W24
+        BYTE                   Gn1   v123
+        BYTE   W12
+        BYTE   PEND
+// 041   ----------------------------------------
+SandyBarrens_6_41:
+        BYTE           N09     Ds2   v127
+        BYTE   W12
+        BYTE                   Ds2
+        BYTE   W24
+        BYTE                   As1
+        BYTE   W12
+        BYTE                   Ds2   v116
+        BYTE   W12
+        BYTE                   Ds2   v127
+        BYTE   W12
+        BYTE           N17     As1   v122
+        BYTE   W24
+        BYTE   PEND
+// 042   ----------------------------------------
+SandyBarrens_6_42:
+        BYTE           N09     Dn2   v127
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE   W24
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   Dn2   v116
+        BYTE   W12
+        BYTE                   Dn2   v127
+        BYTE   W24
+        BYTE                   An1   v123
+        BYTE   W12
+        BYTE   PEND
+// 043   ----------------------------------------
+SandyBarrens_6_43:
+        BYTE           N09     Gn2   v127
+        BYTE   W12
+        BYTE                   Gn2
+        BYTE   W24
+        BYTE                   Dn2
+        BYTE   W12
+        BYTE                   Gn2   v116
+        BYTE   W12
+        BYTE                   Gn2   v127
+        BYTE   W12
+        BYTE           N17     Dn2   v122
+        BYTE   W24
+        BYTE   PEND
+// 044   ----------------------------------------
+SandyBarrens_6_44:
+        BYTE           N09     Fn2   v127
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W24
+        BYTE                   Cn2
+        BYTE   W12
+        BYTE                   Fn2   v116
+        BYTE   W12
+        BYTE                   Fn2   v127
+        BYTE   W24
+        BYTE                   Cn2   v123
+        BYTE   W12
+        BYTE   PEND
+// 045   ----------------------------------------
+SandyBarrens_6_45:
+        BYTE           N09     Fn2   v127
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W24
+        BYTE                   Cn2
+        BYTE   W12
+        BYTE                   Fn2   v116
+        BYTE   W12
+        BYTE                   Fn2   v127
+        BYTE   W12
+        BYTE           N17     Cn2   v122
+        BYTE   W24
+        BYTE   PEND
+// 046   ----------------------------------------
+SandyBarrens_6_46:
+        BYTE           N09     Gs2   v127
+        BYTE   W12
+        BYTE                   Gs2
+        BYTE   W24
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE                   Gs2   v116
+        BYTE   W12
+        BYTE                   Gs2   v127
+        BYTE   W24
+        BYTE                   Ds2   v123
+        BYTE   W12
+        BYTE   PEND
+// 047   ----------------------------------------
+SandyBarrens_6_47:
+        BYTE           N09     As2   v127
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W24
+        BYTE                   Fn2
+        BYTE   W12
+        BYTE                   As2   v116
+        BYTE   W12
+        BYTE                   As2   v127
+        BYTE   W12
+        BYTE           N17     Fn2   v122
+        BYTE   W24
+        BYTE   PEND
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_40
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_41
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_42
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_43
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_44
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_45
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_46
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_47
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_40
+// 057   ----------------------------------------
+SandyBarrens_6_57:
+        BYTE           N09     As1   v127
+        BYTE   W12
+        BYTE                   As1
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   As1   v116
+        BYTE   W12
+        BYTE                   As1   v127
+        BYTE   W12
+        BYTE           N17     Gn2   v122
+        BYTE   W24
+        BYTE   PEND
+// 058   ----------------------------------------
+SandyBarrens_6_58:
+        BYTE           N09     An1   v127
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   An1   v116
+        BYTE   W12
+        BYTE                   An1   v127
+        BYTE   W24
+        BYTE                   Cn2   v123
+        BYTE   W12
+        BYTE   PEND
+// 059   ----------------------------------------
+SandyBarrens_6_59:
+        BYTE           N09     Gs1   v127
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W24
+        BYTE                   Ds2
+        BYTE   W12
+        BYTE                   Gs1   v116
+        BYTE   W12
+        BYTE                   Gs1   v127
+        BYTE   W12
+        BYTE           N17     Ds2   v122
+        BYTE   W24
+        BYTE   PEND
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_40
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_57
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_58
+// 063   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_6_59
+// 064   ----------------------------------------
+        BYTE           TIE     Cs2   v127
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 066   ----------------------------------------
+        BYTE           N80     As1   v127   gtp3
+        BYTE   W84
+        BYTE           N11     Gs1
+        BYTE   W12
+// 067   ----------------------------------------
+        BYTE           N20     As1
+        BYTE   W24
+        BYTE           N44     As1   v127   gtp3
+        BYTE   W72
+// 068   ----------------------------------------
+        BYTE           TIE     Fn1
+        BYTE   W96
+// 069   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 070   ----------------------------------------
+        BYTE           N92     Gs1   v127   gtp3
+        BYTE   W96
+// 071   ----------------------------------------
+        BYTE           N88     As1   v127   gtp1
+        BYTE   W96
+// 072   ----------------------------------------
+        BYTE   GoTo
+         POIN2  SandyBarrens_6_LOOP
+        BYTE   FINE
+
+//****************** Track 7 (Midi-Chn.7) ******************//
+
+SandyBarrens_7:
+        BYTE   KEYSH   SandyBarrens_key+0
+// 000   ----------------------------------------
+SandyBarrens_7_LOOP:
+        BYTE           VOICE   1
+        BYTE           VOL     51
+        BYTE           TIE     Cn2   v100
+        BYTE   W96
+// 001   ----------------------------------------
+SandyBarrens_7_1:
+        BYTE           N68     Gn4   v070   gtp3
+        BYTE   W06
+        BYTE                   Gn5
+        BYTE   W64
+        BYTE   W01
+        BYTE           EOT     Cn2
+        BYTE   W24
+        BYTE   W01
+        BYTE   PEND
+// 002   ----------------------------------------
+        BYTE           TIE     Bn1   v100
+        BYTE   W96
+// 003   ----------------------------------------
+SandyBarrens_7_3:
+        BYTE           N68     Gn4   v070   gtp3
+        BYTE   W06
+        BYTE                   Gn5
+        BYTE   W64
+        BYTE   W01
+        BYTE           EOT     Bn1
+        BYTE   W24
+        BYTE   W01
+        BYTE   PEND
+// 004   ----------------------------------------
+        BYTE           TIE     Cn2   v100
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_7_1
+// 006   ----------------------------------------
+        BYTE           TIE     Bn1   v100
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_7_3
+// 008   ----------------------------------------
+        BYTE           TIE     Cn2   v100
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 010   ----------------------------------------
+        BYTE           TIE     Bn1
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 012   ----------------------------------------
+        BYTE           TIE     Cn2
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 014   ----------------------------------------
+        BYTE           TIE     Bn1
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 016   ----------------------------------------
+        BYTE           TIE     Fn2
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 018   ----------------------------------------
+        BYTE           TIE     Gs2
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 020   ----------------------------------------
+        BYTE           TIE     Cn2
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 022   ----------------------------------------
+        BYTE           TIE     Bn1
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 024   ----------------------------------------
+        BYTE           TIE     Cn2
+        BYTE   W96
+// 025   ----------------------------------------
+SandyBarrens_7_25:
+        BYTE           N68     Gn4   v065   gtp3
+        BYTE   W06
+        BYTE                   Gn5
+        BYTE   W64
+        BYTE   W01
+        BYTE           EOT     Cn2
+        BYTE   W24
+        BYTE   W01
+        BYTE   PEND
+// 026   ----------------------------------------
+        BYTE           TIE     Bn1   v100
+        BYTE   W96
+// 027   ----------------------------------------
+SandyBarrens_7_27:
+        BYTE           N68     Gn4   v065   gtp3
+        BYTE   W06
+        BYTE                   Gn5
+        BYTE   W64
+        BYTE   W01
+        BYTE           EOT     Bn1
+        BYTE   W24
+        BYTE   W01
+        BYTE   PEND
+// 028   ----------------------------------------
+        BYTE           TIE     Cn2   v100
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_7_25
+// 030   ----------------------------------------
+        BYTE           TIE     Bn1   v100
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_7_27
+// 032   ----------------------------------------
+        BYTE           TIE     Fn2   v100
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE           N68     Gs4   v065   gtp3
+        BYTE   W06
+        BYTE                   Gs5
+        BYTE   W64
+        BYTE   W01
+        BYTE           EOT     Fn2
+        BYTE   W24
+        BYTE   W01
+// 034   ----------------------------------------
+        BYTE           TIE     Gs2   v100
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE           N68     Gs4   v065   gtp3
+        BYTE   W06
+        BYTE                   Gs5
+        BYTE   W64
+        BYTE   W01
+        BYTE           EOT     Gs2
+        BYTE   W24
+        BYTE   W01
+// 036   ----------------------------------------
+        BYTE           TIE     Cn2   v100
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_7_25
+// 038   ----------------------------------------
+        BYTE           TIE     Bn1   v100
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_7_27
+// 040   ----------------------------------------
+SandyBarrens_7_40:
+        BYTE           N56     Ds4   v100   gtp3
+        BYTE   W72
+        BYTE           N11
+        BYTE   W12
+        BYTE                   Fn4
+        BYTE   W12
+        BYTE   PEND
+// 041   ----------------------------------------
+        BYTE           N68     Gn4   v100   gtp3
+        BYTE   W96
+// 042   ----------------------------------------
+SandyBarrens_7_42:
+        BYTE           N56     Gn4   v100   gtp3
+        BYTE   W72
+        BYTE           N11
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE   PEND
+// 043   ----------------------------------------
+        BYTE           N68     As4   v100   gtp3
+        BYTE   W96
+// 044   ----------------------------------------
+SandyBarrens_7_44:
+        BYTE           N56     As4   v100   gtp3
+        BYTE   W72
+        BYTE           N11
+        BYTE   W12
+        BYTE                   Cn5
+        BYTE   W12
+        BYTE   PEND
+// 045   ----------------------------------------
+        BYTE           N23     As4
+        BYTE   W24
+        BYTE                   Gs4
+        BYTE   W24
+        BYTE                   Gn4
+        BYTE   W24
+        BYTE                   Fn4
+        BYTE   W24
+// 046   ----------------------------------------
+        BYTE           N56     Gs4   v100   gtp3
+        BYTE   W72
+        BYTE           N11
+        BYTE   W12
+        BYTE                   As4
+        BYTE   W12
+// 047   ----------------------------------------
+        BYTE           N23     Gs4
+        BYTE   W24
+        BYTE                   Ds4
+        BYTE   W24
+        BYTE                   Ds4
+        BYTE   W24
+        BYTE                   Dn4
+        BYTE   W24
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_7_40
+// 049   ----------------------------------------
+        BYTE           N68     Gn4   v100   gtp3
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_7_42
+// 051   ----------------------------------------
+        BYTE           N68     As4   v100   gtp3
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_7_44
+// 053   ----------------------------------------
+        BYTE           N23     As4   v100
+        BYTE   W24
+        BYTE                   Gs4
+        BYTE   W24
+        BYTE                   Gn4
+        BYTE   W24
+        BYTE                   Gs4
+        BYTE   W24
+// 054   ----------------------------------------
+        BYTE           N56     Cn5   v100   gtp3
+        BYTE   W60
+        BYTE           N11     Ds4
+        BYTE   W12
+        BYTE                   Gs4
+        BYTE   W12
+        BYTE                   Cn5
+        BYTE   W12
+// 055   ----------------------------------------
+        BYTE           N23     Dn5
+        BYTE   W24
+        BYTE                   As4
+        BYTE   W24
+        BYTE                   Dn5
+        BYTE   W24
+        BYTE                   Fn5
+        BYTE   W24
+// 056   ----------------------------------------
+        BYTE           N32     Gn5   v100   gtp3
+        BYTE   W96
+// 057   ----------------------------------------
+SandyBarrens_7_57:
+        BYTE           N32     Fn5   v100   gtp3
+        BYTE   W36
+        BYTE                   Ds5
+        BYTE   W36
+        BYTE           N23     Dn5
+        BYTE   W24
+        BYTE   PEND
+// 058   ----------------------------------------
+        BYTE           N68     Cn5   v100   gtp3
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_7_57
+// 060   ----------------------------------------
+        BYTE           N68     Cn5   v100   gtp3
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_7_57
+// 062   ----------------------------------------
+        BYTE           N68     Cn5   v100   gtp3
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_7_57
+// 064   ----------------------------------------
+        BYTE           N92     Cn5   v089   gtp3
+        BYTE   W96
+// 065   ----------------------------------------
+        BYTE   W96
+// 066   ----------------------------------------
+        BYTE   W96
+// 067   ----------------------------------------
+        BYTE   W96
+// 068   ----------------------------------------
+        BYTE   W96
+// 069   ----------------------------------------
+        BYTE   W96
+// 070   ----------------------------------------
+        BYTE   W96
+// 071   ----------------------------------------
+        BYTE   W96
+// 072   ----------------------------------------
+        BYTE   GoTo
+         POIN2  SandyBarrens_7_LOOP
+        BYTE   FINE
+
+//****************** Track 8 (Midi-Chn.8) ******************//
+
+SandyBarrens_8:
+        BYTE   KEYSH   SandyBarrens_key+0
+// 000   ----------------------------------------
+SandyBarrens_8_LOOP:
+        BYTE           VOICE   99
+        BYTE           VOL     32
+        BYTE           PAN     c_v-25
+        BYTE   W12
+        BYTE           N23     Gn2   v120
+        BYTE   W12
+        BYTE           N44     Ds3   v120   gtp3
+        BYTE   W12
+        BYTE           N23     Gn2
+        BYTE   W12
+        BYTE           N56     Gn3   v120   gtp3
+        BYTE   W12
+        BYTE           N23     Gn2
+        BYTE   W12
+        BYTE           N32     Ds3   v120   gtp3
+        BYTE   W12
+        BYTE           N23     Gn2
+        BYTE   W12
+// 001   ----------------------------------------
+SandyBarrens_8_1:
+        BYTE   W12
+        BYTE           N23     Gn2   v120
+        BYTE   W12
+        BYTE           N44     Ds3   v120   gtp3
+        BYTE   W12
+        BYTE           N23     Gn2
+        BYTE   W12
+        BYTE           N56     Gn3   v120   gtp3
+        BYTE   W12
+        BYTE           N23     Gn2
+        BYTE   W12
+        BYTE           N32     Ds3   v120   gtp3
+        BYTE   W12
+        BYTE           N23     Gn2
+        BYTE   W12
+        BYTE   PEND
+// 002   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 003   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 004   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 016   ----------------------------------------
+SandyBarrens_8_16:
+        BYTE   W12
+        BYTE           N23     Fn2   v120
+        BYTE   W12
+        BYTE           N44     Cn3   v120   gtp3
+        BYTE   W12
+        BYTE           N23     Fn2
+        BYTE   W12
+        BYTE           N56     Ds3   v120   gtp3
+        BYTE   W12
+        BYTE           N23     Fn2
+        BYTE   W12
+        BYTE           N32     Cn3   v120   gtp3
+        BYTE   W12
+        BYTE           N23     Fn2
+        BYTE   W12
+        BYTE   PEND
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_16
+// 018   ----------------------------------------
+SandyBarrens_8_18:
+        BYTE   W12
+        BYTE           N23     Gn2   v120
+        BYTE   W12
+        BYTE           N44     Cn3   v120   gtp3
+        BYTE   W12
+        BYTE           N23     Gn2
+        BYTE   W12
+        BYTE           N56     Ds3   v120   gtp3
+        BYTE   W12
+        BYTE           N23     Gn2
+        BYTE   W12
+        BYTE           N32     Cn3   v120   gtp3
+        BYTE   W12
+        BYTE           N23     Gn2
+        BYTE   W12
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_18
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_16
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_16
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_18
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_18
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_1
+// 040   ----------------------------------------
+SandyBarrens_8_40:
+        BYTE           N11     Cn3   v127
+        BYTE   W12
+        BYTE                   Gn2
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Gn2
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE   PEND
+// 041   ----------------------------------------
+SandyBarrens_8_41:
+        BYTE           N11     Ds3   v127
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE   PEND
+// 042   ----------------------------------------
+SandyBarrens_8_42:
+        BYTE           N11     Dn3   v127
+        BYTE   W12
+        BYTE                   Gn2
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE   PEND
+// 043   ----------------------------------------
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   An3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+// 044   ----------------------------------------
+SandyBarrens_8_44:
+        BYTE           N11     As3   v127
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE   PEND
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_44
+// 046   ----------------------------------------
+SandyBarrens_8_46:
+        BYTE           N11     Gs3   v127
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE                   Gs2
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE   PEND
+// 047   ----------------------------------------
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Gs2
+        BYTE   W12
+        BYTE                   Ds3
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W12
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_40
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_41
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_42
+// 051   ----------------------------------------
+        BYTE           N11     Gn3   v127
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_44
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_44
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_46
+// 055   ----------------------------------------
+        BYTE           N11     As3   v127
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE                   As2
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+// 056   ----------------------------------------
+SandyBarrens_8_56:
+        BYTE           N11     Gn3   v127
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE   PEND
+// 057   ----------------------------------------
+SandyBarrens_8_57:
+        BYTE           N11     Gn3   v127
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Dn3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE   PEND
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_56
+// 059   ----------------------------------------
+SandyBarrens_8_59:
+        BYTE           N11     Gn3   v127
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE   PEND
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_56
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_57
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_56
+// 063   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_8_59
+// 064   ----------------------------------------
+        BYTE           N80     Cs3   v127   gtp3
+        BYTE   W03
+        BYTE                   Fn3   v121
+        BYTE   W03
+        BYTE           N60     Cn4   v126   gtp2
+        BYTE   W66
+        BYTE           N08     Cn4   v119
+        BYTE   W12
+        BYTE           N84     Cn4   v124   gtp2
+        BYTE   W12
+// 065   ----------------------------------------
+        BYTE   W96
+// 066   ----------------------------------------
+        BYTE           N80     Gs2   v127   gtp3
+        BYTE   W03
+        BYTE                   Cn3   v121
+        BYTE   W03
+        BYTE           N60     Gn3   v126   gtp2
+        BYTE   W80
+        BYTE   W01
+        BYTE           N05     Gn3   v107
+        BYTE   W06
+        BYTE                   Gs3   v110
+        BYTE   W03
+// 067   ----------------------------------------
+        BYTE   W03
+        BYTE           N60     Gn3   v110   gtp2
+        BYTE   W92
+        BYTE   W01
+// 068   ----------------------------------------
+        BYTE           N80     Fs2   v127   gtp3
+        BYTE   W03
+        BYTE                   As2   v121
+        BYTE   W03
+        BYTE           N60     Fn3   v126   gtp2
+        BYTE   W90
+// 069   ----------------------------------------
+        BYTE   W96
+// 070   ----------------------------------------
+        BYTE   W96
+// 071   ----------------------------------------
+        BYTE   W96
+// 072   ----------------------------------------
+        BYTE   GoTo
+         POIN2  SandyBarrens_8_LOOP
+        BYTE   FINE
+
+//***************** Track 9 (Midi-Chn.10) ******************//
+
+SandyBarrens_9:
+        BYTE   KEYSH   SandyBarrens_key+0
+// 000   ----------------------------------------
+SandyBarrens_9_LOOP:
+        BYTE           VOICE   122
+        BYTE           VOL     50
+        BYTE   W24
+        BYTE           N11     Ds3   v072
+        BYTE   W12
+        BYTE                   Ds3   v065
+        BYTE   W12
+        BYTE                   Cn3   v092
+        BYTE           N11     As3   v047
+        BYTE   W12
+        BYTE                   As3   v052
+        BYTE   W12
+        BYTE                   Cs3   v072
+        BYTE           N11     As3   v056
+        BYTE   W12
+        BYTE                   As3   v063
+        BYTE   W12
+// 001   ----------------------------------------
+SandyBarrens_9_1:
+        BYTE           N11     As3   v082
+        BYTE   W24
+        BYTE                   Ds3   v072
+        BYTE           N11     As3   v063
+        BYTE   W12
+        BYTE                   Ds3   v065
+        BYTE   W12
+        BYTE           N44     As1   v080   gtp3
+        BYTE   W24
+        BYTE           N11     En3   v065
+        BYTE   W12
+        BYTE                   En3
+        BYTE   W12
+        BYTE   PEND
+// 002   ----------------------------------------
+SandyBarrens_9_2:
+        BYTE   W24
+        BYTE           N11     Ds3   v072
+        BYTE   W12
+        BYTE           N05     Ds3   v065
+        BYTE   W06
+        BYTE           N02     Cn3   v060
+        BYTE   W03
+        BYTE                   Cn3   v072
+        BYTE   W03
+        BYTE           N11     Cn3   v092
+        BYTE           N11     As3   v047
+        BYTE   W12
+        BYTE                   As3   v052
+        BYTE   W12
+        BYTE                   Cs3   v072
+        BYTE           N11     As3   v056
+        BYTE   W12
+        BYTE                   As3   v063
+        BYTE   W12
+        BYTE   PEND
+// 003   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 004   ----------------------------------------
+SandyBarrens_9_4:
+        BYTE   W24
+        BYTE           N11     Ds3   v072
+        BYTE   W12
+        BYTE                   Ds3   v065
+        BYTE   W12
+        BYTE                   Cn3   v092
+        BYTE           N11     As3   v047
+        BYTE   W12
+        BYTE                   As3   v052
+        BYTE   W12
+        BYTE                   Cs3   v072
+        BYTE           N11     As3   v056
+        BYTE   W12
+        BYTE                   As3   v063
+        BYTE   W12
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 006   ----------------------------------------
+SandyBarrens_9_6:
+        BYTE   W24
+        BYTE           N11     Ds3   v072
+        BYTE   W12
+        BYTE                   Ds3   v065
+        BYTE   W06
+        BYTE           N02     Cn3   v060
+        BYTE   W03
+        BYTE                   Cn3   v072
+        BYTE   W03
+        BYTE           N11     Cn3   v092
+        BYTE           N11     As3   v047
+        BYTE   W12
+        BYTE                   As3   v052
+        BYTE   W12
+        BYTE                   Cs3   v072
+        BYTE           N11     As3   v056
+        BYTE   W12
+        BYTE                   As3   v063
+        BYTE   W12
+        BYTE   PEND
+// 007   ----------------------------------------
+SandyBarrens_9_7:
+        BYTE           N11     Cn3   v056
+        BYTE           N11     As3   v082
+        BYTE   W12
+        BYTE                   Cn3   v092
+        BYTE   W12
+        BYTE                   Ds3   v072
+        BYTE           N11     As3   v063
+        BYTE   W12
+        BYTE                   Cn3   v072
+        BYTE   W12
+        BYTE           N44     As1   v080   gtp3
+        BYTE   W12
+        BYTE           N11     Cn3   v056
+        BYTE   W12
+        BYTE                   Cn3   v072
+        BYTE   W12
+        BYTE                   Cn3   v050
+        BYTE   W12
+        BYTE   PEND
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_4
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_4
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_2
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_4
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_2
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_4
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_6
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_7
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_4
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_2
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_4
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_2
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_4
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_2
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_4
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_1
+// 038   ----------------------------------------
+        BYTE   W24
+        BYTE           N11     Ds3   v072
+        BYTE   W12
+        BYTE                   Ds3   v065
+        BYTE   W06
+        BYTE           N02     Cn3   v060
+        BYTE   W03
+        BYTE                   Cn3   v072
+        BYTE   W03
+        BYTE           N11     Cn3   v092
+        BYTE           N11     As3   v047
+        BYTE   W12
+        BYTE                   As3   v052
+        BYTE   W12
+        BYTE           N23     As1   v080
+        BYTE           N11     Cs3   v072
+        BYTE           N11     As3   v056
+        BYTE   W12
+        BYTE                   As3   v063
+        BYTE   W12
+// 039   ----------------------------------------
+        BYTE                   Cn1   v110
+        BYTE           N11     Gs1   v090
+        BYTE           N11     Cn3   v056
+        BYTE           N11     As3   v082
+        BYTE   W12
+        BYTE           N23     Dn1   v110
+        BYTE           N11     Cn3   v092
+        BYTE   W12
+        BYTE                   Gs1   v090
+        BYTE           N11     Ds3   v072
+        BYTE           N11     As3   v063
+        BYTE   W12
+        BYTE                   Cn1   v110
+        BYTE           N11     Cn3   v072
+        BYTE   W06
+        BYTE           N02     Dn1   v069
+        BYTE   W03
+        BYTE                   Dn1   v083
+        BYTE   W03
+        BYTE           N11     Dn1   v110
+        BYTE           N44     As1   v080   gtp3
+        BYTE   W12
+        BYTE           N11     Dn1   v106
+        BYTE           N11     Cn3   v056
+        BYTE   W12
+        BYTE                   Cn1   v110
+        BYTE           N11     Cn3   v072
+        BYTE   W12
+        BYTE                   Cn3   v050
+        BYTE   W12
+// 040   ----------------------------------------
+SandyBarrens_9_40:
+        BYTE           N05     Cn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE           N92     Cs2   v110   gtp3
+        BYTE   W12
+        BYTE           N05     Fs1   v075
+        BYTE   W12
+        BYTE                   Fs1   v090
+        BYTE   W12
+        BYTE                   Cn1   v106
+        BYTE           N05     As1   v075
+        BYTE   W12
+        BYTE           N11     Dn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE   W12
+        BYTE                   Fs1   v075
+        BYTE   W12
+        BYTE                   Fs1   v090
+        BYTE   W12
+        BYTE                   Cn1   v106
+        BYTE           N05     Fs1   v075
+        BYTE   W12
+        BYTE   PEND
+// 041   ----------------------------------------
+SandyBarrens_9_41:
+        BYTE           N05     Cn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE   W12
+        BYTE                   Fs1   v075
+        BYTE   W12
+        BYTE                   Cn1   v089
+        BYTE           N05     Fs1   v075
+        BYTE   W12
+        BYTE           N11     As1   v090
+        BYTE   W12
+        BYTE                   Dn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE   W12
+        BYTE                   Fs1   v075
+        BYTE   W12
+        BYTE                   Fs1   v090
+        BYTE   W12
+        BYTE                   Fs1   v075
+        BYTE   W12
+        BYTE   PEND
+// 042   ----------------------------------------
+SandyBarrens_9_42:
+        BYTE           N05     Cn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE   W12
+        BYTE                   Fs1   v075
+        BYTE   W12
+        BYTE                   Fs1   v090
+        BYTE   W12
+        BYTE                   Cn1   v106
+        BYTE           N05     As1   v075
+        BYTE   W12
+        BYTE           N11     Dn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE   W12
+        BYTE                   Fs1   v075
+        BYTE   W12
+        BYTE                   Fs1   v090
+        BYTE   W12
+        BYTE                   Cn1   v106
+        BYTE           N05     Fs1   v075
+        BYTE   W12
+        BYTE   PEND
+// 043   ----------------------------------------
+SandyBarrens_9_43:
+        BYTE           N05     Cn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE   W12
+        BYTE                   Fs1   v075
+        BYTE   W12
+        BYTE                   Cn1   v089
+        BYTE           N23     As1   v090
+        BYTE   W24
+        BYTE           N11     Dn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE   W12
+        BYTE                   Cn1   v089
+        BYTE           N05     Fs1   v075
+        BYTE   W12
+        BYTE                   Fs1   v090
+        BYTE   W12
+        BYTE                   Fs1   v075
+        BYTE   W12
+        BYTE   PEND
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_42
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_41
+// 046   ----------------------------------------
+SandyBarrens_9_46:
+        BYTE           N05     Cn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE   W12
+        BYTE                   Fs1   v075
+        BYTE   W12
+        BYTE                   Fs1   v090
+        BYTE   W12
+        BYTE                   Cn1   v106
+        BYTE           N05     As1   v075
+        BYTE   W12
+        BYTE           N11     Dn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE   W12
+        BYTE                   Fs1   v075
+        BYTE   W12
+        BYTE                   Fs1   v090
+        BYTE           N23     As1
+        BYTE   W12
+        BYTE           N05     Cn1   v106
+        BYTE           N05     Fs1   v075
+        BYTE   W12
+        BYTE   PEND
+// 047   ----------------------------------------
+SandyBarrens_9_47:
+        BYTE           N05     Cn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE           N11     Gs1   v090
+        BYTE   W12
+        BYTE           N23     Dn1   v110
+        BYTE           N05     Fs1   v075
+        BYTE   W12
+        BYTE                   Cn1   v089
+        BYTE           N11     Gs1   v090
+        BYTE           N23     As1
+        BYTE   W12
+        BYTE           N11     Cn1   v110
+        BYTE   W06
+        BYTE           N02     Dn1   v069
+        BYTE   W03
+        BYTE                   Dn1   v083
+        BYTE   W03
+        BYTE           N11     Dn1   v120
+        BYTE   W12
+        BYTE           N05     Cn1   v089
+        BYTE           N11     Dn1   v106
+        BYTE   W12
+        BYTE                   Cn1   v110
+        BYTE   W24
+        BYTE   PEND
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_40
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_41
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_42
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_43
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_42
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_41
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_46
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_47
+// 056   ----------------------------------------
+        BYTE           N05     Cn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE           N92     Cs2   v120   gtp3
+        BYTE   W12
+        BYTE           N05     Fs1   v075
+        BYTE   W12
+        BYTE                   Fs1   v090
+        BYTE   W12
+        BYTE                   Cn1   v106
+        BYTE           N05     As1   v075
+        BYTE   W12
+        BYTE           N11     Dn1   v120
+        BYTE           N05     Fs1   v093
+        BYTE   W12
+        BYTE                   Fs1   v075
+        BYTE   W12
+        BYTE                   Fs1   v090
+        BYTE   W12
+        BYTE                   Cn1   v106
+        BYTE           N05     Fs1   v075
+        BYTE   W12
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_41
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_42
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_43
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_42
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_41
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_46
+// 063   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_47
+// 064   ----------------------------------------
+        BYTE           N11     Cn1   v105
+        BYTE           N92     Cs2   v100   gtp3
+        BYTE   W24
+        BYTE           N11     Ds3   v072
+        BYTE   W12
+        BYTE                   Ds3   v065
+        BYTE   W12
+        BYTE                   Cn3   v092
+        BYTE           N11     As3   v047
+        BYTE   W12
+        BYTE                   As3   v052
+        BYTE   W12
+        BYTE                   Cs3   v072
+        BYTE           N11     As3   v056
+        BYTE   W12
+        BYTE                   As3   v063
+        BYTE   W12
+// 065   ----------------------------------------
+SandyBarrens_9_65:
+        BYTE           N11     As3   v082
+        BYTE   W24
+        BYTE                   Ds3   v072
+        BYTE           N11     As3   v063
+        BYTE   W12
+        BYTE                   Ds3   v065
+        BYTE   W12
+        BYTE           N44     As1   v090   gtp3
+        BYTE   W24
+        BYTE           N11     En3   v065
+        BYTE   W12
+        BYTE                   En3
+        BYTE   W12
+        BYTE   PEND
+// 066   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_2
+// 067   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_9_65
+// 068   ----------------------------------------
+        BYTE   W96
+// 069   ----------------------------------------
+        BYTE   W96
+// 070   ----------------------------------------
+        BYTE   W96
+// 071   ----------------------------------------
+        BYTE   W96
+// 072   ----------------------------------------
+        BYTE   GoTo
+         POIN2  SandyBarrens_9_LOOP
+        BYTE   FINE
+
+//***************** Track 10 (Midi-Chn.11) *****************//
+
+SandyBarrens_10:
+        BYTE   KEYSH   SandyBarrens_key+0
+// 000   ----------------------------------------
+SandyBarrens_10_LOOP:
+        BYTE           VOICE   0
+        BYTE           VOL     51
+        BYTE           PAN     c_v-62
+        BYTE   W96
+// 001   ----------------------------------------
+SandyBarrens_10_1:
+        BYTE   W24
+        BYTE           N23     Gn4   v015
+        BYTE   W06
+        BYTE                   Gn5
+        BYTE   W66
+        BYTE   PEND
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_1
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_1
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_1
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+SandyBarrens_10_25:
+        BYTE   W24
+        BYTE           N23     Gn4   v010
+        BYTE   W06
+        BYTE                   Gn5
+        BYTE   W66
+        BYTE   PEND
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_25
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_25
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_25
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+SandyBarrens_10_33:
+        BYTE   W24
+        BYTE           N23     Gs4   v010
+        BYTE   W06
+        BYTE                   Gs5
+        BYTE   W66
+        BYTE   PEND
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_33
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_25
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_25
+// 040   ----------------------------------------
+        BYTE   W24
+        BYTE           N23     Ds4   v045
+        BYTE   W72
+// 041   ----------------------------------------
+SandyBarrens_10_41:
+        BYTE           N23     Ds4   v045
+        BYTE   W12
+        BYTE                   Fn4
+        BYTE   W12
+        BYTE                   Gn4
+        BYTE   W72
+        BYTE   PEND
+// 042   ----------------------------------------
+SandyBarrens_10_42:
+        BYTE   W24
+        BYTE           N23     Gn4   v045
+        BYTE   W72
+        BYTE   PEND
+// 043   ----------------------------------------
+SandyBarrens_10_43:
+        BYTE           N23     Gn4   v045
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE                   As4
+        BYTE   W72
+        BYTE   PEND
+// 044   ----------------------------------------
+SandyBarrens_10_44:
+        BYTE   W24
+        BYTE           N23     As4   v045
+        BYTE   W72
+        BYTE   PEND
+// 045   ----------------------------------------
+SandyBarrens_10_45:
+        BYTE           N23     As4   v045
+        BYTE   W12
+        BYTE                   Cn5
+        BYTE   W12
+        BYTE                   As4
+        BYTE   W24
+        BYTE                   Gs4
+        BYTE   W24
+        BYTE                   Gn4
+        BYTE   W24
+        BYTE   PEND
+// 046   ----------------------------------------
+        BYTE                   Fn4
+        BYTE   W24
+        BYTE                   Gs4
+        BYTE   W72
+// 047   ----------------------------------------
+        BYTE                   Gs4
+        BYTE   W12
+        BYTE                   As4
+        BYTE   W12
+        BYTE                   Gs4
+        BYTE   W24
+        BYTE                   Ds4
+        BYTE   W24
+        BYTE                   Ds4
+        BYTE   W24
+// 048   ----------------------------------------
+        BYTE                   Dn4
+        BYTE   W24
+        BYTE                   Ds4
+        BYTE   W72
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_41
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_42
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_43
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_44
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_45
+// 054   ----------------------------------------
+        BYTE           N23     Gs4   v045
+        BYTE   W24
+        BYTE                   Cn5
+        BYTE   W60
+        BYTE                   Ds4
+        BYTE   W12
+// 055   ----------------------------------------
+        BYTE                   Gs4
+        BYTE   W12
+        BYTE                   Cn5
+        BYTE   W12
+        BYTE                   Dn5
+        BYTE   W24
+        BYTE                   As4
+        BYTE   W24
+        BYTE                   Dn5
+        BYTE   W24
+// 056   ----------------------------------------
+        BYTE                   Fn5
+        BYTE   W24
+        BYTE                   Gn5
+        BYTE   W72
+// 057   ----------------------------------------
+SandyBarrens_10_57:
+        BYTE   W24
+        BYTE           N23     Fn5   v045
+        BYTE   W36
+        BYTE                   Ds5
+        BYTE   W36
+        BYTE   PEND
+// 058   ----------------------------------------
+SandyBarrens_10_58:
+        BYTE           N23     Dn5   v045
+        BYTE   W24
+        BYTE                   Cn5
+        BYTE   W72
+        BYTE   PEND
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_57
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_58
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_57
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_58
+// 063   ----------------------------------------
+        BYTE   PATT
+         POIN2  SandyBarrens_10_57
+// 064   ----------------------------------------
+        BYTE           N23     Dn5   v045
+        BYTE   W24
+        BYTE                   Cn5   v034
+        BYTE   W72
+// 065   ----------------------------------------
+        BYTE   W96
+// 066   ----------------------------------------
+        BYTE   W96
+// 067   ----------------------------------------
+        BYTE   W96
+// 068   ----------------------------------------
+        BYTE   W96
+// 069   ----------------------------------------
+        BYTE   W96
+// 070   ----------------------------------------
+        BYTE   W96
+// 071   ----------------------------------------
+        BYTE   W96
+// 072   ----------------------------------------
+        BYTE   GoTo
+         POIN2  SandyBarrens_10_LOOP
+        BYTE   FINE
+
+
+//********************** End of Song ***********************//
+
+        ALIGN 4
+SandyBarrens:
+        BYTE   11                      // Num Tracks
+        BYTE   0                       // Unknown
+        BYTE   SandyBarrens_pri        // Priority
+        BYTE   SandyBarrens_rev        // Reverb
+
+        POIN2   SandyBarrens_grp       
+
+        POIN2   SandyBarrens_0
+        POIN2   SandyBarrens_1
+        POIN2   SandyBarrens_2
+        POIN2   SandyBarrens_3
+        POIN2   SandyBarrens_4
+        POIN2   SandyBarrens_5
+        POIN2   SandyBarrens_6
+        POIN2   SandyBarrens_7
+        POIN2   SandyBarrens_8
+        POIN2   SandyBarrens_9
+        POIN2   SandyBarrens_10
+
+        

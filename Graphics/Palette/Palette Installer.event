@@ -63,6 +63,9 @@ DaveMerc:
 DaveHero:
 	#incbin "./_palettes/DaveHero.lzpal" 
 
+SibylDancer:
+	#incbin "./_palettes/SibylDancer.lzpal" 
+
 KimikoMyrm:
 	#incbin "./_palettes/KimikoMyrm.lzpal" 
 
@@ -209,4 +212,10 @@ NellaGreatKnight:
 
 JeanneTroub:
 	#incbin "./_palettes/JeanneTroub.lzpal" 
+
+NishayShaman:
+	#incbin "./_palettes/NishayShaman.lzpal" 
+
+BenjaminBrigand:
+	#incbin "./_palettes/BenjaminBrigand.lzpal" 
 

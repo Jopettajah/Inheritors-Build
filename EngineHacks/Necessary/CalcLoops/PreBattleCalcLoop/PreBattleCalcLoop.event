@@ -52,8 +52,8 @@ POIN LethalitySkill NonGBALethalitySkill Bane
 POIN Rockhard CaringColdShoulder Bravery
 POIN HonorDuel EarlyRiser Ungrounded
 POIN StunningSmile EternalBanquetPreBattle
-POIN ChaosStyle SingleDevotion
-POIN AirSkillCheck
+POIN ChaosStyle SingleDevotion Unburdened
+POIN AirSkillCheck WingedKinship
 POIN Stalwart
 POIN GuardianPromise
 POIN BlindFaithCombat

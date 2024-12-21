@@ -147,7 +147,7 @@ WORD 0 0
 ALIGN 4
 
 ShamanFPaletteList:
-PaletteAssociationEntry(Nishay, $19)
+PaletteAssociationEntry(Nishay, $47)
 WORD 0 0
 ALIGN 4
 
@@ -197,6 +197,7 @@ BrigandPaletteList:
 PaletteAssociationEntry(Sledge, $09)
 PaletteAssociationEntry(Bobbe, $54)
 PaletteAssociationEntry(Brigand_Enemy, $23)
+PaletteAssociationEntry(Benjamin, $48)
 WORD 0 0
 ALIGN 4
 

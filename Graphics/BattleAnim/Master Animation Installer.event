@@ -152,3 +152,7 @@
 {
 #include "ShamanFFurious/Magic Installer.event"
 }
+
+{
+#include "TethysWeapons/Magic Installer.event"
+}

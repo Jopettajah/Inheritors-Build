@@ -114,8 +114,8 @@ Civilian,0x0
 Civilian (F),0x0
 Civilian,0x0
 Civilian (F),0x0
-Halberdier,0x0
-Halberdier_F,0x0
+Halberdier,HalberdierSkillList|IsPointer
+Halberdier_F,HalberdierSkillList|IsPointer
 Ballistician,BallisticanSkillList|IsPointer
 Fmonk,0x0
 Boulder,PhantomSkillList|IsPointer

@@ -10,6 +10,7 @@ extern void SetBit(u32* address, u8 bitOffset);
 extern u8 GetUnitStatusIndex(struct Unit*);
 extern int GetItemCrit(int item);
 extern int GetItemMight(int item);
+extern int GetUnitItemCount(struct Unit* unit);
 
 extern int CaringColdShoulderID_Link;
 extern int EarlyRiserID_Link;
@@ -18,6 +19,7 @@ extern int StanceMasteryID_Link;
 extern struct CombatArtThing* SomeCombatArtBuffer;
 extern int EternalBanquetID_Link;
 extern int SingleDevotionID_Link;
+extern int UnburdenedID_Link;
 
 /*
 void ___(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
@@ -204,6 +206,14 @@ void SingleDevotion(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 			bunitA->battleAttack += GetItemMight(weapon) / 2;
 			bunitA->battleCritRate += GetItemCrit(weapon) / 2;
 		}
+	}
+	return;
+}
+
+void Unburdened(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
+	if (SkillTester(&bunitA->unit, UnburdenedID_Link)) {
+
+		bunitA->battleAvoidRate += ((UNIT_ITEM_COUNT - GetUnitItemCount(&bunitA->unit)) * 5);
 	}
 	return;
 }

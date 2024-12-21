@@ -47,8 +47,6 @@ InnNightImage:
 #incbin "InnDarkDump.png.dmp"
 
 ALIGN 4
-
-ALIGN 4
 InnNightTSA:
 #incbin "InnDarkDump.png.tsa.dmp"
 
