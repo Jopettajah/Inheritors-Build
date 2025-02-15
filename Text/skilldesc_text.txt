@@ -1,3 +1,9 @@
+## SD_WingedKinship
+Winged Kinship: Fabian deals 4 more[N]
+and takes 4 less damage when in 3 tiles[N]
+from a flying ally, with extra 2 damage[N]
+dealt/taken if the ally is at <50% HP.[X]
+
 ## SD_Unburdened
 Unburdened: Sibyl gains[N]
 +5 Avo for each of her[N]

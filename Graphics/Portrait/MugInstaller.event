@@ -79,12 +79,12 @@ CurtisShirtless_Mug:
 setMugEntry(0x03, CurtisShirtless_Mug, 3,5,3,3)
 
 ALIGN 4
-Janissa_Mug:
-#incbin "dmp/JanissaV3_mug.dmp"
-#incbin "dmp/JanissaV3_frames.dmp"
-#incbin "dmp/JanissaV3_palette.dmp"
-#incbin "dmp/JanissaV3_minimug.dmp"
-setMugEntry(0x04, Janissa_Mug, 3,5,3,3)
+Janessa_Mug:
+#incbin "dmp/Janessa_mug.dmp"
+#incbin "dmp/Janessa_frames.dmp"
+#incbin "dmp/Janessa_palette.dmp"
+#incbin "dmp/Janessa_minimug.dmp"
+setMugEntry(0x04, Janessa_Mug, 3,5,3,3)
 
 ALIGN 4
 Alysa_Mug:

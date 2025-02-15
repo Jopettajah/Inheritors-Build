@@ -20,6 +20,7 @@ extern struct CombatArtThing* SomeCombatArtBuffer;
 extern int EternalBanquetID_Link;
 extern int SingleDevotionID_Link;
 extern int UnburdenedID_Link;
+extern int WingedKinshipID_Link;
 
 /*
 void ___(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
@@ -89,7 +90,7 @@ void EarlyRiser(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 
 void Ungrounded(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 	if (SkillTester(&bunitA->unit, UngroundedID_Link)) {
-		if (!(bunitB->unit.pClassData->attributes & (CA_PEGASUS || CA_WYVERN))) {
+		if (!(bunitB->unit.pClassData->attributes & (CA_FLYER))) {
 			if (!IsItemCoveringRange(bunitB->weapon, 2)) {
 				bunitA->battleAvoidRate += 15;
 			}
@@ -214,6 +215,37 @@ void Unburdened(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 	if (SkillTester(&bunitA->unit, UnburdenedID_Link)) {
 
 		bunitA->battleAvoidRate += ((UNIT_ITEM_COUNT - GetUnitItemCount(&bunitA->unit)) * 5);
+	}
+	return;
+}
+
+void WingedKinship(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
+	if (SkillTester(&bunitA->unit, WingedKinshipID_Link)) {
+		bool applyBoosts = false;
+		bool applyExtraBoosts = false;
+		
+		//TODO: Use GetUnitsInRange instead of looping through everyone on map
+		for (int i = 0; i < 0x80; i++) {
+			struct Unit* unit = GetUnit(i);
+			if (unit->pCharacterData->number != 0x17) {
+				if (abs(unit->xPos - bunitA->unit.xPos) + (abs(unit->yPos - bunitA->unit.yPos)) < 4) {
+					if (unit->pClassData->attributes & (CA_FLYER)) {
+						applyBoosts = true;
+						if (unit->maxHP > unit->curHP * 2) {
+							applyExtraBoosts = true;
+						}
+					}
+				}
+			}
+		}
+		if (applyBoosts) {
+			bunitA->battleAttack += 4;
+			bunitA->battleDefense += 4;
+		}
+		if (applyExtraBoosts) {
+			bunitA->battleAttack += 2;
+			bunitA->battleDefense += 2;
+		}
 	}
 	return;
 }

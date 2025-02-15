@@ -44,8 +44,10 @@
 #define Caitlind 0x29
 #define Ellie 0x2A
 #define Ferryn 0x2B
-/*#define HaydenCC 0x2C
-#define LyonSummon 0x3B*/
+//#define HaydenCC 0x2C
+#define Jhen 0x2D
+#define Dahren 0x2E
+//#define LyonSummon 0x3B
 #define BoulderSummon 0x3E
 #define PhantomSummon 0x3F
 /*#define Lyon_Ch17 0x40
@@ -64,10 +66,9 @@
 #define Benjamin 0x4C
 #define Ada 0x4D
 #define Kristan 0x4E
-/*#define Pablo 0x4F
-#define Macdaire 0x50
-#define Maelduin_boss 0x50
-#define Aias 0x51
+#define Bertram 0x4F
+#define Goursat 0x50
+/*#define Aias 0x51
 #define Carlyle 0x52
 #define Caellach 0x53
 #define Pablo_2 0x54

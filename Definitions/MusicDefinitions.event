@@ -66,6 +66,4 @@
 #define SandyBarrensID 0xc3
 #define CyclopeanHauntID 0xc4
 #define DarkPrisonID 0xc5
-/*
-#define 0xc6
-*/
+#define LunaDialID 0xc6

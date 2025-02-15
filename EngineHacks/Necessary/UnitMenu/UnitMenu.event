@@ -180,6 +180,8 @@ UnitMenuTable:
   // MenuCommand(UMText_Switch,UMText_SwitchDesc,GreenText,SwitchUsability,SwitchCommand)   //switch
   UM_Drop
 
+  MenuCommand(0x0691, 0x0691, NormalText, ShelterCommandUsability, ShelterCommandEffect)
+  
   MenuCommand(UM_Bait, UM_BaitDesc, NormalText, BaitUsability, BaitEffect)
   
   MenuCommand(UM_Promote, UM_PromoteDesc, NormalText, PromoteUsability, PromoteEffect) 

@@ -20,6 +20,7 @@ PointerList:
 	POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+	OpeningTurnEvent(Turn1TextEvent)
 	TurnEventPlayer(0,WagonAIChange,2)
 	TurnEventPlayer(0,Wagon2Spawn,5)
 	TurnEventPlayer(0,CavCharge,6)
@@ -28,7 +29,7 @@ TurnBasedEvents:
 
 ALIGN 32
 CharacterBasedEvents:
-
+	CharacterEvent(0,WagonTalkEvent,0,Audinan)
 	END_MAIN
 
 MiscBasedEvents:
@@ -74,10 +75,10 @@ Units1:
 	UNIT
 	
 EnemyUnits:
-	UNIT Benjamin Brigand Benjamin Level(12,Enemy,False) [3,1] 0x0 0x0 0x0 0x0 [Halberd] TwoActionAI
+	UNIT Benjamin Brigand Benjamin Level(12,Enemy,False) [3,1] 0x0 0x0 0x0 0x0 [Halberd] AttackInRangeAI //TwoActionAI
 	UNIT BrigandEnemy Outlaw_F Benjamin Level(8,Enemy,True) [7,6] 0x0 0x0 0x0 0x0 [IronBow, Longbow] NeverMoveAI
 	UNIT BrigandEnemy Outlaw Benjamin Level(8,Enemy,True) [13,6] 0x0 0x0 0x0 0x0 [IronBow, Longbow] NeverMoveAI
-	UNIT BrigandEnemy Brigand Benjamin Level(8,Enemy,True) [4,0] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
+	UNIT BrigandEnemy Brigand Benjamin Level(8,Enemy,True) [4,0] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI //TwoActionAI
 	UNIT BrigandEnemy Mercenary Benjamin Level(8,Enemy,True) [3,15] 0x0 0x0 0x0 0x0 [IronBlade] DefaultAI
 	UNIT BrigandEnemy Outlaw Benjamin Level(8,Enemy,True) [1,16] 0x0 0x0 0x0 0x0 [IronBow] DefaultAI
 	//UNIT BrigandEnemy Brigand Benjamin Level(8,Enemy,True) [0,12] 0x0 0x0 0x0 0x0 [SteelAxe] TwoActionAI
@@ -138,6 +139,8 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
+	SetBackground(Outside_Village_Day)
+	Text(Ch7OpeningText)
 
 	LOAD1 0x0 Units1
 	ENUN
@@ -150,6 +153,19 @@ BeginningScene:
 	GotoPrepScreen
 	ENDA
 
+Turn1TextEvent:
+
+	MUSCFAST EarthboundID
+	CAMERA [28,19]
+	CURSOR_FLASHING [27,19]
+	STAL 80
+	REMOVE_CURSORS
+	STAL 10
+	CAMERA  [9,19]
+	Text(Ch7Turn1Text)
+	NoFade
+	ENDA
+	
 WagonAIChange:
 	SVAL 1 0x00040C00
 	CHAI [27,19]
@@ -227,11 +243,40 @@ Ch7VeinEvent:
 	ASMC ASMC_StatusAll|1
 	NoFade
 	ENDA
+
+WagonTalkEvent:
+
+	CHECK_EVENTID 12
+	BNE 4 s0 sC
+	SVAL 1 0x20040306 //true do nothing
+	CHAI Audinan
+	ENUT 12
+	CenterTutorialTextBox
+	TUTORIALTEXTBOXSTART
+	TEXTSHOW Ch7WagonStop
+	TEXTEND
+	REMA
+	GOTO 5
+
+	LABEL 4
+	SVAL 1 0x00041106 //grn wagon ai
+	CHAI Audinan
+	ENUF 12
+	CenterTutorialTextBox
+	TUTORIALTEXTBOXSTART
+	TEXTSHOW Ch7WagonGo
+	TEXTEND
+	REMA
+
+	LABEL 5
+	NoFade
+	ENDA
 	
 Ch7WinCon:
 	ContinueIfFactionMatch(0x1)
 	CALL EndingScene
 	ENDA
+
 	
 EndingScene:
 	MNC2 Chapter8

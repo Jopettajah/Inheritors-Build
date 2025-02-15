@@ -144,3 +144,6 @@ Vengeful God in Dark Ocean Abyss[X]
 
 ## DarkPrisonName
 Dark Prison[X]
+
+## LunaDialName
+Lunar Clock ~ Luna Dial[X]

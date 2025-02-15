@@ -1,4 +1,4 @@
-#define SoundRoomEntry(songid,name) "WORD songid 0 0 name"
+#define SoundRoomEntry(songid,name) "WORD songid 7200 0 name"
 #define SoundRoomTerminator "WORD 0xFFFFFFFF 0 0 0"
 
 ALIGN 4
@@ -53,4 +53,5 @@ SoundRoomEntry(ShakingFrontSightID,ShakingFrontSightName)
 SoundRoomEntry(SandyBarrensID,SandyBarrensName)
 SoundRoomEntry(CyclopeanHauntID,CyclopeanHauntName)
 SoundRoomEntry(DarkPrisonID,DarkPrisonName)
+SoundRoomEntry(LunaDialID,LunaDialName)
 SoundRoomTerminator

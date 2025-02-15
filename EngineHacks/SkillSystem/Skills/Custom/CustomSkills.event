@@ -17,6 +17,12 @@ UnburdenedID_Link:
 WORD UnburdenedID
 WingedKinshipID_Link:
 WORD WingedKinshipID
+SaviorID_Link:
+WORD SaviorID
+UNIT_ACTION_SHELTER:
+WORD 0x00000028
+UNIT_ACTION_REFRESH:
+WORD 0x00000029
 
 ALIGN 4
 #include "C_Code.lyn.event"
@@ -122,6 +128,10 @@ E_BanquetPostB:
 #incbin "BanquetPostBattle.dmp"
 POIN SkillTester
 WORD EternalBanquetID
+
+ALIGN 4
+PostActionRefresh:
+#incbin "PostActionRefresh.dmp"
 
 ALIGN 4
 #include "StancesMenuFuncs.lyn.event"

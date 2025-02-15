@@ -59,7 +59,7 @@
 - AmBrosiac: Faceless Mage
 - Eldritch Abomination: FE8 color rat face bandit
 - Kyrads: Generic FSoldier
-- CanDy: Lagrange
+- Cygnys: Lagrange
 - HyperGammaSpaces: Another generic soldier
 
 # Class Cards
@@ -125,7 +125,7 @@
 - Sme: TMS#FE - Quest Battle
 - Psyche: PMD EoS - Defend Globe
 - RSFlame: FE12 - Off to War
-- Mycahel: Monster Hunter 3 - Jhen Mohran Battle, NieR Automata - Dark Colossus Destroys All 
+- Mycahel: Monster Hunter 3 - Intercepting the Great Gong, NieR Automata - Dark Colossus Destroys All 
 - MeatOfJustice: Marvel vs Capcom Clash of the Superheroes - Captain America's Theme
 - MonopolyRubix: Xenoblade - An Obstacle In Our Path
 - Alusq: FE3 - Off to War Remix
@@ -137,6 +137,7 @@
 - yoimutu: Bloom nobly, ink-black cherry blossom ~ Border of life
 - psy_commando: PMD EoS - Hidden Highland
 - TheDubSpeedArt: Drunk As I Like
+- adazakura: Lunar Clock ~ Luna Dial
 
 ## Other
 - Alusq: Custom instrument samples, advanced music suite

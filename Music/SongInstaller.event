@@ -159,3 +159,6 @@ SongTable(CyclopeanHauntID,VengefulGodInDarkOceanAbyss000000,MapMusicGroup)
 
 SongTable(DarkPrisonID,DARKPRISON0000,MapMusicGroup)
 #include "event/DARKPRISON0000.event"
+
+SongTable(LunaDialID,LunarClockLunaDial00,MapMusicGroup)
+#include "event/LunarClockLunaDial00.event"
