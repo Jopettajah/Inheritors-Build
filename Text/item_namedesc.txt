@@ -123,6 +123,9 @@ Cloudrunner[X]
 Sana only. Grants +15 avoid[N]
 against grounded melee enemies.[X]
 
+## ShortBallistaName
+Short Ballista[X]
+
 ## KnightCrestDesc
 For knights, cavaliers and[N]
 soldiers Lv. 10 and up.[X]
@@ -131,6 +134,14 @@ soldiers Lv. 10 and up.[X]
 Use this on a worthy[N]
 knight (not bow),[N]
 cavalier or soldier.[X]
+
+## ElysianWhipDesc
+For pegasus riders[N]
+Lv. 10 and up.[X]
+
+## ElysianWhipUseDesc
+Use this on a worthy[N]
+pegasus rider.[X]
 
 ## BloodContractName
 Blood Contract[X]
@@ -155,5 +166,11 @@ Ukonvasara[X]
 ## HiidenhirviName
 Hiidenhirvi[X]
 
+## AarnivalkeaName
+Aarnivalkea[X]
+
 ## KokkolintuName
 Kokkolintu[X]
+
+## IhtiriekkoName
+Ihtiriekko[X]

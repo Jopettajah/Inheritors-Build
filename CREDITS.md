@@ -97,11 +97,11 @@
 - Alusq: NIMAP 2 (with keysplits)
 - Tequila: New CHAI, walking sounds fix, text engine rework, staff locks, Convoy partition & item combining, str/mag split, effectiveness rework, battle stats with anims off, lvl up wrank display, hp bars, MSS
 - HyperGammaSpaces: Summon rework, Dynamic equip, gaiden magic, palette rework
-- Aera: Thracia-style trading, remove link arena
+- Aera: Thracia-style trading, remove link arena, give exp event
 - Zane: MMB
 - Teraspark: IER, fancy staves
-- 7743: Flag-based map bgm change, continue map bgm to battle, individual banim by unit, set battle bgm by chapter, dump items to convoy event, preps bgm change by chapter, r-hold banim speedup
-- Vesly: Additional prebattle calcloop, extended weapon desc box, promote by menu command
+- 7743: Flag-based map bgm change, continue map bgm to battle, individual banim by unit, set battle bgm by chapter, dump items to convoy event, preps bgm change by chapter, r-hold banim speedup, give exp event
+- Vesly: Additional prebattle calcloop, extended weapon desc box, promote by menu command, cannot die, generic portrait fixes, exp share, give exp event
 - stan: lordsplitmenu, lvl up wrank display, EMS, icon rework, negative crit, popup rework, unit action rework, wrank fix, ai perform extension
 - AuraWolf: Modular Unit Menu, HelpText
 - Mokha: Status rework

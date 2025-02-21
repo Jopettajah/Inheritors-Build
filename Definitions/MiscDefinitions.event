@@ -1,6 +1,8 @@
 // Repointed tables
 #define StandingMapSpriteTable NewStandingMapSpriteTable
 #define SpellAssociationTable NewSpellAssociationTable
+#undef ItemTable
+#define ItemTable NewItemTable
 
 //Item effect table indexes
 #define ElstoneIndex 0x39
@@ -27,7 +29,6 @@
 #define HollieHelmetlessFlag 0x8B
 #define GarryHelmetlessFlag 0x8C
 #define FerrynFaceFlag 0xC8
-
 #define MirabelleDeathFlag 0xC9
 #define FabianDeathFlag 0xCA
 #define SuhairaDeathFlag 0xCB
@@ -36,3 +37,12 @@
 #define MauritchDeathFlag 0xCF
 #define DaveFlag 0xD0
 #define ElinaFlag 0xd1
+#define NishayFlag 0xd2
+
+//Ram stuff
+//values copied from pokemblem, might break something
+#define TempRamWhileExpShare 0x2026E30 
+#define TempRamWhileExpShare2 0x2026E34 
+#define TempRamWhileExpShare3 0x2026E38 
+#define ExpShareUnitID 0x30017A8 
+#define ExpShareAmount 0x30017A9 
