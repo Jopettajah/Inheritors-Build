@@ -19,7 +19,7 @@
 - Temp: FWarrior
 - helmfried: FWarrior
 - Maiser6; FCav, FMyrm
-- BatimaTheBat: Troubadour
+- BatimaTheBat: Troubadour, Mage Knights
 - Ty the Bub: Bald Fighter
 - UltraFenix: PegasusKnight
 - SHYUTERz: Shinespark
@@ -27,6 +27,7 @@
 - Enjin: Duke Knight
 - Furious: FShaman
 - SaintRubenio: Dancer Magic
+- Feier: Valkyrie
 
 
 # Map Tilesets

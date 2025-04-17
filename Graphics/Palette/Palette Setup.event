@@ -291,3 +291,35 @@
 // BenjaminBrigand
 	setPalette(0x48,BenjaminBrigand)
 	setCBSP(0x48,Benjamin,0x1,Brigand)
+
+// NishayDruid
+	setPalette(0x49,NishayDruid)
+	setCBSP(0x49,Nishay,0x2,Druid_F)
+
+// NishayDK
+	setPalette(0x4A,NishayDK)
+	setCBSP(0x4A,Nishay,0x2,DarkKnight_F)
+
+// CaitlindBers
+	setPalette(0x4B,CaitlindBers)
+	setCBSP(0x4B,Caitlind,0x2,Berserker_F)
+
+// LibbyBishop
+	setPalette(0x4C,LibbyBishop)
+	setCBSP(0x4C,Libby,0x2,Bishop_F)
+
+// LibbyDruid
+	setPalette(0x4D,LibbyDruid)
+	setCBSP(0x4D,Libby,0x2,Druid_F)
+
+// LaurenValk
+	setPalette(0x4E,LaurenValk)
+	setCBSP(0x4E,Lauren,0x2,Valkyrie)
+
+// LaurenMK
+	setPalette(0x4F,LaurenMK)
+	setCBSP(0x4F,Lauren,0x2,MageKnight_F)
+
+// EmmanuelMK
+	setPalette(0x50,EmmanuelMK)
+	setCBSP(0x50,Emmanuel,0x2,MageKnight)

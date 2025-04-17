@@ -97,6 +97,9 @@ great skill. Equip: Lances[X]
 ## ForrestKnightClass
 ^{Forrest Knight}[X]
 
+## ForrestKnightClassWide
+Forrest Knight[X]
+
 ## ForrestKnightDesc
 Swift masters of horseback[N]
 swordfighting. Equip: Swords[X]

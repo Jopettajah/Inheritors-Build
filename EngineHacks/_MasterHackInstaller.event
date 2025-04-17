@@ -90,8 +90,6 @@ POP
   
   #include "ExternalHacks/GenericPortraitFixes/Installer.event"
   
-  #include "ExternalHacks/CannotDie/Installer.event"
-  
   #include "ExternalHacks/FastBattleAnimation/Install.event"
   
   #include "ExternalHacks/WMSaveRedirect/C_Code.lyn.event"
@@ -362,3 +360,5 @@ POP
   #include "CustomItems/_CustomItemSetup.event"
   
   #include "ExternalHacks/DynamicEquip/DynamicWeaponEquipInstaller.event"
+
+  #include "ExternalHacks/CannotDie/Installer.event"

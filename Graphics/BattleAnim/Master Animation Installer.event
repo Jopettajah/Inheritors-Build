@@ -156,3 +156,18 @@
 {
 #include "TethysWeapons/Magic Installer.event"
 }
+
+{
+#include "ValkyrieRepalFeier/ValkMagic Installer.event"
+#include "ValkyrieRepalFeier/ValkStaff Installer.event"
+}
+
+{
+#include "MageKnightFShortHairRepalBatimaTheBat/Magic Installer.event"
+#include "MageKnightFShortHairRepalBatimaTheBat/Staff Installer.event"
+}
+
+{
+#include "MageKnightMRepalBatimaTheBat/Magic Installer.event"
+#include "MageKnightMRepalBatimaTheBat/Staff Installer.event"
+}

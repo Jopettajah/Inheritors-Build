@@ -48,7 +48,7 @@ ALIGN 4
 CannotDieList: 
 // unitID, classID, flag which makes them no longer immune, textID to display on near death, flagID to set on near death 
 //BYTE 0x68 0; SHORT 0xA 0 0 // O'Neill immune until flag A is turned on. 
-BYTE 0x68 0; SHORT 9 0x936 9// O'Neill immune until flag 9 is turned on. Display text 0x936 and turn on flag 9 when near death. 
+//BYTE 0x68 0; SHORT 9 0x936 9// O'Neill immune until flag 9 is turned on. Display text 0x936 and turn on flag 9 when near death. 
 // POIN EventToRun 
 
 BYTE Nishay 0; SHORT NishayFlag 0 0 

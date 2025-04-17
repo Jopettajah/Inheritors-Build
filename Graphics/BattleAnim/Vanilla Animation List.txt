@@ -112,10 +112,10 @@
 0x6E Sage w/ Staff
 0x6F Sage (F)
 0x70 Sage (F) w/ Staff
-0x71 Mage Knight
-0x72 Mage Knight w/ Staff
-0x73 Mage Knight
-0x74 Mage Knight w/ Staff
+0x71 Mage Knight			//R
+0x72 Mage Knight w/ Staff	//R
+0x73 Mage Knight			//R
+0x74 Mage Knight w/ Staff	//R
 0x75 Shaman
 0x76 Shaman (F)				//R
 0x77 Druid
@@ -134,8 +134,8 @@
 0x84 Bishop (F) w/ Staff
 0x85 Troubadour Disarmed	//replaced
 0x86 Troubadour			//replaced
-0x87 Valkyrie
-0x88 Valkyrie w/ Staff
+0x87 Valkyrie			//R
+0x88 Valkyrie w/ Staff	//R
 0x89 Thief				//R
 0x8A Thief Disarmed		//R
 0x8B Assassin			//R

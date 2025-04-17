@@ -16,12 +16,12 @@ ALIGN 4
 PaladinPaletteList:
 PaletteAssociationEntry(Jacob, $33)
 PaletteAssociationEntry(Lucian, $37)
-PaletteAssociationEntry(Hudson, $3C)
+//PaletteAssociationEntry(Hudson, $3C)
 WORD 0 0
 ALIGN 4
 
 CavalierFPaletteList:
-PaletteAssociationEntry(Nella, $54)
+//PaletteAssociationEntry(Nella, $54)
 WORD 0 0
 ALIGN 4
 
@@ -45,7 +45,7 @@ ALIGN 4
 GeneralPaletteList:
 PaletteAssociationEntry(Garry, $3F)
 PaletteAssociationEntry(Hollie, $41)
-PaletteAssociationEntry(Avery, $26)
+//PaletteAssociationEntry(Avery, $26)
 PaletteAssociationEntry(Ferryn, $3D)
 PaletteAssociationEntry(FarumWeak, $2C)
 PaletteAssociationEntry(Farum, $2C)
@@ -87,6 +87,7 @@ ALIGN 4
 
 
 OutlawPaletteList:
+//PaletteAssociationEntry(Winton,$)
 WORD 0 0
 ALIGN 4
 
@@ -97,21 +98,20 @@ ALIGN 4
 
 AdventurerPaletteList:
 PaletteAssociationEntry(Diane, $31)
-PaletteAssociationEntry(Henrik, $53)
-PaletteAssociationEntry(Winton, $54)
+//PaletteAssociationEntry(Henrik, $53)
+//PaletteAssociationEntry(Winton, $54)
 WORD 0 0
 ALIGN 4
 
 RangerPaletteList:
 PaletteAssociationEntry(Diane, $32)
-PaletteAssociationEntry(Winton, $22)
-PaletteAssociationEntry(Beran, $23)
+//PaletteAssociationEntry(Winton, $22)
 WORD 0 0
 ALIGN 4
 
 CerapterKnightPaletteList:
-PaletteAssociationEntry(Janessa, $66)
-PaletteAssociationEntry(Caitlind, $67)
+//PaletteAssociationEntry(Janessa, $66)
+//PaletteAssociationEntry(Caitlind, $67)
 WORD 0 0
 ALIGN 4
 
@@ -122,22 +122,22 @@ WORD 0 0
 ALIGN 4
 
 SagePaletteList:
-PaletteAssociationEntry(Emmanuel, $47)
+//PaletteAssociationEntry(Emmanuel, $47)
 PaletteAssociationEntry(Anis, $3A)
-PaletteAssociationEntry(Glaw, $49)
+//PaletteAssociationEntry(Glaw, $49)
 WORD 0 0
 ALIGN 4
 
 MageKnightPaletteList:
-PaletteAssociationEntry(Emmanuel, $33)
-PaletteAssociationEntry(Lauren, $34)
+PaletteAssociationEntry(Emmanuel, $50)
+PaletteAssociationEntry(Lauren, $4F)
 WORD 0 0
 ALIGN 4
 
 BishopPaletteList:
-PaletteAssociationEntry(Anis, $0B)
-PaletteAssociationEntry(Libby, $0C)
-PaletteAssociationEntry(Conleth, $0D)
+PaletteAssociationEntry(Anis, $0F)
+PaletteAssociationEntry(Libby, $4C)
+//PaletteAssociationEntry(Conleth, $0D)
 WORD 0 0
 ALIGN 4
 
@@ -152,15 +152,15 @@ WORD 0 0
 ALIGN 4
 
 DruidPaletteList:
-PaletteAssociationEntry(Nishay, $19)
+PaletteAssociationEntry(Nishay, $49)
 PaletteAssociationEntry(Ellie, $1A)
-PaletteAssociationEntry(Libby, $54)
+PaletteAssociationEntry(Libby, $4D)
 WORD 0 0
 ALIGN 4
 
 DarkKnightPaletteList:
 PaletteAssociationEntry(Mauritch, $38)
-PaletteAssociationEntry(Nishay, $51)
+PaletteAssociationEntry(Nishay, $4A)
 WORD 0 0
 ALIGN 4
 
@@ -183,13 +183,13 @@ WORD 0 0
 ALIGN 4
 
 WarriorPaletteList:
-PaletteAssociationEntry(Marco, $63)
-PaletteAssociationEntry(Bobbe, $64)
+//PaletteAssociationEntry(Marco, $63)
+//PaletteAssociationEntry(Bobbe, $64)
 WORD 0 0
 ALIGN 4
 
 WarriorFPaletteList:
-PaletteAssociationEntry(Katja, $54)
+//PaletteAssociationEntry(Katja, $54)
 WORD 0 0
 ALIGN 4
 
@@ -206,19 +206,18 @@ WORD 0 0
 ALIGN 4
 
 BerserkerPaletteList:
-PaletteAssociationEntry(Marco, $13)
-PaletteAssociationEntry(Bobbe, $14)
+//PaletteAssociationEntry(Marco, $13)
+//PaletteAssociationEntry(Bobbe, $14)
 WORD 0 0
 ALIGN 4
 
 BerserkerFPaletteList:
-PaletteAssociationEntry(Katja, $54)
-PaletteAssociationEntry(Caitlind, $54)
+//PaletteAssociationEntry(Katja, $54)
+PaletteAssociationEntry(Caitlind, $4B)
 WORD 0 0
 ALIGN 4
 
 MonkPaletteList:
-PaletteAssociationEntry(Artur, $37)
 WORD 0 0
 ALIGN 4
 
@@ -247,8 +246,8 @@ WORD 0 0
 ALIGN 4
 
 FalcoknightPaletteList:
-PaletteAssociationEntry(Alysa, $1B)
-PaletteAssociationEntry(Sana, $1C)
+//PaletteAssociationEntry(Alysa, $1B)
+//PaletteAssociationEntry(Sana, $1C)
 WORD 0 0
 ALIGN 4
 
@@ -264,8 +263,8 @@ WORD 0 0
 ALIGN 4
 
 ValkyriePaletteList:
-PaletteAssociationEntry(Lauren, $60)
-PaletteAssociationEntry(Llewella, $61)
+PaletteAssociationEntry(Lauren, $4E)
+//PaletteAssociationEntry(Llewella, $61)
 WORD 0 0
 ALIGN 4
 
@@ -288,7 +287,7 @@ ALIGN 4
 GreatLancerPaletteList:
 PaletteAssociationEntry(Lucian, $36)
 PaletteAssociationEntry(Pieter, $39)
-PaletteAssociationEntry(Tirado, $30)
+PaletteAssociationEntry(Ada, $30)
 WORD 0 0
 ALIGN 4
 

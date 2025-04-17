@@ -89,7 +89,7 @@ Landboats:
 	UNIT
 	
 NishayGroup:
-	UNIT Nishay Shaman_F Nishay Level(9,NPC,False) [12,0] 0x0 0x0 0x1 REDA12R1 [Flux] NeverMoveAI
+	UNIT Nishay Shaman_F Nishay Level(9,NPC,False) [12,0] 0x0 0x0 0x1 REDA12R1 /*REDA19R1*/ [Flux] NeverMoveAI
 	UNIT
 
 Traps1:

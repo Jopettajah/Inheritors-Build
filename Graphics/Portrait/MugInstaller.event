@@ -408,6 +408,14 @@ Kristan_Mug:
 setMugEntry(0x39, Kristan_Mug, 3,5,3,3)
 
 ALIGN 4
+Goursat_Mug:
+#incbin "dmp/Goursat_mug.dmp"
+#incbin "dmp/Goursat_frames.dmp"
+#incbin "dmp/Goursat_palette.dmp"
+#incbin "dmp/Goursat_minimug.dmp"
+setMugEntry(0x3b, Goursat_Mug,4,5,4,3)
+
+ALIGN 4
 GenOutlaw_Mug:
 #incbin "dmp/GenOutlawF_mug.dmp"
 #incbin "dmp/GenOutlawF_frames.dmp"

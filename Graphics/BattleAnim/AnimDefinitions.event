@@ -101,6 +101,8 @@
 
 #define TroubStaff 0x85
 #define TroubUnarmed 0x86
+#define ValkUnarmed 0x87
+#define ValkStaff 0x88
 
 #define AltMyrmSword 0xb1
 #define AltMyrmUnarmed 0xb2
@@ -134,6 +136,11 @@
 #define ShamanFMagic 0x76
 
 #define DancerMagic 0x8d
+
+#define MageKnightUnarmed 0x71
+#define MageKnightStaff 0x72
+#define MageKnightFUnarmed 0x73
+#define MageKnightFStaff 0x74
 
 //////////
  

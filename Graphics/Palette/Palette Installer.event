@@ -219,3 +219,27 @@ NishayShaman:
 BenjaminBrigand:
 	#incbin "./_palettes/BenjaminBrigand.lzpal" 
 
+NishayDruid:
+	#incbin "./_palettes/NishayDruid.lzpal" 
+
+NishayDK:
+	#incbin "./_palettes/NishayDK.lzpal" 
+
+CaitlindBers:
+	#incbin "./_palettes/CaitlindBers.lzpal" 
+
+LibbyBishop:
+	#incbin "./_palettes/LibbyBishop.lzpal" 
+
+LibbyDruid:
+	#incbin "./_palettes/LibbyDruid.lzpal" 
+
+LaurenValk:
+	#incbin "./_palettes/LaurenValk.lzpal" 
+
+LaurenMK:
+	#incbin "./_palettes/LaurenMK.lzpal" 
+
+EmmanuelMK:
+	#incbin "./_palettes/EmmanuelMK.lzpal" 
+

@@ -13,7 +13,7 @@ empty inventory slot.[X]
 Single Devotion: When Kimiko's[N]
 inventory has only one usable[N]
 weapon, she gains Atk/Crit[N]
-equal to half it's Mt/Crit.[X]
+equal to half of it's Mt/Crit.[X]
 
 ## SD_EternalBanquet
 ^{Eternal Banquet}: Elina gains[N]

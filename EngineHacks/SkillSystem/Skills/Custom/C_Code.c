@@ -12,6 +12,8 @@ extern int GetItemCrit(int item);
 extern int GetItemMight(int item);
 extern int GetUnitItemCount(struct Unit* unit);
 
+extern const u16 ShareExpEvent;
+
 extern int CaringColdShoulderID_Link;
 extern int EarlyRiserID_Link;
 extern int UngroundedID_Link;
@@ -21,6 +23,10 @@ extern int EternalBanquetID_Link;
 extern int SingleDevotionID_Link;
 extern int UnburdenedID_Link;
 extern int WingedKinshipID_Link;
+extern int SaviorID_Link;
+
+extern int UNIT_ACTION_SHELTER;
+extern int UNIT_ACTION_REFRESH;
 
 /*
 void ___(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
@@ -249,3 +255,157 @@ void WingedKinship(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 	}
 	return;
 }
+
+s8 ActionShelter(ProcPtr proc) {
+	struct Unit* subject = GetUnit(gActionData.targetIndex);
+	struct Unit* target = GetUnit(gActionData.subjectIndex);
+
+	//original subject unit doesnt exist after allegiance change, so it needs to be recovered with char id
+	s8 subjectID = subject->pCharacterData->number; 
+	UnitChangeFaction(subject, FACTION_BLUE);
+	subject = GetUnitFromCharId(subjectID);
+
+	TryRemoveUnitFromBallista(target);
+
+	HideUnitSprite(target);
+	Make6CKOIDO(
+		target,
+		GetSomeFacingDirection(subject->xPos, subject->yPos, target->xPos, target->yPos),
+		0,
+		proc
+	);
+
+	UnitRescue(subject, target);
+	gActiveUnit = subject;
+
+	gActionData.xMove = subject->xPos;
+	gActionData.yMove = subject->yPos;
+	SetCursorMapPosition(gActiveUnit->xPos, gActiveUnit->yPos);
+	
+	//if (!(subject->state & US_HAS_MOVED)) {
+		gActionData.unitActionType = UNIT_ACTION_REFRESH;
+	//}
+	
+	return 0;
+}
+
+void AddAsTarget_Shelter(struct Unit* unit) {
+
+	if (UNIT_FACTION(unit) == FACTION_RED) {
+		return;
+	}
+
+	if (!SkillTester(unit, SaviorID_Link)) {
+		return;
+	}
+
+	if (unit->state & US_RESCUING || gActiveUnit->state & US_RESCUING) {
+		return;
+	}
+
+	AddTarget(unit->xPos, unit->yPos, unit->index, 0);
+	return;
+}
+
+void MakeTargetListForShelter(struct Unit* unit) {
+	int x = unit->xPos;
+	int y = unit->yPos;
+
+	gSubjectUnit = unit;
+
+	BmMapFill(gBmMapRange, 0);
+
+	ForEachAdjacentUnit(x, y, AddAsTarget_Shelter);
+
+	return;
+}
+
+u8 ShelterCommandUsability(const struct MenuItemDef* def, int number) {
+
+	if (gActiveUnit->state & US_HAS_MOVED) {
+		return MENU_NOTSHOWN;
+	}
+
+	MakeTargetListForShelter(gActiveUnit);
+	if (GetSelectTargetCount() == 0) {
+		return MENU_NOTSHOWN;
+	}
+
+	return MENU_ENABLED;
+}
+
+void ShelterMapSelect_Init(ProcPtr menu) {
+	//StartUnitGoldInfoWindow(menu);
+	//StartSubtitleHelp(menu, GetStringFromIndex(???));
+
+	return;
+}
+
+u8 ShelterMapSelect_SwitchIn(ProcPtr proc, struct SelectTarget* target) {
+	ChangeActiveUnitFacing(target->x, target->y);
+
+	//RefreshUnitGoldInfoWindow(GetUnit(target->uid));
+
+	return 0; // BUG?
+};
+
+u8 ShelterMapSelect_Select(ProcPtr proc, struct SelectTarget* target) {
+	gActionData.targetIndex = target->uid;
+	gActionData.unitActionType = UNIT_ACTION_SHELTER;
+
+	return MENU_ACT_SKIPCURSOR | MENU_ACT_END | MENU_ACT_SND6A | MENU_ACT_CLEAR;
+}
+
+struct SelectInfo const gSelectInfo_Shelter =
+{
+	.onInit = ShelterMapSelect_Init,
+	.onEnd = MISMATCHED_SIGNATURE(ClearBg0Bg1),
+	.onSwitchIn = ShelterMapSelect_SwitchIn,
+	.onSelect = ShelterMapSelect_Select,
+	.onCancel = GenericSelection_BackToUM,
+};
+
+u8 ShelterCommandEffect(struct MenuProc* menu, struct MenuItemProc* menuItem) {
+
+	ClearBg0Bg1();
+
+	MakeTargetListForShelter(gActiveUnit);
+
+	NewTargetSelection(&gSelectInfo_Shelter);
+
+	return MENU_ACT_SKIPCURSOR | MENU_ACT_END | MENU_ACT_SND6A;
+}
+
+void ASMC_IsRescuing() {
+	struct Unit* unit = GetUnitFromCharId(gEventSlots[EVT_SLOT_1]);
+	if (unit->state & US_RESCUING) {
+		gEventSlots[EVT_SLOT_1] = 1;
+	}
+	else {
+		gEventSlots[EVT_SLOT_1] = 0;
+	}
+}
+
+void GrantExp(struct Unit* unit) {
+
+	int expGain = gBattleActor.expGain;
+
+	gEventSlots[1] = unit->pCharacterData->number; 
+	//*ExpShareUnitID_Link[0] = unit->pCharacterData->number;
+	gEventSlots[4] = expGain; 
+	//*ExpShareAmount_Link[0] = expGain;
+	CallEvent(&ShareExpEvent, 1);
+	//asm("mov r11, r11"); 
+	
+}
+
+void ExpShare(struct Unit* actor, struct Unit* target) {
+	if (!(actor->index >> 7) && (gActionData.unitActionType == UNIT_ACTION_COMBAT) && (gBattleActor.expGain)) { // player attacking only
+		if (gActiveUnit->state & US_RESCUING && SkillTester(gActiveUnit, SaviorID_Link)) {
+
+			GrantExp(GetUnit(gActiveUnit->rescue));
+		}
+
+	}
+}
+
