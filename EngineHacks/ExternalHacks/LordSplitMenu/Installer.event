@@ -52,6 +52,7 @@ Debug2MenuCommands:
 	EventMenuCommand(0x164)
 	EventMenuCommand(0x165)
 	EventMenuCommand(0x166)
+	EventMenuCommand(0x167)
 EventMenuCommandEnd
 
 

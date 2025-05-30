@@ -36,6 +36,7 @@ BattleQuoteGeneric(Dave,Chapter5,DaveBattleQuote,0,15)
 BattleQuoteGeneric(JeanneMarie,Chapter6,JeanneBattleQuote,0,1)
 BattleQuoteGeneric(Benjamin,Chapter7,0,BenjaminBossEvent,1)
 BattleQuoteGeneric(Ada,Chapter7,0,AdaBossEvent,10)
+//BattleQuoteGeneric(Bertram,Chapter8,BertramBattleQuote,)
 BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 // Terminator
 
 //EventID 2 for bosses, 0x65 for lords
@@ -50,6 +51,10 @@ DeathQuoteEvent(Caitlind_boss,Chapter5,2,CaitlindBossDeathQuote)
 DeathQuoteEvent(JeanneMarie,Chapter6,2,JeanneDeathQuote)
 DeathQuoteEvent(Benjamin,Chapter7,2,0,BenjaminDeathQuoteEvent)
 DeathQuoteEvent(Ada,Chapter7,11,0,AdaDeathQuoteEvent)
+DeathQuoteEvent(Bertram,Chapter8,12,BertramDeathQuote)
+DeathQuoteEvent(Goursat,Chapter8,13,GoursatDeathQuote)
+DeathQuoteEvent(Kristan,Chapter8,14,KristanDeathQuote)
+
 
 //Playables:
 DeathQuoteEvent(Curtis,AllChapters,0x65,CurtisDeathQuote)

@@ -77,6 +77,10 @@ SetWMChapterID(Chapter7,Chapter7)
   ALIGN 4
   #include "WM_Chapter7.event"
 }
+{
+  ALIGN 4
+  #include "WM_Chapter8.event"
+}
 
 ALIGN 4
 // #include "EpilogueEvents.event"

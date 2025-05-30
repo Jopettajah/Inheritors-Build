@@ -6,4 +6,45 @@
 [X]
 
 ## IngaSanaA
+[MidLeft][LoadSana]
+[MidRight][LoadInga]
+
+[MidLeft]
+
+
+[MidRight]
+So what?[.4] Should I be ashamed[N]
+of a few blemishes on my skin?[A]
+
+[MidLeft]
+No,[.] but-[A]
+
+[MidRight]
+When the situation looks hopeless,[.4][N]
+I can look back at my scars.[AN]
+They serve as a reminder that I've surivived,[.4][N]
+and that I can[Beat] No,[.] will survive again.[AN]
+Besides,[.4] I'd gladly bear any scar if[N]
+it meant keeping you out ouf harms way.[AN]
+Anytime.[.7] Anywhere.[A]
+
+[MidLeft][ToggleSmile]
+Was that a confession?[.4] Is the icy facade of[N]
+the great glacial gladiator finally melting?[A]
+
+[MidRight][ToggleSmile]
+You know you're the only one whom I can be[N]
+this open and[Beat][.4] vulnerable with.[A]
+
+[MidLeft][ToggleSmile]
+I know,[.] I know[Beat][N]
+And Inga?[A]
+
+[MidRight][ToggleSmile]
+Yes?[A]
+
+[MidLeft][ToggleSmile][MoveRight][.4][CloseEyes]
+I care about you a great deal too.[N]
+Don't you ever forget it.[A]
+
 [X]
