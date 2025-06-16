@@ -20,18 +20,24 @@ PointerList:
 
 TurnBasedEvents:
 	TurnEventPlayer(0,BoatAllegianceChange,0,255)
-	TurnEventPlayer(0,NishaySpawn,2)
+	//TurnEventPlayer(0,NishaySpawn,2)
+	//TurnEventPlayer(0,CavAi1,2)
+	TurnEventPlayer(0,CavAi2,3)
 	END_MAIN
 
 ALIGN 32
 CharacterBasedEvents:
 	CharacterEvent(NishayFlag,NishayRecruit,Curtis,Nishay)
+	CharacterEvent(NishayFlag,NishayRecruitLibby,Libby,Nishay)
 	END_MAIN
 
 MiscBasedEvents:
 	AREA 0 DesertElysianWhip [13,0] [19,3]
 	AREA 0 DesertGuidingRing [0,10] [2,13]
 	AREA 0 DesertTome [10,7] [14,11]
+	AFEV 0 BossCheck 0
+	AFEV 21 MageSpawn 12
+	AFEV 22 PegaSpawn 13
 	CauseGameOverIfLordDies
 	END_MAIN
 
@@ -74,15 +80,41 @@ EnemyUnits:
 	UNIT Farum Soldier Kristan Level(10,Enemy,True) [23,17] 0x0 0x0 0x0 0x0 [SteelLance] TwoActionAI
 	UNIT Farum Soldier Kristan Level(10,Enemy,True) [24,16] 0x0 0x0 0x0 0x0 [ShortSpear] AttackInRangeAI //Unique ID for death quote?
 	UNIT Farum Soldier Kristan Level(10,Enemy,True) [25,15] 0x0 0x0 0x0 0x0 [SteelLance] TwoActionAI
-	UNIT Farum BowKnight Kristan Level(10,Enemy,True) [15,11] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+	UNIT Farum BowKnight Kristan Level(10,Enemy,True) [16,12] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+	UNIT Farum AxeCav Kristan Level(10,Enemy,True) [25,11] 0x0 0x0 0x0 0x0 [SteelAxe] DefaultAI
+	UNIT Farum SwordCav Kristan Level(10,Enemy,True) [27,11] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
+	UNIT Goon LanceCav Kristan Level(10,Enemy,True) [15,16] 0x0 0x0 0x0 0x0 [SteelLance] Ch8CavAI
+	UNIT Goon SwordCav Kristan Level(10,Enemy,True) [16,17] 0x0 0x0 0x0 0x0 [SteelSword] Ch8CavAI
+	
 	UNIT Bertram Shaman Bertram Level(12,Enemy,False) [2,17] 0x0 0x0 0x0 0x0 [Fenrir] AttackInRangeAI
+	UNIT Nishay Shaman_F Bertram Level(9,Enemy,False) [4,17] 0x0 0x0 0x0 0x0 [Flux] TwoActionAI
 	UNIT Farum Mage Bertram Level(10,Enemy,True) [1,10] 0x0 0x0 0x0 0x0 [Fire,Bolting] NeverMoveAI
-	UNIT Farum Shaman Bertram Level(10,Enemy,True) [2,15] 0x0 0x0 0x0 0x0 [Flux] TwoActionAI
+	UNIT Farum Shaman Bertram Level(10,Enemy,True) [1,15] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI //TwoActionAI
+	UNIT Farum Knight Bertram Level(10,Enemy,True) [6,12] 0x0 0x0 0x0 0x0 [Javelin] AttackInRangeAI
+	UNIT Farum AxeArmor Bertram Level(10,Enemy,True) [7,12] 0x0 0x0 0x0 0x0 [Handaxe] AttackInRangeAI
+	UNIT Farum Mage Bertram Level(10,Enemy,True) [0,18] 0x0 0x0 0x0 0x0 [Elfire] TwoActionAI
+	
 	UNIT Goursat PegasusKnight Goursat Level(12,Enemy,False) [25,1] 0x0 0x0 0x0 0x0 [SilverLance] AttackInRangeAI
 	UNIT Farum AxePeg Goursat Level(10,Enemy,True) [23,1] 0x0 0x0 0x0 0x0 [IronAxe] DefaultAI
 	UNIT Farum PegasusKnight Goursat Level(10,Enemy,True) [24,2] 0x0 0x0 0x0 0x0 [IronLance] DelayedChargeAI
+	UNIT Farum Mercenary_F Goursat Level(10,Enemy,True) [17,4] 0x0 0x0 0x0 0x0 [SteelSword] DelayedChargeAI //AttackInRangeAI
+	UNIT Farum Fighter Goursat Level(10,Enemy,True) [16,5] 0x0 0x0 0x0 0x0 [IronAxe] DelayedChargeAI //AttackInRangeAI
+	UNIT Farum Mage_F Goursat Level(10,Enemy,True) [12,2] 0x0 0x0 0x0 0x0 [Elfire] DefaultAI
+	UNIT Farum LanceCav Goursat Level(10,Enemy,True) [11,1] 0x0 0x0 0x0 0x0 [Javelin] DefaultAI
+	UNIT Farum Myrmidon Goursat Level(10,Enemy,True) [25,5] 0x0 0x0 0x0 0x0 [IronSword] TwoActionAI
+	UNIT Farum Soldier Goursat Level(10,Enemy,True) [24,4] 0x0 0x0 0x0 0x0 [IronLance] TwoActionAI
 	UNIT
 
+ExtraMages:
+	UNIT Farum Mage Kristan Level(10,Enemy,True) [18,18] 0x0 0x0 0x0 0x0 [Fire] DefaultAI
+	UNIT Farum Shaman Kristan Level(10,Enemy,True) [20,18] 0x0 0x0 0x0 0x0 [Flux] DefaultAI
+	UNIT
+	
+ExtraPegs:
+	UNIT Farum PegasusKnight Kristan Level(10,Enemy,True) [27,13] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
+	UNIT Farum AxePeg Kristan Level(10,Enemy,True) [27,15] 0x0 0x0 0x0 0x0 [IronAxe] DefaultAI
+	UNIT
+	
 Landboats:
 	UNIT Jhen Sandskipper Curtis Level(10,NPC,False) [2,5] 0x0 0x0 0x0 0x0 [IronBallista] AttackInRangeAI
 	UNIT Dahren Sandskipper Curtis Level(10,NPC,False) [4,5] 0x0 0x0 0x0 0x0 [ShortBallista] AttackInRangeAI
@@ -135,9 +167,29 @@ NishaySpawn:
 
 NishayRecruit:
 	MUSS DanceBraceID
-	//Text()
+	Text(NishayRecruitText)
 	CUSA Nishay
 	MURE 5
+	NoFade
+	ENDA
+	
+NishayRecruitLibby:
+	MUSS DanceBraceID
+	Text(NishayRecruitLibbyText)
+	CUSA Nishay
+	MURE 5
+	NoFade
+	ENDA
+
+CavAi1:
+	SVAL 1 0x00040B00
+	CHAI Goon
+	NoFade
+	ENDA
+	
+CavAi2:
+	SVAL 1 0x00040000
+	CHAI Goon
 	NoFade
 	ENDA
 	
@@ -234,7 +286,53 @@ DesertTome:
 	LABEL 8
 	NoFade
 	ENDA
+
+MageSpawn:
+	EVBIT_T 9
+	LOAD1 0x1 ExtraMages
+	ENUN
+	NoFade
+	ENDA
 	
+PegaSpawn:
+	EVBIT_T 9
+	LOAD1 0x1 ExtraPegs
+	ENUN
+	NoFade
+	ENDA
+	
+BossCheck:
+	CHECK_EVENTID 12
+	BEQ 9 sC s0
+	
+	CHECK_EVENTID 13
+	BEQ 9 sC s0
+	
+	// Kristan Charge if both ded and not triggered yet
+	CHECK_EVENTID 15
+	BNE 10 sC s0
+	CAMERA Kristan
+	Text(KristanCharge)
+	SVAL 1 0x00040000
+	CHAI Kristan
+	CHAI [23,17]
+	CHAI [24,16]
+	CHAI [25,15]
+	ENUT 15
+	
+	LABEL 10
+	CHECK_EVENTID 14
+	BEQ 9 sC s0
+	
+	
+	CALL EndingScene
+	NoFade
+	ENDB
+	
+	LABEL 9
+	NoFade
+	ENDA	
+
 EndingScene:
 	MNC2 Chapter9
 	NoFade

@@ -239,6 +239,9 @@
 #define Shinespark 0xCC
 #define Cloudrunner 0xcd
 #define ShortBallista 0xce
+#define SlayingEdge 0xcf
+#define SlayingLance 0xd0
+#define SlayingAxe 0xd1
 
 //Aliases
 #define AxeReaver Axereaver

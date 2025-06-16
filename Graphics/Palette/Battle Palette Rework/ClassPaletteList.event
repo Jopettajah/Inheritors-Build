@@ -10,6 +10,7 @@ PaletteAssociationEntry(Jacob, $03)
 PaletteAssociationEntry(Lucian, $04)
 PaletteAssociationEntry(Werner, $0D)
 PaletteAssociationEntry(Farum, $1F)
+PaletteAssociationEntry(Goon, $1F)
 WORD 0 0
 ALIGN 4
 

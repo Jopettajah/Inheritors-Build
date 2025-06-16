@@ -21,6 +21,10 @@ MapOverrideBossMusic(Bone)
 SetCustomBossMusic(Bazba,OffToWarRemixID)
 SetVSPlayableMusic(Caitlind_boss)
 SetVSPlayableMusic(Dave)
+SetVSPlayableMusic(Nishay)
+SetCustomBossMusic(Bertram,OffToWarRemixID)
+SetCustomBossMusic(Goursat,OffToWarRemixID)
+SetCustomBossMusic(Kristan,OffToWarRemixID)
 
 BossMusicListTerminator
 

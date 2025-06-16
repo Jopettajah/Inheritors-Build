@@ -87,6 +87,7 @@
 #define Vigarde 0x6B
 #define Lyon_Final 0x6C
 #define Orson_Boss 0x6D*/
+#define Slayers 0x6F
 #define Farum 0x80
 #define Goon 0x81
 #define Engineer 0x82

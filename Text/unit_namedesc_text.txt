@@ -571,3 +571,10 @@ Audinan[X]
 
 ## AudinanDesc
 Ordinary soldiers of Audina.[X]
+
+## SlayersName
+Slayers[X]
+
+## SlayersDesc
+Trained elites out for blood.[N]
+Best to be avoided.[X]

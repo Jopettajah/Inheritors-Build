@@ -10,6 +10,7 @@
 //#define CH6BODYGUARDAI2 0x11
 #define CH7GRNWAGONAI 0x11
 #define CH7REDWAGONAI 0xA
+#define CH8CAVAI2 0xB
 #define AttackingSeizerAI [0x00, 0x0F, 0x04]
 #define SeizerAI [0x06, 0x0C, 0x04]
 #define HalfRangeAI [0x0C,0x03,0x03]
@@ -19,6 +20,7 @@
 //#define Ch6BodyguardAI [0x00, CH6BODYGUARDAI2, 0x04]
 #define Ch7GrnWagonAI [0x06, CH7GRNWAGONAI, 0x4]
 #define Ch7WagonEscortAI [0x00, CH7REDWAGONAI, 0x4]
+#define Ch8CavAI [0x00, CH8CAVAI2, 0x4]
 
 InjectAi1(CH6BOSSAI1, Ch6BossAction)
 
@@ -29,6 +31,7 @@ setAI2(CH6BOSSAI2, Ch6BossMove)
 //setAI2(CH6BODYGUARDAI2, Ch6BodyguardMove)
 setAI2(CH7GRNWAGONAI, Ch7GrnWagonMove)
 setAI2(CH7REDWAGONAI, Ch7RedWagonMove)
+setAI2(CH8CAVAI2, Ch8CavMove)
 
 ALIGN 4
 EmmanuelAi:
@@ -94,4 +97,10 @@ Ch7RedWagonMove:
 	AiMoveTowardsClass(Wagon)
 	AiRestart
 	}
-	
+
+ALIGN 4
+Ch8CavMove:
+	{
+	AiMoveTowardsPoint(8,15)
+	AiRestart
+	}

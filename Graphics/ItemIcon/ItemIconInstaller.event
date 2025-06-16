@@ -28,6 +28,9 @@ POP
 #define DesertWindIconID 234
 #define OldEdgeIconID 235
 #define CloudrunnerIconID 236
+#define SlayingEdgeIconID 237
+#define SlayingLanceIconID 238
+#define SlayingAxeIconID 0xef
 
 PUSH 
 ItemIconEntry(SkygazerIconID)
@@ -74,5 +77,14 @@ ItemIconEntry(OldEdgeIconID)
 
 ItemIconEntry(CloudrunnerIconID)
 #incbin "dmp/SealSword2.dmp"
+
+ItemIconEntry(SlayingEdgeIconID)
+#incbin "dmp/GabrielKnightKillerSword.dmp"
+
+ItemIconEntry(SlayingLanceIconID)
+#incbin "dmp/GabrielKnightKillerLance.dmp"
+
+ItemIconEntry(SlayingAxeIconID)
+#incbin "dmp/GabrielKnightKillerAxe.dmp"
 
 POP 

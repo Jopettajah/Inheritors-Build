@@ -133,3 +133,9 @@ I[Beat][CloseEyes] I failed?[A]
 ## Ch7DVBoxText
 Inflicts Freeze[N]
 on all enemies.[X]
+
+## Ch7WarningText
+[MidRight][LoadSoldierGreen]
+I've feel a chill on my spine[Beat][N]
+We have to get moving,[.4] and fast![A]
+[X]

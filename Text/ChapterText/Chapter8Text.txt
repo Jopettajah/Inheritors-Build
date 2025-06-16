@@ -1,8 +1,110 @@
+## NishayRecruitText
+[X]
+
+## NishayRecruitLibbyText
+[MidLeft][LoadLibby]
+[MidRight][LoadNishay]
+Ah![.4] I see a fellow woman of cloth![A]
+
+[MidLeft]
+Huh?[.4] Who?[.4] Where?[A]
+
+[MidRight]
+
+[X]
+
+## BertramBattleQuote
+[MidLeft][LoadFace][0x3a][0x1]
+You're but a stepping stone in[N]
+my grand ascension of ranks![AN]
+Prepare to die![A]
+[X]
+
+## BertramNishayBattleQuote
+[MidLeft][LoadFace][0x3a][0x1]
+What do you think you're doing,[.4][N]
+turning on your superiors?[A]
+[ClearFace]
+
+[MidRight][LoadNishay]
+My divination told me to go[N]
+along with the shifting tides.[AN][CloseEyes]
+The very heavens above[N]
+are guiding my path.[A]
+[ClearFace]
+
+[MidLeft][LoadFace][0x3a][0x1]
+Foolish conscript![AN]
+I'll show you why defying[N]
+me is a terrible idea![A]
+[X]
+
 ## BertramDeathQuote
+[MidLeft][LoadFace][0x3a][0x1]
+No[Beat] my ambitions, shattered[Beat][N]
+After I finally[Beat][CloseEyes] had my chance[Beat][A]
+[X]
+
+## GoursatBattleQuote
+[MidLeft][LoadFace][0x3b][0x1]
+A new lamb arriving[N]
+to the slaughter?[AN]
+Oh,[.] I'll enjoy bleeding[N]
+you out until you're dry![A]
+[X]
+
+## GoursatCaitlindBattleQuote
+[MidLeft][LoadFace][0x3b][0x1]
+I can see it from your face[Beat][AN]
+Bloodstained hands and[N]
+the willingness to kill.[AN]
+We're much alike,[.][.] you and I.[A]
+[ClearFace]
+
+[MidRight][LoadCaitlind]
+I'm not like you.[N][.4]
+I have a purpose.[A]
+[ClearFace]
+
+[MidLeft][LoadFace][0x3b][0x1]
+Keep telling yourself that if[N]
+it helps you sleep at night.[AN]
+At least I'm true to myself.[A]
+[ClearFace]
+
+[MidRight][LoadCaitlind]
+Being true to yourself means[N]
+nothing when you drop dead.[AN]
+And I'll make sure you'll drop.[A]
 [X]
 
 ## GoursatDeathQuote
+[MidLeft][LoadFace][0x3b][0x1]
+I was supposed to be covered[N]
+in your blood,[.4] not[Beat][AN]
+guh[Beat][.4] my[Beat] own[Beat][A]
+[X]
+
+##KristanBattleQuote
+So it has come down to this[Beat][.][N]
+No more words.[.6] Let's go.[A]
 [X]
 
 ## KristanDeathQuote
+[MidLeft][LoadFace][0x39][0x1]
+Well done[Beat] Now I can[CloseEyes][Beat][N]
+lay my lance[Beat] to rest[Beat][A]
 [X]
+
+## KristanCharge
+[MidRight][LoadFace][0x39][0x1]
+Bertram and Goursat have fallen?[.4][CloseEyes][N]
+[Beat]time to move in.[A]
+[X]
+
+## MultibossMinibox
+ Defeat bosses[X]
+
+## Ch8ObjectiveDesc
+Defeat all[N]
+three bosses.[X]

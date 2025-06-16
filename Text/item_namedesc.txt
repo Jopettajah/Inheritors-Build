@@ -174,3 +174,16 @@ Kokkolintu[X]
 
 ## IhtiriekkoName
 Ihtiriekko[X]
+
+## SlayingEdgeName
+Slaying Edge[X]
+
+## SlayingLanceName
+Slaying Lance[X]
+
+## SlayingAxeName
+Slaying Axe[X]
+
+## SlayingWepDesc
+Greatly increases critical hit rate.[X]
+

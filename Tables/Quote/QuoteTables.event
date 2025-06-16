@@ -36,7 +36,11 @@ BattleQuoteGeneric(Dave,Chapter5,DaveBattleQuote,0,15)
 BattleQuoteGeneric(JeanneMarie,Chapter6,JeanneBattleQuote,0,1)
 BattleQuoteGeneric(Benjamin,Chapter7,0,BenjaminBossEvent,1)
 BattleQuoteGeneric(Ada,Chapter7,0,AdaBossEvent,10)
-//BattleQuoteGeneric(Bertram,Chapter8,BertramBattleQuote,)
+BattleQuoteSpecific(Bertram,Nishay,Chapter8,BertramNishayBattleQuote,0,16)
+BattleQuoteGeneric(Bertram,Chapter8,BertramBattleQuote,0,17)
+BattleQuoteSpecific(Goursat,Caitlind,Chapter8,GoursatCaitlindBattleQuote,0,18)
+BattleQuoteGeneric(Goursat,Chapter8,GoursatBattleQuote,0,19)
+BattleQuoteGeneric(Kristan,Chapter8,KristanBattleQuote,0,20)
 BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 // Terminator
 
 //EventID 2 for bosses, 0x65 for lords

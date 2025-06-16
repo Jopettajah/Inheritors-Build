@@ -83,6 +83,7 @@
 - Seal: Gheist, Cloudrunner
 - Lisandra Brave: Repositioner
 - CamTech075: Desert Wind
+- GoudaGrabber: Slaying Edge/Lance/Axe
 
 # Scene Backgrounds
 - Doin Thangs: Village Night
