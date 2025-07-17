@@ -243,6 +243,7 @@ PaletteAssociationEntry(Caitlind, $10)
 PaletteAssociationEntry(Caitlind_boss, $19)
 PaletteAssociationEntry(Brigand_Enemy, $1D)
 PaletteAssociationEntry(Farum, $2A)
+PaletteAssociationEntry(Goon2, $2A)
 WORD 0 0
 ALIGN 4
 

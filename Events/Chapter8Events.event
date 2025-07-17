@@ -20,6 +20,7 @@ PointerList:
 
 TurnBasedEvents:
 	TurnEventPlayer(0,BoatAllegianceChange,0,255)
+	TurnEventPlayer(0,Turn1Text,1)
 	//TurnEventPlayer(0,NishaySpawn,2)
 	//TurnEventPlayer(0,CavAi1,2)
 	TurnEventPlayer(0,CavAi2,3)
@@ -27,7 +28,7 @@ TurnBasedEvents:
 
 ALIGN 32
 CharacterBasedEvents:
-	CharacterEvent(NishayFlag,NishayRecruit,Curtis,Nishay)
+	//CharacterEvent(NishayFlag,NishayRecruit,Curtis,Nishay)
 	CharacterEvent(NishayFlag,NishayRecruitLibby,Libby,Nishay)
 	END_MAIN
 
@@ -95,16 +96,28 @@ EnemyUnits:
 	UNIT Farum Mage Bertram Level(10,Enemy,True) [0,18] 0x0 0x0 0x0 0x0 [Elfire] TwoActionAI
 	
 	UNIT Goursat PegasusKnight Goursat Level(12,Enemy,False) [25,1] 0x0 0x0 0x0 0x0 [SilverLance] AttackInRangeAI
-	UNIT Farum AxePeg Goursat Level(10,Enemy,True) [23,1] 0x0 0x0 0x0 0x0 [IronAxe] DefaultAI
-	UNIT Farum PegasusKnight Goursat Level(10,Enemy,True) [24,2] 0x0 0x0 0x0 0x0 [IronLance] DelayedChargeAI
+	//UNIT Farum AxePeg Goursat Level(10,Enemy,True) [23,1] 0x0 0x0 0x0 0x0 [IronAxe] DefaultAI
+	//UNIT Farum PegasusKnight Goursat Level(10,Enemy,True) [24,2] 0x0 0x0 0x0 0x0 [IronLance] DelayedChargeAI
 	UNIT Farum Mercenary_F Goursat Level(10,Enemy,True) [17,4] 0x0 0x0 0x0 0x0 [SteelSword] DelayedChargeAI //AttackInRangeAI
 	UNIT Farum Fighter Goursat Level(10,Enemy,True) [16,5] 0x0 0x0 0x0 0x0 [IronAxe] DelayedChargeAI //AttackInRangeAI
 	UNIT Farum Mage_F Goursat Level(10,Enemy,True) [12,2] 0x0 0x0 0x0 0x0 [Elfire] DefaultAI
 	UNIT Farum LanceCav Goursat Level(10,Enemy,True) [11,1] 0x0 0x0 0x0 0x0 [Javelin] DefaultAI
+	//UNIT Farum Myrmidon Goursat Level(10,Enemy,True) [25,5] 0x0 0x0 0x0 0x0 [IronSword] TwoActionAI
+	//UNIT Farum Soldier Goursat Level(10,Enemy,True) [24,4] 0x0 0x0 0x0 0x0 [IronLance] TwoActionAI
+	UNIT
+
+GoursatPosse:
+	UNIT Farum PegasusKnight Goursat Level(10,Enemy,True) [24,0] 0x0 0x0 0x1 REDA24R2 [IronLance] DelayedChargeAI
+	UNIT Goon2 AxePeg Goursat Level(10,Enemy,True) [23,0] 0x0 0x0 0x1 REDA23R1 [IronAxe] DefaultAI
+	UNIT FarumSlow Myrmidon Goursat Level(10,Enemy,True) [27,5] 0x0 0x0 0x1 REDA25R5 [IronSword] TwoActionAI
+	UNIT FarumWeak Soldier Goursat Level(10,Enemy,True) [27,4] 0x0 0x0 0x1 REDA24R4 [IronLance] TwoActionAI
+	UNIT
+	
+RealDudes:
 	UNIT Farum Myrmidon Goursat Level(10,Enemy,True) [25,5] 0x0 0x0 0x0 0x0 [IronSword] TwoActionAI
 	UNIT Farum Soldier Goursat Level(10,Enemy,True) [24,4] 0x0 0x0 0x0 0x0 [IronLance] TwoActionAI
 	UNIT
-
+	
 ExtraMages:
 	UNIT Farum Mage Kristan Level(10,Enemy,True) [18,18] 0x0 0x0 0x0 0x0 [Fire] DefaultAI
 	UNIT Farum Shaman Kristan Level(10,Enemy,True) [20,18] 0x0 0x0 0x0 0x0 [Flux] DefaultAI
@@ -123,6 +136,13 @@ Landboats:
 NishayGroup:
 	UNIT Nishay Shaman_F Nishay Level(9,NPC,False) [12,0] 0x0 0x0 0x1 REDA12R1 /*REDA19R1*/ [Flux] NeverMoveAI
 	UNIT
+	
+AudinanJobbers:
+	UNIT Audinan Soldier 0x0 Level(5,NPC,True) [24,1] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI
+	UNIT Audinan Mercenary 0x0 Level(5,NPC,True) [24,5] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
+	UNIT Audinan Soldier 0x0 Level(5,NPC,True) [23,2] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI
+	UNIT Audinan Soldier 0x0 Level(5,NPC,True) [3,3] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI
+	UNIT
 
 Traps1:
 	ENDTRAP
@@ -135,12 +155,91 @@ Traps2:
 BeginningScene:
 	LOAD1 0x1 EnemyUnits
 	ENUN
+	
+	LOAD 0x1 AudinanJobbers
+	ENUN
+	
+	FADU 12
+	MUSC OffToWarID
+	CAMERA Bertram
+	CURSOR_FLASHING Bertram
+	STAL 60
+	REMOVE_CURSORS
+	Text(Ch8PreMapBertram)
+	
+	CAMERA Goursat
+	STAL 15
+	StartBattle
+	CriticalHit(0,30)
+	EndAttack
+	FIGHT_MAP Goursat Audinan SilverLance False
+	ENUN
+	REMOVEUNIT Audinan
+	ENUN
+	TEXTSTART
+	TEXTSHOW Ch8PreMapGoursat
+	TEXTEND
+	
+	LOAD1 0x1 GoursatPosse
+	ENUN
+	STAL 10
+	TEXTCONT
+	TEXTEND
+	REMA
+	
+	StartBattle
+	NormalDamage(0,7)
+	MissedAttack(1,0)
+	NormalDamage(0,7)
+	EndAttack
+	FIGHT_MAP FarumSlow Audinan IronSword False
+	ENUN
+
+	StartBattle
+	NormalDamage(0,13)
+	EndAttack
+	FIGHT_MAP FarumWeak Audinan IronLance False
+	ENUN
+	REMOVEUNIT Audinan
+	ENUN
+	
+	StartBattle
+	CriticalHit(0,30)
+	EndAttack
+	FIGHT_MAP Goon2 Audinan IronAxe False
+	ENUN
+	REMOVEUNIT Audinan
+	ENUN
+	
+	CAMERA Kristan
+	CURSOR_FLASHING Kristan
+	STAL 60
+	REMOVE_CURSORS
+	Text(Ch8PreMapKristan)
+	
 	LOAD1 0x1 Landboats
+	ENUN
+	
+	CAMERA Audinan
+	
+	FADI 12
+	REMOVEUNIT Audinan
+	REMOVEUNIT FarumWeak
+	REMOVEUNIT FarumSlow
+	LOAD1 0x1 RealDudes
 	ENUN
 	
 	GotoPrepScreen
 	ENDA
 
+Turn1Text:
+	MUSC 10 DrunkAsILikeID
+	CAMERA Bertram
+	Text(T1BertramYapping)
+	MUSC 10 JhenMohranID
+	NoFade
+	ENDA
+	
 BoatAllegianceChange:	
 	SVAL 1 Jhen
 	ASMC ASMC_IsRescuing|1

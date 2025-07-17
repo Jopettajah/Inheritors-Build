@@ -243,3 +243,11 @@ HornStand:
 ALIGN 4
 HornWalk:
 #incbin "dmp/HornWalk.dmp"
+
+ALIGN 4
+DarkKnightStand:
+#incbin "dmp/DarkKnightPikminNuramonDerstand.dmp"
+
+ALIGN 4
+DarkKnightWalk:
+#incbin "dmp/DarkKnightPikminNuramonDerwalk.dmp"

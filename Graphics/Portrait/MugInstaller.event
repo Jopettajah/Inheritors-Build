@@ -424,6 +424,14 @@ GenOutlaw_Mug:
 setMugEntry(0x4C,GenOutlaw_Mug,3,5,3,3)
 
 ALIGN 4
+AudinaKing_Mug:
+#incbin "dmp/Miguel-RojoF2EOC_mug.dmp
+#incbin "dmp/Miguel-RojoF2EOC_frames.dmp"
+#incbin "dmp/Miguel-RojoF2EOC_palette.dmp"
+#incbin "dmp/Miguel-RojoF2EOC_minimug.dmp"
+setMugEntry(0x4D,AudinaKing_Mug,3,5,3,3)
+
+ALIGN 4
 Elina_Mug:
 #incbin "dmp/Elina_mug.dmp"
 #incbin "dmp/Elina_frames.dmp"

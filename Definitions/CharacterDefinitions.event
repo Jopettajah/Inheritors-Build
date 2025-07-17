@@ -93,6 +93,7 @@
 #define Engineer 0x82
 #define FarumWeak 0x83
 #define FarumSlow 0x84
+#define Goon2 0x85
 #define HeroKing 0x95
 #define SceneDrago 0x96
 #define Brigand_Enemy 0x97

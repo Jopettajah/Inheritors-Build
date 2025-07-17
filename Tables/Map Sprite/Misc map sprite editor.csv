@@ -47,8 +47,8 @@ Shaman,0x81dd0a4,0x81dd888
 Shaman (F),ShamanFWalk|IsPointer,0x81dd888
 Druid,0x81dd9e0,0x81de2c4
 Druid (F),DruidFWalk|IsPointer,0x81de2c4
-Summoner,0x81de41c,0x81dec38
-Summoner (F),0x81de41c,0x81dec38
+Summoner,DarkKnightWalk|IsPointer,0x81dec38
+Summoner (F),DarkKnightWalk|IsPointer,0x81dec38
 Rogue,0x81ded90,0x81df548
 Gorgon Egg,0x81df6a0,0x81dfacc
 Great Knight,0x81dfc24,0x81e058c

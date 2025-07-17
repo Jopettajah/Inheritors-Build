@@ -52,8 +52,10 @@
 - Teraspark: FMonk
 - ArcherBias: Adventurers
 - TheBlindArcher: Halberdier
-- Der: Forest Knight, Duke Knight
+- Der: Forest Knight, Duke Knight, Dark Knight
 - Leo_link: Forest Knight, Duke Knight
+- Der: Dark Knight
+- Pikmin1211: Dark Knight
 
 # Mugs
 
@@ -62,6 +64,7 @@
 - Kyrads: Generic FSoldier
 - Cygnys: Lagrange
 - HyperGammaSpaces: Another generic soldier
+- Miguel Rojo: Audina King
 
 # Class Cards
 

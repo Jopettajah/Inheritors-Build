@@ -294,6 +294,7 @@ TurnEvent:
 	EVBIT_T 9
 	LOAD1 0x1 BigLad
 	ENUN
+	COUNTER_SET 0 0
 	GOTO 7
 	
 	LABEL 8

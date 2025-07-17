@@ -1,3 +1,68 @@
+
+## Ch8PreMapBertram
+[MidLeft][LoadFace][0x3a][0x1]
+Finally![.4] A command[N]
+worthy of my stature![AN]
+I've been the odd-job[N]
+errand boy for far too long![AN]
+[X]
+
+## Ch8PreMapGoursat
+[MidRight][LoadFace][0x3b][0x1]
+Pathetic[Beat] Spilling guts is[N]
+no fun if you don't fight back.[A][CloseSpeechSlow]
+[Event]
+Give them no quarter![N]
+Dye the desert red with their blood![A]
+[X]
+
+## Ch8PreMapKristan
+[MidRight][LoadFace][0x39][0x1]
+Such vainglorious snakes and[N]
+bloodthirsty hounds[Beat][AN]
+How such filth could rise[N]
+to a rank of an officer?[A]
+
+[MidLeft][LoadSoldierBlue]
+Sire![.4] Your orders?[A]
+
+[MidRight]
+Hold still for now.[AN]
+We'll strike when[N]
+the time is right.[A]
+[X]
+
+## T1BertramYapping
+[MidLeft][LoadFace][0x3a][0x1]
+A desert[Beat] There must be[N]
+buried treasure here[Beat][AN]
+And if I find it?[.4][ToggleSmile] Heh[Beat][AN]
+I'll be soaring the ranks[N]
+like a well-fed pegasus![AN][ToggleSmile]
+But where?[N]
+Perhaps near those rocks[ToggleMouthMove]..?[ToggleMouthMove][A]
+
+[MidRight][LoadNishay]
+Perchance my divination[N]
+could be of assistance?[AN]
+I could ask the-[A]
+
+[MidLeft]
+I'm the one in command here.[.4][N]
+And I didn't ask for your opinion.[AN]
+[MidRight]
+[Beat][A]
+
+[MidLeft][ClearFace]
+
+[MidRight]
+[CloseEyes]
+O divine ones,[.][N]
+what should I do?[AN]
+[Beat][.4] [Beat][.4] [Beat][.4][N][ToggleSmile]
+Oh, I see[Beat][A]
+[X]
+
 ## NishayRecruitText
 [X]
 
@@ -103,7 +168,7 @@ Bertram and Goursat have fallen?[.4][CloseEyes][N]
 [X]
 
 ## MultibossMinibox
- Defeat bosses[X]
+ Kill bosses[X]
 
 ## Ch8ObjectiveDesc
 Defeat all[N]

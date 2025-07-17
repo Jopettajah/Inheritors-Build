@@ -248,7 +248,8 @@ Carefree pricess of Audina.[X]
 
 ## SibylDeathQuote
 [MidRight][LoadSibyl]
-[A][X]
+That[Beat][.] wasn't supposed to[Beat][CloseEyes][N]
+What will become of Audina now[ToggleMouthMove]..?[A][X]
 
 ## SuhairaName
 Suhaira[X]
@@ -259,7 +260,7 @@ Inheritor of the dragon's horn.[X]
 
 ## SuhairaDeathQuote
 [MidRight][LoadSuhaira]
-[A][X]
+Milady[Beat] I'm truly sorry[Beat][A][X]
 
 ## FabianName
 Fabian[X]
@@ -270,7 +271,8 @@ Inheritor of the dragon's wing.[X]
 
 ## FabianDeathQuote
 [MidRight][LoadFabian]
-[A][X]
+Ah[Beat] It was fun[Beat][CloseEyes][N]
+while it lasted[Beat][A][X]
 
 ## KimikoName
 Kimiko[X]
@@ -308,11 +310,12 @@ Nishay[X]
 
 ## NishayDesc
 Airheaded fortune-teller[N]
-hailing from Audina.[X]
+hailing from Farum.[X]
 
 ## NishayDeathQuote
 [MidRight][LoadNishay]
-[A][X]
+What?[.4] Have the divine[Beat][N]
+abandoned me?[.4][CloseEyes] No[Beat][A][X]
 
 ## AveryName
 Avery[X]

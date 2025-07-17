@@ -81,6 +81,7 @@ Units1:
 	UNIT Nishay Shaman_F 0x0 Level(10,Ally,False) [2,6] 0x0 0x0 0x0 0x0 [Flux, Nosferatu, GuidingRing] NoAI
 	//UNIT Elina Hero_F 0x0 Level(1,Ally,False) [3,6] 0x0 0x0 0x0 0x0 [IronSword] NoAI
 	UNIT Fabian Wing 0x0 Level(10,Ally,False) [1,6] 0x0 0x0 0x0 0x0 [IronLance] NoAI
+	UNIT Avery General 0x0 Level(2,Ally,True) [4,6] 0x0 0x0 0x0 0x0 [SlayingEdge,SlayingLance,SlayingAxe] NoAI
 	UNIT
 
 EnemyUnits:
