@@ -231,7 +231,7 @@ BYTE 00 00
 ALIGN 4
 
 GreatLancerSkillList:
-BYTE 1 ChargeID
+BYTE 1 HeroesDeathBlowID
 BYTE 00 00
 ALIGN 4
 

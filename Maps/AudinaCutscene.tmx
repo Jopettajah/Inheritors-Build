@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="CastleUpdate.tsx"/>
+ <layer id="1" name="main" width="15" height="10">
+  <properties>
+   <property name="Anims1" value="0x0"/>
+   <property name="Anims2" value="0"/>
+   <property name="ChapterID" value="AudinaCutscene"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0x0"/>
+   <property name="MapID" value="AudinaCastleMap"/>
+   <property name="ObjectType" value="CastleObjectsID"/>
+   <property name="PaletteID" value="CastlePaletteID"/>
+   <property name="TileConfig" value="CastleConfigID"/>
+  </properties>
+  <data encoding="csv">
+523,884,885,862,952,864,884,885,886,862,952,864,884,885,522,
+459,720,916,894,984,896,916,917,918,894,984,896,918,720,459,
+459,879,689,926,927,928,597,949,629,926,927,928,690,752,459,
+459,785,722,689,981,982,980,981,690,689,981,982,722,786,459,
+459,721,786,722,688,722,786,627,786,722,688,722,786,722,459,
+459,785,722,786,722,786,657,693,658,786,722,786,722,786,459,
+491,721,786,722,786,594,561,626,560,595,786,722,786,722,491,
+429,522,721,786,722,786,689,628,690,786,722,786,722,523,430,
+825,429,428,428,430,453,455,455,455,454,429,428,428,430,824,
+822,825,825,825,825,859,657,596,658,822,825,825,825,825,822
+</data>
+ </layer>
+</map>

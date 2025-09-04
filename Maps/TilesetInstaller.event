@@ -40,6 +40,18 @@ ALIGN 4
 DeserNightPalette:
 #incext Png2Dmp "42004344_fin.png" --palette-only
 
+ALIGN 4
+CastleObjects:
+#incext Png2Dmp "CastleUpdateObjects.png" --lz77
+
+ALIGN 4
+CastleConfig:
+#incext compress "CastleUpdateConfig.mapchip_config"
+/*
+ALIGN 4
+CastlePalette:
+#incext Png2Dmp "CastleUpdate.png" --palette-only
+*/
 EventPointerTable(VillageObjectsID, VillageObjects)
 EventPointerTable(VillageConfigID, VillageConfig)
 EventPointerTable(VillagePaletteID, VillagePallette)
@@ -50,3 +62,7 @@ EventPointerTable(FrontierObjectsID, FrontierObjects)
 EventPointerTable(FrontierConfigID, FrontierConfig)
 EventPointerTable(FrontierPaletteID, FrontierPalette)
 EventPointerTable(DesertNightPaletteID, DeserNightPalette)
+EventPointerTable(CastleObjectsID, CastleObjects)
+EventPointerTable(CastleConfigID, CastleConfig)
+//EventPointerTable(CastlePaletteID, CastlePalette)
+

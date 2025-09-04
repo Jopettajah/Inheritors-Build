@@ -70,7 +70,7 @@ with weapon triangle advantage,[N]
 unit makes a guaranteed follow-up.[X]
 
 ## SD_GuardianPromise
-Guardian's Promise: Pieter takes -2[N]
+"My body as a shield!": Pieter takes -2[N]
 damage for each ally under 75% of their[N]
 max HP within 2 tiles, up to -6 damage.[X]
 
@@ -726,7 +726,7 @@ Charisma: Grants +10 Hit/Crit Avoid[N]
 to all allies within three tiles.[X]
 
 ## SD_HeroesDeathBlow
-Death Blow: +6 Attack[N]
+Death Blow: +4 Attack[N]
 when initiating battle.[X]
 
 ## SD_HeroesLifeAndDeath

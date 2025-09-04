@@ -396,13 +396,13 @@
 //Blow Skills: Apply a stat bonus when initiating battle.
 //By Rossendale
 #define DuelistsBlowID 241
-#define DeathBlowID 240
+#define DeathBlowID 255
 #define DartingBlowID 239
 #define WardingBlowID 242
 #define CertainBlowID 238
 #define ArmoredBlowID 237
 //By Darrman
-#define HeroesDeathBlowID 255
+#define HeroesDeathBlowID 240
 
 //Breaker Skills:  +50 Hit/Avo when enemy has the specified weapon type equipped.
 //By Rossendale

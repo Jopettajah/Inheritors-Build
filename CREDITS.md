@@ -36,7 +36,7 @@
 - Gamma: Desert Bastion
 - ZoramineFae: Desert Bastion, Frontier
 - Venno: Desert Bastion, Frontier
-- N426: Desert Bastion
+- N426: Desert Bastion, Improved Castle
 - Peerless: Frontier
 - WAve: Frontier
 - Epicer: Night Desert palette
@@ -105,7 +105,7 @@
 - Aera: Thracia-style trading, remove link arena, give exp event
 - Zane: MMB
 - Teraspark: IER, fancy staves
-- 7743: Flag-based map bgm change, continue map bgm to battle, individual banim by unit, set battle bgm by chapter, dump items to convoy event, preps bgm change by chapter, r-hold banim speedup, give exp event
+- 7743: Flag-based map bgm change, continue map bgm to battle, individual banim by unit, set battle bgm by chapter, dump items to convoy event, preps bgm change by chapter, r-hold banim speedup, give exp event, supports as events
 - Vesly: Additional prebattle calcloop, extended weapon desc box, promote by menu command, cannot die, generic portrait fixes, exp share, give exp event
 - stan: lordsplitmenu, lvl up wrank display, EMS, icon rework, negative crit, popup rework, unit action rework, wrank fix, ai perform extension
 - AuraWolf: Modular Unit Menu, HelpText
@@ -135,6 +135,7 @@
 - MonopolyRubix: Xenoblade - An Obstacle In Our Path
 - Alusq: FE3 - Off to War Remix
 - Azula: FE11 - Trouble!
+- Trikki Nikki: Lock's Quest -Archineer
 
 ## midi rippers/transcribers
 - Miffe: Xenoblade - An Obstacle In Our Path

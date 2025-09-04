@@ -86,6 +86,10 @@ POP
   #endif
   */
   
+  #include "ExternalHacks/StaffExp/C_Code.lyn.event"
+  
+  #include "ExternalHacks/RunEventBySupport/installer.event"
+  
   #include "ExternalHacks/GiveExp/GiveExpInstaller.event"
   
   #include "ExternalHacks/GenericPortraitFixes/Installer.event"

@@ -5,7 +5,7 @@ Eye,SeerClass,0x0000,0x0000,0x0000,SeerDesc,0x0000,0x0001
 PrincePromo,NoPromoText,0x0000,0x0,0x0000,NoPromoDesc,0x0000,0x0000
 Eye Promo,NoPromoText,0x0000,0x0000,0x0000,NoPromoDesc,0x0000,0x0001
 Sword Cavalier,0x2c2,ForrestKnightClass,TriangleAdeptID,DartingBlowID,PaladinDesc,ForrestKnightDesc,0x0000
-Lance Cavalier,0x2c2,GreatLancerClass,TriangleAdeptID,ChargeID,PaladinDesc,GreatLancerDesc,0x0000
+Lance Cavalier,0x2c2,GreatLancerClass,TriangleAdeptID,HeroesDeathBlowID,PaladinDesc,GreatLancerDesc,0x0000
 Paladin,NoPromoText,0x0000,0x0000,0x0000,NoPromoDesc,0x0000,0x0000
 Paladin (F),NoPromoText,0x0000,0x0000,0x0000,NoPromoDesc,0x0000,0x0000
 Lance Armour Knight,0x2c4,HalberdierClass,LilysPoiseID,LancefaireID,GeneralDesc,HalberdierDesc,0x0000
@@ -77,7 +77,7 @@ Cleric,0x2d4,0x2e2,TomebreakerID,SealResID,BishopDesc,DruidDesc,0x0000
 Troubadour,0x2eb,0x2d3,0x0000,0x0000,0x337,0x31f,0x0000
 Valkyrie,NoPromoText,0x0000,0x0000,0x0000,NoPromoDesc,0x0000,0x0000
 Dancer,NoPromoText,0x0000,0x0000,0x0000,NoPromoDesc,0x0000,0x0000
-Soldier,HalberdierClass,GreatLancerClass,LancefaireID,ChargeID,HalberdierDesc,GreatLancerDesc,0x0000
+Soldier,HalberdierClass,GreatLancerClass,LancefaireID,HeroesDeathBlowID,HalberdierDesc,GreatLancerDesc,0x0000
 Necromancer,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
 Fleet,NoPromoText,0x0000,0x0000,0x0000,NoPromoDesc,0x0000,0x0000
 Phantom,NoPromoText,0x0000,0x0000,0x0000,NoPromoDesc,0x0000,0x0000

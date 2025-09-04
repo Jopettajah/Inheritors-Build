@@ -67,3 +67,8 @@
 #define CyclopeanHauntID 0xc4
 #define DarkPrisonID 0xc5
 #define LunaDialID 0xc6
+#define JungleNavigationID 0xd9
+#define NeverendingDreamID 0xdA
+#define ArchineerID 0xdb
+/*0xe0
+0xe1*/

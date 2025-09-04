@@ -134,6 +134,7 @@
 [LoadBossTwo] = [LoadFace][0x31][0x1]
 [LoadBossThree] = [LoadFace][0x32][0x1]
 [LoadBossFour] = [LoadFace][0x33][0x1]
+[LoadAudinaKing] = [LoadFace][0x4D][0x1]
 [LoadPieter] = [LoadFace][0x52][0x1]
 [LoadGarry] = [LoadFace][0x53][0x1]
 [LoadSideburns] = [LoadFace][0x54][0x1]

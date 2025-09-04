@@ -408,6 +408,14 @@ Kristan_Mug:
 setMugEntry(0x39, Kristan_Mug, 3,5,3,3)
 
 ALIGN 4
+Bertram_Mug:
+#incbin "dmp/Bertram_mug.dmp"
+#incbin "dmp/Bertram_frames.dmp"
+#incbin "dmp/Bertram_palette.dmp"
+#incbin "dmp/Bertram_minimug.dmp"
+setMugEntry(0x3A, Bertram_Mug,2,5,2,3)
+
+ALIGN 4
 Goursat_Mug:
 #incbin "dmp/Goursat_mug.dmp"
 #incbin "dmp/Goursat_frames.dmp"
@@ -425,11 +433,11 @@ setMugEntry(0x4C,GenOutlaw_Mug,3,5,3,3)
 
 ALIGN 4
 AudinaKing_Mug:
-#incbin "dmp/Miguel-RojoF2EOC_mug.dmp
+#incbin "dmp/Miguel-RojoF2EOC_mug.dmp"
 #incbin "dmp/Miguel-RojoF2EOC_frames.dmp"
 #incbin "dmp/Miguel-RojoF2EOC_palette.dmp"
 #incbin "dmp/Miguel-RojoF2EOC_minimug.dmp"
-setMugEntry(0x4D,AudinaKing_Mug,3,5,3,3)
+setMugEntry(0x4D,AudinaKing_Mug,3,5,2,2)
 
 ALIGN 4
 Elina_Mug:

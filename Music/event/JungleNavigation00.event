@@ -1,0 +1,3295 @@
+//Event file generated from Sappy .s format.
+        #include "MPlayDef.event"
+
+        #define    JungleNavigation00_grp  voicegroup000
+        #define    JungleNavigation00_pri  0
+        #define    JungleNavigation00_rev  0
+        #define    JungleNavigation00_key  0
+
+        // .rodata
+        // JungleNavigation00
+        ALIGN 4
+
+//****************** Track 0 (Midi-Chn.0) ******************//
+
+JungleNavigation00_0:
+        BYTE   KEYSH   JungleNavigation00_key+0
+// 000   ----------------------------------------
+        BYTE   TEMPO   110/2
+JungleNavigation00_0_LOOP:
+        BYTE           VOICE   0
+        BYTE           VOL     31
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+JungleNavigation00_0_3:
+        BYTE   W84
+        BYTE           N84     Gn3   v106   gtp2
+        BYTE   W12
+        BYTE   PEND
+// 004   ----------------------------------------
+JungleNavigation00_0_4:
+        BYTE           N84     Gn4   v099   gtp3
+        BYTE   W12
+        BYTE           N40     Cn4   v115
+        BYTE   W24
+        BYTE           N42     Fn4   v126
+        BYTE   W24
+        BYTE           N52     As3   v101
+        BYTE   W24
+        BYTE           N92     Cn4   v118   gtp2
+        BYTE   W12
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_3
+// 006   ----------------------------------------
+JungleNavigation00_0_6:
+        BYTE           N84     Gn4   v099   gtp3
+        BYTE   W12
+        BYTE           N40     Cn4   v115
+        BYTE   W24
+        BYTE           N42     Fn4   v126
+        BYTE   W24
+        BYTE           N92     As4   v088   gtp2
+        BYTE   W24
+        BYTE           N68     Cn5   v094   gtp2
+        BYTE   W12
+        BYTE   PEND
+// 007   ----------------------------------------
+        BYTE   W12
+        BYTE           N32     Gs4   v110   gtp3
+        BYTE   W12
+        BYTE           N56     Gn4   v101   gtp2
+        BYTE   W12
+        BYTE           N52     Fn4
+        BYTE   W48
+        BYTE           N84     Gn3   v106   gtp2
+        BYTE   W12
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_4
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_3
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_6
+// 011   ----------------------------------------
+        BYTE   W12
+        BYTE           N32     Gs4   v110   gtp3
+        BYTE   W12
+        BYTE           N56     Gn4   v101   gtp2
+        BYTE   W12
+        BYTE           TIE     Fn4
+        BYTE   W60
+// 012   ----------------------------------------
+        BYTE   W92
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W01
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+JungleNavigation00_0_15:
+        BYTE   W36
+        BYTE           N28     Gn3   v119   gtp1
+        BYTE   W12
+        BYTE           N60     Gs3   v122   gtp2
+        BYTE   W12
+        BYTE           N44     Ds4   v113   gtp3
+        BYTE   W12
+        BYTE           N17     Cn4   v122
+        BYTE   W12
+        BYTE           N13     As3   v124
+        BYTE   W12
+        BYTE   PEND
+// 016   ----------------------------------------
+JungleNavigation00_0_16:
+        BYTE           N42     Cn4   v122
+        BYTE   W36
+        BYTE           N78     Fn3   v107   gtp1
+        BYTE   W60
+        BYTE   PEND
+// 017   ----------------------------------------
+JungleNavigation00_0_17:
+        BYTE   W48
+        BYTE           N24     As3   v117   gtp3
+        BYTE   W24
+        BYTE           N24     Gs3   v122   gtp1
+        BYTE   W24
+        BYTE   PEND
+// 018   ----------------------------------------
+JungleNavigation00_0_18:
+        BYTE           N60     Gn3   v119   gtp1
+        BYTE   W36
+        BYTE           N78     Ds3   v109
+        BYTE   W60
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_15
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_16
+// 021   ----------------------------------------
+JungleNavigation00_0_21:
+        BYTE   W48
+        BYTE           N24     As3   v117   gtp3
+        BYTE   W24
+        BYTE           N24     Fn4   v122   gtp1
+        BYTE   W24
+        BYTE   PEND
+// 022   ----------------------------------------
+JungleNavigation00_0_22:
+        BYTE           N60     Ds4   v119   gtp1
+        BYTE   W36
+        BYTE           N78     Cn4   v109
+        BYTE   W60
+        BYTE   PEND
+// 023   ----------------------------------------
+JungleNavigation00_0_23:
+        BYTE   W36
+        BYTE           N28     Ds3   v119   gtp1
+        BYTE   W12
+        BYTE           N60     Gn3   v122   gtp2
+        BYTE   W12
+        BYTE           N44     Gs3   v113   gtp3
+        BYTE   W12
+        BYTE           N17     As3   v122
+        BYTE   W12
+        BYTE           N28     Ds4   v124   gtp1
+        BYTE   W12
+        BYTE   PEND
+// 024   ----------------------------------------
+JungleNavigation00_0_24:
+        BYTE           N13     Cs4   v125
+        BYTE   W12
+        BYTE           N07     Cn4   v127
+        BYTE   W12
+        BYTE           N13     Cn4   v117
+        BYTE   W12
+        BYTE           TIE     Fn3   v127
+        BYTE   W60
+        BYTE   PEND
+// 025   ----------------------------------------
+JungleNavigation00_0_25:
+        BYTE   W40
+        BYTE   W01
+        BYTE           EOT     Fn3
+        BYTE   W07
+        BYTE           N24     As3   v111   gtp3
+        BYTE   W24
+        BYTE           N24     Cn4   v118   gtp1
+        BYTE   W24
+        BYTE   PEND
+// 026   ----------------------------------------
+JungleNavigation00_0_26:
+        BYTE           N36     Fn3   v110
+        BYTE   W36
+        BYTE           N68     Ds3   v104   gtp2
+        BYTE   W60
+        BYTE   PEND
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_23
+// 028   ----------------------------------------
+JungleNavigation00_0_28:
+        BYTE           N13     Cs4   v125
+        BYTE   W12
+        BYTE           N07     Cn4   v127
+        BYTE   W12
+        BYTE           N13     Cn4   v117
+        BYTE   W12
+        BYTE           N23     Fn3   v108
+        BYTE   W24
+        BYTE           N13     Gs3   v122
+        BYTE   W12
+        BYTE           N12     Fn3   v109
+        BYTE   W12
+        BYTE           N42     Gs3   v113   gtp1
+        BYTE   W12
+        BYTE   PEND
+// 029   ----------------------------------------
+JungleNavigation00_0_29:
+        BYTE   W48
+        BYTE           N24     As3   v108   gtp2
+        BYTE   W24
+        BYTE           N23     Gs3   v127
+        BYTE   W24
+        BYTE   PEND
+// 030   ----------------------------------------
+JungleNavigation00_0_30:
+        BYTE           N36     As3   v124   gtp1
+        BYTE   W36
+        BYTE           N80     Cn4   v103   gtp3
+        BYTE   W60
+        BYTE   PEND
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_15
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_16
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_17
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_18
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_15
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_16
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_21
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_22
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_23
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_24
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_25
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_26
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_23
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_28
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_29
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_30
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+JungleNavigation00_0_48:
+        BYTE           N15     As4   v088
+        BYTE   W12
+        BYTE           N18     Dn4   v102
+        BYTE   W12
+        BYTE           N13     Ds4   v101
+        BYTE   W12
+        BYTE           N22     As4   v097
+        BYTE   W24
+        BYTE           N14     Dn4   v104
+        BYTE   W12
+        BYTE           N15     Ds4   v106
+        BYTE   W12
+        BYTE           N24     As4   v102
+        BYTE   W12
+        BYTE   PEND
+// 049   ----------------------------------------
+JungleNavigation00_0_49:
+        BYTE   W12
+        BYTE           N68     Cn5   v096
+        BYTE   W84
+        BYTE   PEND
+// 050   ----------------------------------------
+JungleNavigation00_0_50:
+        BYTE           N11     As4   v096
+        BYTE   W12
+        BYTE           N15     Dn4   v100
+        BYTE   W12
+        BYTE           N14     Ds4   v105
+        BYTE   W12
+        BYTE           N23     As4   v101
+        BYTE   W24
+        BYTE           N17     Dn4   v106
+        BYTE   W12
+        BYTE           N15     Ds4   v108
+        BYTE   W12
+        BYTE           N80     As4   v100   gtp3
+        BYTE   W12
+        BYTE   PEND
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_48
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_49
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_50
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_48
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_49
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_50
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_48
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_49
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_0_50
+// 063   ----------------------------------------
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE   W06
+        BYTE   GoTo
+         POIN2  JungleNavigation00_0_LOOP
+        BYTE   W04
+        BYTE   FINE
+
+//****************** Track 1 (Midi-Chn.1) ******************//
+
+JungleNavigation00_1:
+        BYTE   KEYSH   JungleNavigation00_key+0
+// 000   ----------------------------------------
+JungleNavigation00_1_LOOP:
+        BYTE           VOICE   3
+        BYTE           VOL     14
+        BYTE           PAN     c_v-61
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+JungleNavigation00_1_4:
+        BYTE   W24
+        BYTE           N11     Gn3   v071
+        BYTE   W12
+        BYTE                   Gn4   v064
+        BYTE   W12
+        BYTE           N23     Cn4   v080
+        BYTE   W24
+        BYTE                   Fn4   v101
+        BYTE   W24
+        BYTE   PEND
+// 005   ----------------------------------------
+JungleNavigation00_1_5:
+        BYTE           N23     As3   v066
+        BYTE   W24
+        BYTE           N92     Cn4   v083   gtp2
+        BYTE   W72
+        BYTE   PEND
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_4
+// 007   ----------------------------------------
+        BYTE           N23     As4   v068
+        BYTE   W24
+        BYTE                   Cn5   v075
+        BYTE   W24
+        BYTE           N11     Gs4   v095
+        BYTE   W12
+        BYTE                   Gn4   v066
+        BYTE   W12
+        BYTE           N44     Fn4   v066   gtp3
+        BYTE   W24
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_4
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_5
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_4
+// 011   ----------------------------------------
+        BYTE           N23     As4   v068
+        BYTE   W24
+        BYTE                   Cn5   v075
+        BYTE   W24
+        BYTE           N11     Gs4   v095
+        BYTE   W12
+        BYTE                   Gn4   v066
+        BYTE   W12
+        BYTE           TIE     Fn4
+        BYTE   W24
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W32
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W60
+        BYTE   W01
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+JungleNavigation00_1_15:
+        BYTE   W72
+        BYTE           N11     Gn3   v099
+        BYTE   W12
+        BYTE                   Gs3   v102
+        BYTE   W12
+        BYTE   PEND
+// 016   ----------------------------------------
+JungleNavigation00_1_16:
+        BYTE           N11     Ds4   v093
+        BYTE   W12
+        BYTE                   Cn4   v102
+        BYTE   W12
+        BYTE                   As3   v104
+        BYTE   W12
+        BYTE           N32     Cn4   v102   gtp3
+        BYTE   W36
+        BYTE           N78     Fn3   v087   gtp1
+        BYTE   W24
+        BYTE   PEND
+// 017   ----------------------------------------
+JungleNavigation00_1_17:
+        BYTE   W84
+        BYTE           N23     As3   v097
+        BYTE   W12
+        BYTE   PEND
+// 018   ----------------------------------------
+JungleNavigation00_1_18:
+        BYTE   W12
+        BYTE           N23     Gs3   v102
+        BYTE   W24
+        BYTE           N32     Gn3   v099   gtp3
+        BYTE   W36
+        BYTE           N78     Ds3   v089
+        BYTE   W24
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_15
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_16
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_17
+// 022   ----------------------------------------
+JungleNavigation00_1_22:
+        BYTE   W12
+        BYTE           N23     Fn4   v102
+        BYTE   W24
+        BYTE           N32     Ds4   v099   gtp3
+        BYTE   W36
+        BYTE           N78     Cn4   v089
+        BYTE   W24
+        BYTE   PEND
+// 023   ----------------------------------------
+JungleNavigation00_1_23:
+        BYTE   W72
+        BYTE           N11     Ds3   v099
+        BYTE   W12
+        BYTE                   Gn3   v102
+        BYTE   W12
+        BYTE   PEND
+// 024   ----------------------------------------
+JungleNavigation00_1_24:
+        BYTE           N11     Gs3   v093
+        BYTE   W12
+        BYTE                   As3   v102
+        BYTE   W12
+        BYTE                   Ds4   v104
+        BYTE   W12
+        BYTE                   Cs4   v105
+        BYTE   W12
+        BYTE           N07     Cn4   v107
+        BYTE   W12
+        BYTE           N11     Cn4   v097
+        BYTE   W12
+        BYTE           TIE     Fn3   v108
+        BYTE   W24
+        BYTE   PEND
+// 025   ----------------------------------------
+JungleNavigation00_1_25:
+        BYTE   W76
+        BYTE   W01
+        BYTE           EOT     Fn3
+        BYTE   W07
+        BYTE           N23     As3   v091
+        BYTE   W12
+        BYTE   PEND
+// 026   ----------------------------------------
+JungleNavigation00_1_26:
+        BYTE   W12
+        BYTE           N23     Cn4   v098
+        BYTE   W24
+        BYTE           N32     Fn3   v090   gtp3
+        BYTE   W36
+        BYTE           N68     Ds3   v084   gtp2
+        BYTE   W24
+        BYTE   PEND
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_23
+// 028   ----------------------------------------
+JungleNavigation00_1_28:
+        BYTE           N11     Gs3   v093
+        BYTE   W12
+        BYTE                   As3   v102
+        BYTE   W12
+        BYTE                   Ds4   v104
+        BYTE   W12
+        BYTE                   Cs4   v105
+        BYTE   W12
+        BYTE           N07     Cn4   v107
+        BYTE   W12
+        BYTE           N11     Cn4   v097
+        BYTE   W12
+        BYTE           N23     Fn3   v088
+        BYTE   W24
+        BYTE   PEND
+// 029   ----------------------------------------
+JungleNavigation00_1_29:
+        BYTE           N11     Gs3   v102
+        BYTE   W12
+        BYTE                   Fn3   v089
+        BYTE   W12
+        BYTE           N42     Gs3   v093   gtp1
+        BYTE   W60
+        BYTE           N23     As3   v088
+        BYTE   W12
+        BYTE   PEND
+// 030   ----------------------------------------
+JungleNavigation00_1_30:
+        BYTE   W12
+        BYTE           N23     Gs3   v107
+        BYTE   W24
+        BYTE           N32     As3   v104   gtp3
+        BYTE   W36
+        BYTE           N80     Cn4   v083   gtp3
+        BYTE   W24
+        BYTE   PEND
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_15
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_16
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_17
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_18
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_15
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_16
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_17
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_22
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_23
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_24
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_25
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_26
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_23
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_28
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_29
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_30
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+JungleNavigation00_1_48:
+        BYTE   W36
+        BYTE           N11     As4   v068
+        BYTE   W12
+        BYTE                   Dn4   v082
+        BYTE   W12
+        BYTE                   Ds4   v081
+        BYTE   W12
+        BYTE           N22     As4   v077
+        BYTE   W24
+        BYTE   PEND
+// 049   ----------------------------------------
+JungleNavigation00_1_49:
+        BYTE           N11     Dn4   v084
+        BYTE   W12
+        BYTE                   Ds4   v086
+        BYTE   W12
+        BYTE           N23     As4   v082
+        BYTE   W24
+        BYTE           N68     Cn5   v076
+        BYTE   W48
+        BYTE   PEND
+// 050   ----------------------------------------
+JungleNavigation00_1_50:
+        BYTE   W36
+        BYTE           N11     As4   v076
+        BYTE   W12
+        BYTE                   Dn4   v080
+        BYTE   W12
+        BYTE                   Ds4   v085
+        BYTE   W12
+        BYTE           N23     As4   v081
+        BYTE   W24
+        BYTE   PEND
+// 051   ----------------------------------------
+JungleNavigation00_1_51:
+        BYTE           N11     Dn4   v086
+        BYTE   W12
+        BYTE                   Ds4   v088
+        BYTE   W12
+        BYTE           N23     As4   v080
+        BYTE   W72
+        BYTE   PEND
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_48
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_49
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_50
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_51
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_48
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_49
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_50
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_51
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_48
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_49
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_50
+// 063   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_1_51
+// 064   ----------------------------------------
+        BYTE   W06
+        BYTE   GoTo
+         POIN2  JungleNavigation00_1_LOOP
+        BYTE   W04
+        BYTE   FINE
+
+//****************** Track 2 (Midi-Chn.2) ******************//
+
+JungleNavigation00_2:
+        BYTE   KEYSH   JungleNavigation00_key+0
+// 000   ----------------------------------------
+JungleNavigation00_2_LOOP:
+        BYTE           VOICE   3
+        BYTE           VOL     14
+        BYTE           PAN     c_v+60
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+JungleNavigation00_2_4:
+        BYTE   W04
+        BYTE           N11     Gn3   v071
+        BYTE   W12
+        BYTE                   Gn4   v064
+        BYTE   W12
+        BYTE           N23     Cn4   v080
+        BYTE   W24
+        BYTE                   Fn4   v101
+        BYTE   W24
+        BYTE                   As3   v066
+        BYTE   W20
+        BYTE   PEND
+// 005   ----------------------------------------
+JungleNavigation00_2_5:
+        BYTE   W04
+        BYTE           N92     Cn4   v083   gtp2
+        BYTE   W92
+        BYTE   PEND
+// 006   ----------------------------------------
+JungleNavigation00_2_6:
+        BYTE   W04
+        BYTE           N11     Gn3   v071
+        BYTE   W12
+        BYTE                   Gn4   v064
+        BYTE   W12
+        BYTE           N23     Cn4   v080
+        BYTE   W24
+        BYTE                   Fn4   v101
+        BYTE   W24
+        BYTE                   As4   v068
+        BYTE   W20
+        BYTE   PEND
+// 007   ----------------------------------------
+        BYTE   W04
+        BYTE                   Cn5   v075
+        BYTE   W24
+        BYTE           N11     Gs4   v095
+        BYTE   W12
+        BYTE                   Gn4   v066
+        BYTE   W12
+        BYTE           N44     Fn4   v066   gtp3
+        BYTE   W44
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_4
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_5
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_6
+// 011   ----------------------------------------
+        BYTE   W04
+        BYTE           N23     Cn5   v075
+        BYTE   W24
+        BYTE           N11     Gs4   v095
+        BYTE   W12
+        BYTE                   Gn4   v066
+        BYTE   W12
+        BYTE           TIE     Fn4
+        BYTE   W44
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W15
+        BYTE           EOT
+        BYTE   W80
+        BYTE   W01
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+JungleNavigation00_2_15:
+        BYTE   W52
+        BYTE           N11     Gn3   v099
+        BYTE   W12
+        BYTE                   Gs3   v102
+        BYTE   W12
+        BYTE                   Ds4   v093
+        BYTE   W12
+        BYTE                   Cn4   v102
+        BYTE   W08
+        BYTE   PEND
+// 016   ----------------------------------------
+JungleNavigation00_2_16:
+        BYTE   W04
+        BYTE           N11     As3   v104
+        BYTE   W12
+        BYTE           N32     Cn4   v102   gtp3
+        BYTE   W36
+        BYTE           N78     Fn3   v087   gtp1
+        BYTE   W44
+        BYTE   PEND
+// 017   ----------------------------------------
+JungleNavigation00_2_17:
+        BYTE   W64
+        BYTE           N23     As3   v097
+        BYTE   W24
+        BYTE                   Gs3   v102
+        BYTE   W08
+        BYTE   PEND
+// 018   ----------------------------------------
+JungleNavigation00_2_18:
+        BYTE   W16
+        BYTE           N32     Gn3   v099   gtp3
+        BYTE   W36
+        BYTE           N78     Ds3   v089
+        BYTE   W44
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_15
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_16
+// 021   ----------------------------------------
+JungleNavigation00_2_21:
+        BYTE   W64
+        BYTE           N23     As3   v097
+        BYTE   W24
+        BYTE                   Fn4   v102
+        BYTE   W08
+        BYTE   PEND
+// 022   ----------------------------------------
+JungleNavigation00_2_22:
+        BYTE   W16
+        BYTE           N32     Ds4   v099   gtp3
+        BYTE   W36
+        BYTE           N78     Cn4   v089
+        BYTE   W44
+        BYTE   PEND
+// 023   ----------------------------------------
+JungleNavigation00_2_23:
+        BYTE   W52
+        BYTE           N11     Ds3   v099
+        BYTE   W12
+        BYTE                   Gn3   v102
+        BYTE   W12
+        BYTE                   Gs3   v093
+        BYTE   W12
+        BYTE                   As3   v102
+        BYTE   W08
+        BYTE   PEND
+// 024   ----------------------------------------
+JungleNavigation00_2_24:
+        BYTE   W04
+        BYTE           N11     Ds4   v104
+        BYTE   W12
+        BYTE                   Cs4   v105
+        BYTE   W12
+        BYTE           N07     Cn4   v107
+        BYTE   W12
+        BYTE           N11     Cn4   v097
+        BYTE   W12
+        BYTE           TIE     Fn3   v108
+        BYTE   W44
+        BYTE   PEND
+// 025   ----------------------------------------
+JungleNavigation00_2_25:
+        BYTE   W56
+        BYTE   W01
+        BYTE           EOT     Fn3
+        BYTE   W07
+        BYTE           N23     As3   v091
+        BYTE   W24
+        BYTE                   Cn4   v098
+        BYTE   W08
+        BYTE   PEND
+// 026   ----------------------------------------
+JungleNavigation00_2_26:
+        BYTE   W16
+        BYTE           N32     Fn3   v090   gtp3
+        BYTE   W36
+        BYTE           N68     Ds3   v084   gtp2
+        BYTE   W44
+        BYTE   PEND
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_23
+// 028   ----------------------------------------
+JungleNavigation00_2_28:
+        BYTE   W04
+        BYTE           N11     Ds4   v104
+        BYTE   W12
+        BYTE                   Cs4   v105
+        BYTE   W12
+        BYTE           N07     Cn4   v107
+        BYTE   W12
+        BYTE           N11     Cn4   v097
+        BYTE   W12
+        BYTE           N23     Fn3   v088
+        BYTE   W24
+        BYTE           N11     Gs3   v102
+        BYTE   W12
+        BYTE                   Fn3   v089
+        BYTE   W08
+        BYTE   PEND
+// 029   ----------------------------------------
+JungleNavigation00_2_29:
+        BYTE   W04
+        BYTE           N42     Gs3   v093   gtp1
+        BYTE   W60
+        BYTE           N23     As3   v088
+        BYTE   W24
+        BYTE                   Gs3   v107
+        BYTE   W08
+        BYTE   PEND
+// 030   ----------------------------------------
+JungleNavigation00_2_30:
+        BYTE   W16
+        BYTE           N32     As3   v104   gtp3
+        BYTE   W36
+        BYTE           N80     Cn4   v083   gtp3
+        BYTE   W44
+        BYTE   PEND
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_15
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_16
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_17
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_18
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_15
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_16
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_21
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_22
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_23
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_24
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_25
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_26
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_23
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_28
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_29
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_30
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+JungleNavigation00_2_48:
+        BYTE   W16
+        BYTE           N11     As4   v068
+        BYTE   W12
+        BYTE                   Dn4   v082
+        BYTE   W12
+        BYTE                   Ds4   v081
+        BYTE   W12
+        BYTE           N22     As4   v077
+        BYTE   W24
+        BYTE           N11     Dn4   v084
+        BYTE   W12
+        BYTE                   Ds4   v086
+        BYTE   W08
+        BYTE   PEND
+// 049   ----------------------------------------
+JungleNavigation00_2_49:
+        BYTE   W04
+        BYTE           N23     As4   v082
+        BYTE   W24
+        BYTE           N68     Cn5   v076
+        BYTE   W68
+        BYTE   PEND
+// 050   ----------------------------------------
+JungleNavigation00_2_50:
+        BYTE   W16
+        BYTE           N11     As4   v076
+        BYTE   W12
+        BYTE                   Dn4   v080
+        BYTE   W12
+        BYTE                   Ds4   v085
+        BYTE   W12
+        BYTE           N23     As4   v081
+        BYTE   W24
+        BYTE           N11     Dn4   v086
+        BYTE   W12
+        BYTE                   Ds4   v088
+        BYTE   W08
+        BYTE   PEND
+// 051   ----------------------------------------
+JungleNavigation00_2_51:
+        BYTE   W04
+        BYTE           N23     As4   v080
+        BYTE   W92
+        BYTE   PEND
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_48
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_49
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_50
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_51
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_48
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_49
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_50
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_51
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_48
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_49
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_50
+// 063   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_2_51
+// 064   ----------------------------------------
+        BYTE   W06
+        BYTE   GoTo
+         POIN2  JungleNavigation00_2_LOOP
+        BYTE   W04
+        BYTE   FINE
+
+//****************** Track 3 (Midi-Chn.3) ******************//
+
+JungleNavigation00_3:
+        BYTE   KEYSH   JungleNavigation00_key+0
+// 000   ----------------------------------------
+JungleNavigation00_3_LOOP:
+        BYTE           VOICE   96
+        BYTE           PAN     c_v+31
+        BYTE           VOL     18
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE           TIE     Gs3   v070
+        BYTE           TIE     Cn4
+        BYTE   W01
+        BYTE           VOL     10
+        BYTE   W02
+        BYTE                   13
+        BYTE   W16
+        BYTE                   14
+        BYTE   W21
+        BYTE                   15
+        BYTE   W24
+        BYTE                   16
+        BYTE   W30
+        BYTE   W01
+        BYTE                   17
+        BYTE   W01
+// 017   ----------------------------------------
+        BYTE   W44
+        BYTE                   18
+        BYTE   W52
+// 018   ----------------------------------------
+        BYTE           EOT
+        BYTE           TIE     Gn3
+        BYTE           TIE     As3
+        BYTE   W02
+        BYTE           EOT     Gs3
+        BYTE   W66
+        BYTE           VOL     17
+        BYTE   W28
+// 019   ----------------------------------------
+        BYTE   W11
+        BYTE                   16
+        BYTE   W24
+        BYTE   W02
+        BYTE                   15
+        BYTE   W20
+        BYTE                   14
+        BYTE   W16
+        BYTE                   13
+        BYTE   W15
+        BYTE                   12
+        BYTE   W06
+        BYTE           EOT     Gn3
+        BYTE   W01
+        BYTE                   As3
+        BYTE   W01
+// 020   ----------------------------------------
+        BYTE           TIE     Gs3
+        BYTE           TIE     Cn4
+        BYTE   W06
+        BYTE           VOL     13
+        BYTE   W20
+        BYTE                   14
+        BYTE   W19
+        BYTE                   15
+        BYTE   W24
+        BYTE                   16
+        BYTE   W24
+        BYTE   W03
+// 021   ----------------------------------------
+        BYTE   W04
+        BYTE                   17
+        BYTE   W36
+        BYTE   W03
+        BYTE                   18
+        BYTE   W52
+        BYTE   W01
+// 022   ----------------------------------------
+        BYTE           TIE     As3
+        BYTE   W02
+        BYTE           EOT     Cn4
+        BYTE   W01
+        BYTE                   Gs3
+        BYTE   W56
+        BYTE   W03
+        BYTE           VOL     17
+        BYTE   W32
+        BYTE   W02
+// 023   ----------------------------------------
+        BYTE   W07
+        BYTE                   16
+        BYTE   W24
+        BYTE   W03
+        BYTE                   15
+        BYTE   W22
+        BYTE                   14
+        BYTE   W17
+        BYTE                   13
+        BYTE   W23
+// 024   ----------------------------------------
+        BYTE           TIE
+        BYTE   W05
+        BYTE           EOT     As3
+        BYTE   W08
+        BYTE           VOL     14
+        BYTE   W21
+        BYTE                   15
+        BYTE   W28
+        BYTE                   16
+        BYTE   W32
+        BYTE                   17
+        BYTE   W02
+// 025   ----------------------------------------
+        BYTE   W48
+        BYTE                   18
+        BYTE   W48
+// 026   ----------------------------------------
+        BYTE           EOT     Gs3
+        BYTE           TIE     As3
+        BYTE   W64
+        BYTE           VOL     17
+        BYTE   W32
+// 027   ----------------------------------------
+        BYTE   W12
+        BYTE                   16
+        BYTE   W28
+        BYTE                   15
+        BYTE   W24
+        BYTE                   14
+        BYTE   W18
+        BYTE                   13
+        BYTE   W14
+// 028   ----------------------------------------
+        BYTE           TIE     Gs3
+        BYTE   W01
+        BYTE           EOT     As3
+        BYTE   W09
+        BYTE           VOL     14
+        BYTE   W20
+        BYTE                   15
+        BYTE   W24
+        BYTE                   16
+        BYTE   W28
+        BYTE   W01
+        BYTE                   17
+        BYTE   W13
+// 029   ----------------------------------------
+        BYTE   W28
+        BYTE                   18
+        BYTE   W68
+// 030   ----------------------------------------
+        BYTE           EOT     Gs3
+        BYTE           TIE     Gn3
+        BYTE           TIE     As3
+        BYTE   W60
+        BYTE   W01
+        BYTE           VOL     17
+        BYTE   W32
+        BYTE   W03
+// 031   ----------------------------------------
+        BYTE   W03
+        BYTE                   16
+        BYTE   W24
+        BYTE   W02
+        BYTE                   15
+        BYTE   W21
+        BYTE                   14
+        BYTE   W18
+        BYTE                   13
+        BYTE   W17
+        BYTE                   12
+        BYTE   W09
+        BYTE           EOT
+        BYTE   W01
+        BYTE                   Gn3
+        BYTE   W01
+// 032   ----------------------------------------
+        BYTE           TIE     Fn3
+        BYTE           TIE     Gs3
+        BYTE           TIE     Cn4
+        BYTE   W01
+        BYTE           VOL     10
+        BYTE   W02
+        BYTE                   13
+        BYTE   W16
+        BYTE                   14
+        BYTE   W21
+        BYTE                   15
+        BYTE   W24
+        BYTE                   16
+        BYTE   W30
+        BYTE   W01
+        BYTE                   17
+        BYTE   W01
+// 033   ----------------------------------------
+        BYTE   W44
+        BYTE                   18
+        BYTE   W48
+        BYTE   W03
+        BYTE           EOT     Fn3
+        BYTE                   Gs3
+        BYTE                   Cn4
+        BYTE   W01
+// 034   ----------------------------------------
+        BYTE           TIE     Ds3
+        BYTE           TIE     Gn3
+        BYTE           TIE     As3
+        BYTE   W68
+        BYTE           VOL     17
+        BYTE   W28
+// 035   ----------------------------------------
+        BYTE   W11
+        BYTE                   16
+        BYTE   W24
+        BYTE   W02
+        BYTE                   15
+        BYTE   W20
+        BYTE                   14
+        BYTE   W16
+        BYTE                   13
+        BYTE   W15
+        BYTE                   12
+        BYTE   W06
+        BYTE           EOT     Gn3
+        BYTE   W01
+        BYTE                   As3
+        BYTE                   Ds3
+        BYTE   W01
+// 036   ----------------------------------------
+        BYTE           TIE     Fn3
+        BYTE           TIE     Gs3
+        BYTE           TIE     Cn4
+        BYTE   W06
+        BYTE           VOL     13
+        BYTE   W20
+        BYTE                   14
+        BYTE   W19
+        BYTE                   15
+        BYTE   W24
+        BYTE                   16
+        BYTE   W24
+        BYTE   W03
+// 037   ----------------------------------------
+        BYTE   W04
+        BYTE                   17
+        BYTE   W36
+        BYTE   W03
+        BYTE                   18
+        BYTE   W52
+        BYTE           EOT     Fn3
+        BYTE                   Gs3
+        BYTE                   Cn4
+        BYTE   W01
+// 038   ----------------------------------------
+        BYTE           TIE     Ds3
+        BYTE           TIE     Gn3
+        BYTE           TIE     As3
+        BYTE   W60
+        BYTE   W02
+        BYTE           VOL     17
+        BYTE   W32
+        BYTE   W02
+// 039   ----------------------------------------
+        BYTE   W07
+        BYTE                   16
+        BYTE   W24
+        BYTE   W03
+        BYTE                   15
+        BYTE   W22
+        BYTE                   14
+        BYTE   W17
+        BYTE                   13
+        BYTE   W22
+        BYTE           EOT     Ds3
+        BYTE                   Gn3
+        BYTE                   As3
+        BYTE   W01
+// 040   ----------------------------------------
+        BYTE           TIE     Cs3
+        BYTE           TIE     Fn3
+        BYTE           TIE     Gs3
+        BYTE   W13
+        BYTE           VOL     14
+        BYTE   W21
+        BYTE                   15
+        BYTE   W28
+        BYTE                   16
+        BYTE   W32
+        BYTE                   17
+        BYTE   W02
+// 041   ----------------------------------------
+        BYTE   W48
+        BYTE                   18
+        BYTE   W44
+        BYTE   W03
+        BYTE           EOT     Cs3
+        BYTE                   Fn3
+        BYTE                   Gs3
+        BYTE   W01
+// 042   ----------------------------------------
+        BYTE           TIE     Ds3
+        BYTE           TIE     Gn3
+        BYTE           TIE     As3
+        BYTE   W64
+        BYTE           VOL     17
+        BYTE   W32
+// 043   ----------------------------------------
+        BYTE   W12
+        BYTE                   16
+        BYTE   W28
+        BYTE                   15
+        BYTE   W24
+        BYTE                   14
+        BYTE   W18
+        BYTE                   13
+        BYTE   W13
+        BYTE           EOT     Ds3
+        BYTE                   Gn3
+        BYTE                   As3
+        BYTE   W01
+// 044   ----------------------------------------
+        BYTE           TIE     Cs3
+        BYTE           TIE     Fn3
+        BYTE           TIE     Gs3
+        BYTE   W10
+        BYTE           VOL     14
+        BYTE   W20
+        BYTE                   15
+        BYTE   W24
+        BYTE                   16
+        BYTE   W28
+        BYTE   W01
+        BYTE                   17
+        BYTE   W13
+// 045   ----------------------------------------
+        BYTE   W28
+        BYTE                   18
+        BYTE   W66
+        BYTE   W01
+        BYTE           EOT     Cs3
+        BYTE                   Fn3
+        BYTE                   Gs3
+        BYTE   W01
+// 046   ----------------------------------------
+        BYTE           TIE     Ds3
+        BYTE           TIE     Gn3
+        BYTE           TIE     As3
+        BYTE   W60
+        BYTE   W01
+        BYTE           VOL     17
+        BYTE   W32
+        BYTE   W03
+// 047   ----------------------------------------
+        BYTE   W03
+        BYTE                   16
+        BYTE   W24
+        BYTE   W02
+        BYTE                   15
+        BYTE   W21
+        BYTE                   14
+        BYTE   W18
+        BYTE                   13
+        BYTE   W17
+        BYTE                   12
+        BYTE   W09
+        BYTE           EOT
+        BYTE   W01
+        BYTE                   Ds3
+        BYTE                   Gn3
+        BYTE   W01
+// 048   ----------------------------------------
+JungleNavigation00_3_48:
+        BYTE           TIE     Fn3   v070
+        BYTE           TIE     Gn3
+        BYTE           TIE     As3
+        BYTE   W01
+        BYTE           VOL     8
+        BYTE   W03
+        BYTE                   9
+        BYTE   W18
+        BYTE                   10
+        BYTE   W14
+        BYTE                   11
+        BYTE   W18
+        BYTE                   12
+        BYTE   W21
+        BYTE                   13
+        BYTE   W21
+        BYTE   PEND
+// 049   ----------------------------------------
+JungleNavigation00_3_49:
+        BYTE   W02
+        BYTE           VOL     14
+        BYTE   W28
+        BYTE   W01
+        BYTE                   15
+        BYTE   W64
+        BYTE   W01
+        BYTE   PEND
+// 050   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE                   14
+        BYTE   W24
+        BYTE   W01
+// 051   ----------------------------------------
+JungleNavigation00_3_51:
+        BYTE   W03
+        BYTE           VOL     13
+        BYTE   W23
+        BYTE                   12
+        BYTE   W19
+        BYTE                   11
+        BYTE   W16
+        BYTE                   10
+        BYTE   W15
+        BYTE                   9
+        BYTE   W19
+        BYTE           EOT     Fn3
+        BYTE                   Gn3
+        BYTE                   As3
+        BYTE   W01
+        BYTE   PEND
+// 052   ----------------------------------------
+JungleNavigation00_3_52:
+        BYTE           TIE     Fn3   v070
+        BYTE           TIE     Gn3
+        BYTE           TIE     As3
+        BYTE   W03
+        BYTE           VOL     10
+        BYTE   W16
+        BYTE                   11
+        BYTE   W16
+        BYTE                   12
+        BYTE   W21
+        BYTE                   13
+        BYTE   W23
+        BYTE                   14
+        BYTE   W17
+        BYTE   PEND
+// 053   ----------------------------------------
+JungleNavigation00_3_53:
+        BYTE   W09
+        BYTE           VOL     15
+        BYTE   W42
+        BYTE                   16
+        BYTE   W44
+        BYTE   W01
+        BYTE   PEND
+// 054   ----------------------------------------
+JungleNavigation00_3_54:
+        BYTE   W54
+        BYTE   W01
+        BYTE           VOL     15
+        BYTE   W36
+        BYTE   W02
+        BYTE                   14
+        BYTE   W03
+        BYTE   PEND
+// 055   ----------------------------------------
+JungleNavigation00_3_55:
+        BYTE   W18
+        BYTE           VOL     13
+        BYTE   W19
+        BYTE                   12
+        BYTE   W18
+        BYTE                   11
+        BYTE   W15
+        BYTE                   10
+        BYTE   W13
+        BYTE                   9
+        BYTE   W12
+        BYTE           EOT     Fn3
+        BYTE                   Gn3
+        BYTE                   As3
+        BYTE   W01
+        BYTE   PEND
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_3_48
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_3_49
+// 058   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           VOL     14
+        BYTE   W24
+        BYTE   W01
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_3_51
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_3_52
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_3_53
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_3_54
+// 063   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_3_55
+// 064   ----------------------------------------
+        BYTE   W06
+        BYTE           VOL     18
+        BYTE   GoTo
+         POIN2  JungleNavigation00_3_LOOP
+        BYTE   W04
+        BYTE   FINE
+
+//****************** Track 4 (Midi-Chn.4) ******************//
+
+JungleNavigation00_4:
+        BYTE   KEYSH   JungleNavigation00_key+0
+// 000   ----------------------------------------
+JungleNavigation00_4_LOOP:
+        BYTE           VOICE   85
+        BYTE           VOL     36
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+JungleNavigation00_4_15:
+        BYTE   W36
+        BYTE           N11     Gn3   v090
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE                   Ds4
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE   PEND
+// 016   ----------------------------------------
+JungleNavigation00_4_16:
+        BYTE           N32     Cn4   v090   gtp3
+        BYTE   W36
+        BYTE           N78     Fn3   v090   gtp1
+        BYTE   W60
+        BYTE   PEND
+// 017   ----------------------------------------
+JungleNavigation00_4_17:
+        BYTE   W48
+        BYTE           N23     As3   v090
+        BYTE   W24
+        BYTE                   Gs3
+        BYTE   W24
+        BYTE   PEND
+// 018   ----------------------------------------
+JungleNavigation00_4_18:
+        BYTE           N32     Gn3   v090   gtp3
+        BYTE   W36
+        BYTE           N78     Ds3
+        BYTE   W60
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_15
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_16
+// 021   ----------------------------------------
+JungleNavigation00_4_21:
+        BYTE   W48
+        BYTE           N23     As3   v090
+        BYTE   W24
+        BYTE                   Fn4
+        BYTE   W24
+        BYTE   PEND
+// 022   ----------------------------------------
+JungleNavigation00_4_22:
+        BYTE           N32     Ds4   v090   gtp3
+        BYTE   W36
+        BYTE           N78     Cn4
+        BYTE   W60
+        BYTE   PEND
+// 023   ----------------------------------------
+JungleNavigation00_4_23:
+        BYTE   W36
+        BYTE           N11     Ds3   v090
+        BYTE   W12
+        BYTE                   Gn3
+        BYTE   W12
+        BYTE                   Gs3
+        BYTE   W12
+        BYTE                   As3
+        BYTE   W12
+        BYTE                   Ds4
+        BYTE   W12
+        BYTE   PEND
+// 024   ----------------------------------------
+JungleNavigation00_4_24:
+        BYTE           N11     Cs4   v090
+        BYTE   W12
+        BYTE           N07     Cn4
+        BYTE   W12
+        BYTE           N11
+        BYTE   W12
+        BYTE           TIE     Fn3
+        BYTE   W60
+        BYTE   PEND
+// 025   ----------------------------------------
+JungleNavigation00_4_25:
+        BYTE   W40
+        BYTE   W01
+        BYTE           EOT     Fn3
+        BYTE   W07
+        BYTE           N23     As3   v090
+        BYTE   W24
+        BYTE                   Cn4
+        BYTE   W24
+        BYTE   PEND
+// 026   ----------------------------------------
+JungleNavigation00_4_26:
+        BYTE           N32     Fn3   v090   gtp3
+        BYTE   W36
+        BYTE           N68     Ds3   v090   gtp2
+        BYTE   W60
+        BYTE   PEND
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_23
+// 028   ----------------------------------------
+JungleNavigation00_4_28:
+        BYTE           N11     Cs4   v090
+        BYTE   W12
+        BYTE           N07     Cn4
+        BYTE   W12
+        BYTE           N11
+        BYTE   W12
+        BYTE           N23     Fn3
+        BYTE   W24
+        BYTE           N11     Gs3
+        BYTE   W12
+        BYTE                   Fn3
+        BYTE   W12
+        BYTE           N42     Gs3   v090   gtp1
+        BYTE   W12
+        BYTE   PEND
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_17
+// 030   ----------------------------------------
+        BYTE           N32     As3   v090   gtp3
+        BYTE   W36
+        BYTE           N92     Cn4   v090   gtp3
+        BYTE   W60
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_15
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_16
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_17
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_18
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_15
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_16
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_21
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_22
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_23
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_24
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_25
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_26
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_23
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_28
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_4_17
+// 046   ----------------------------------------
+        BYTE           N32     As3   v090   gtp3
+        BYTE   W36
+        BYTE           TIE     Cn4
+        BYTE   W60
+// 047   ----------------------------------------
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W24
+        BYTE   W01
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   W96
+// 062   ----------------------------------------
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE   W06
+        BYTE   GoTo
+         POIN2  JungleNavigation00_4_LOOP
+        BYTE   W04
+        BYTE   FINE
+
+//****************** Track 5 (Midi-Chn.5) ******************//
+
+JungleNavigation00_5:
+        BYTE   KEYSH   JungleNavigation00_key+0
+// 000   ----------------------------------------
+JungleNavigation00_5_LOOP:
+        BYTE           VOICE   97
+        BYTE           PAN     c_v-29
+        BYTE           VOL     17
+        BYTE   W96
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+JungleNavigation00_5_16:
+        BYTE           TIE     Cn4   v064
+        BYTE   W04
+        BYTE           VOL     14
+        BYTE   W18
+        BYTE                   15
+        BYTE   W32
+        BYTE                   16
+        BYTE   W42
+        BYTE   PEND
+// 017   ----------------------------------------
+        BYTE   W10
+        BYTE                   17
+        BYTE   W84
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W01
+// 018   ----------------------------------------
+JungleNavigation00_5_18:
+        BYTE           TIE     As3   v064
+        BYTE   W72
+        BYTE           VOL     16
+        BYTE   W24
+        BYTE   PEND
+// 019   ----------------------------------------
+        BYTE   W30
+        BYTE   W01
+        BYTE                   15
+        BYTE   W36
+        BYTE                   14
+        BYTE   W28
+        BYTE           EOT
+        BYTE   W01
+// 020   ----------------------------------------
+        BYTE           TIE     Cn4
+        BYTE   W22
+        BYTE           VOL     15
+        BYTE   W32
+        BYTE   W02
+        BYTE                   16
+        BYTE   W40
+// 021   ----------------------------------------
+        BYTE   W14
+        BYTE                   17
+        BYTE   W80
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W01
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_5_18
+// 023   ----------------------------------------
+        BYTE   W24
+        BYTE   W02
+        BYTE           VOL     15
+        BYTE   W32
+        BYTE   W01
+        BYTE                   14
+        BYTE   W30
+        BYTE   W01
+        BYTE                   13
+        BYTE   W05
+        BYTE           EOT     As3
+        BYTE   W01
+// 024   ----------------------------------------
+        BYTE           TIE     Gs3   v064
+        BYTE   W13
+        BYTE           VOL     14
+        BYTE   W30
+        BYTE   W01
+        BYTE                   15
+        BYTE   W32
+        BYTE                   16
+        BYTE   W20
+// 025   ----------------------------------------
+        BYTE   W32
+        BYTE                   17
+        BYTE   W60
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W01
+// 026   ----------------------------------------
+        BYTE           TIE     As3
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W01
+        BYTE           VOL     16
+        BYTE   W42
+        BYTE                   15
+        BYTE   W24
+        BYTE   W03
+        BYTE                   14
+        BYTE   W24
+        BYTE   W01
+        BYTE           EOT
+        BYTE   W01
+// 028   ----------------------------------------
+        BYTE           TIE     Gs3
+        BYTE   W44
+        BYTE           VOL     15
+        BYTE   W30
+        BYTE   W01
+        BYTE                   16
+        BYTE   W21
+// 029   ----------------------------------------
+        BYTE   W24
+        BYTE                   17
+        BYTE   W68
+        BYTE   W03
+        BYTE           EOT
+        BYTE   W01
+// 030   ----------------------------------------
+        BYTE           TIE     As3
+        BYTE   W66
+        BYTE           VOL     16
+        BYTE   W30
+// 031   ----------------------------------------
+JungleNavigation00_5_31:
+        BYTE   W21
+        BYTE           VOL     15
+        BYTE   W32
+        BYTE                   14
+        BYTE   W32
+        BYTE                   13
+        BYTE   W06
+        BYTE           EOT     As3
+        BYTE   W05
+        BYTE   PEND
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_5_16
+// 033   ----------------------------------------
+        BYTE   W10
+        BYTE           VOL     17
+        BYTE   W84
+        BYTE   W02
+// 034   ----------------------------------------
+        BYTE           EOT     Cn4
+        BYTE           TIE     As3   v064
+        BYTE   W72
+        BYTE           VOL     16
+        BYTE   W24
+// 035   ----------------------------------------
+        BYTE   W30
+        BYTE   W01
+        BYTE                   15
+        BYTE   W36
+        BYTE                   14
+        BYTE   W28
+        BYTE   W01
+// 036   ----------------------------------------
+        BYTE           EOT
+        BYTE           TIE     Cn4
+        BYTE   W22
+        BYTE           VOL     15
+        BYTE   W32
+        BYTE   W02
+        BYTE                   16
+        BYTE   W40
+// 037   ----------------------------------------
+        BYTE   W14
+        BYTE                   17
+        BYTE   W80
+        BYTE   W02
+// 038   ----------------------------------------
+        BYTE           TIE     As3
+        BYTE   W03
+        BYTE           EOT     Cn4
+        BYTE   W68
+        BYTE   W01
+        BYTE           VOL     16
+        BYTE   W24
+// 039   ----------------------------------------
+        BYTE   W24
+        BYTE   W02
+        BYTE                   15
+        BYTE   W32
+        BYTE   W01
+        BYTE                   14
+        BYTE   W30
+        BYTE   W01
+        BYTE                   13
+        BYTE   W06
+// 040   ----------------------------------------
+        BYTE           TIE     Gs3
+        BYTE   W02
+        BYTE           EOT     As3
+        BYTE   W11
+        BYTE           VOL     14
+        BYTE   W30
+        BYTE   W01
+        BYTE                   15
+        BYTE   W32
+        BYTE                   16
+        BYTE   W20
+// 041   ----------------------------------------
+        BYTE   W32
+        BYTE                   17
+        BYTE   W64
+// 042   ----------------------------------------
+        BYTE           TIE
+        BYTE   W01
+        BYTE           EOT     Gs3
+        BYTE   W92
+        BYTE   W03
+// 043   ----------------------------------------
+        BYTE   W01
+        BYTE           VOL     16
+        BYTE   W42
+        BYTE                   15
+        BYTE   W24
+        BYTE   W03
+        BYTE                   14
+        BYTE   W24
+        BYTE   W02
+// 044   ----------------------------------------
+        BYTE           TIE
+        BYTE   W03
+        BYTE           EOT     As3
+        BYTE   W40
+        BYTE   W01
+        BYTE           VOL     15
+        BYTE   W30
+        BYTE   W01
+        BYTE                   16
+        BYTE   W21
+// 045   ----------------------------------------
+        BYTE   W24
+        BYTE                   17
+        BYTE   W72
+// 046   ----------------------------------------
+        BYTE           EOT     Gs3
+        BYTE           TIE     As3
+        BYTE   W66
+        BYTE           VOL     16
+        BYTE   W30
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_5_31
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   W96
+// 062   ----------------------------------------
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE   W06
+        BYTE           VOL     17
+        BYTE   GoTo
+         POIN2  JungleNavigation00_5_LOOP
+        BYTE   W04
+        BYTE   FINE
+
+//****************** Track 6 (Midi-Chn.6) ******************//
+
+JungleNavigation00_6:
+        BYTE   KEYSH   JungleNavigation00_key+0
+// 000   ----------------------------------------
+JungleNavigation00_6_LOOP:
+        BYTE           VOICE   24
+        BYTE           PAN     c_v-1
+        BYTE           VOL     31
+        BYTE           N48     Cs2   v084   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v082
+        BYTE   W12
+        BYTE           N24     Cn3   v068
+        BYTE   W12
+        BYTE           N16     Fn3   v065
+        BYTE   W12
+        BYTE           N48     Ds2   v078
+        BYTE   W12
+        BYTE           N36     Gs2   v071   gtp1
+        BYTE   W12
+        BYTE           N23     Cn3   v063
+        BYTE   W12
+        BYTE           N11     Fn3   v069
+        BYTE   W12
+// 001   ----------------------------------------
+JungleNavigation00_6_1:
+        BYTE           N48     Fn2   v076   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v084   gtp2
+        BYTE   W12
+        BYTE           N28     Cn3   v070
+        BYTE   W12
+        BYTE           N24     Fn3   v074   gtp2
+        BYTE   W12
+        BYTE           N48     Cn2   v075   gtp2
+        BYTE   W12
+        BYTE           N36     Gs2   v079
+        BYTE   W12
+        BYTE           N24     Cn3   v064
+        BYTE   W12
+        BYTE           N21     Gn3   v076
+        BYTE   W12
+        BYTE   PEND
+// 002   ----------------------------------------
+JungleNavigation00_6_2:
+        BYTE           N48     Cs2   v084   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v082
+        BYTE   W12
+        BYTE           N24     Cn3   v068
+        BYTE   W12
+        BYTE           N16     Fn3   v078
+        BYTE   W12
+        BYTE           N48     Ds2
+        BYTE   W12
+        BYTE           N36     Gs2   v071   gtp1
+        BYTE   W12
+        BYTE           N23     Cn3   v063
+        BYTE   W12
+        BYTE           N11     Fn3   v069
+        BYTE   W12
+        BYTE   PEND
+// 003   ----------------------------------------
+JungleNavigation00_6_3:
+        BYTE           N48     Fn2   v076   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v084   gtp2
+        BYTE   W12
+        BYTE           N28     Cn3   v070
+        BYTE   W12
+        BYTE           N24     Fn3   v075   gtp2
+        BYTE   W12
+        BYTE           N48     Cn2   v075   gtp2
+        BYTE   W12
+        BYTE           N36     Gs2   v079
+        BYTE   W12
+        BYTE           N24     Cn3   v073
+        BYTE   W12
+        BYTE           N21     Gn3   v077
+        BYTE   W12
+        BYTE   PEND
+// 004   ----------------------------------------
+JungleNavigation00_6_4:
+        BYTE           N48     Cs2   v084   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v082
+        BYTE   W12
+        BYTE           N24     Cn3   v068
+        BYTE   W12
+        BYTE           N16     Fn3   v065
+        BYTE   W12
+        BYTE           N48     Ds2   v078
+        BYTE   W12
+        BYTE           N36     Gs2   v071   gtp1
+        BYTE   W12
+        BYTE           N23     Cn3   v063
+        BYTE   W12
+        BYTE           N11     Fn3   v069
+        BYTE   W12
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_1
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_2
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_3
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_4
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_3
+// 012   ----------------------------------------
+        BYTE           N48     Cs2   v080   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v082
+        BYTE   W12
+        BYTE           N24     Cn3   v068
+        BYTE   W12
+        BYTE           N16     Fn3   v077
+        BYTE   W12
+        BYTE           N48     Ds2   v078
+        BYTE   W12
+        BYTE           N36     Gs2   v071   gtp1
+        BYTE   W12
+        BYTE           N23     Cn3   v063
+        BYTE   W12
+        BYTE           N11     Fn3   v069
+        BYTE   W12
+// 013   ----------------------------------------
+        BYTE           N48     Fn2   v076   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v084   gtp2
+        BYTE   W12
+        BYTE           N28     Cn3   v070
+        BYTE   W12
+        BYTE           N24     Fn3   v077   gtp2
+        BYTE   W12
+        BYTE           N48     Cn2   v075   gtp2
+        BYTE   W12
+        BYTE           N36     Gs2   v079
+        BYTE   W12
+        BYTE           N24     Cn3   v073
+        BYTE   W12
+        BYTE           N21     Gn3   v079
+        BYTE   W12
+// 014   ----------------------------------------
+        BYTE           N48     Cs2   v084   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v082
+        BYTE   W12
+        BYTE           N24     Cn3   v076
+        BYTE   W12
+        BYTE           N16     Fn3   v077
+        BYTE   W12
+        BYTE           N48     Ds2   v078
+        BYTE   W12
+        BYTE           N44     Gs2   v071   gtp3
+        BYTE   W12
+        BYTE                   Cn3   v063
+        BYTE   W12
+        BYTE           N32     Fn3   v069   gtp3
+        BYTE   W12
+// 015   ----------------------------------------
+        BYTE           N80     Fn2   v071   gtp3
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE           N88     Cs2   v075   gtp1
+        BYTE   W12
+        BYTE           N23     Gs2   v068
+        BYTE   W12
+        BYTE           N32     Cn3   v076   gtp3
+        BYTE   W12
+        BYTE           N30     Gs2   v084   gtp1
+        BYTE   W24
+        BYTE           N23     Cn3   v061
+        BYTE   W12
+        BYTE           N28     Gs2   v071   gtp1
+        BYTE   W12
+        BYTE           N24     Cn3   v074   gtp1
+        BYTE   W12
+// 017   ----------------------------------------
+JungleNavigation00_6_17:
+        BYTE           N84     Cs2   v075   gtp2
+        BYTE   W12
+        BYTE           N23     Gs2   v068
+        BYTE   W12
+        BYTE           N32     Cn3   v076   gtp3
+        BYTE   W12
+        BYTE           N30     Gs2   v084   gtp1
+        BYTE   W24
+        BYTE           N23     Cn3   v061
+        BYTE   W12
+        BYTE           N28     Fn2   v071   gtp1
+        BYTE   W12
+        BYTE           N24     Cn3   v074   gtp1
+        BYTE   W12
+        BYTE   PEND
+// 018   ----------------------------------------
+JungleNavigation00_6_18:
+        BYTE           N88     Cn2   v075   gtp1
+        BYTE   W12
+        BYTE           N23     Gn2   v068
+        BYTE   W12
+        BYTE           N32     As2   v076   gtp3
+        BYTE   W12
+        BYTE                   Gn2   v084
+        BYTE   W24
+        BYTE           N23     As2   v061
+        BYTE   W12
+        BYTE           N28     Gn2   v071   gtp1
+        BYTE   W12
+        BYTE           N24     As2   v074   gtp1
+        BYTE   W12
+        BYTE   PEND
+// 019   ----------------------------------------
+JungleNavigation00_6_19:
+        BYTE           TIE     Cn2   v084
+        BYTE   W12
+        BYTE           N23     Gn2   v068
+        BYTE   W12
+        BYTE           N32     As2   v076   gtp3
+        BYTE   W12
+        BYTE                   Gn2   v084
+        BYTE   W24
+        BYTE           N23     As2   v061
+        BYTE   W12
+        BYTE           N17     Gn2   v071
+        BYTE   W12
+        BYTE           N24     Ds2   v074   gtp1
+        BYTE   W12
+        BYTE   PEND
+// 020   ----------------------------------------
+JungleNavigation00_6_20:
+        BYTE           N88     Cs2   v075   gtp1
+        BYTE   W04
+        BYTE           EOT     Cn2
+        BYTE   W08
+        BYTE           N23     Gs2   v068
+        BYTE   W12
+        BYTE           N32     Cn3   v076   gtp3
+        BYTE   W12
+        BYTE           N30     Gs2   v084   gtp1
+        BYTE   W24
+        BYTE           N23     Cn3   v061
+        BYTE   W12
+        BYTE           N28     Gs2   v071   gtp1
+        BYTE   W12
+        BYTE           N24     Cn3   v074   gtp1
+        BYTE   W12
+        BYTE   PEND
+// 021   ----------------------------------------
+JungleNavigation00_6_21:
+        BYTE           N84     Cs2   v075   gtp2
+        BYTE   W12
+        BYTE           N23     Gs2   v068
+        BYTE   W12
+        BYTE           N32     Cn3   v076   gtp3
+        BYTE   W12
+        BYTE           N30     Gs2   v084   gtp1
+        BYTE   W24
+        BYTE           N23     Cn3   v061
+        BYTE   W12
+        BYTE           N28     Gs2   v071   gtp1
+        BYTE   W12
+        BYTE           N24     Cn3   v074   gtp1
+        BYTE   W12
+        BYTE   PEND
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_18
+// 023   ----------------------------------------
+JungleNavigation00_6_23:
+        BYTE           TIE     Cn2   v084
+        BYTE   W12
+        BYTE           N23     Gn2   v068
+        BYTE   W12
+        BYTE           N32     As2   v076   gtp3
+        BYTE   W12
+        BYTE                   Gn2   v084
+        BYTE   W24
+        BYTE           N23     As2   v061
+        BYTE   W12
+        BYTE           N28     Gn2   v071   gtp1
+        BYTE   W12
+        BYTE           N24     As2   v074   gtp1
+        BYTE   W12
+        BYTE   PEND
+// 024   ----------------------------------------
+JungleNavigation00_6_24:
+        BYTE           N84     As1   v075   gtp2
+        BYTE   W04
+        BYTE           EOT     Cn2
+        BYTE   W08
+        BYTE           N40     Fn2   v073
+        BYTE   W12
+        BYTE           N30     Cn3   v070
+        BYTE   W12
+        BYTE           N32     Gs2   v068   gtp3
+        BYTE   W24
+        BYTE           N23     Cn3   v071
+        BYTE   W12
+        BYTE           N24     Gs2   v075   gtp2
+        BYTE   W12
+        BYTE           N15     Cn3   v078
+        BYTE   W12
+        BYTE   PEND
+// 025   ----------------------------------------
+JungleNavigation00_6_25:
+        BYTE           N84     As1   v075   gtp2
+        BYTE   W12
+        BYTE           N40     Fn2   v073
+        BYTE   W12
+        BYTE           N30     Cn3   v070
+        BYTE   W12
+        BYTE           N32     Gs2   v068   gtp3
+        BYTE   W24
+        BYTE           N23     Cn3   v071
+        BYTE   W12
+        BYTE           N24     Gs2   v075   gtp2
+        BYTE   W12
+        BYTE           N15     Cn3   v078
+        BYTE   W12
+        BYTE   PEND
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_18
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_23
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_24
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_25
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_18
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_23
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_20
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_17
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_18
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_19
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_20
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_21
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_18
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_23
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_24
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_25
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_18
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_23
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_24
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_25
+// 046   ----------------------------------------
+        BYTE           N88     Cn2   v075   gtp1
+        BYTE   W12
+        BYTE           N23     Gn2   v068
+        BYTE   W12
+        BYTE           N32     As2   v076   gtp3
+        BYTE   W12
+        BYTE                   Gn2   v084
+        BYTE   W24
+        BYTE           N23     As2   v061
+        BYTE   W12
+        BYTE           N22     Gn2   v071
+        BYTE   W12
+        BYTE           N11     As2   v068
+        BYTE   W10
+        BYTE           N78     Cn2   v061
+        BYTE   W02
+// 047   ----------------------------------------
+        BYTE           N72     As2   v061   gtp2
+        BYTE                   Ds3
+        BYTE   W01
+        BYTE           N72     Gn2   v061   gtp3
+        BYTE   W01
+        BYTE           N72     Gn3
+        BYTE   W92
+        BYTE   W02
+// 048   ----------------------------------------
+JungleNavigation00_6_48:
+        BYTE           N92     Fn2   v073   gtp3
+        BYTE   W12
+        BYTE           N40     Gs2   v068
+        BYTE   W12
+        BYTE           N30     Cn3   v070   gtp1
+        BYTE   W12
+        BYTE           N24     Gn3   v065   gtp1
+        BYTE   W24
+        BYTE           N24     Gs2   v065   gtp2
+        BYTE   W12
+        BYTE           N22     Cn3   v068
+        BYTE   W12
+        BYTE                   Gn3   v065
+        BYTE   W12
+        BYTE   PEND
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 060   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 061   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 062   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 063   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_6_48
+// 064   ----------------------------------------
+        BYTE   W06
+        BYTE   GoTo
+         POIN2  JungleNavigation00_6_LOOP
+        BYTE   W04
+        BYTE   FINE
+
+//****************** Track 7 (Midi-Chn.7) ******************//
+
+JungleNavigation00_7:
+        BYTE   KEYSH   JungleNavigation00_key+0
+// 000   ----------------------------------------
+JungleNavigation00_7_LOOP:
+        BYTE           VOICE   24
+        BYTE           VOL     19
+        BYTE           PAN     c_v-60
+        BYTE   W04
+        BYTE           N48     Cs2   v064   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v062
+        BYTE   W12
+        BYTE           N24     Cn3   v048
+        BYTE   W12
+        BYTE           N16     Fn3   v045
+        BYTE   W12
+        BYTE           N48     Ds2   v058
+        BYTE   W12
+        BYTE           N36     Gs2   v051   gtp1
+        BYTE   W12
+        BYTE           N23     Cn3   v043
+        BYTE   W12
+        BYTE           N11     Fn3   v049
+        BYTE   W08
+// 001   ----------------------------------------
+JungleNavigation00_7_1:
+        BYTE   W04
+        BYTE           N48     Fn2   v056   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v064   gtp2
+        BYTE   W12
+        BYTE           N28     Cn3   v050
+        BYTE   W12
+        BYTE           N24     Fn3   v054   gtp2
+        BYTE   W12
+        BYTE           N48     Cn2   v055   gtp2
+        BYTE   W12
+        BYTE           N36     Gs2   v059
+        BYTE   W12
+        BYTE           N24     Cn3   v044
+        BYTE   W12
+        BYTE           N21     Gn3   v056
+        BYTE   W08
+        BYTE   PEND
+// 002   ----------------------------------------
+JungleNavigation00_7_2:
+        BYTE   W04
+        BYTE           N48     Cs2   v064   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v062
+        BYTE   W12
+        BYTE           N24     Cn3   v048
+        BYTE   W12
+        BYTE           N16     Fn3   v058
+        BYTE   W12
+        BYTE           N48     Ds2
+        BYTE   W12
+        BYTE           N36     Gs2   v051   gtp1
+        BYTE   W12
+        BYTE           N23     Cn3   v043
+        BYTE   W12
+        BYTE           N11     Fn3   v049
+        BYTE   W08
+        BYTE   PEND
+// 003   ----------------------------------------
+JungleNavigation00_7_3:
+        BYTE   W04
+        BYTE           N48     Fn2   v056   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v064   gtp2
+        BYTE   W12
+        BYTE           N28     Cn3   v050
+        BYTE   W12
+        BYTE           N24     Fn3   v055   gtp2
+        BYTE   W12
+        BYTE           N48     Cn2   v055   gtp2
+        BYTE   W12
+        BYTE           N36     Gs2   v059
+        BYTE   W12
+        BYTE           N24     Cn3   v053
+        BYTE   W12
+        BYTE           N21     Gn3   v057
+        BYTE   W08
+        BYTE   PEND
+// 004   ----------------------------------------
+JungleNavigation00_7_4:
+        BYTE   W04
+        BYTE           N48     Cs2   v064   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v062
+        BYTE   W12
+        BYTE           N24     Cn3   v048
+        BYTE   W12
+        BYTE           N16     Fn3   v045
+        BYTE   W12
+        BYTE           N48     Ds2   v058
+        BYTE   W12
+        BYTE           N36     Gs2   v051   gtp1
+        BYTE   W12
+        BYTE           N23     Cn3   v043
+        BYTE   W12
+        BYTE           N11     Fn3   v049
+        BYTE   W08
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_7_1
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_7_2
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_7_3
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_7_4
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_7_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_7_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_7_3
+// 012   ----------------------------------------
+        BYTE   W04
+        BYTE           N48     Cs2   v060   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v062
+        BYTE   W12
+        BYTE           N24     Cn3   v048
+        BYTE   W12
+        BYTE           N16     Fn3   v057
+        BYTE   W12
+        BYTE           N48     Ds2   v058
+        BYTE   W12
+        BYTE           N36     Gs2   v051   gtp1
+        BYTE   W12
+        BYTE           N23     Cn3   v043
+        BYTE   W12
+        BYTE           N11     Fn3   v049
+        BYTE   W08
+// 013   ----------------------------------------
+        BYTE   W04
+        BYTE           N48     Fn2   v056   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v064   gtp2
+        BYTE   W12
+        BYTE           N28     Cn3   v050
+        BYTE   W12
+        BYTE           N24     Fn3   v057   gtp2
+        BYTE   W12
+        BYTE           N48     Cn2   v055   gtp2
+        BYTE   W12
+        BYTE           N36     Gs2   v059
+        BYTE   W12
+        BYTE           N24     Cn3   v053
+        BYTE   W12
+        BYTE           N21     Gn3   v059
+        BYTE   W08
+// 014   ----------------------------------------
+        BYTE   W04
+        BYTE           N48     Cs2   v064   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v062
+        BYTE   W12
+        BYTE           N24     Cn3   v056
+        BYTE   W12
+        BYTE           N16     Fn3   v057
+        BYTE   W12
+        BYTE           N48     Ds2   v058
+        BYTE   W12
+        BYTE           N44     Gs2   v051   gtp3
+        BYTE   W12
+        BYTE                   Cn3   v043
+        BYTE   W12
+        BYTE           N32     Fn3   v049   gtp3
+        BYTE   W08
+// 015   ----------------------------------------
+        BYTE   W04
+        BYTE           N80     Fn2   v051   gtp3
+        BYTE   W92
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   W96
+// 062   ----------------------------------------
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE   W06
+        BYTE   GoTo
+         POIN2  JungleNavigation00_7_LOOP
+        BYTE   W04
+        BYTE   FINE
+
+//****************** Track 8 (Midi-Chn.8) ******************//
+
+JungleNavigation00_8:
+        BYTE   KEYSH   JungleNavigation00_key+0
+// 000   ----------------------------------------
+JungleNavigation00_8_LOOP:
+        BYTE           VOICE   24
+        BYTE           VOL     19
+        BYTE           PAN     c_v+60
+        BYTE   W12
+        BYTE           N48     Cs2   v064   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v062
+        BYTE   W12
+        BYTE           N24     Cn3   v048
+        BYTE   W12
+        BYTE           N16     Fn3   v045
+        BYTE   W12
+        BYTE           N48     Ds2   v058
+        BYTE   W12
+        BYTE           N36     Gs2   v051   gtp1
+        BYTE   W12
+        BYTE           N23     Cn3   v043
+        BYTE   W12
+// 001   ----------------------------------------
+JungleNavigation00_8_1:
+        BYTE           N11     Fn3   v049
+        BYTE   W12
+        BYTE           N48     Fn2   v056   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v064   gtp2
+        BYTE   W12
+        BYTE           N28     Cn3   v050
+        BYTE   W12
+        BYTE           N24     Fn3   v054   gtp2
+        BYTE   W12
+        BYTE           N48     Cn2   v055   gtp2
+        BYTE   W12
+        BYTE           N36     Gs2   v059
+        BYTE   W12
+        BYTE           N24     Cn3   v044
+        BYTE   W12
+        BYTE   PEND
+// 002   ----------------------------------------
+JungleNavigation00_8_2:
+        BYTE           N21     Gn3   v056
+        BYTE   W12
+        BYTE           N48     Cs2   v064   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v062
+        BYTE   W12
+        BYTE           N24     Cn3   v048
+        BYTE   W12
+        BYTE           N16     Fn3   v058
+        BYTE   W12
+        BYTE           N48     Ds2
+        BYTE   W12
+        BYTE           N36     Gs2   v051   gtp1
+        BYTE   W12
+        BYTE           N23     Cn3   v043
+        BYTE   W12
+        BYTE   PEND
+// 003   ----------------------------------------
+JungleNavigation00_8_3:
+        BYTE           N11     Fn3   v049
+        BYTE   W12
+        BYTE           N48     Fn2   v056   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v064   gtp2
+        BYTE   W12
+        BYTE           N28     Cn3   v050
+        BYTE   W12
+        BYTE           N24     Fn3   v055   gtp2
+        BYTE   W12
+        BYTE           N48     Cn2   v055   gtp2
+        BYTE   W12
+        BYTE           N36     Gs2   v059
+        BYTE   W12
+        BYTE           N24     Cn3   v053
+        BYTE   W12
+        BYTE   PEND
+// 004   ----------------------------------------
+JungleNavigation00_8_4:
+        BYTE           N21     Gn3   v057
+        BYTE   W12
+        BYTE           N48     Cs2   v064   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v062
+        BYTE   W12
+        BYTE           N24     Cn3   v048
+        BYTE   W12
+        BYTE           N16     Fn3   v045
+        BYTE   W12
+        BYTE           N48     Ds2   v058
+        BYTE   W12
+        BYTE           N36     Gs2   v051   gtp1
+        BYTE   W12
+        BYTE           N23     Cn3   v043
+        BYTE   W12
+        BYTE   PEND
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_8_1
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_8_2
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_8_3
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_8_4
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_8_1
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_8_2
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  JungleNavigation00_8_3
+// 012   ----------------------------------------
+        BYTE           N21     Gn3   v057
+        BYTE   W12
+        BYTE           N48     Cs2   v060   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v062
+        BYTE   W12
+        BYTE           N24     Cn3   v048
+        BYTE   W12
+        BYTE           N16     Fn3   v057
+        BYTE   W12
+        BYTE           N48     Ds2   v058
+        BYTE   W12
+        BYTE           N36     Gs2   v051   gtp1
+        BYTE   W12
+        BYTE           N23     Cn3   v043
+        BYTE   W12
+// 013   ----------------------------------------
+        BYTE           N11     Fn3   v049
+        BYTE   W12
+        BYTE           N48     Fn2   v056   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v064   gtp2
+        BYTE   W12
+        BYTE           N28     Cn3   v050
+        BYTE   W12
+        BYTE           N24     Fn3   v057   gtp2
+        BYTE   W12
+        BYTE           N48     Cn2   v055   gtp2
+        BYTE   W12
+        BYTE           N36     Gs2   v059
+        BYTE   W12
+        BYTE           N24     Cn3   v053
+        BYTE   W12
+// 014   ----------------------------------------
+        BYTE           N21     Gn3   v059
+        BYTE   W12
+        BYTE           N48     Cs2   v064   gtp1
+        BYTE   W12
+        BYTE           N36     Gs2   v062
+        BYTE   W12
+        BYTE           N24     Cn3   v056
+        BYTE   W12
+        BYTE           N16     Fn3   v057
+        BYTE   W12
+        BYTE           N48     Ds2   v058
+        BYTE   W12
+        BYTE           N44     Gs2   v051   gtp3
+        BYTE   W12
+        BYTE                   Cn3   v043
+        BYTE   W12
+// 015   ----------------------------------------
+        BYTE           N32     Fn3   v049   gtp3
+        BYTE   W12
+        BYTE           N80     Fn2   v051   gtp3
+        BYTE   W84
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   W96
+// 061   ----------------------------------------
+        BYTE   W96
+// 062   ----------------------------------------
+        BYTE   W96
+// 063   ----------------------------------------
+        BYTE   W96
+// 064   ----------------------------------------
+        BYTE   W06
+        BYTE   GoTo
+         POIN2  JungleNavigation00_8_LOOP
+        BYTE   W04
+        BYTE   FINE
+
+
+//********************** End of Song ***********************//
+
+        ALIGN 4
+JungleNavigation00:
+        BYTE   9                       // Num Tracks
+        BYTE   0                       // Unknown
+        BYTE   JungleNavigation00_pri  // Priority
+        BYTE   JungleNavigation00_rev  // Reverb
+
+        POIN2   JungleNavigation00_grp 
+
+        POIN2   JungleNavigation00_0
+        POIN2   JungleNavigation00_1
+        POIN2   JungleNavigation00_2
+        POIN2   JungleNavigation00_3
+        POIN2   JungleNavigation00_4
+        POIN2   JungleNavigation00_5
+        POIN2   JungleNavigation00_6
+        POIN2   JungleNavigation00_7
+        POIN2   JungleNavigation00_8
+
+        

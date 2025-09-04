@@ -82,6 +82,7 @@ Units1:
 	//UNIT Elina Hero_F 0x0 Level(1,Ally,False) [3,6] 0x0 0x0 0x0 0x0 [IronSword] NoAI
 	UNIT Fabian Wing 0x0 Level(10,Ally,False) [1,6] 0x0 0x0 0x0 0x0 [IronLance] NoAI
 	UNIT Avery General 0x0 Level(2,Ally,True) [4,6] 0x0 0x0 0x0 0x0 [SlayingEdge,SlayingLance,SlayingAxe] NoAI
+	UNIT Katja Fighter_F 0x0 Level(3,Ally,True) [5,6] 0x00 0x00 0x00 0x01 [IronAxe, HandAxe] HalfRangeAI
 	UNIT
 
 EnemyUnits:
@@ -230,8 +231,8 @@ GoCh8:
 	//GiveMoney()
 	_0xA640 0 0 6
 	WM_SETDESTINATION 0 7 0
-	//MNCH Chapter8
-	MNC2 Chapter8
+	MNCH AudinaCutscene
+	//MNC2 AudinaCutscene
 	NoFade
 	ENDB
 

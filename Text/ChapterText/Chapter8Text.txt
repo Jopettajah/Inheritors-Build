@@ -1,10 +1,51 @@
+## Ch8CastleText
+[FarLeft][LoadCurtis]
+[Left][LoadSibyl]
+[MidRight][LoadSoldierGreen]
+Ah,[.] milady![.4] You've returned![.4][N]
+Please step forth.[.] The king is waiting.[A]
+[ClearFace]
+[Event] // walk to the king
+
+[MidRight][LoadAudinaKing]
+yo[A]
+[Left]
+[Tact] passed with flying colors.[N]
+[A]
+[FarFarLeft][LoadSoldierGreen]
+Urgent news![A][CloseSpeechSlow]
+[FarFarLeft][ClearFace]
+[FarLeft][ClearFace]
+[Left][ClearFace]
+[MidRight][ClearFace]
+[Event] // soldier appears
+
+[Left][LoadCurtis]
+[Right][LoadSibyl]
+[FarRight][LoadAudinaKing]
+[FarFarLeft][LoadSoldierGreen]
+[FarFarLeft][MoveFarLeft]
+Huff[Beat] Huff[Beat][A]
+[FarRight]
+What is it? Go on, speak.[A]
+[FarLeft]
+Our frontlines are falling apart![A]
+[MidRight]
+Can't even do diplomacy in peace[Beat][N]
+[Tact], Sibyl. Go [A]
+[X]
+
+## AudinaFrontText
+Audinan frontlines[X]
 
 ## Ch8PreMapBertram
-[MidLeft][LoadFace][0x3a][0x1]
+[MidLeft][LoadFace][0x3a][0x1][ToggleSmile]
 Finally![.4] A command[N]
 worthy of my stature![AN]
 I've been the odd-job[N]
 errand boy for far too long![AN]
+Time to show those fools[N]
+what they've been missing![A]
 [X]
 
 ## Ch8PreMapGoursat
@@ -30,6 +71,25 @@ Sire![.4] Your orders?[A]
 Hold still for now.[AN]
 We'll strike when[N]
 the time is right.[A]
+[X]
+
+## Ch8PrePrepsText
+[FarLeft][LoadCurtis]
+[MidRight][LoadSoldierGreen]
+[Left][LoadSibyl]
+How's the situation?[A]
+[MidRight]
+Terrible![.4] We've lost a lot of[N]
+men in this three-pronged attack.[AN]
+Our flanks were crushed and everything[N]
+fell apart from there[Beat][AN]
+Only few sandskippers remain.[A]
+[Left]
+Surely you don't mind if we[N]
+assume direct control of them?[A]
+[MidRight]
+Not at all,[.] milady.[N]
+Commandeer them as you see fit.[A]
 [X]
 
 ## T1BertramYapping

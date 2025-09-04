@@ -31,12 +31,6 @@ Event Battle[X]
 ## DarkColossusName
 Dark Colossus Destroys All[X]
 
-## FirstCampaingName
-First Campaign[X]
-
-## ObstacleInOurPathName
-Obstacle in Our Path[X]
-
 ## EndlessFightingName
 Endless Battle[X]
 
@@ -147,3 +141,12 @@ Dark Prison[X]
 
 ## LunaDialName
 Lunar Clock ~ Luna Dial[X]
+
+## JungleNavigationName
+Labyrinth ~ Jungle Navigation[X]
+
+## NeverendingDreamName
+Never-ending Dream[X]
+
+## ArchineerName
+Archineer[X]

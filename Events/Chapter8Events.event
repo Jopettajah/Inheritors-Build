@@ -4,8 +4,10 @@ setText(0x167, NewChName)
 
 ALIGN 4
 NewChName:
-String("Ch8: Sand something")
+String("Ch8: Tides of Sand")
 BYTE 0
+
+ALIGN 4
 PointerList:
 	POIN TurnBasedEvents
 	POIN CharacterBasedEvents
@@ -144,6 +146,30 @@ AudinanJobbers:
 	UNIT Audinan Soldier 0x0 Level(5,NPC,True) [3,3] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI
 	UNIT
 
+CutscenceUnits:
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [7,9] 0x0 0x0 0x0 0x1 [0x0] NoAI
+	UNIT Sibyl Dancer Curtis Level(8,Ally,False) [6,9] 0x0 0x0 0x0 0x1 [DesertWind, Elixir] NoAI
+	UNIT
+
+CutscenceUnitsGreen:
+	UNIT Bone Peer 0x0 Level(1,NPC,False) [7,2] 0x0 0x0 0x0 0x1 [0x0] NoAI
+	UNIT Bazba Soldier Bone Level(8,NPC,False) [7,8] 0x0 0x0 0x0 0x1 [DesertWind, Elixir] NoAI
+	UNIT AudinanJobbers General Bone Level(8,NPC,False) [5,2] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+	UNIT AudinanJobbers Soldier Bone Level(8,NPC,False) [9,2] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+	UNIT AudinanJobbers Soldier Bone Level(8,NPC,False) [2,3] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+	UNIT AudinanJobbers Soldier Bone Level(8,NPC,False) [12,3] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+	UNIT
+
+OneGuy:
+	UNIT Ada Soldier Bone Level(8,NPC,False) [7,9] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+	UNIT
+	
+CutscenceUnits2:
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [2,0] 0x0 0x0 0x0 0x1 [0x0] NoAI
+	UNIT Sibyl Dancer Curtis Level(8,Ally,False) [4,0] 0x0 0x0 0x0 0x1 [DesertWind, Elixir] NoAI
+	UNIT
+	
+	
 Traps1:
 	ENDTRAP
 	ALIGN 4
@@ -153,21 +179,52 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
+	//Castle cutscene
+	MUSC ArchineerID
+	LOAD1 0x0 CutscenceUnits
+	ENUN
+	LOAD1 0x0 CutscenceUnitsGreen
+	ENUN
+
+	TEXTSTART
+	TEXTSHOW Ch8CastleText
+	TEXTEND
+	MOVE 0 Bazba [8,8]
+	ENUN
+	STAL 20
+	MOVE 0 Curtis [7,4]
+	MOVE 0 Sibyl [6,4]
+	ENUN
+	CURSOR_FLASHING Bone
+	STAL 40
+	REMOVE_CURSORS
+	TEXTCONT
+	TEXTEND
+	LOAD1 0x0 OneGuy
+	ENUN
+	MOVE 0 Ada [8,4]
+	ENUN
+	TEXTCONT
+	TEXTEND
+	REMA
+	
+	FADI 12
+	REMOVEALL_BLUE
+	REMOVEALL_GREEN
+	LOMA Chapter8
+	
+	//On-map stuff
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	
 	LOAD 0x1 AudinanJobbers
 	ENUN
-	
+	CAMERA Goursat
+	STAL 60
 	FADU 12
 	MUSC OffToWarID
-	CAMERA Bertram
-	CURSOR_FLASHING Bertram
-	STAL 60
-	REMOVE_CURSORS
-	Text(Ch8PreMapBertram)
-	
-	CAMERA Goursat
+	BROWNBOX AudinaFrontText [1,1]
+		
 	STAL 15
 	StartBattle
 	CriticalHit(0,30)
@@ -211,6 +268,12 @@ BeginningScene:
 	REMOVEUNIT Audinan
 	ENUN
 	
+	CAMERA Bertram
+	CURSOR_FLASHING Bertram
+	STAL 60
+	REMOVE_CURSORS
+	Text(Ch8PreMapBertram)
+	
 	CAMERA Kristan
 	CURSOR_FLASHING Kristan
 	STAL 60
@@ -218,10 +281,15 @@ BeginningScene:
 	Text(Ch8PreMapKristan)
 	
 	LOAD1 0x1 Landboats
+	LOAD1 0x0 CutscenceUnits2
 	ENUN
 	
 	CAMERA Audinan
-	
+	MOVE 0 Curtis [2,2]
+	MOVE 0 Sibyl [4,2]
+	ENUN
+	Text(Ch8PrePrepsText)
+
 	FADI 12
 	REMOVEUNIT Audinan
 	REMOVEUNIT FarumWeak
@@ -233,10 +301,10 @@ BeginningScene:
 	ENDA
 
 Turn1Text:
-	MUSC 10 DrunkAsILikeID
+	MUSCFAST DrunkAsILikeID
 	CAMERA Bertram
 	Text(T1BertramYapping)
-	MUSC 10 JhenMohranID
+	MUSCFAST JhenMohranID
 	NoFade
 	ENDA
 	

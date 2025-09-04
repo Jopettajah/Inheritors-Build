@@ -134,8 +134,9 @@
 //#define FallenPrince 0x78
 //#define Tent 0x79
 #define Wagon 0x7A
-/*#define FallenPeer 0x7B
-#define Cyclops_2 0x7C
+#undef Peer
+#define Peer 0x7B
+/*#define Cyclops_2 0x7C
 #define ElderBael_2 0x7D
 #define Journeyman_2 0x7E
 #define Pupil_2 0x7F*/

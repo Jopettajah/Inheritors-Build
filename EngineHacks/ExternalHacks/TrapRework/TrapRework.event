@@ -44,7 +44,7 @@
 
 	#define IndicatorTrapID 0x9
 	#define RedIndicatorTrapID 0x14
-	#define IndicatorMapSpriteID 0x6A
+	#define IndicatorMapSpriteID 0x67
 	
 	
 	#include "TrapRework_Internal.event"

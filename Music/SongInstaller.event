@@ -162,3 +162,12 @@ SongTable(DarkPrisonID,DARKPRISON0000,MapMusicGroup)
 
 SongTable(LunaDialID,LunarClockLunaDial00,MapMusicGroup)
 #include "event/LunarClockLunaDial00.event"
+
+SongTable(JungleNavigationID,JungleNavigation00,MapMusicGroup)
+#include "event/JungleNavigation00.event"
+
+SongTable(NeverendingDreamID,neverendingdream000,MapMusicGroup)
+#include "event/neverendingdream000.event"
+
+SongTable(ArchineerID,song03DC,MapMusicGroup)
+#include "event/ArchineerTrikkiNikki.event"
