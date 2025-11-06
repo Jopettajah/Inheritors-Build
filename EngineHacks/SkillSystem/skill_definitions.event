@@ -151,6 +151,9 @@
 
 //Effectiveness Skills
 
+//Bowslayer
+#define BowslayerEffectID 255
+
 // Effective in rain or non-fliers on water
 #define ThunderEffectID 15
 
@@ -164,7 +167,7 @@
 
 //Skybreaker: Deal effective damage to flying units. (if flying)
 //By Sme
-#define SkybreakerID 47
+#define SkybreakerID 255
 
 //Resourceful: Double effectiveness multiplier.
 //By Sme

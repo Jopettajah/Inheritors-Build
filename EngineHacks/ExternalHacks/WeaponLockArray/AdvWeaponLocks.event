@@ -58,4 +58,14 @@ BYTE HardCharLock
 BYTE Sibyl
 BYTE EndLockArray
 
+FlierArray:
+BYTE HardClassLock
+BYTE PegasusKnight
+BYTE AxePeg
+BYTE CerapterKnight
+BYTE FalcoKnight
+BYTE Wing
+BYTE Fellwing
+BYTE EndLockArray
+
 #endif // ADV_WEAPON_LOCKS

@@ -16,6 +16,7 @@
 .equ SkybreakerClassType,SkybreakerID+4
 .equ ResourcefulID,SkybreakerClassType+4
 .equ ThunderEffectID, ResourcefulID+4
+.equ BowslayerEffectID, ThunderEffectID+4
 
 push	{r4-r6,r14}
 mov		r4,r0
@@ -43,12 +44,17 @@ bne		NullifyCheck
 
 Skybreaker:					@modified to air superiority (effective when both flying)
 mov		r0,r4
-ldr		r1,SkybreakerID
-ldr		r3,SkillTester
-mov		r14,r3
-.short	0xF800
-cmp		r0,#0
-beq		ThunderEffect
+@ldr		r1,SkybreakerID
+@ldr		r3,SkillTester
+@mov		r14,r3
+@.short	0xF800
+@cmp		r0,#0
+@beq		ThunderEffect
+mov r1,	#0x4A
+ldrb r0,[r0,r1] @equipped weapon
+cmp r0, #0xbe
+bne	ThunderEffect	
+
 
 ldr		r2,[r4,#4]
 mov		r1,#0x50
@@ -74,7 +80,7 @@ ldr		r3,SkillTester
 mov		r14,r3
 .short	0xF800
 cmp		r0,#0
-beq		RetFalse
+beq		BowslayerEffect
 
 ldr	r3,=#0x202BCF0
 ldrb	r3, [r3,#0x15]
@@ -87,7 +93,7 @@ ldrh	r2,[r2,r1]			@weaknesses defender unit has
 ldrh 	r0,SkybreakerClassType
 and		r0,r2
 cmp		r0,#0
-bne		RetFalse
+bne		BowslayerEffect
 
 mov 	r3,#0x55
 ldrb	r2,[r5,r3]		@Tile enemy is on
@@ -100,7 +106,25 @@ beq		NullifyCheck
 cmp		r2,#0x36
 beq 	NullifyCheck
 cmp		r2,#0x3c
-bne 	RetFalse
+beq 	NullifyCheck
+
+BowslayerEffect:
+mov		r0,r4
+@ldr		r1,BowslayerEffectID
+@ldr		r3,SkillTester
+@mov		r14,r3
+@.short	0xF800
+@cmp		r0,#0
+@beq		RetFalse
+mov r1,	#0x4A
+ldrb r0,[r0,r1]
+cmp r0, #0xd2
+bne		RetFalse
+
+mov		r3,#0x50
+ldrb	r0,[r5,r3] @enemy equipped wep type
+cmp		r0,#3 @is it a bow?
+bne		RetFalse
 
 NullifyCheck:
 mov		r0,r5

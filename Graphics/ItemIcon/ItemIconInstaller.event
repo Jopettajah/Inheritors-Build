@@ -31,6 +31,7 @@ POP
 #define SlayingEdgeIconID 237
 #define SlayingLanceIconID 238
 #define SlayingAxeIconID 0xef
+#define BowslayerIconID 0xf0
 
 PUSH 
 ItemIconEntry(SkygazerIconID)
@@ -86,5 +87,8 @@ ItemIconEntry(SlayingLanceIconID)
 
 ItemIconEntry(SlayingAxeIconID)
 #incbin "dmp/GabrielKnightKillerAxe.dmp"
+
+ItemIconEntry(BowslayerIconID)
+#incbin "dmp/ZaneIcon092.dmp"
 
 POP 

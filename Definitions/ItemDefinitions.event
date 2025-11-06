@@ -242,6 +242,7 @@
 #define SlayingEdge 0xcf
 #define SlayingLance 0xd0
 #define SlayingAxe 0xd1
+#define Bowslayer 0xd2
 
 //Aliases
 #define AxeReaver Axereaver

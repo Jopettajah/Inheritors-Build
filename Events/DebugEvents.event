@@ -66,7 +66,7 @@ Units1:
 	UNIT Caitlind AxePeg 0x0 Level(1,Ally,False) [0,2] 0x0 0x0 0x0 0x0 [KillerAxe,IronAxe,0xc6, Handaxe] NoAI
 	UNIT Kimiko Myrmidon_F 0x0 Level(10,Ally,False) [2,2] 0x0 0x0 0x0 0x0 [KillingEdge] NoAI
 	UNIT Mauritch Myrmidon 0x0 Level(10,Ally,False) [2,3] 0x0 0x0 0x0 0x0 [KillingEdge,Thunderclap] NoAI
-	UNIT Sana FalcoKnight 0x0 Level(1,Ally,False) [2,4] 0x0 0x0 0x0 0x0 [Cloudrunner,SilverCard] NoAI
+	UNIT Sana FalcoKnight 0x0 Level(1,Ally,False) [2,4] 0x0 0x0 0x0 0x0 [Cloudrunner,SilverCard,Bowslayer] NoAI
 	UNIT Jacob SwordCavalier 0x0 Level(10,Ally,False) [2,5] 0x0 0x0 0x0 0x0 [KnightCrest] NoAI
 	UNIT Hollie Sandskipper 0x0 Level(2,Ally,True) [1,2] 0x0 0x0 0x0 0x0 [Ballista] NoAI
 	UNIT Anis Monk_F 0x0 Level(3,Ally,True) [3,0] 0x0 0x0 0x0 0x0 [Lightning, Shinespark] NoAI
@@ -93,6 +93,8 @@ EnemyUnits:
 	UNIT Farum Mercenary ONeill Level(10,Enemy,True) [5,1] 0x0 0x0 0x0 [IronSword] NeverMoveAI
 	//UNIT JeanneMarie Troubadour ONeill Level(10,Enemy,False) [10,2] 0x0 0x0 0x0 [Berserk] DefaultAI
 	UNIT Kristan Halberdier ONeill Level(1,Enemy,False) [9,2] 0x0 0x0 0x0 0x0 [KillerLance] NeverMoveAI
+	UNIT Farum Adventurer ONeill Level(1,Enemy,True) [8,3] 0x0 0x0 0x0 0x0 [IronBow] NeverMoveAI
+	UNIT Farum PegasusKnight ONeill Level(1,Enemy,True) [8,4] 0x0 0x0 0x0 0x0 [IronBow] NeverMoveAI
 	UNIT
 
 Traps1:

@@ -83,6 +83,7 @@
 	WORD FlierType
 	WORD ResourcefulID
 	WORD ThunderEffectID
+	WORD BowslayerEffectID
 	
 	
 #endif

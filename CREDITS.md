@@ -81,7 +81,7 @@
 # Item Icons
 - Erekshigal: Skygazer, Youtou, Dawn Edge, Bravery's Gift, Shinespark, Old Edge
 - LordGlenn: Mine Staff, Shining Bow
-- Zane: Elstone
+- Zane: Elstone, Bowslayer
 - Celice: Mooncleaver, Thunderclap
 - Seal: Gheist, Cloudrunner
 - Lisandra Brave: Repositioner

@@ -187,3 +187,11 @@ Slaying Axe[X]
 ## SlayingWepDesc
 Greatly increases critical hit rate.[X]
 
+## BowslayerName
+Bowslayer[X]
+
+## BowslayerDesc
+Flying classes only.[N]
+Deals effective damage and nullifies[N]
+the weapon triangle against bows.[X]
+

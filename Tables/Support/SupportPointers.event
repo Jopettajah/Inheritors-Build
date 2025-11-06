@@ -79,7 +79,7 @@ SupportCountAmount(2)
 ALIGN 4
 KatjaSupportPointer:
 SupportDataCharacters(Anis,Winton,0,0,0) 
-SupportDataInitialValues(230,1,0,0,0)
+SupportDataInitialValues(1,1,0,0,0)
 SupportDataGrowths(15,20,0,0,0)
 SupportCountAmount(2)
 

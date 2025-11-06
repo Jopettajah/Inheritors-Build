@@ -35,24 +35,39 @@ ldrb r1,[r1,#0x4] @attacker charID
 cmp r1, #0xD
 beq End
 
-@get weapon type of the attacker
+@Bowslayer
 mov r1, #0x4A
-ldrh r0, [ r4, r1 ] @ Equipped item halfword.
-cmp r0, #0x00
-beq End	@Ends if doesn't have a weapon
-blh 0x080174EC, r1 @ GetItemIndex. r0 = item ID.
-blh 0x080177B0, r1 @ GetItemData. r0 = pointer to ROM item data.
-ldrb r0, [ r0, #0x07 ] @ r0 = this item's weapon type.
-mov r2, r0
+ldrb r0, [ r4, r1 ] @ Equipped item id
+cmp r0, #0xd2 @more bad hardcoding
+beq End
+
+@Same for the other dude
+ldrb r0, [ r5, r1 ] 
+cmp r0, #0xd2 
+beq End
+
+@get weapon type of the attacker
+@2025 note: equipped weapon type is already in the battle struct dummy!
+@mov r1, #0x4A
+@ldrh r0, [ r4, r1 ] @ Equipped item halfword.
+@cmp r0, #0x00
+@beq End	@Ends if doesn't have a weapon
+@blh 0x080174EC, r1 @ GetItemIndex. r0 = item ID.
+@blh 0x080177B0, r1 @ GetItemData. r0 = pointer to ROM item data.
+@ldrb r0, [ r0, #0x07 ] @ r0 = this item's weapon type.
+mov r1, #0x50
+ldrb r2, [r4, r1]
+
 
 @get weapon type of the defender
-mov r1, #0x4A
-ldrh r0, [ r5, r1 ] @ Equipped item halfword.
-cmp r0, #0x00
-beq End	@Ends if doesn't have a weapon
-blh 0x080174EC, r1 @ GetItemIndex. r0 = item ID.
-blh 0x080177B0, r1 @ GetItemData. r0 = pointer to ROM item data.
-ldrb r0, [ r0, #0x07 ] @ r0 = this item's weapon type.
+@mov r1, #0x4A
+@ldrh r0, [ r5, r1 ] @ Equipped item halfword.
+@cmp r0, #0x00
+@beq End	@Ends if doesn't have a weapon
+@blh 0x080174EC, r1 @ GetItemIndex. r0 = item ID.
+@blh 0x080177B0, r1 @ GetItemData. r0 = pointer to ROM item data.
+@ldrb r0, [ r0, #0x07 ] @ r0 = this item's weapon type.
+ldrb r0, [r5, r1]
 
 cmp r2,#0x3
 beq AttackerBow

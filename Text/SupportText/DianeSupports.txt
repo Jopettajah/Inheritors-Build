@@ -1,10 +1,62 @@
 ## DianeMarcoC
+[MidLeft][LoadDiane]
+[MidRight][LoadMarco]
+
+
+[MidRight]
+
+
 [X]
 
 ## DianeMarcoB
+[MidLeft][LoadDiane]
+[MidRight][LoadMarco]
 [X]
 
 ## DianeMarcoA
+[MidLeft][LoadDiane]
+[Beat][A]
+[MidRight][LoadMarco]
+Is something wrong, Diane?[N]
+You look distraught.[A] 
+
+[MidLeft]
+Ah, father[Beat][N]
+I've just been thinking about our enemies[Beat][AN]
+They had their own lives, friends, families[Beat][N]
+I know I shouldn't think these things,[.] but[Beat][A]
+
+[MidRight]
+That's fine.[.] It's a reminder that[N]
+you're still human.[AN]
+Cutting down fellow man never has sit[N]
+quite right with me.[A]
+
+[MidLeft]
+Even for a career soldier like you, huh?[A]
+
+[MidRight]
+Former career soldier.[.4] Honestly,[.] I don't think[N]
+I was ever cut out for that sort of life.[AN]
+But besides that[Beat][A]
+
+[MidLeft]
+Hm?[A]
+
+[MidRight][ThreeLineBox]
+[CloseEyes]
+I don't think I could face your mother in the[N]
+afterlife had taking you along this campaign[N]
+turned you into a cold, unfeeling killer[Beat][A][OpenEyes]
+
+[MidLeft][TwoLineBox]
+Hey![.4] Don't talk like you're[N]
+going to die anytime soon![AN]
+I'll make sure we'll both[N]
+be returning home alive![A]
+
+[MidRight][ToggleSmile]
+Likewise.[.4] Let's go.[A]
 [X]
 
 
