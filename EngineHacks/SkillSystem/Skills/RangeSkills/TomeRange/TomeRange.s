@@ -17,7 +17,9 @@
 .set BonusWeaponType2, 0x6 @Light
 .set BonusWeaponType3, 0x7 @Dark
 .set MaxRangeBonus, 0x1
-push 	{ lr}
+push 	{lr}
+push 	{r4}
+mov 	r4,r0
 add 	sp, #-0x4
 str 	r2, [sp]
 mov 	r0, r1
@@ -25,10 +27,19 @@ _blh GetWeaponType
 cmp 	r0, #BonusWeaponType1	@check if item is matching weapon type
 beq AddRange
 cmp 	r0, #BonusWeaponType2
-beq AddRange
+beq HPCheck
 cmp 	r0, #BonusWeaponType3
 beq AddRange
 b End 	@ Not Matching weapon type
+
+HPCheck:
+mov  r0, #0x12
+ldrb r1, [r4,r0]
+mov r0, #0x13
+ldrb r2, [r4,r0]
+cmp r1,r2 @max hp vs curr hp
+bne End
+
 AddRange:
 mov 	r2, sp
 ldrh 	r0, [r2]
@@ -44,6 +55,7 @@ strh 	r0, [r2]
 End:
 ldr 	r0, [sp]
 add 	sp, #0x4
+pop		{r4}
 pop 	{r3}
 bx 	r3
 .ltorg

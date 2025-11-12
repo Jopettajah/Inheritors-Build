@@ -1,0 +1,12 @@
+## CollinsName
+Collins[X]
+
+## CollinsDesc
+[X]
+
+## DefeatCollinsText
+Defeat Collins[X]
+
+## MercDesc
+Despicable mercenaries,[N]
+loyal only to the coin.[X]

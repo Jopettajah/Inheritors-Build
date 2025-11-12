@@ -144,6 +144,7 @@ ALIGN 4
 
 ShamanPaletteList:
 PaletteAssociationEntry(Farum,$3B)
+PaletteAssociationEntry(Bertram,$53)
 WORD 0 0
 ALIGN 4
 
@@ -244,6 +245,7 @@ PaletteAssociationEntry(Caitlind_boss, $19)
 PaletteAssociationEntry(Brigand_Enemy, $1D)
 PaletteAssociationEntry(Farum, $2A)
 PaletteAssociationEntry(Goon2, $2A)
+PaletteAssociationEntry(Goursat, $51)
 WORD 0 0
 ALIGN 4
 
@@ -315,6 +317,7 @@ ALIGN 4
 HalberdierPaletteList:
 PaletteAssociationEntry(Pieter,$43)
 PaletteAssociationEntry(Ferryn,$3E)
+PaletteAssociationEntry(Kristan,$52)
 WORD 0 0
 ALIGN 4
 

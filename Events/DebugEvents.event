@@ -25,7 +25,7 @@ TurnBasedEvents:
 
 ALIGN 32
 CharacterBasedEvents:
-
+	CharacterEventBothWays(0,GoCh8x,Dave,Caitlind)
 	END_MAIN
 
 MiscBasedEvents:
@@ -56,7 +56,7 @@ Tutorial:
 	END_MAIN
 
 Units1:
-	//UNIT Curtis Gut 0x0 Level(7,Ally,False) [1,0] 0x00 0x00 0x00 0x00 [0xc5] NoAI
+	UNIT Curtis Gut 0x0 Level(7,Ally,False) [1,0] 0x00 0x00 0x00 0x00 [0xc5] NoAI
 	//UNIT Marco Fighter 0x0 Level(8,Ally,False) [1,0] 0x0 0x0 0x0 0x0 [SteelAxe] NoAI
 	UNIT Hefina Tail 0x0 Level(10,Ally,False) [0,0] 0x0 0x0 0x0 0x0 [Gheist,Elstone,Flux,BloodContract] NoAI
 	UNIT Libby Cleric 0x0 Level(10,Ally,False) [0,1] 0x0 0x0 0x0 0x0 [Gheist,BraverysGift] NoAI
@@ -94,7 +94,7 @@ EnemyUnits:
 	//UNIT JeanneMarie Troubadour ONeill Level(10,Enemy,False) [10,2] 0x0 0x0 0x0 [Berserk] DefaultAI
 	UNIT Kristan Halberdier ONeill Level(1,Enemy,False) [9,2] 0x0 0x0 0x0 0x0 [KillerLance] NeverMoveAI
 	UNIT Farum Adventurer ONeill Level(1,Enemy,True) [8,3] 0x0 0x0 0x0 0x0 [IronBow] NeverMoveAI
-	UNIT Farum PegasusKnight ONeill Level(1,Enemy,True) [8,4] 0x0 0x0 0x0 0x0 [IronBow] NeverMoveAI
+	UNIT Goursat PegasusKnight ONeill Level(1,Enemy,True) [8,4] 0x0 0x0 0x0 0x0 [IronLance] NeverMoveAI
 	UNIT
 
 Traps1:
@@ -238,6 +238,10 @@ GoCh8:
 	NoFade
 	ENDB
 
+GoCh8x:
+	MNC2 Chapter8x
+	ENDA
+	
 EndingScene:
 	MNC2 Chapter1
 	NoFade

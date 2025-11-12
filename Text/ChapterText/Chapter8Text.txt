@@ -211,6 +211,7 @@ guh[Beat][.4] my[Beat] own[Beat][A]
 [X]
 
 ##KristanBattleQuote
+[MidLeft][LoadFace][0x39][0x1]
 So it has come down to this[Beat][.][N]
 No more words.[.6] Let's go.[A]
 [X]

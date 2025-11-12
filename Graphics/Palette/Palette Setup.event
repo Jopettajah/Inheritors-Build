@@ -323,3 +323,15 @@
 // EmmanuelMK
 	setPalette(0x50,EmmanuelMK)
 	setCBSP(0x50,Emmanuel,0x2,MageKnight)
+
+// GoursatPal
+	setPalette(0x51,GoursatPal)
+	setCBSP(0x51,Goursat,0x1,PegasusKnight)
+
+// KristanPal
+	setPalette(0x52,KristanPal)
+	setCBSP(0x52,Kristan,0x2,Halberdier)
+
+// BertramPal
+	setPalette(0x53,BertramPal)
+	setCBSP(0x53,Bertram,0x1,Shaman)

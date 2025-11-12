@@ -1117,8 +1117,9 @@ Outdoor Fighter: +10 Hit and[N]
 Avo when fighting outdoors.[X]
 
 ## SD_TomeRangeUp
-Tome Range +1: Maximum range[N]
-of equipped tome is increased.[X]
+Peak Performance: Maximum range[N]
+of equipped tome is increased[N]
+while at full HP.[X]
 
 ## SD_AlertStance
 Alert Stance: +15 Avo[N]

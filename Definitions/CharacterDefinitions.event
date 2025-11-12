@@ -68,8 +68,8 @@
 #define Kristan 0x4E
 #define Bertram 0x4F
 #define Goursat 0x50
-/*#define Aias 0x51
-#define Carlyle 0x52
+#define Collins 0x51
+/*#define Carlyle 0x52
 #define Caellach 0x53
 #define Pablo_2 0x54
 #define Gorgon_boss 0x56
@@ -99,6 +99,7 @@
 #define Brigand_Enemy 0x97
 #define BrigandEnemy Brigand_Enemy
 #define Audinan 0x98
+#define MercEnemy 0x99
 /*#define Fomortiis 0xBE
 #define Fado 0xC5
 #define Hayden 0xC7

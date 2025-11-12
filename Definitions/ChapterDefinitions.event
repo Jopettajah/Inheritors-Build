@@ -20,7 +20,7 @@
 #define Chapter18 0x11
 #define Chapter19 0x12
 #define Chapter20 0x13
-//#define Chapter1 0x14
+#define Chapter8x 0x14
 //#define Chapter2 0x15
 #define DebugChapter 0x3C
 #define AudinaCutscene 0x1A
@@ -46,6 +46,7 @@
 #define Chapter18Events 0x4F
 #define Chapter19Events 0x56
 #define Chapter20Events 0x5A
+#define Chapter8xEvents 0x5E
 #define DebugEvents 0xCD
 #define AudinaCutsceneEvents 0x78
 
@@ -99,6 +100,7 @@
 #define Chapter20Map 0x58
 #define DebugMap 0xCC
 #define AudinaCastleMap 0x76
+#define Chapter8xMap 0x5C
 
 //Tilechanges
 #define Chapter1MapChanges 0x06
@@ -121,3 +123,4 @@
 #define Chapter18MapChanges 0x4E
 #define Chapter19MapChanges 0x55
 #define Chapter20MapChanges 0x59
+#define Chapter8xMapChanges 0x5D

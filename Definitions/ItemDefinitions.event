@@ -243,6 +243,7 @@
 #define SlayingLance 0xd0
 #define SlayingAxe 0xd1
 #define Bowslayer 0xd2
+#define SteelLongbow 0xd3
 
 //Aliases
 #define AxeReaver Axereaver
@@ -251,3 +252,5 @@
 #define RescueStaff Rescue
 #define Handaxe HandAxe
 #define ArmorSlayer Armorslayer
+#define LongBow Longbow
+#define SteelLongBow SteelLongbow

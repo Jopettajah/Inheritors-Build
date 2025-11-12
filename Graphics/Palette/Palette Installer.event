@@ -243,3 +243,12 @@ LaurenMK:
 EmmanuelMK:
 	#incbin "./_palettes/EmmanuelMK.lzpal" 
 
+GoursatPal:
+	#incbin "./_palettes/GoursatPal.lzpal" 
+
+KristanPal:
+	#incbin "./_palettes/KristanPal.lzpal" 
+
+BertramPal:
+	#incbin "./_palettes/BertramPal.lzpal" 
+

@@ -11,4 +11,5 @@ ForceDeployEntry(Curtis,0xFF)
 ForceDeployEntry(Sibyl,Chapter7)
 ForceDeployEntry(Suhaira,Chapter7)
 ForceDeployEntry(Fabian,Chapter7)
+ForceDeployEntry(Dave,Chapter8x)
 EndForceDeploy

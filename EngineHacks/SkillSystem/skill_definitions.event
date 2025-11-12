@@ -1102,12 +1102,10 @@
 
 //Rightful King: +10% to Skill activation rate.
 //Author Unknown (Initial Commit)
-//#define RightfulKingID 104
 #define RightfulKingID 255
 
 //Rightful God: +30% to Skill activation rate.
 //Author Unknown (Initial Commit)
-//#define RightfulGodID 105
 #define RightfulGodID 255
 
 //Rightful Arch: Sets Skill activation rate to 100%.

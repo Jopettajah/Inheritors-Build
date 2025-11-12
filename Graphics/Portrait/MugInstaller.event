@@ -424,6 +424,14 @@ Goursat_Mug:
 setMugEntry(0x3b, Goursat_Mug,4,5,4,3)
 
 ALIGN 4
+Collins_Mug:
+#incbin "dmp/Bossman4_mug.dmp"
+#incbin "dmp/Bossman4_frames.dmp"
+#incbin "dmp/Bossman4_palette.dmp"
+#incbin "dmp/Bossman4_minimug.dmp"
+setMugEntry(0x3c, Collins_Mug, 2,5,2,3)
+
+ALIGN 4
 GenOutlaw_Mug:
 #incbin "dmp/GenOutlawF_mug.dmp"
 #incbin "dmp/GenOutlawF_frames.dmp"

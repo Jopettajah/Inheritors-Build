@@ -185,6 +185,7 @@ BYTE 00 00
 ALIGN 4
 
 ValkyrieSkillList:
+BYTE 1 TomeRangeUpID
 BYTE 00 00
 ALIGN 4
 

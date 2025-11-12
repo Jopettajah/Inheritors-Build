@@ -1,0 +1,133 @@
+EventPointerTable(Chapter8xEvents, PointerList)
+
+setText(0x174, NewChName)
+
+ALIGN 4
+NewChName:
+String("Ch8x: The Dave Detachment")
+BYTE 0
+
+ALIGN 4
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN Dunno1 Dunno2 Dunno3 Tutorial
+	POIN Traps1 Traps2
+	POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN $0 $0 $0
+	POIN $0 $0 $0
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+	TurnEventPlayer(0,MoveShopGuardians,1)
+	END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+
+	END_MAIN
+
+MiscBasedEvents:
+	CauseGameOverIfLordDies
+	END_MAIN
+
+LocationBasedEvents:
+	Vendor(Ch8xVendor,17,14)
+	Armory(Ch8xArmory,1,3)
+	END_MAIN
+
+Dunno1:
+
+	END_MAIN
+
+Dunno2:
+
+	END_MAIN
+
+Dunno3:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+Units1:
+	UNIT Dave Mercenary Dave Level(1,Ally,False) [5,5] 0x0 0x0 0x0 0x1 [0x0] NoAI
+	UNIT Caitlind Mercenary Dave Level(1,Ally,False) [4,4] 0x0 0x0 0x0 0x1 [0x0] NoAI
+	UNIT Caitlind Mercenary Dave Level(1,Ally,False) [4,5] 0x0 0x0 0x0 0x1 [0x0] NoAI
+	UNIT Caitlind Mercenary Dave Level(1,Ally,False) [6,4] 0x0 0x0 0x0 0x1 [0x0] NoAI
+	UNIT Caitlind Mercenary Dave Level(1,Ally,False) [6,5] 0x0 0x0 0x0 0x1 [0x0] NoAI
+	UNIT
+
+EnemyUnits:
+	UNIT Collins ForrestKnight Collins Level(1,Enemy,False) [20,1] DropItem 0x0 0x0 0x0 [SteelSword,Lightbrand,OldEdge] NeverMoveAI
+	UNIT MercEnemy Outlaw Collins Level(10,Enemy,True) [22,3] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+	UNIT MercEnemy Outlaw Collins Level(10,Enemy,True) [10,9] 0x0 0x0 0x0 0x0 [LongBow] AttackInRangeAI
+	UNIT MercEnemy Fighter Collins Level(10,Enemy,True) [7,9] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT MercEnemy PegasusKnight Collins Level(10,Enemy,True) [7,15] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
+	UNIT MercEnemy Myrmidon Collins Level(10,Enemy,True) [2,12] 0x0 0x0 0x0 0x0 [SteelSword] TwoActionAI
+	UNIT MercEnemy Fighter Collins Level(10,Enemy,True) [1,11] 0x0 0x0 0x0 0x0 [SteelAxe] TwoActionAI
+	UNIT
+	
+ShopGuardians:
+	UNIT MercEnemy Mercenary Collins Level(10,Enemy,True) [1,4] 0x0 0x0 0x0 0x0 [SteelSword] NeverMoveAI
+	UNIT MercEnemy Fighter Collins Level(10,Enemy,True) [17,15] 0x0 0x0 0x0 0x0 [SteelAxe] NeverMoveAI
+	UNIT
+
+Traps1:
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+ALIGN 4
+Ch8xArmory:
+	SHORT Zanbato
+	SHORT KillingEdge
+	SHORT Javelin	
+	SHORT KillerLance
+	SHORT HandAxe
+	SHORT KillerAxe
+	SHORT SteelLongbow
+	SHORT KillerBow
+	SHORT 0
+	SHORT 0		
+
+ALIGN 4
+Ch8xVendor:
+	SHORT Divine
+	SHORT Nosferatu
+	SHORT Mend
+	SHORT Torch
+	SHORT PureWater
+	SHORT Vulnerary
+	SHORT 0
+	SHORT 0	
+	
+BeginningScene:
+	REMU Curtis
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	LOAD1 0x1 ShopGuardians
+	ENUN
+	GotoPrepScreen
+	ENDA
+
+MoveShopGuardians:
+	SVAL sB 0x00040001
+	MOVE_1STEP 0 (-2) 3
+	SVAL sB 0x000F0011
+	MOVE_1STEP 0 (-2) 3
+	NoFade
+	ENDA
+	
+EndingScene:
+	REVEAL Curtis
+	MNC2 Chapter9
+	NoFade
+	ENDA

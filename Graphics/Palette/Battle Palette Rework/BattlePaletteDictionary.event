@@ -91,6 +91,9 @@ PaletteIdentifier($4D,$72,$75,$6b,LibbyDruid)
 PaletteIdentifier($4E,$72,$75,$6b,LaurenValk)
 PaletteIdentifier($4F,$72,$75,$6b,LaurenMK)
 PaletteIdentifier($50,$72,$75,$6b,EmmanuelMK)
+PaletteIdentifier($51,$72,$75,$6b,GoursatPal)
+PaletteIdentifier($52,$72,$75,$6b,KristanPal)
+PaletteIdentifier($53,$72,$75,$6b,BertramPal)
 //PaletteIdentifier($,$72,$75,$6b,)
 /*
 POP
