@@ -187,4 +187,11 @@ SHORT $1007 $1016 $1017 $1008
 SHORT $1006 $1009 $1009 $100A
 SHORT $101A $101B $101C $101D
 
+ORG $A30800 //PromoScreen bottom tiles
+#incext png2dmp "PromoBoxTiles3.png" --lz77
+
+ORG $A30978
+#incbin "dmp/PromoBox2.tmx.dmp"
+
+
 POP

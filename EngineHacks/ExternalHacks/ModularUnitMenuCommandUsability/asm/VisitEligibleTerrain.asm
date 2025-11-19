@@ -24,6 +24,10 @@
 			@house
 			cmp		r1, #3
 			beq		CanUse
+
+				@inn
+				cmp		r1, #0x38
+				beq		CanUse
 			
 				mov		r0, #0
 				b		End

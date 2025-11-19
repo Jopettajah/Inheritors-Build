@@ -30,10 +30,12 @@ CharacterBasedEvents:
 	END_MAIN
 
 MiscBasedEvents:
+	DefeatBoss(EndingScene)
 	CauseGameOverIfLordDies
 	END_MAIN
 
 LocationBasedEvents:
+	House(0,Ch8xInn,5,3)
 	Vendor(Ch8xVendor,17,14)
 	Armory(Ch8xArmory,1,3)
 	END_MAIN
@@ -70,6 +72,13 @@ EnemyUnits:
 	UNIT MercEnemy PegasusKnight Collins Level(10,Enemy,True) [7,15] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
 	UNIT MercEnemy Myrmidon Collins Level(10,Enemy,True) [2,12] 0x0 0x0 0x0 0x0 [SteelSword] TwoActionAI
 	UNIT MercEnemy Fighter Collins Level(10,Enemy,True) [1,11] 0x0 0x0 0x0 0x0 [SteelAxe] TwoActionAI
+	UNIT MercEnemy LanceCav Collins Level(10,Enemy,True) [19,2] 0x0 0x0 0x0 0x0 [SteelLance] TwoActionAI
+	UNIT MercEnemy SwordCav Collins Level(10,Enemy,True) [21,8] 0x0 0x0 0x0 0x0 [SteelSword] TwoActionAI
+	UNIT MercEnemy LanceCav Collins Level(10,Enemy,True) [22,7] 0x0 0x0 0x0 0x0 [IronLance] TwoActionAI
+	UNIT MercEnemy Mage Collins Level(10,Enemy,True) [15,7] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+	UNIT MercEnemy Mercenary_F Collins Level(10,Enemy,True) [14,4] 0x0 0x0 0x0 0x0 [SteelBlade] AttackInRangeAI
+	UNIT MercEnemy Fighter Collins Level(10,Enemy,True) [13,5] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT MercEnemy Soldier Collins Level(10,Enemy,True) [14,15] 0x0 0x0 0x0 0x0 [Javelin] AttackInRangeAI	
 	UNIT
 	
 ShopGuardians:
@@ -121,10 +130,27 @@ BeginningScene:
 MoveShopGuardians:
 	SVAL sB 0x00040001
 	MOVE_1STEP 0 (-2) 3
+	ENUN
 	SVAL sB 0x000F0011
 	MOVE_1STEP 0 (-2) 3
+	ENUN
 	NoFade
 	ENDA
+
+Ch8xInn:
+	CHECK_ACTIVEID Dave
+	BNE 1 sC s0
+	
+	CHECK_ACTIVEID Jacob
+	BNE 2 sC s0
+	
+	HouseEvent(Ch8xGenericInnText,Inn)
+	
+	LABEL 1
+	HouseEvent(Ch8xDaveInnText,Inn)
+	
+	LABEL 2
+	HouseEvent(Ch8xJacobInnText,Inn)
 	
 EndingScene:
 	REVEAL Curtis

@@ -244,6 +244,7 @@
 #define SlayingAxe 0xd1
 #define Bowslayer 0xd2
 #define SteelLongbow 0xd3
+#define SilverLongbow 0xd4
 
 //Aliases
 #define AxeReaver Axereaver
@@ -254,3 +255,4 @@
 #define ArmorSlayer Armorslayer
 #define LongBow Longbow
 #define SteelLongBow SteelLongbow
+#define SilverLongBow SilverLongbow

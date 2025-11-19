@@ -448,6 +448,14 @@ AudinaKing_Mug:
 setMugEntry(0x4D,AudinaKing_Mug,3,5,2,2)
 
 ALIGN 4
+VillageGirl_Mug:
+#incbin "dmp/VillageGirl_mug.dmp"
+#incbin "dmp/VillageGirl_frames.dmp"
+#incbin "dmp/VillageGirl_palette.dmp"
+#incbin "dmp/VillageGirl_minimug.dmp"
+setMugEntry(0x4E,VillageGirl_Mug,3,6,3,4)
+
+ALIGN 4
 Elina_Mug:
 #incbin "dmp/Elina_mug.dmp"
 #incbin "dmp/Elina_frames.dmp"

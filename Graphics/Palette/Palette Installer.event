@@ -252,3 +252,30 @@ KristanPal:
 BertramPal:
 	#incbin "./_palettes/BertramPal.lzpal" 
 
+CollinsPal:
+	#incbin "./_palettes/CollinsPal.lzpal" 
+
+MercMercPal:
+	#incbin "./_palettes/MercMercPal.lzpal" 
+
+MercFMercPal:
+	#incbin "./_palettes/MercFMercPal.lzpal" 
+
+MercMagePal:
+	#incbin "./_palettes/MercMagePal.lzpal" 
+
+MercPegaPal:
+	#incbin "./_palettes/MercPegaPal.lzpal" 
+
+MercMyrmPal:
+	#incbin "./_palettes/MercMyrmPal.lzpal" 
+
+MercFighterPal:
+	#incbin "./_palettes/MercFighterPal.lzpal" 
+
+MercCavPal:
+	#incbin "./_palettes/MercCavPal.lzpal" 
+
+MercSoldierPal:
+	#incbin "./_palettes/MercSoldierPal.lzpal" 
+

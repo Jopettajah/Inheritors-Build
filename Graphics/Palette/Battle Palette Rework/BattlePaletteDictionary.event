@@ -94,6 +94,16 @@ PaletteIdentifier($50,$72,$75,$6b,EmmanuelMK)
 PaletteIdentifier($51,$72,$75,$6b,GoursatPal)
 PaletteIdentifier($52,$72,$75,$6b,KristanPal)
 PaletteIdentifier($53,$72,$75,$6b,BertramPal)
+PaletteIdentifier($54,$72,$75,$6b,CollinsPal)
+PaletteIdentifier($55,$72,$75,$6b,MercMercPal)
+PaletteIdentifier($56,$72,$75,$6b,MercFMercPal)
+PaletteIdentifier($57,$72,$75,$6b,MercMagePal)
+PaletteIdentifier($58,$72,$75,$6b,MercPegaPal)
+PaletteIdentifier($59,$72,$75,$6b,MercMyrmPal)
+PaletteIdentifier($5A,$72,$75,$6b,MercFighterPal)
+PaletteIdentifier($5B,$72,$75,$6b,MercCavPal)
+PaletteIdentifier($5C,$72,$75,$6b,MercSoldierPal)
+
 //PaletteIdentifier($,$72,$75,$6b,)
 /*
 POP

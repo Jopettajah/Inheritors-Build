@@ -54,8 +54,10 @@
 - TheBlindArcher: Halberdier
 - Der: Forest Knight, Duke Knight, Dark Knight
 - Leo_link: Forest Knight, Duke Knight
-- Der: Dark Knight
-- Pikmin1211: Dark Knight
+- Der: Dark Knight, FBerserker
+- Pikmin1211: Dark Knight, FBerserker
+- Pushwall: FWarrior
+- FEGirls: FWarrior
 
 # Mugs
 
@@ -87,6 +89,7 @@
 - Lisandra Brave: Repositioner
 - CamTech075: Desert Wind
 - GoudaGrabber: Slaying Edge/Lance/Axe
+- SN_Ivan: Iron/Steel/Silver Longbows
 
 # Scene Backgrounds
 - Doin Thangs: Village Night

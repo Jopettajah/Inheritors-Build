@@ -335,3 +335,39 @@
 // BertramPal
 	setPalette(0x53,BertramPal)
 	setCBSP(0x53,Bertram,0x1,Shaman)
+
+// CollinsPal
+	setPalette(0x54,CollinsPal)
+	setCBSP(0x54,Collins,0x2,ForrestKnight)
+
+// MercMercPal
+	setPalette(0x55,MercMercPal)
+	setCBSP(0x55,MercEnemy,0x1,Mercenary)
+
+// MercFMercPal
+	setPalette(0x56,MercFMercPal)
+	setCBSP(0x56,MercEnemy,0x1,Mercenary_F)
+
+// MercMagePal
+	setPalette(0x57,MercMagePal)
+	setCBSP(0x57,MercEnemy,0x1,Mage)
+
+// MercPegaPal
+	setPalette(0x58,MercPegaPal)
+	setCBSP(0x58,MercEnemy,0x1,PegasusKnight)
+
+// MercMyrmPal
+	setPalette(0x59,MercMyrmPal)
+	setCBSP(0x59,MercEnemy,0x1,Myrmidon)
+
+// MercFighterPal
+	setPalette(0x5A,MercFighterPal)
+	setCBSP(0x5A,MercEnemy,0x1,Fighter)
+
+// MercCavPal
+	setPalette(0x5B,MercCavPal)
+	setCBSP(0x5B,MercEnemy,0x1,LanceCav)
+
+// MercSoldierPal
+	setPalette(0x5C,MercSoldierPal)
+	setCBSP(0x5C,MercEnemy,0x1,Soldier)

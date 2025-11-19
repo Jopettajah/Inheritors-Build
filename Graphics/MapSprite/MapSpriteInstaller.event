@@ -251,3 +251,19 @@ DarkKnightStand:
 ALIGN 4
 DarkKnightWalk:
 #incbin "dmp/DarkKnightPikminNuramonDerwalk.dmp"
+
+ALIGN 4
+BerserkerFStand:
+#incbin "dmp/BerserkerFPikminDerstand.dmp"
+
+ALIGN 4
+BerserkerFWalk:
+#incbin "dmp/BerserkerFPikminDerwalk.dmp"
+
+ALIGN 4
+WarriorFStand:
+#incbin "dmp/WarriorFPushwallFEGirlsstand.dmp"
+
+ALIGN 4
+WarriorFWalk:
+#incbin "dmp/WarriorFPushwallFEGirlswalk.dmp"

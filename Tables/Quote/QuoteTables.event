@@ -41,6 +41,8 @@ BattleQuoteGeneric(Bertram,Chapter8,BertramBattleQuote,0,17)
 BattleQuoteSpecific(Goursat,Caitlind,Chapter8,GoursatCaitlindBattleQuote,0,18)
 BattleQuoteGeneric(Goursat,Chapter8,GoursatBattleQuote,0,19)
 BattleQuoteGeneric(Kristan,Chapter8,KristanBattleQuote,0,20)
+BattleQuoteSpecific(Collins,Dave,Chapter8x,0,CollinsDaveBattleQuoteEvent,11)
+BattleQuoteGeneric(Collins,Chapter8x,0,CollinsBattleQuoteEvent,1)
 BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 // Terminator
 
 //EventID 2 for bosses, 0x65 for lords
@@ -58,6 +60,7 @@ DeathQuoteEvent(Ada,Chapter7,11,0,AdaDeathQuoteEvent)
 DeathQuoteEvent(Bertram,Chapter8,12,BertramDeathQuote)
 DeathQuoteEvent(Goursat,Chapter8,13,GoursatDeathQuote)
 DeathQuoteEvent(Kristan,Chapter8,14,KristanDeathQuote)
+DeathQuoteEvent(Collins,Chapter8x,2,CollinsDeathQuote)
 
 
 //Playables:
@@ -81,6 +84,7 @@ DeathQuoteEvent(Hollie,AllChapters,0,0,HollieDeathQuoteEvent)
 DeathQuoteEvent(Garry,Chapter4,0,GarryRetreatQuote)
 DeathQuoteEvent(Garry,AllChapters,0,0,GarryDeathQuoteEvent)
 DeathQuoteEvent(Pieter,AllChapters,0,0,PieterDeathQuoteEvent)
+DeathQuoteEvent(Dave,Chapter8x,0x65,DaveDeathQuote)
 DeathQuoteEvent(Duane,AllChapters,0,0,DaveDeathQuoteEvent)
 DeathQuoteEvent(Anis,AllChapters,0,0,AnisDeathQuoteEvent)
 DeathQuoteEvent(Sibyl,AllChapters,0x65,SibylDeathQuote)

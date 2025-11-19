@@ -39,3 +39,17 @@ ENUT 0x4
 MUSC EndlessFightingMapID
 Text(AdaBattleQuote)
 ENDA
+
+ALIGN 4
+CollinsDaveBattleQuoteEvent:
+ENUT 0x4
+MUSC FlameAndArrowID
+Text(CollinsDaveBattleQuote)
+ENDA
+
+ALIGN 4
+CollinsBattleQuoteEvent:
+ENUT 0x4
+MUSC FlameAndArrowID
+Text(CollinsBattleQuote)
+ENDA

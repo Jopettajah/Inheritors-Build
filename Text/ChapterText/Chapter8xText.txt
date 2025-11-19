@@ -7,6 +7,26 @@ Collins[X]
 ## DefeatCollinsText
 Defeat Collins[X]
 
+## CollinsBattleQuote
+[X]
+
+## CollinsDaveBattleQuote
+[X]
+
+## CollinsDeathQuote
+[X]
+
 ## MercDesc
 Despicable mercenaries,[N]
 loyal only to the coin.[X]
+
+## Ch8xGenericInnText
+[MidLeft][LoadFace][CurrentPortrait]
+[MidRight][LoadFace][0x4E][0x1]
+[X]
+
+## Ch8xDaveInnText
+[X]
+
+## Ch8xJacobInnText
+[X]

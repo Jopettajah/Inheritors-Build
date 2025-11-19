@@ -195,3 +195,12 @@ Flying classes only.[N]
 Deals effective damage and nullifies[N]
 the weapon triangle against bows.[X]
 
+## IronLongbowName
+Iron Longbow[X]
+
+## SteelLongbowName
+Steel Longbow[X]
+
+## SilverLongbowName
+Silver Longbow[X]
+

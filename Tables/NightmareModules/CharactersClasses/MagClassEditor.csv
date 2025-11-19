@@ -2,17 +2,17 @@ INLINE MagClassTable,Base Magic,Magic Growth,Magic Cap,Magic Promotion Bonus
 None,0,0,20,0
 Prince,1,10,20,0
 Eye,1,25,20,0
-PrincePromo,2,10,24,1
-Eye Promo,2,20,25,2
+PrincePromo,2,10,20,1
+Eye Promo,2,25,25,2
 Sword Cavalier,0,0,20,0
 Lance Cavalier,0,0,20,0
 Paladin,2,10,24,2
 Paladin (F),2,10,24,2
 Lance Armour Knight,0,0,20,0
 Bow Armor Knight,0,0,20,0
-General,0,0,22,0
-General (F),0,0,22,0
-Forrest Knight,1,5,20,0
+General,0,0,20,0
+General (F),0,0,20,0
+Forrest Knight,1,10,20,0
 Great Lancer,0,0,20,0
 Mercenary,0,0,20,0
 Mercenary (F),0,0,20,0
@@ -20,36 +20,36 @@ Hero,0,0,23,0
 Hero (F),0,0,23,0
 Myrmidon,1,15,20,0
 Myrmidon (F),1,15,20,0
-Swordmaster,2,10,23,1
-Swordmaster (F),2,10,23,1
+Swordmaster,2,15,24,1
+Swordmaster (F),2,15,24,1
 Assassin,1,0,22,0
 Assassin (F),1,0,22,0
 Outlaw,1,30,20,0
 Outlaw (F),1,30,20,0
-Adventurer,1,30,24,3
-Adventurer (F),1,30,24,3
+Adventurer,1,30,26,3
+Adventurer (F),1,30,26,3
 Ranger,0,0,22,0
 Ranger (F),0,0,22,0
 Wing,0,0,20,0
 Axe Cavalier,0,0,20,0
-Fellwing,0,0,21,0
-Axe Cavalier F,0,0,21,0
+Fellwing,0,0,20,0
+Axe Cavalier F,0,0,20,0
 Wyvern Knight,1,5,24,1
-Cerapter Knight (F),1,5,24,1
+Cerapter Knight (F),1,5,20,1
 Mage,1,50,20,0
 Mage (F),1,50,20,0
-Sage,5,50,28,1
-Sage (F),4,50,30,1
-Mage Knight,4,40,24,2
-Mage Knight (F),3,40,25,2
-Bishop,4,35,25,2
-Bishop (F),4,35,25,1
-Shaman,2,50,20,0
+Sage,5,50,30,3
+Sage (F),5,50,30,3
+Mage Knight,4,40,27,2
+Mage Knight (F),4,40,27,2
+Bishop,4,35,28,2
+Bishop (F),4,35,28,2
+Shaman,3,50,20,0
 Shaman (F),3,45,20,0
-Druid,6,55,29,0
-Druid (F),7,55,29,0
+Druid,6,55,30,3
+Druid (F),7,55,30,3
 DarkKnight,5,50,27,3
-DarkKnightF,5,50,27,1
+DarkKnightF,5,50,27,2
 Rogue,3,25,26,3
 Gorgon Egg,0,0,30,0
 Great Knight,0,0,21,0
@@ -63,43 +63,43 @@ Manakete (F),2,0,20,0
 Journeyman (1),0,0,20,0
 Pupil (1),1,55,20,0
 Fighter,0,0,20,0
-Warrior,0,0,21,0
+Warrior,0,0,20,0
 Brigand,0,0,20,0
 Pirate,0,0,20,0
-Berserker,0,0,21,0
+Berserker,0,0,20,0
 Monk,1,45,20,0
 Priest,1,30,20,0
 Bard,1,45,20,0
 Recruit (1),0,0,20,0
 Pegasus Knight,1,10,20,0
-Falcon Knight,3,30,23,3
+Falcon Knight,3,30,25,2
 Cleric,1,30,20,0
 Troubadour,1,25,20,0
-Valkyrie,4,35,25,2
+Valkyrie,4,35,27,2
 Dancer,1,45,20,0
 Soldier,0,0,20,0
 Necromancer,9,55,30,0
 Fleet,0,0,20,0
 Phantom,0,0,0,0
 Claw,0,0,20,0
-SharpClaw,0,0,21,0
+SharpClaw,0,0,20,0
 Horn,0,0,20,0
-Eye_F,0,0,20,0
-Skypiercer,0,0,21,0
-Seer_F,0,0,21,0
+Eye_F,1,25,20,0
+Skypiercer,0,0,20,1
+Seer_F,2,25,25,2
 Tail,0,0,20,0
-TailPromo,0,0,22,3
-Gut,0,0,21,0
+TailPromo,0,0,30,3
+Gut,0,0,20,0
 Axe Armour Knight,0,0,20,0
-Sword Armour Knight,0,0,23,0
+Sword Armour Knight,0,0,20,0
 FighterF,0,0,20,0
-WarriorF,0,0,21,0
+WarriorF,0,0,20,0
 Berserker F,2,45,20,0
-BallisticianF,6,55,29,0
-Fang,8,60,29,0
+BallisticianF,6,55,20,0
+Fang,8,60,25,0
 Gorgon Egg,0,0,30,0
 Sandskipper,0,0,20,0
-Axe Pegasus Knight,0,0,22,0
+Axe Pegasus Knight,0,0,20,0
 Dracozombie,1,30,50,0
 Demon King,23,40,50,0
 Archer on Ballista,0,0,20,0
@@ -123,7 +123,7 @@ Fallen Prince,0,0,20,0
 Tent,0,0,20,0
 Pontifex,0,0,20,0
 Dead Peer,0,0,20,0
-Cyclops ,0,0,21,0
+Cyclops ,0,0,20,0
 Elder Bael,0,0,22,0
 Journeyman (2),0,0,20,0
 Pupil (2),2,55,20,1

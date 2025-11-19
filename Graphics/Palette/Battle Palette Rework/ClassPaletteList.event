@@ -11,6 +11,7 @@ PaletteAssociationEntry(Lucian, $04)
 PaletteAssociationEntry(Werner, $0D)
 PaletteAssociationEntry(Farum, $1F)
 PaletteAssociationEntry(Goon, $1F)
+PaletteAssociationEntry(MercEnemy, $5B)
 WORD 0 0
 ALIGN 4
 
@@ -57,6 +58,7 @@ MercPaletteList:
 PaletteAssociationEntry(Dave, $13)
 PaletteAssociationEntry(Farum, $21)
 PaletteAssociationEntry(Brigand_Enemy, $25)
+PaletteAssociationEntry(MercEnemy, $55)
 WORD 0 0
 ALIGN 4
 
@@ -77,6 +79,7 @@ PaletteAssociationEntry(Kimiko, $16)
 PaletteAssociationEntry(Dave, $18)
 PaletteAssociationEntry(Brigand_Enemy, $24)
 PaletteAssociationEntry(Farum, $28)
+PaletteAssociationEntry(MercEnemy, $59)
 WORD 0 0
 ALIGN 4
 
@@ -119,6 +122,7 @@ ALIGN 4
 MagePaletteList:
 PaletteAssociationEntry(Emmanuel, $05)
 PaletteAssociationEntry(Farum, $29)
+PaletteAssociationEntry(MercEnemy, $57)
 WORD 0 0
 ALIGN 4
 
@@ -181,6 +185,7 @@ PaletteAssociationEntry(Marco, $17)
 PaletteAssociationEntry(Farum, $27)
 //PaletteAssociationEntry(Katja, $54)
 PaletteAssociationEntry(Brigand_Enemy, $1A)
+PaletteAssociationEntry(MercEnemy, $5A)
 WORD 0 0
 ALIGN 4
 
@@ -246,6 +251,7 @@ PaletteAssociationEntry(Brigand_Enemy, $1D)
 PaletteAssociationEntry(Farum, $2A)
 PaletteAssociationEntry(Goon2, $2A)
 PaletteAssociationEntry(Goursat, $51)
+PaletteAssociationEntry(MercEnemy, $58)
 WORD 0 0
 ALIGN 4
 
@@ -280,6 +286,7 @@ ALIGN 4
 SoldierPaletteList:
 PaletteAssociationEntry(Pieter, $0B)
 PaletteAssociationEntry(Farum, $22)
+PaletteAssociationEntry(MercEnemy, $5C)
 WORD 0 0
 ALIGN 4
 
@@ -300,6 +307,7 @@ PaletteAssociationEntry(Jacob, $2E)
 PaletteAssociationEntry(Dave, $2D)
 PaletteAssociationEntry(FarumSlow, $2F)
 PaletteAssociationEntry(Farum, $2F)
+PaletteAssociationEntry(Collins, $54)
 WORD 0 0
 ALIGN 4
 
@@ -311,6 +319,7 @@ ALIGN 4
 MercFPaletteList:
 PaletteAssociationEntry(Brigand_Enemy, $1B)
 PaletteAssociationEntry(Farum, $20)
+PaletteAssociationEntry(MercEnemy, $56)
 WORD 0 0
 ALIGN 4
 

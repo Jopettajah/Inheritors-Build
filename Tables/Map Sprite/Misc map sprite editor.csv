@@ -92,8 +92,8 @@ Gut,0x81f40f8,0x81f49b8
 Axe Armor,KnightAxeWalk|IsPointer,0x81c7e74
 Sword Armor,KnightSwordWalk|IsPointer,0x81c7e74
 Fighter F,FighterFWalk|IsPointer,0x81f6ad0
-WarriorF,0x81f6c28,0x81f7570
-BerserkerF,0x81f76c8,0x81f7e28
+WarriorF,WarriorFWalk|IsPointer,0x81e4ea4
+BerserkerF,BerserkerFWalk|IsPointer,0x81e6df4
 Ballistician,BallisticianFWalk|IsPointer,0x81f876c
 Gorgon,0x81f88c4,0x81f90a0
 Gorgon Egg,0x81f91f8,0x81f95f4
