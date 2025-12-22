@@ -480,7 +480,7 @@ BossCheck:
 	BNE 10 sC s0
 	CAMERA Kristan
 	Text(KristanCharge)
-	SVAL 1 0x00040000
+	SVAL 1 0x00041200
 	CHAI Kristan
 	CHAI [23,17]
 	CHAI [24,16]
@@ -501,6 +501,65 @@ BossCheck:
 	ENDA	
 
 EndingScene:
+	
+	MUSCFAST KnightsOathID
+	SetBackground(Desert)
+	Text(Ch8MapEndText)
+	
+	FADI 12
+	BACKGROUND_FROMCOLOR 1 4
+	MUSCFAST ArchineerID
+	SetBackground(Castle_Hall)
+	Text(Ch8PostBattleText)
+	
+	
+	CHECK_ALIVE Suhaira
+	BEQ 11 sC s0
+	
+	CHECK_ALIVE Fabian
+	BEQ 12 sC s0
+	
+	Text(SuhairaFabianPrfGet) //Both
+	SVAL 3 Cerastes
+	GIVEITEMTO Suhaira
+	SVAL 3 0xd5 //Can't be bothered to spell the prf
+	GIVEITEMTO Fabian
+	GOTO 13
+	
+	LABEL 11
+	CHECK_ALIVE Fabian
+	BEQ 13 sC s0
+	
+	Text(FabianPrfGet) //Only Fabian
+	SVAL 3 0xd5 
+	GIVEITEMTO Fabian
+	GOTO 13
+	
+	LABEL 12
+	Text(SuhairaPrfGet) //Only Suhaira
+	SVAL 3 Cerastes
+	GIVEITEMTO Suhaira	
+	
+	LABEL 13
+	REMOVEUNIT Jhen
+	REMOVEUNIT Dahren
+	
+	BACKGROUND_FROMCOLOR 1 4
+	CHECK_ALIVE Dave
+	BEQ 14 sC s0
+	
+	CenterTutorialTextBox
+	TUTORIALTEXTBOXSTART
+	TEXTSHOW GaidenText
+	TEXTEND
+	REMA
+	BEQ 14 sB s0
+	
+	MNC2 Chapter8x
+	NoFade
+	ENDA
+	
+	LABEL 14
 	MNC2 Chapter9
 	NoFade
 	ENDA

@@ -24,6 +24,7 @@ extern int SingleDevotionID_Link;
 extern int UnburdenedID_Link;
 extern int WingedKinshipID_Link;
 extern int SaviorID_Link;
+extern int CerastesSkillID_Link;
 
 extern int UNIT_ACTION_SHELTER;
 extern int UNIT_ACTION_REFRESH;
@@ -150,6 +151,15 @@ u8 PetalScatterUsability(const struct MenuItemDef* def, int number) {
 		}
 	}
 	return MENU_NOTSHOWN;
+}
+
+void CerastesPreBattle(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
+
+	if ((SkillTester(&bunitA->unit, CerastesSkillID_Link))) {
+		if (SomeCombatArtBuffer->artID == 18 || SomeCombatArtBuffer->artID == 19 || SomeCombatArtBuffer->artID == 20) {
+			bunitA->battleAttack += 4;
+		}
+	}
 }
 
 void StoneThrustPreBattle(struct BattleUnit* bunitA, struct BattleUnit* bunitB){

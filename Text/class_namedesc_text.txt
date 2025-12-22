@@ -172,26 +172,58 @@ Equip: Claws[X]
 ## HornClass
 Horn[X]
 
+## HornDesc
+Embodiment of the dragon's horn.[N]
+Equip: Swords[X]
+
 ## SkypiercerClass
 Hardhorn[X]
+
+## HardhornDesc
+True embodiment of the dragon's horn.[N]
+Equip: Swords[X]
 
 ## WingClass
 Wing[X]
 
+## WingDesc
+Embodiment of the dragon's wing.[N]
+Equip: Lances[X]
+
 ## FellwingClass
 Fellwing[X]
+
+## FellwingDesc
+True embodiment of the dragon's wing.[N]
+Equip: Lances, Bows[X]
 
 ## TailClass
 Tail[X]
 
+## TailDesc
+Embodiment of the dragon's tail.[N]
+Equip: Dark[X]
+
 ## FlamelashClass
 Flamelash[X]
+
+## FlamelashDesc
+True embodiment of the dragon's tail.[N]
+Equip: Anima, Light, Dark[X]
 
 ## GutClass
 Gut[X]
 
+## GutDesc
+Embodiment of the dragon's gut.[N]
+Equip: Axes[X]
+
 ## FangClass
-Fang[X]
+Sharpfang[X]
+
+## FangDesc
+True embodiment of the dragon's fang.[N]
+Equip: Swords[X]
 
 ## BallistaClass
 Ballistician[X]

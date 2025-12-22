@@ -251,6 +251,7 @@ BYTE 00 00
 ALIGN 4
 
 SkypiercerSkillList:
+BYTE 1 StanceBoostID
 BYTE 00 00
 ALIGN 4
 

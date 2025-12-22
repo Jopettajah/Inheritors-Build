@@ -81,13 +81,13 @@
 - Leo_link: Forest Knight
 
 # Item Icons
-- Erekshigal: Skygazer, Youtou, Dawn Edge, Bravery's Gift, Shinespark, Old Edge
+- Erekshigal: Skygazer, Youtou, Dawn Edge, Bravery's Gift, Shinespark, Old Edge, Chrysopelea
 - LordGlenn: Mine Staff, Shining Bow
 - Zane: Elstone, Bowslayer
 - Celice: Mooncleaver, Thunderclap
 - Seal: Gheist, Cloudrunner
 - Lisandra Brave: Repositioner
-- CamTech075: Desert Wind
+- CamTech075: Desert Wind, Cerastes
 - GoudaGrabber: Slaying Edge/Lance/Axe
 - SN_Ivan: Iron/Steel/Silver Longbows
 

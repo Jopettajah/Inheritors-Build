@@ -337,6 +337,8 @@
 #define StanceMasteryID 24
 #define HonorDuelID 39
 #define WingedKinshipID 37
+#define StanceBoostID 122
+#define CerastesSkillID 92
 
 //Pre-Battle Skills
 

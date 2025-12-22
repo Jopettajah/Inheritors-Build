@@ -254,6 +254,15 @@ Suhaira_Mug:
 #incbin "dmp/Suhaira_minimug.dmp"
 setMugEntry(SuhairaMugID,Suhaira_Mug,3,5,3,3)
 
+
+ALIGN 4
+Fabian_Mug:
+#incbin "dmp/Fabian_mug.dmp"
+#incbin "dmp/Fabian_frames.dmp"
+#incbin "dmp/Fabian_palette.dmp"
+#incbin "dmp/Fabian_minimug.dmp"
+setMugEntryExtend(FabianMugID,Fabian_Mug,3,5,3,3,10,2,10,4)
+
 ALIGN 4
 Kimiko_Mug:
 #incbin "dmp/Kimiko_mug.dmp"

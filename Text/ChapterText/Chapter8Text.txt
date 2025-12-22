@@ -8,10 +8,13 @@ Please step forth.[.] The king is waiting.[A]
 [Event] // walk to the king
 
 [MidRight][LoadAudinaKing]
-yo[A]
+I see you've returned safely.[N]
+I trust the test was a success?[A]
 [Left]
-[Tact] passed with flying colors.[N]
-[A]
+Yes indeed![N]
+[Tact] passed with flying colors.[A]
+[MidRight]
+Good,[.] good.[.4] Now back to-[A]
 [FarFarLeft][LoadSoldierGreen]
 Urgent news![A][CloseSpeechSlow]
 [FarFarLeft][ClearFace]
@@ -30,9 +33,18 @@ Huff[Beat] Huff[Beat][A]
 What is it? Go on, speak.[A]
 [FarLeft]
 Our frontlines are falling apart![A]
-[MidRight]
+[FarRight]
 Can't even do diplomacy in peace[Beat][N]
-[Tact], Sibyl. Go [A]
+[Tact].[.] Stop this incursion,[.4][N]
+and our alliance is sealed.[A]
+[Left]
+One more challenge,[.] huh[Beat][N]
+I'll do it for my people.[A]
+[FarRight]
+Sibyl will accompany you again[N]
+and help direct our troops.[A]
+[Right]
+I'll do you proud,[.] father.[A]
 [X]
 
 ## AudinaFrontText
@@ -135,7 +147,20 @@ Ah![.4] I see a fellow woman of cloth![A]
 Huh?[.4] Who?[.4] Where?[A]
 
 [MidRight]
+This must be exactly what[N]
+my divinations were about![A]
 
+[MidLeft]
+Uh[Beat] ok?[A]
+
+[MidRight][ToggleSmile]
+A heel-turn mandated by heavens![.4][N]
+How very exiting![AN]
+I'll be along your ranks now![A]
+[MoveFarFarLeft][ToggleSmile][.4]
+
+[MidLeft]
+What[Beat] what just happened?[A]
 [X]
 
 ## BertramBattleQuote
@@ -225,8 +250,66 @@ lay my lance[Beat] to rest[Beat][A]
 ## KristanCharge
 [MidRight][LoadFace][0x39][0x1]
 Bertram and Goursat have fallen?[.4][CloseEyes][N]
-[Beat]time to move in.[A]
+[Beat]time to move in.[AN]
+[OpenEyes]Everyone! Prepare to charge![A]
 [X]
+
+## Ch8MapEndText
+[MidLeft][LoadCurtis]
+[MidRight][LoadFace][0x39][0x1]
+[A]
+[X]
+
+## Ch8PostBattleText
+[Left][LoadCurtis]
+[FarLeft][LoadSibyl]
+[MidRight][LoadAudinaKing]
+[A]
+[X]
+
+## SuhairaFabianPrfGet
+[Left][LoadSuhaira]
+[FarLeft][LoadFabian]
+[MidRight][LoadAudinaKing]
+Fabian.[.] Suhaira.[.] You've both done well[N]
+in keeping my daughter safe.[AN]
+I ask you to keep up the good work,[.4][N]
+and[Beat] to take these gifts as well.[A]
+
+[FarLeft]
+Whoah![.4] What a spear![A]
+
+[Left]
+Are you sure we are worthy[N]
+of such gifts,[.] milord?[A]
+
+[MidRight]
+You two are tasked with guarding[N]
+the future prosperity of Audina.[AN]
+I'm willing to spare no expense[N]
+for such a worthy cause.[AN]
+Now,[.] go on keep making me proud![A]
+
+[Left]
+Yes milord![A]
+
+[FarLeft]
+For the glory of Audina![A]
+[X]
+
+## SuhairaPrfGet
+[MidLeft][LoadSuhaira]
+[MidRight][LoadAudinaKing]
+[X]
+
+## FabianPrfGet
+[MidLeft][LoadFabian]
+[MidRight][LoadAudinaKing]
+[X]
+
+## GaidenText
+Start a gaiden chapter?[N]
+[Yes][X]
 
 ## MultibossMinibox
  Kill bosses[X]

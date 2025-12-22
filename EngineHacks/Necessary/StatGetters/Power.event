@@ -37,6 +37,7 @@ prFortressDefensePow:
 prFortressResistancePow:
 	_testSkill(FortressResistanceID,0,3)
 
+	
 prItemPassivePow:
 #ifndef DONT_STACK_BOOSTS
 	rPassiveStatBoostsStacking(STAT_POWER)

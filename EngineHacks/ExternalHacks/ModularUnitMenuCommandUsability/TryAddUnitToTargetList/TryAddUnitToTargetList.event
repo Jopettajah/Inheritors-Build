@@ -13,6 +13,7 @@ WORD 0
 
 TradeTargetConditionsList:
 POIN EitherUnitCheckPhantom
+POIN EitherUnitCheckBoat
 POIN TargetCheckBerserk
 POIN BothUnitsCheckEmptyInventory
 POIN TargetCheckSupplyBit

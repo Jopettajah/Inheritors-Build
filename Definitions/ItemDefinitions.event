@@ -245,6 +245,8 @@
 #define Bowslayer 0xd2
 #define SteelLongbow 0xd3
 #define SilverLongbow 0xd4
+#define Chrysopelea 0xd5
+#define Cerastes 0xd6
 
 //Aliases
 #define AxeReaver Axereaver

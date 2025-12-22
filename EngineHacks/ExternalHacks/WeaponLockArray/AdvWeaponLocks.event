@@ -68,4 +68,21 @@ BYTE Wing
 BYTE Fellwing
 BYTE EndLockArray
 
+FabianArray:
+BYTE HardCharLock
+BYTE Fabian
+BYTE EndLockArray
+
+SuhairaArray:
+BYTE HardCharLock
+BYTE Suhaira
+BYTE EndLockArray
+
+MarcoFamilyArray:
+BYTE HardCharLock
+BYTE Marco
+BYTE Diane
+BYTE Janessa
+BYTE EndLockArray
+
 #endif // ADV_WEAPON_LOCKS

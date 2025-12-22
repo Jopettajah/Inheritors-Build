@@ -1,3 +1,8 @@
+## SD_FullProficiency
+Full Proficiency: +2 to stat boosts[N]
+from stances. Recover 20% HP at[N]
+the start of the turn while in stance.[X]
+
 ## SD_WingedKinship
 Winged Kinship: Fabian deals 4 more[N]
 and takes 4 less damage when in 3 tiles[N]

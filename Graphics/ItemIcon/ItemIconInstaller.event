@@ -35,6 +35,8 @@ POP
 #define IronLongbowIconID 0x32
 #define SteelLongbowIconID 0xf1
 #define SilverLongbowIconID 0xf2
+#define ChrysopeleaIconID 0xf3
+#define CerastesIconID 0xf4
 
 PUSH 
 ItemIconEntry(SkygazerIconID)
@@ -102,5 +104,11 @@ ItemIconEntry(SteelLongbowIconID)
 
 ItemIconEntry(SilverLongbowIconID)
 #incbin "dmp/SN_IvanSilverLongbow.dmp"
+
+ItemIconEntry(ChrysopeleaIconID)
+#incbin "dmp/EreshkigalHydrasLance.dmp"
+
+ItemIconEntry(CerastesIconID)
+#incbin "dmp/CamTech075icon014.dmp"
 
 POP 

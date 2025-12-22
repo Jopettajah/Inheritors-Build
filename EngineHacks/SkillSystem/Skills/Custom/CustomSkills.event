@@ -19,6 +19,8 @@ WingedKinshipID_Link:
 WORD WingedKinshipID
 SaviorID_Link:
 WORD SaviorID
+CerastesSkillID_Link:
+WORD CerastesSkillID
 UNIT_ACTION_SHELTER:
 WORD 0x00000028
 UNIT_ACTION_REFRESH:

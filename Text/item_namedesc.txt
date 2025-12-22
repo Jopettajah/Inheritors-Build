@@ -204,3 +204,15 @@ Steel Longbow[X]
 ## SilverLongbowName
 Silver Longbow[X]
 
+## CerastesName
+Cerastes[X]
+
+## CerastesDesc
+Suhaira only. +4 Mt during finishers.[X]
+
+## ChrysopeleaName
+Chrysopelea[X]
+
+## ChrysopeleaDesc
+Fabian only. Range = Mag. (Max 15)[X]
+

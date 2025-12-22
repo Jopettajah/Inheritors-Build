@@ -45,3 +45,6 @@ ALIGN 4
 
 #include "asm/TargetCheckTradeRescueeAllegiance.lyn.event"
 ALIGN 4
+
+#include "asm/EitherUnitCheckBoat.lyn.event"
+ALIGN 4
