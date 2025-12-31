@@ -78,3 +78,4 @@ $python3 $symcombo "$target_sym" "$target_sym" "$base_dir/Tools/sym/VanillaOffse
 # TODO: generate patch (would require a linux version of ups)
 
 echo "Done!"
+sleep 20

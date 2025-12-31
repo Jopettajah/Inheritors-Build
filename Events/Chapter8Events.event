@@ -501,7 +501,9 @@ BossCheck:
 	ENDA	
 
 EndingScene:
-	
+
+	REMOVEUNIT Jhen
+	REMOVEUNIT Dahren	
 	MUSCFAST KnightsOathID
 	SetBackground(Desert)
 	Text(Ch8MapEndText)
@@ -511,7 +513,6 @@ EndingScene:
 	MUSCFAST ArchineerID
 	SetBackground(Castle_Hall)
 	Text(Ch8PostBattleText)
-	
 	
 	CHECK_ALIVE Suhaira
 	BEQ 11 sC s0
@@ -541,8 +542,11 @@ EndingScene:
 	GIVEITEMTO Suhaira	
 	
 	LABEL 13
-	REMOVEUNIT Jhen
-	REMOVEUNIT Dahren
+	FADI 12
+	BACKGROUND_FROMCOLOR 1 4
+	MUSCFAST LandOfConflictID
+	SetBackground(Outside_Village_Evening)
+	Text(Ch8PostBattleTextTwo)
 	
 	BACKGROUND_FROMCOLOR 1 4
 	CHECK_ALIVE Dave
@@ -555,11 +559,15 @@ EndingScene:
 	REMA
 	BEQ 14 sB s0
 	
-	MNC2 Chapter8x
+	_0xA640 0 0 7
+	WM_SETDESTINATION 0 8 0
+	MNCH Chapter8x
 	NoFade
 	ENDA
 	
 	LABEL 14
-	MNC2 Chapter9
+	_0xA640 0 0 8
+	WM_SETDESTINATION 0 9 0
+	MNCH Chapter9
 	NoFade
 	ENDA

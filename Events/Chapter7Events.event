@@ -144,8 +144,6 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
-	SetBackground(Outside_Village_Day)
-	Text(Ch7OpeningText)
 
 	LOAD1 0x0 Units1
 	ENUN
@@ -155,6 +153,11 @@ BeginningScene:
 	
 	LOAD1 0x1 EnemyUnits
 	ENUN
+
+	MUSCFAST LandOfConflictID
+	SetBackground(Outside_Village_Day)
+	Text(Ch7OpeningText)
+
 	GotoPrepScreen
 	ENDA
 
@@ -313,6 +316,12 @@ TurnEvent:
 
 	
 EndingScene:
-	MNC2 Chapter8
+	
+	MUSCFAST Victory
+	SetBackground(Desert)
+	Text(Ch7EndText)
+	_0xA640 0 0 6
+	WM_SETDESTINATION 0 7 0
+	MNCH AudinaCutscene
 	NoFade
 	ENDA

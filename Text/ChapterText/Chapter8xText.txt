@@ -1,19 +1,112 @@
+## Ch8xWMText
+While [Tact], Janessa and Sybil are having[N]
+a war council, the duty of purchasing[N]
+supplies is delegated upon Dave.[AN]
+With a small group, he ventures into[N]
+a local village to shop for goods.[A]
+[X]
+
+## Ch8xOpeningText
+[MidLeft][LoadDave]
+[MidRight][LoadCaitlind]//TODO alt version if she's dead/not recruited
+I still can't belive they put you[N]
+out of all people in charge of this.[A]
+
+[MidLeft]
+Hey![.4] I'm perfectly capable handling[N]
+something as trivial as this![A]
+
+[MidRight]
+Sure sure[Beat][A]
+
+[FarFarRight][LoadFace][0x4E][0x1]
+Now who's this hunk of ham?[A]
+
+[MidLeft]
+[ToggleMouthMove]Hm?[ToggleMouthMove][A]
+
+[MidLeft][MoveFarLeft]
+[MidRight][MoveLeft][ClearFace][LoadCaitlind]
+[FarFarRight][MoveMidRight][ToggleSmile]
+What do I spy with my little eye[Beat][N]
+A dashing mercenary perhaps?[A][ToggleSmile]
+
+[FarLeft]
+Who,[.] me?[A]
+
+[Left]
+It's obviously you.[.4][N]
+Gods,[.] you're thicker than oatmeal.[A]
+
+[MidRight]
+Mercenaries visit our inn all the time.[AN]
+Heck, many years ago one who was[N]
+visiting even forgot his sword here![AN]
+It's still propped up behind[N]
+the counter there, see?[A]
+
+[FarLeft]
+Huh.[.4] That's a neat story.[A]
+
+[FarFarRight][LoadFace][0x3c][0x1]
+Now that is very interesting indeed.[A]
+
+[FarLeft]
+Huh? Who now?[A]
+
+[Event] //MUSCFAST TroubleID
+
+[MidRight][MoveRight]
+[FarFarRight][MoveFarRight]
+Then you surely wouldn't mind if I[N]
+take it and put it into proper use?[AN]
+[MoveFarRight]Yoink![.4] Later,[.] fools![A]
+[FarRight][MoveFarFarLeft]
+
+[FarLeft]
+Hey![.4] Get back here![N]
+That's not your property![A]
+[ClearFace]
+
+[Left]
+And there he goes[Beat][A]
+[X]
+
 ## CollinsName
 Collins[X]
 
 ## CollinsDesc
-[X]
+A sleazy mercenary leader, always looking[N]
+for his next potential payday.[X]
 
 ## DefeatCollinsText
 Defeat Collins[X]
 
 ## CollinsBattleQuote
+[MidLeft][LoadFace][0x3c][0x1]
+This is nothing personal,[.] kid.[N]
+Strictly business.[A]
 [X]
 
 ## CollinsDaveBattleQuote
+[MidLeft][LoadFace][0x3c][0x1]
+Still not giving up the chase?[A][ClearFace]
+[MidRight][LoadDave]
+Return what you stole,[N]
+or I'll use force![A][ClearFace]
+[MidLeft][LoadFace][0x3c][0x1]
+We're mercenaries![.] We've gotta[N]
+make a coin when we can.[AN]
+Surely you understand?[A][ClearFace]
+[MidRight][LoadDave]
+Nah,[.4] I'd rather not compromise[N]
+my morals if I don't have to.[A]
 [X]
 
 ## CollinsDeathQuote
+[MidLeft][LoadFace][0x3c][0x1]
+No[Beat] Just as I had[Beat][N]
+a good gig[Beat][CloseEyes] lined up[Beat][A]
 [X]
 
 ## MercDesc
@@ -23,10 +116,72 @@ loyal only to the coin.[X]
 ## Ch8xGenericInnText
 [MidLeft][LoadFace][CurrentPortrait]
 [MidRight][LoadFace][0x4E][0x1]
+Did you forget something?[.4] No?[AN]
+Go on,[.] get back out there[N]
+and show who's the boss![A]
 [X]
 
 ## Ch8xDaveInnText
+[MidLeft][LoadDave]
+[MidRight][LoadFace][0x4E][0x1]
+Did you forget something?[A]
+[MidLeft]
+No.[.4] Wait no yes.[.4] Maybe?[.4][N][CloseEyes]
+Why DID I come back here anyways?[AN][OpenEyes]
+[MidRight][ToggleSmile]
+Maybe you came back to see me?[A][ToggleSmile]
+[MidLeft]
+[ToggleMouthMove]Hmm...[ToggleMouthMove] Nah, that wasn't it.[AN]
+Well,[.] no matter.[.4] I'll be going[N]
+back out now.[.4] Stay safe here.[A][ClearFace]
+[MidRight][CloseEyes]
+He really is as dense as oatmeal[Beat][A]
 [X]
 
 ## Ch8xJacobInnText
+[MidLeft][LoadJacob]
+[MidRight][LoadFace][0x4E][0x1]
+Did you forget something?[A]
+[MidLeft]
+More like came back to double-check.[AN]
+Wouldn't want to be second guy[N]
+to forget his sword here.[A]
+[MidRight]
+You know,[.] you kinda remind me of him,[N]
+in a strange way[Beat][A]
+[MidLeft][ToggleSmile]
+Of who,[.] Dave?[.4] Pfft,[.] no way![.4][ToggleSmile][N]
+Anyhow,[.] I'm heading back out. Stay safe.[A] 
+[X]
+
+## Ch8xEndingText
+[MidRight][LoadFace][0x4e][0x1]
+[MidLeft][LoadDave]
+Phew![.4] We got 'em good![N]
+Oh,[.] here's the sword back.[A]
+[MidRight]
+Actually,[.] I'd rather you to keep it.[A]
+[MidLeft]
+You sure about that?[A]
+[MidRight]
+Yes,[.] otherwise it'll just take up space again.[N]
+And if you really feel bad about taking it[Beat][AN]
+[ToggleSmile]You could always come back to return it[N]
+after your contract is done.[A]
+[MidLeft]
+Really?[.4] Big thanks,[.] miss![AN][ToggleSmile]
+Now I need to get back to shopping[Beat][N]
+Were running late 'cause of this mess[Beat][AN]
+[MidRight]
+Then allow me to help! I know[N]
+where everything is in this village.[A]
+[MidLeft]
+Wow,[.] really?[.4] Thanks again![A]
+[MidRight]
+I'ts the least I can do to repay you.[.4][.4][N]
+[ToggleSmile]My hero.[A][ToggleSmile]
+[MidLeft]
+Did you say something?[A]
+[MidRight]
+[ToggleSmile]No,[.] nothing. Let's go.[A]
 [X]

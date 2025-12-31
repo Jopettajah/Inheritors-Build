@@ -239,8 +239,13 @@ GoCh8:
 	ENDB
 
 GoCh8x:
-	MNC2 Chapter8x
-	ENDA
+
+	_0xA640 0 0 7
+	WM_SETDESTINATION 0 8 0
+	MNCH Chapter8x
+	//MNC2 Chapter8x
+	NoFade
+	ENDB
 	
 EndingScene:
 	MNC2 Chapter1

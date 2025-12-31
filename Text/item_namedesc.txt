@@ -108,10 +108,10 @@ Effective on wet targets.[X]
 Old Edge[X]
 
 ## OldEdgeDesc
-Dave only. Can strike consecutively.[X]
+Dave only. Has more uses than you'd think.[X]
 
 ## DesertWindName
-Desert Wind[X]
+Sandstorm[X]
 
 ## DesertWindDesc
 Sibyl only. Grants Galeforce.[X]

@@ -44,6 +44,8 @@ POP
 SetWMChapterID(Chapter6,Chapter6)
 SetWMChapterID(Chapter7,Chapter7)
 SetWMChapterID(Chapter8,AudinaCutscene)
+SetWMChapterID(8,Chapter8x)
+SetWMChapterID(9,Chapter9)
 
 {
   #define PrologueWMEventsID 0x1
@@ -81,6 +83,10 @@ SetWMChapterID(Chapter8,AudinaCutscene)
 {
   ALIGN 4
   #include "WM_Chapter8.event"
+}
+{
+  ALIGN 4
+  #include "WM_Chapter8x.event"
 }
 
 ALIGN 4

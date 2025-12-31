@@ -346,3 +346,7 @@ WORD 0x0
 ALIGN 4
 EyeFAnims:
 WORD 0x0
+
+ALIGN 4
+HornAnims:
+WORD 0x0

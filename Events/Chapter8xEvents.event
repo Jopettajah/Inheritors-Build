@@ -120,10 +120,24 @@ Ch8xVendor:
 	
 BeginningScene:
 	REMU Curtis
+	REMU Sibyl
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	LOAD1 0x1 ShopGuardians
 	ENUN
+	
+	SetBackground(Inn)	
+	
+	TEXTSTART
+	TEXTSHOW Ch8xOpeningText
+	TEXTEND
+	MUSCFAST TroubleID
+	TEXTCONT
+	TEXTEND
+	REMA
+	
+	//FADI 10
+
 	GotoPrepScreen
 	ENDA
 
@@ -147,6 +161,7 @@ Ch8xInn:
 	HouseEvent(Ch8xGenericInnText,Inn)
 	
 	LABEL 1
+	ENUT DaveSecretFlag
 	HouseEvent(Ch8xDaveInnText,Inn)
 	
 	LABEL 2
@@ -154,6 +169,12 @@ Ch8xInn:
 	
 EndingScene:
 	REVEAL Curtis
-	MNC2 Chapter9
+	REVEAL Sibyl
+	MUSCFAST Victory
+	SetBackground(Outside_Village_Day)
+	Text(Ch8xEndingText)
+	_0xA640 0 0 8
+	WM_SETDESTINATION 0 9 0
+	MNCH Chapter9
 	NoFade
 	ENDA

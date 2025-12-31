@@ -1,4 +1,9 @@
 ## Ch7WMText
+[Tact] has arrived at the village[N]
+serving as the designated meeting point[N]
+between the reprensatives of the two countries.[AN]
+After a long march,[.] now the only thing left[N]
+is to wait for the other party to show up...[A]
 [X]
 
 ## Ch7ObjectiveText
@@ -41,7 +46,7 @@ Should the princess be entering[N]
 the battlefield just like that?[A]
 [Right]
 Oh,[.] don't worry.[N]
-I'm not as dainty as I look.[A]
+I'm not as dainty as I look.[AN]
 Besides,[.] I'll have my ever[N]
 loyal retainers right beside me.[A]
 [FarFarRight][LoadSuhaira]
@@ -120,7 +125,7 @@ No![.4] My gold[Beat][CloseEyes] My[Beat] glory[Beat][A]
 [X]
 
 ## AdaBattleQuote
-[MidLeft][LoadFace][0x38][0x1]
+[MidLeft][LoadFace][0x38][0x1]MidLeft]
 You won't sabotage our supplies![.4][N]
 Begone from my sight![A]
 [X]
@@ -136,6 +141,26 @@ on all enemies.[X]
 
 ## Ch7WarningText
 [MidRight][LoadSoldierGreen]
-I've feel a chill on my spine[Beat][N]
+I feel a chill running down my spine[Beat][N]
 We have to get moving,[.4] and fast![A]
+[X]
+
+## Ch7EndText
+[MidLeft][LoadCurtis]
+[MidRight][LoadSibyl]
+Well,[.] that takes care of that.[N]
+You did well,[.] [Tact].[A]
+
+[MidLeft][CloseEyes]
+It wasn't easy,[.4][N]
+but I managed somehow.[A][OpenEyes]
+
+[MidRight]
+Now now,[.4] don't sell[N]
+yourself too short.[AN]
+Let's go meet with[N]
+my father at once.[A]
+
+[MidLeft]
+Alright,[.] lead the way.[A]
 [X]

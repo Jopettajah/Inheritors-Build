@@ -36,8 +36,9 @@
 #define VidarDeathFlag 0xCD
 #define MauritchDeathFlag 0xCF
 #define DaveFlag 0xD0
-#define ElinaFlag 0xd1
-#define NishayFlag 0xd2
+#define ElinaFlag 0xd1 //cannot die flag
+#define NishayFlag 0xd2 //unused cannot die flag
+#define DaveSecretFlag 0xd3
 
 //Ram stuff
 //values copied from pokemblem, might break something
